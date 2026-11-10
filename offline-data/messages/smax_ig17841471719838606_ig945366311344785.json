@@ -1,0 +1,467 @@
+{
+  "key": "smax::ig17841471719838606::ig945366311344785",
+  "savedAt": "2026-09-17T15:59:06.642Z",
+  "thread": {
+    "__v": 0,
+    "_created_at": "2026-09-17T02:39:35.380Z",
+    "_synced_at": "2026-09-17T02:45:49.251Z",
+    "created_at": "2026-09-17T02:39:35.381Z",
+    "customer_pid": "ig945366311344785",
+    "customer_pids": [
+      "ig945366311344785"
+    ],
+    "emails": [],
+    "es_id": "ig17841471719838606_ig945366311344785",
+    "id": "6aab52e7039fd5c9260c483a",
+    "instagram": {
+      "id": "945366311344785",
+      "post_ids": []
+    },
+    "internal": {
+      "message": null,
+      "users": []
+    },
+    "last_message_at": "2026-09-17T02:45:45.759Z",
+    "last_message_by_customer_at": "2026-09-17T02:42:14.144Z",
+    "last_message_id": "6aab545bbbfdb5e7df0420fd",
+    "message": "2 mẫu kia hết size ạ",
+    "page_pid": "ig17841471719838606",
+    "phones": [],
+    "platform": "instagram",
+    "read": true,
+    "replied": true,
+    "replied_by": {},
+    "reply_count": 0,
+    "root_message_pids": [],
+    "tag_aliases": [],
+    "tid": "ig945366311344785",
+    "type": "instagram_message",
+    "updated_at": "2026-09-17T02:45:47.275Z",
+    "viewing": {},
+    "can_reply_message": false,
+    "customer": {
+      "id": "6aab52e7a3c71f9966f0bcb1",
+      "pid": "ig945366311344785",
+      "subscribed": true,
+      "page_pid": "ig17841471719838606",
+      "thread_tid": "ig945366311344785",
+      "biz_alias": "tuant2lqd",
+      "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/ig17841471719838606?tid=ig945366311344785",
+      "platform": "instagram",
+      "name": "ngọc tuệ",
+      "profile_name": "ngọc tuệ",
+      "picture": "https://cdn-vn.smax.in/s04/smaxai/pages/ig17841471719838606/customers/ig945366311344785.jpg?expire=1789689600000&signature=da9e251f81bd4e62e7599a6e2466cb43230dd1560ee55893348409668661e0e6",
+      "notes": [],
+      "phones": [],
+      "emails": [],
+      "source": "inbox",
+      "attrs": [],
+      "instagram": {
+        "id": "945366311344785",
+        "name": "ngọc tuệ",
+        "username": "bbiituee",
+        "page_id": "17841471719838606",
+        "page_name": "Pumlife Order",
+        "picture": "https://instagram.fdad5-1.fna.fbcdn.net/v/t51.82787-19/799274604_18061483493791751_5507994593690370800_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=yMVkPiXEI64Q7kNvwFEYDa9&_nc_oc=AdrqOODy6ca-Z3rN08FIjYuPfvM7Ca5Tu9MbqzGxKLwVy1j_glqeWnPUDKuzycn1g0c&_nc_zt=24&_nc_ht=instagram.fdad5-1.fna&edm=ALmAK4EEAAAA&_nc_gid=brr1mppVFkzkkEc7PafCVQ&oh=00_AQLGbR_L-kln8vxyjarhrXkDxKHanjODE6YokA2XvGBclw&oe=6AB13495",
+        "topics": []
+      },
+      "broadcast_ids": [],
+      "in_sequences": [],
+      "out_sequences": [],
+      "tags": [],
+      "last_inbox_updated": "2026-09-17T02:42:14.144Z",
+      "last_message_at": "2026-09-17T02:45:45.759Z",
+      "last_content_by_user": "41 ạ",
+      "last_content_by_page": "2 mẫu kia hết size ạ",
+      "interaction": {
+        "first": "2026-09-17T02:39:30.856Z",
+        "last": "2026-09-17T02:42:14.144Z"
+      },
+      "users": [],
+      "follow_ups": [],
+      "scores": [],
+      "logs": [],
+      "updated_at": "2026-09-17T02:45:47.271Z",
+      "created_at": "2026-09-17T02:39:35.345Z"
+    },
+    "customers": [
+      {
+        "id": "6aab52e7a3c71f9966f0bcb1",
+        "pid": "ig945366311344785",
+        "subscribed": true,
+        "page_pid": "ig17841471719838606",
+        "thread_tid": "ig945366311344785",
+        "biz_alias": "tuant2lqd",
+        "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/ig17841471719838606?tid=ig945366311344785",
+        "platform": "instagram",
+        "name": "ngọc tuệ",
+        "profile_name": "ngọc tuệ",
+        "picture": "https://cdn-vn.smax.in/s04/smaxai/pages/ig17841471719838606/customers/ig945366311344785.jpg?expire=1789689600000&signature=da9e251f81bd4e62e7599a6e2466cb43230dd1560ee55893348409668661e0e6",
+        "notes": [],
+        "phones": [],
+        "emails": [],
+        "source": "inbox",
+        "attrs": [],
+        "instagram": {
+          "id": "945366311344785",
+          "name": "ngọc tuệ",
+          "username": "bbiituee",
+          "page_id": "17841471719838606",
+          "page_name": "Pumlife Order",
+          "picture": "https://instagram.fdad5-1.fna.fbcdn.net/v/t51.82787-19/799274604_18061483493791751_5507994593690370800_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=yMVkPiXEI64Q7kNvwFEYDa9&_nc_oc=AdrqOODy6ca-Z3rN08FIjYuPfvM7Ca5Tu9MbqzGxKLwVy1j_glqeWnPUDKuzycn1g0c&_nc_zt=24&_nc_ht=instagram.fdad5-1.fna&edm=ALmAK4EEAAAA&_nc_gid=brr1mppVFkzkkEc7PafCVQ&oh=00_AQLGbR_L-kln8vxyjarhrXkDxKHanjODE6YokA2XvGBclw&oe=6AB13495",
+          "topics": []
+        },
+        "broadcast_ids": [],
+        "in_sequences": [],
+        "out_sequences": [],
+        "tags": [],
+        "last_inbox_updated": "2026-09-17T02:42:14.144Z",
+        "last_message_at": "2026-09-17T02:45:45.759Z",
+        "last_content_by_user": "41 ạ",
+        "last_content_by_page": "2 mẫu kia hết size ạ",
+        "interaction": {
+          "first": "2026-09-17T02:39:30.856Z",
+          "last": "2026-09-17T02:42:14.144Z"
+        },
+        "users": [],
+        "follow_ups": [],
+        "scores": [],
+        "logs": [],
+        "updated_at": "2026-09-17T02:45:47.271Z",
+        "created_at": "2026-09-17T02:39:35.345Z"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "id": "6aab52e7bbfdb5e7df042082",
+      "pid": "igaWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUyODc3NTAzMjI1NTYwOTU0MDcwNDM3NDYyMDE2MAZDZD",
+      "tid": "ig945366311344785",
+      "platform": "instagram",
+      "page_pid": "ig17841471719838606",
+      "message": "Bạn quan tâm sản phẩm Order đang có deal giá tốt phải không ạ?",
+      "instagram": {
+        "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUyODc3NTAzMjI1NTYwOTU0MDcwNDM3NDYyMDE2MAZDZD",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "945366311344785"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "ig945366311344785",
+      "type": "instagram_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "deleted",
+      "_created_at": "2026-09-17T02:39:35.402Z",
+      "customer_created_at": "2026-09-17T02:39:35.345Z",
+      "created_at": "2026-09-17T02:39:30.856Z",
+      "updated_at": "2026-09-17T02:39:41.156Z"
+    },
+    {
+      "id": "6aab52ebbbfdb5e7df042088",
+      "pid": "igaWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUyODg5NDc1MTg4MjkwMjMzMjcyNjI5NjE4Mjc4NAZDZD",
+      "tid": "ig945366311344785",
+      "platform": "instagram",
+      "page_pid": "ig17841471719838606",
+      "message": "e muốn od giày ạ",
+      "instagram": {
+        "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUyODg5NDc1MTg4MjkwMjMzMjcyNjI5NjE4Mjc4NAZDZD",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "945366311344785"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "ig945366311344785",
+      "type": "instagram_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T02:39:39.185Z",
+      "customer_created_at": "2026-09-17T02:39:35.345Z",
+      "created_at": "2026-09-17T02:39:37.346Z",
+      "updated_at": "2026-09-17T02:39:37.346Z"
+    },
+    {
+      "id": "6aab530abbfdb5e7df042095",
+      "pid": "igaWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUyOTQ4Mzg4NTcxNDQwNTA5MTMzOTY0MjMzOTMyOAZDZD",
+      "tid": "ig945366311344785",
+      "platform": "instagram",
+      "page_pid": "ig17841471719838606",
+      "message": "daj mh muốn order mẫu nào ạ",
+      "instagram": {
+        "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUyOTQ4Mzg4NTcxNDQwNTA5MTMzOTY0MjMzOTMyOAZDZD",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "17841471719838606"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "ig17841471719838606",
+      "type": "instagram_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T02:40:10.852Z",
+      "customer_created_at": "2026-09-17T02:39:35.345Z",
+      "created_at": "2026-09-17T02:40:09.283Z",
+      "updated_at": "2026-09-17T02:40:09.283Z",
+      "seen": false
+    },
+    {
+      "id": "6aab5315bbfdb5e7df042097",
+      "pid": "igaWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUyOTY4OTk3NzU1Mzc5Njc3NzY4ODQ4OTI2MzEwNAZDZD",
+      "tid": "ig945366311344785",
+      "platform": "instagram",
+      "page_pid": "ig17841471719838606",
+      "message": "có hình, gửi shop check cho b ạ",
+      "instagram": {
+        "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUyOTY4OTk3NzU1Mzc5Njc3NzY4ODQ4OTI2MzEwNAZDZD",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "17841471719838606"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "ig17841471719838606",
+      "type": "instagram_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T02:40:21.934Z",
+      "customer_created_at": "2026-09-17T02:39:35.345Z",
+      "created_at": "2026-09-17T02:40:20.455Z",
+      "updated_at": "2026-09-17T02:40:20.455Z",
+      "seen": false
+    },
+    {
+      "id": "6aab5346bbfdb5e7df0420a9",
+      "pid": "igaWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUzMDU4MTk2OTgwODE0MDc3MDgzNTc1MjI4ODI1NgZDZD",
+      "tid": "ig945366311344785",
+      "platform": "instagram",
+      "page_pid": "ig17841471719838606",
+      "instagram": {
+        "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUzMDU4MTk2OTgwODE0MDc3MDgzNTc1MjI4ODI1NgZDZD",
+        "attachments": [
+          {
+            "name": "image",
+            "mime_type": "image",
+            "url": "https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1676872661107460&signature=Ab305PctTj7EnnGN9QluCE2Vj9qBeXSxShmseBae5Ln3g4rqXWYUfknONaHle6nWWdTbS3N_tBkg4BwdV4oUtqNPJ7DDQlNyA7BT9ioCS3LdQq7_r7ymB4q4h5_PbhY52nn0Qzu0YOa8voLlDSiZGbDTAC4jA1GM0CVeBR8Fr7cs3LwXKcw1ibdQP0SxqQOS-AbXYMyBOVSfvHENXMBktOWB9UHL1A",
+            "url_preview": "https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1676872661107460&signature=Ab305PctTj7EnnGN9QluCE2Vj9qBeXSxShmseBae5Ln3g4rqXWYUfknONaHle6nWWdTbS3N_tBkg4BwdV4oUtqNPJ7DDQlNyA7BT9ioCS3LdQq7_r7ymB4q4h5_PbhY52nn0Qzu0YOa8voLlDSiZGbDTAC4jA1GM0CVeBR8Fr7cs3LwXKcw1ibdQP0SxqQOS-AbXYMyBOVSfvHENXMBktOWB9UHL1A"
+          },
+          {
+            "name": "image",
+            "mime_type": "image",
+            "url": "https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1266684325583249&signature=Ab08f5uc9ZSaLUeEgE9a8doDj6MsGvWwTY4Pegg-UUXHeHNGiod_RKfCX9lxS0qhbXcsguEj1TBD-ZMxnzcERljIPq7MYpU4uGUcdq5-i3cgmI0oKEOpCjBLPYG-DQN7HBMI9KbnzWRik5V0VchoU28GEEKN7_zm5XwR9tQiv0VyW2ZN3JxpxB8PCK84vlnm8nO8aCbnzUGBGUhbnv7zz_ORsJs7Yw",
+            "url_preview": "https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1266684325583249&signature=Ab08f5uc9ZSaLUeEgE9a8doDj6MsGvWwTY4Pegg-UUXHeHNGiod_RKfCX9lxS0qhbXcsguEj1TBD-ZMxnzcERljIPq7MYpU4uGUcdq5-i3cgmI0oKEOpCjBLPYG-DQN7HBMI9KbnzWRik5V0VchoU28GEEKN7_zm5XwR9tQiv0VyW2ZN3JxpxB8PCK84vlnm8nO8aCbnzUGBGUhbnv7zz_ORsJs7Yw"
+          },
+          {
+            "name": "image",
+            "mime_type": "image",
+            "url": "https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1632357608609032&signature=Ab2NbJXUtiFcV1l7b4u0pQxq0WpI5bFSB60moRMDqySqgNbTKwFpSMztQ8rQbyk5Lv8W8UbTGrrNf5kyKjW3O9HE88VV5BSfU26mI835INcAbD-db1sGkWwfC5wl8ExvcjE61rdX5nfATRF7WPHyr89IJHFZMxsp7J2eyG8K-Mp1xOirw6PJaDt0xH-DqvwAiaqCimDl6x3FniGKyzgwGnaVckA8HQ",
+            "url_preview": "https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1632357608609032&signature=Ab2NbJXUtiFcV1l7b4u0pQxq0WpI5bFSB60moRMDqySqgNbTKwFpSMztQ8rQbyk5Lv8W8UbTGrrNf5kyKjW3O9HE88VV5BSfU26mI835INcAbD-db1sGkWwfC5wl8ExvcjE61rdX5nfATRF7WPHyr89IJHFZMxsp7J2eyG8K-Mp1xOirw6PJaDt0xH-DqvwAiaqCimDl6x3FniGKyzgwGnaVckA8HQ"
+          }
+        ],
+        "cards": [],
+        "from": {
+          "id": "945366311344785"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "ig945366311344785",
+      "type": "instagram_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T02:41:10.641Z",
+      "customer_created_at": "2026-09-17T02:39:35.345Z",
+      "created_at": "2026-09-17T02:41:08.810Z",
+      "updated_at": "2026-09-17T02:41:08.810Z"
+    },
+    {
+      "id": "6aab5378bbfdb5e7df0420b3",
+      "pid": "igaWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUzMTUxNjcyMDU0NTMzNjQ2NjQ0ODUwNzIwNzY4MAZDZD",
+      "tid": "ig945366311344785",
+      "platform": "instagram",
+      "page_pid": "ig17841471719838606",
+      "message": "dạ mh đi size mấy ạ",
+      "instagram": {
+        "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUzMTUxNjcyMDU0NTMzNjQ2NjQ0ODUwNzIwNzY4MAZDZD",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "17841471719838606"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "ig17841471719838606",
+      "type": "instagram_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T02:42:00.769Z",
+      "customer_created_at": "2026-09-17T02:39:35.345Z",
+      "created_at": "2026-09-17T02:41:59.483Z",
+      "updated_at": "2026-09-17T02:41:59.483Z",
+      "seen": false
+    },
+    {
+      "id": "6aab5387bbfdb5e7df0420b9",
+      "pid": "igaWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUzMTc4NzE2OTE4MjUzODMyNTg3MDIyNjk2NDQ4MAZDZD",
+      "tid": "ig945366311344785",
+      "platform": "instagram",
+      "page_pid": "ig17841471719838606",
+      "message": "41 ạ",
+      "instagram": {
+        "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUzMTc4NzE2OTE4MjUzODMyNTg3MDIyNjk2NDQ4MAZDZD",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "945366311344785"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "ig945366311344785",
+      "type": "instagram_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T02:42:15.675Z",
+      "customer_created_at": "2026-09-17T02:39:35.345Z",
+      "created_at": "2026-09-17T02:42:14.144Z",
+      "updated_at": "2026-09-17T02:42:14.144Z"
+    },
+    {
+      "id": "6aab53f9bbfdb5e7df0420e5",
+      "pid": "igaWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUzMzg4NzY1Njk0OTI5Nzk0MDc2OTQ4NTYxOTIwMAZDZD",
+      "tid": "ig945366311344785",
+      "platform": "instagram",
+      "page_pid": "ig17841471719838606",
+      "message": "mẫu này 1947k ạ",
+      "instagram": {
+        "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUzMzg4NzY1Njk0OTI5Nzk0MDc2OTQ4NTYxOTIwMAZDZD",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "17841471719838606"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "ig17841471719838606",
+      "type": "instagram_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T02:44:09.265Z",
+      "customer_created_at": "2026-09-17T02:39:35.345Z",
+      "created_at": "2026-09-17T02:44:08.012Z",
+      "updated_at": "2026-09-17T02:44:08.012Z",
+      "seen": false
+    },
+    {
+      "id": "6aab53fabbfdb5e7df0420e6",
+      "pid": "igaWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUzMzkwMTE4NDgxMzcyNDE2MzQ0ODAzNDU1Nzk1MgZDZD",
+      "tid": "ig945366311344785",
+      "platform": "instagram",
+      "page_pid": "ig17841471719838606",
+      "instagram": {
+        "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUzMzkwMTE4NDgxMzcyNDE2MzQ0ODAzNDU1Nzk1MgZDZD",
+        "attachments": [
+          {
+            "name": "image",
+            "mime_type": "image",
+            "url": "https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=28829283826656385&signature=Ab1Mo_RNQX_-xy283mfjfLcjRZqXhv67dO1dY88utZ_nh5zWrjrKO7ezmcUsorK4XekN7fSxVnZOEnbk4lLLP64nZWg097SC3iF_NafhpAsZJ7Ea2bPJrd1s1QutMg3w3kmJzsTRcl9aj4dTQQX_0ffzZi06pTEu6WCUDJTnK6DUA0oD7khkDfHlKzAgTsRfJXG5_HyRkQbjIGw6SiwnZ6zjRzxBLu8",
+            "url_preview": "https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=28829283826656385&signature=Ab1Mo_RNQX_-xy283mfjfLcjRZqXhv67dO1dY88utZ_nh5zWrjrKO7ezmcUsorK4XekN7fSxVnZOEnbk4lLLP64nZWg097SC3iF_NafhpAsZJ7Ea2bPJrd1s1QutMg3w3kmJzsTRcl9aj4dTQQX_0ffzZi06pTEu6WCUDJTnK6DUA0oD7khkDfHlKzAgTsRfJXG5_HyRkQbjIGw6SiwnZ6zjRzxBLu8"
+          }
+        ],
+        "cards": [],
+        "from": {
+          "id": "17841471719838606"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "ig17841471719838606",
+      "type": "instagram_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T02:44:10.308Z",
+      "customer_created_at": "2026-09-17T02:39:35.345Z",
+      "created_at": "2026-09-17T02:44:08.745Z",
+      "updated_at": "2026-09-17T02:44:08.745Z",
+      "seen": false
+    },
+    {
+      "id": "6aab545bbbfdb5e7df0420fd",
+      "pid": "igaWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUzNTY5MDc2MzE0OTk3ODU0OTU3NDQxMTc0NzMyOAZDZD",
+      "tid": "ig945366311344785",
+      "platform": "instagram",
+      "page_pid": "ig17841471719838606",
+      "message": "2 mẫu kia hết size ạ",
+      "instagram": {
+        "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDQ1NDMzMTg3NjU4Njg1MTozMzAxMjUzNTY5MDc2MzE0OTk3ODU0OTU3NDQxMTc0NzMyOAZDZD",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "17841471719838606"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "ig17841471719838606",
+      "type": "instagram_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T02:45:47.294Z",
+      "customer_created_at": "2026-09-17T02:39:35.345Z",
+      "created_at": "2026-09-17T02:45:45.759Z",
+      "updated_at": "2026-09-17T02:45:45.759Z",
+      "seen": false
+    }
+  ]
+}

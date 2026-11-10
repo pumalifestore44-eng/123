@@ -1,0 +1,21 @@
+javascript
+const axios = require('axios');
+
+// 1. Nội dung yêu cầu cố định của bạn
+const fixedRequest = "Tôi muốn kiểm tra và đồng bộ đơn hàng tự động..."; 
+
+// 2. Hàm xử lý gửi yêu cầu theo lịch
+async function sendScheduledRequest() {
+    try {
+        // Thay url_api_chat_cua_ban bằng webhook Discord/Telegram hoặc API Endpoint của bên bạn
+        const response = await axios.post('url_api_chat_cua_ban', {
+            text: fixedRequest
+        });
+        console.log('Gửi yêu cầu thành công:', response.data);
+    } catch (error) {
+        console.error('Lỗi khi gửi yêu cầu:', error.message);
+    }
+}
+
+// Kích hoạt chạy hàm khi Windows Task Scheduler gọi file này
+sendScheduledRequest();

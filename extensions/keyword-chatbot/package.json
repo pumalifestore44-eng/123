@@ -1,0 +1,17 @@
+{
+  "name": "keyword-chatbot",
+  "version": "0.1.0",
+  "description": "Simple keyword-based chatbot poller that checks new messages and sends automated replies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "bot": "node bot.js",
+    "settings": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.3.2"
+  }
+}

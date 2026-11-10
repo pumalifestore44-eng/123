@@ -1,0 +1,268 @@
+{
+  "key": "smax::fb1574281086218015::fb1410872301189966_fb4057969657615425",
+  "savedAt": "2026-09-17T15:59:05.916Z",
+  "thread": {
+    "__v": 0,
+    "_created_at": "2026-09-17T03:21:01.624Z",
+    "_synced_at": "2026-09-17T03:21:17.456Z",
+    "controlled_by": "OTHER",
+    "created_at": "2026-09-17T03:21:01.626Z",
+    "customer_pid": "fb4057969657615425",
+    "customer_pids": [
+      "fb4057969657615425"
+    ],
+    "emails": [],
+    "es_id": "fb1574281086218015_fb1410872301189966_fb4057969657615425",
+    "facebook": {
+      "customer_tags": [],
+      "id": "1410872301189966_2626556974463359",
+      "link": "https://www.facebook.com/949532180657316/posts/1410872301189966",
+      "post_id": "1574281086218015_1410872301189966",
+      "post_ids": [
+        "1574281086218015_1410872301189966"
+      ]
+    },
+    "id": "6aab5c9dc11c0c374ea57470",
+    "internal": {
+      "message": null,
+      "users": []
+    },
+    "last_message_at": "2026-09-17T03:21:07.000Z",
+    "last_message_by_customer_at": "2026-09-17T03:20:44.000Z",
+    "last_message_id": "6aab5cab42e6e2d2f5724c5d",
+    "message": "Dạ anh chị Phung Tran Anh inbox cho shop để được hỗ trợ nhanh nhất ạ",
+    "page_pid": "fb1574281086218015",
+    "phones": [],
+    "platform": "facebook",
+    "read": true,
+    "replied": true,
+    "replied_by": {},
+    "reply_count": 0,
+    "root_message_pids": [
+      "fb1410872301189966_2626556974463359"
+    ],
+    "tag_aliases": [],
+    "tid": "fb1410872301189966_fb4057969657615425",
+    "type": "facebook_comment",
+    "updated_at": "2026-09-17T03:21:16.009Z",
+    "viewing": {},
+    "can_reply_message": false,
+    "customer": {
+      "id": "698517092ef719e3f05c80b4",
+      "pid": "fb4057969657615425",
+      "subscribed": true,
+      "page_pid": "fb1574281086218015",
+      "thread_tid": "fb4057969657615425",
+      "biz_alias": "tuant2lqd",
+      "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/fb1574281086218015?tid=fb4057969657615425",
+      "platform": "facebook",
+      "name": "Phung Tran Anh",
+      "profile_name": "Phung Tran Anh",
+      "gender": "female",
+      "picture": "https://cdn-vn.smax.in/s03/smaxai/pages/fb1574281086218015/customers/fb4057969657615425.jpg?expire=1789689600000&signature=1f26ca60f4a741bb6d94312b515d4c7f1d0c2bc13cf29af0b9e9d28202593f9d",
+      "locale": "vi_VN",
+      "notes": [],
+      "phone": "0776339449",
+      "phones": [
+        {
+          "value": "0776339449",
+          "time": "2026-07-05T15:29:58.253Z"
+        }
+      ],
+      "email": "",
+      "emails": [],
+      "source": "comment",
+      "attrs": [],
+      "facebook": {
+        "first_name": "Phung",
+        "gender": "female",
+        "post_id": "1574281086218015_1410872301189966",
+        "post_content": "Ne//w Balance 574 sale off phối màu siêu đẹp còn 1325K ạ Nhưng chỉ còn size 36, 37, 37.5",
+        "post_hashtag": "",
+        "id": "4057969657615425",
+        "last_name": "Tran Anh",
+        "locale": "vi_VN",
+        "name": "Phung Tran Anh",
+        "page_id": "1574281086218015",
+        "page_name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+        "picture": "https://graph.facebook.com/1574281086218015/picture?width=300&heigh=300",
+        "topics": []
+      },
+      "broadcast_ids": [],
+      "in_sequences": [],
+      "out_sequences": [],
+      "tags": [],
+      "last_inbox_updated": "2026-09-17T03:38:28.772Z",
+      "last_comment_link": "https://www.facebook.com/949532180657316/posts/1410872301189966",
+      "last_message_at": "2026-09-17T03:39:25.205Z",
+      "last_content_by_user": "ko thấy ghi order nên chị mới hỏi",
+      "last_content_by_page": "còn lại là order hết ý c",
+      "interaction": {
+        "first": "2021-10-12T13:54:50.000Z",
+        "last": "2026-09-17T03:38:28.772Z"
+      },
+      "users": [],
+      "follow_ups": [],
+      "scores": [],
+      "logs": [],
+      "last_app_id": "263902037430900",
+      "updated_at": "2026-09-17T03:39:26.195Z",
+      "created_at": "2026-02-05T22:17:45.834Z"
+    },
+    "customers": [
+      {
+        "id": "698517092ef719e3f05c80b4",
+        "pid": "fb4057969657615425",
+        "subscribed": true,
+        "page_pid": "fb1574281086218015",
+        "thread_tid": "fb4057969657615425",
+        "biz_alias": "tuant2lqd",
+        "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/fb1574281086218015?tid=fb4057969657615425",
+        "platform": "facebook",
+        "name": "Phung Tran Anh",
+        "profile_name": "Phung Tran Anh",
+        "gender": "female",
+        "picture": "https://cdn-vn.smax.in/s03/smaxai/pages/fb1574281086218015/customers/fb4057969657615425.jpg?expire=1789689600000&signature=1f26ca60f4a741bb6d94312b515d4c7f1d0c2bc13cf29af0b9e9d28202593f9d",
+        "locale": "vi_VN",
+        "notes": [],
+        "phone": "0776339449",
+        "phones": [
+          {
+            "value": "0776339449",
+            "time": "2026-07-05T15:29:58.253Z"
+          }
+        ],
+        "email": "",
+        "emails": [],
+        "source": "comment",
+        "attrs": [],
+        "facebook": {
+          "first_name": "Phung",
+          "gender": "female",
+          "post_id": "1574281086218015_1410872301189966",
+          "post_content": "Ne//w Balance 574 sale off phối màu siêu đẹp còn 1325K ạ Nhưng chỉ còn size 36, 37, 37.5",
+          "post_hashtag": "",
+          "id": "4057969657615425",
+          "last_name": "Tran Anh",
+          "locale": "vi_VN",
+          "name": "Phung Tran Anh",
+          "page_id": "1574281086218015",
+          "page_name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+          "picture": "https://graph.facebook.com/1574281086218015/picture?width=300&heigh=300",
+          "topics": []
+        },
+        "broadcast_ids": [],
+        "in_sequences": [],
+        "out_sequences": [],
+        "tags": [],
+        "last_inbox_updated": "2026-09-17T03:38:28.772Z",
+        "last_comment_link": "https://www.facebook.com/949532180657316/posts/1410872301189966",
+        "last_message_at": "2026-09-17T03:39:25.205Z",
+        "last_content_by_user": "ko thấy ghi order nên chị mới hỏi",
+        "last_content_by_page": "còn lại là order hết ý c",
+        "interaction": {
+          "first": "2021-10-12T13:54:50.000Z",
+          "last": "2026-09-17T03:38:28.772Z"
+        },
+        "users": [],
+        "follow_ups": [],
+        "scores": [],
+        "logs": [],
+        "last_app_id": "263902037430900",
+        "updated_at": "2026-09-17T03:39:26.195Z",
+        "created_at": "2026-02-05T22:17:45.834Z"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "id": "6aab5c9de88482a2330f3df0",
+      "pid": "fb1410872301189966_2626556974463359",
+      "tid": "fb1410872301189966_fb4057969657615425",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "là hàng có sẵn hả shop?",
+      "facebook": {
+        "id": "1410872301189966_2626556974463359",
+        "attachments": [],
+        "can_hide": true,
+        "can_like": true,
+        "can_remove": true,
+        "can_reply_privately": true,
+        "cards": [],
+        "from": {
+          "id": "4057969657615425",
+          "name": "Phung Tran Anh"
+        },
+        "is_hidden": false,
+        "parent_id": "1574281086218015_1410872301189966",
+        "post": {
+          "id": "1574281086218015_1410872301189966",
+          "message": "là hàng có sẵn hả shop?",
+          "link": "https://www.facebook.com/pumalife/posts/pfbid02AxMfbXPi5gZJYTU5sZtSZEuqJaCdeWFNfBx9b4pujkgww4mNctd1Rq2UpkK3a8dfl",
+          "message_tags": []
+        },
+        "quick_replies": [],
+        "shares": [],
+        "user_likes": false,
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb4057969657615425",
+      "type": "facebook_comment",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T03:21:01.657Z",
+      "customer_created_at": "2026-02-05T22:17:45.834Z",
+      "created_at": "2026-09-17T03:20:44.000Z",
+      "updated_at": "2026-09-17T03:20:44.000Z"
+    },
+    {
+      "id": "6aab5cab42e6e2d2f5724c5d",
+      "pid": "fb1410872301189966_1748710579582513",
+      "tid": "fb1410872301189966_fb4057969657615425",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Dạ anh chị Phung Tran Anh inbox cho shop để được hỗ trợ nhanh nhất ạ",
+      "facebook": {
+        "id": "1410872301189966_1748710579582513",
+        "attachments": [],
+        "can_hide": true,
+        "can_like": true,
+        "can_remove": true,
+        "can_reply_privately": false,
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "is_hidden": false,
+        "parent_id": "1410872301189966_2626556974463359",
+        "post": {
+          "id": "1574281086218015_1410872301189966",
+          "message": "Dạ anh chị Phung Tran Anh inbox cho shop để được hỗ trợ nhanh nhất ạ",
+          "link": "https://www.facebook.com/949532180657316/posts/1410872301189966",
+          "message_tags": []
+        },
+        "quick_replies": [],
+        "shares": [],
+        "user_likes": false,
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_subcomment",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T03:21:16.006Z",
+      "customer_created_at": "2026-02-05T22:17:45.834Z",
+      "created_at": "2026-09-17T03:21:07.000Z",
+      "updated_at": "2026-09-17T03:21:07.000Z",
+      "seen": false
+    }
+  ]
+}

@@ -1,0 +1,2495 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hóa đơn - PUMALIFE STORE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+    <style>
+        .spx-proof-gallery { margin: 8px 0 12px; color: #334155; }
+        .spx-proof-images { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+        .spx-proof-images a { display: grid; gap: 4px; color: #b91c1c; text-align: center; text-decoration: none; }
+        .spx-proof-images img { width: 96px; height: 96px; object-fit: cover; border: 1px solid #e2e8f0; border-radius: 8px; }
+        .spx-proof-unavailable { color: #64748b; margin-top: 12px; line-height: 1.5; }
+
+        :root {
+            --primary: #d32f2f;
+            --primary-gradient: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+            --secondary: #0f172a;
+            --bg-main: #f8fafc;
+            --bg-card: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --success: #10b981;
+            --shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.08);
+            --radius: 24px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 40px 20px;
+        }
+
+        .bill-container {
+            width: 100%;
+            max-width: 650px;
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            position: relative;
+            animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(30px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .bill-header {
+            padding: 40px;
+            text-align: center;
+            background: #fff;
+            position: relative;
+        }
+
+        .logo-container {
+            margin-bottom: 24px;
+        }
+
+        .logo-text {
+            font-size: 32px;
+            font-weight: 800;
+            letter-spacing: -1px;
+        }
+
+        .logo-text span:first-child {
+            color: var(--primary);
+        }
+
+        .logo-text span:last-child {
+            color: var(--secondary);
+        }
+
+        .invoice-title {
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+
+        .order-id {
+            padding: 6px 16px;
+            background: #f1f5f9;
+            border-radius: 99px;
+            font-size: 13px;
+            font-weight: 600;
+            display: inline-block;
+        }
+
+        .bill-body {
+            padding: 0 40px 40px;
+        }
+
+        .section-header {
+            font-size: 12px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .data-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-bottom: 40px;
+            padding: 24px;
+            background: #f8fafc;
+            border-radius: 16px;
+        }
+
+        .data-item .label {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-bottom: 4px;
+            text-transform: uppercase;
+        }
+
+        .data-item .value {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--secondary);
+        }
+
+        .editable-field,
+        .product-edit-input {
+            width: 100%;
+            border: 1px solid #d1d5db;
+            border-radius: 10px;
+            background: #ffffff;
+            color: var(--text-main);
+            font-size: 14px;
+            padding: 10px 12px;
+            outline: none;
+            transition: border-color 0.2s ease;
+        }
+
+        .editable-field:focus,
+        .product-edit-input:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(244, 63, 94, 0.12);
+        }
+
+        .product-edit-input[type="number"] {
+            max-width: 90px;
+        }
+
+        .edit-instruction {
+            font-size: 11px;
+            color: #475569;
+            margin-top: 8px;
+            display: block;
+        }
+
+        .product-list {
+            margin-bottom: 32px;
+        }
+
+        .product-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 16px 0;
+            border-bottom: 1px dashed var(--border);
+        }
+
+        .product-item:last-child {
+            border-bottom: none;
+        }
+
+        .product-image {
+            width: 70px;
+            height: 70px;
+            background: #f1f5f9;
+            border-radius: 12px;
+            object-fit: cover;
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            color: var(--text-muted);
+            overflow: hidden;
+        }
+
+        .product-info {
+            flex: 1;
+        }
+
+        .real-image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 12px;
+            margin-bottom: 24px;
+            margin-top: 12px;
+        }
+
+        .real-image-card {
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            background: #fff;
+            min-height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4px;
+            aspect-ratio: 1;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+        }
+
+        .real-image-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+            border-color: var(--primary);
+        }
+
+        .real-image-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+            display: block;
+        }
+
+        .real-image-placeholder {
+            font-size: 12px;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        .product-name {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 4px;
+            color: var(--secondary);
+        }
+
+        .product-variant {
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        .product-price-qty {
+            text-align: right;
+        }
+
+        .price-text {
+            font-size: 15px;
+            font-weight: 800;
+            color: var(--secondary);
+        }
+
+        .qty-text {
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        .summary-box {
+            background: #f8fafc;
+            border-radius: 20px;
+            padding: 24px;
+            margin-top: 24px;
+        }
+
+        .summary-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 12px;
+            font-size: 14px;
+        }
+
+        .summary-row.total {
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 2px solid var(--border);
+            font-size: 18px;
+            font-weight: 800;
+            color: var(--secondary);
+        }
+
+        .summary-row.total .total-price {
+            color: var(--primary);
+            font-size: 24px;
+        }
+
+        .footer {
+            padding: 40px;
+            text-align: center;
+            border-top: 1px dashed var(--border);
+        }
+
+        .thank-you {
+            font-weight: 700;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .footer-info {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 4px 12px;
+            border-radius: 99px;
+            font-size: 11px;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+
+        .status-paid {
+            background: #ecfdf5;
+            color: #059669;
+        }
+
+        .status-pending {
+            background: #fffbeb;
+            color: #d97706;
+        }
+
+        #loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            gap: 16px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #f1f5f9;
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s infinite linear;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 0;
+                background: #fff;
+            }
+
+            .bill-container {
+                border-radius: 0;
+                box-shadow: none;
+            }
+
+            .bill-header {
+                padding: 30px 20px;
+            }
+
+            .bill-body {
+                padding: 0 20px 30px;
+            }
+
+            .data-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Bill Actions Styling */
+        .bill-actions {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 12px;
+            z-index: 1000;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border-radius: 100px;
+            box-shadow: 0 15px 50px -10px rgba(0, 0, 0, 0.15);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+            animation: slideUpActions 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.5s both;
+        }
+
+        @keyframes slideUpActions {
+            from {
+                transform: translate(-50%, 100px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translate(-50%, 0);
+                opacity: 1;
+            }
+        }
+
+        .action-btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 28px;
+            border-radius: 100px;
+            border: none;
+            background: var(--primary-gradient);
+            color: white;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            font-size: 14px;
+            box-shadow: 0 4px 15px rgba(211, 47, 47, 0.2);
+            white-space: nowrap;
+        }
+
+        .action-btn:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 8px 25px rgba(211, 47, 47, 0.3);
+        }
+
+        .action-btn:active {
+            transform: translateY(-1px) scale(0.98);
+        }
+
+        .action-btn.secondary {
+            background: var(--secondary);
+            box-shadow: 0 4px 15px rgba(15, 23, 42, 0.15);
+        }
+
+        .action-btn.secondary:hover {
+            box-shadow: 0 8px 25px rgba(15, 23, 42, 0.25);
+        }
+
+        @media print {
+            .bill-actions {
+                display: none !important;
+            }
+        }
+
+        /* Snapshot Mode */
+        .snapshot-mode {
+            padding: 0 !important;
+            margin: 0 !important;
+            background: white !important;
+        }
+
+        .snapshot-mode .bill-container {
+            box-shadow: none !important;
+            border-radius: 0 !important;
+            animation: none !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="loading">
+        <div class="spinner"></div>
+        <p style="font-weight: 600; color: var(--text-muted); margin-top: 16px;">Đang tải hóa đơn...</p>
+    </div>
+
+    <div class="bill-container" id="billContent" style="display: none;">
+        <div class="bill-header">
+            <div class="logo-container">
+                <div class="logo-text">
+                    <span>PUMALIFE</span><span> STORE</span>
+                </div>
+            </div>
+            <p class="invoice-title">Hóa đơn bán hàng</p>
+            <div class="order-id" id="orderIdText">#---</div>
+            <div id="trackingText"
+                style="display: none; margin-top: 8px; font-size: 13px; font-weight: 700; color: var(--primary);">Mã vận
+                đơn: ---</div>
+            <div style="margin-top: 12px;">
+                <span id="statusBadge" class="status-badge" style="display: none;"></span>
+            </div>
+            <div id="deliveryTimeline"
+                style="display: none; margin-top: 20px; border-top: 1px dashed var(--border); padding-top: 15px; text-align: left;">
+                <p
+                    style="font-size: 13px; font-weight: 700; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">
+                    <i data-lucide="truck" style="width: 14px;"></i> Hành trình đơn hàng
+                </p>
+                <div id="timelineContent" style="font-size: 11px; padding-left: 15px; border-left: 2px solid #e2e8f0;">
+                </div>
+            </div>
+        </div>
+
+        <div class="bill-body">
+            <div class="section-header">
+                <i data-lucide="user" style="width: 14px;"></i>
+                Thông tin người nhận
+            </div>
+            <div class="data-grid">
+                <div class="data-item">
+                    <div class="label">Người nhận</div>
+                    <div class="value" id="customerNameContainer"></div>
+                </div>
+                <div class="data-item">
+                    <div class="label">SĐT người nhận</div>
+                    <div class="value" id="customerPhoneContainer"></div>
+                </div>
+                <div class="data-item" style="grid-column: span 2;">
+                    <div class="label">Địa chỉ nhận hàng</div>
+                    <div class="value" id="customerAddressContainer"></div>
+                </div>
+                <div class="data-item">
+                    <div class="label">Ngày đặt hàng</div>
+                    <div class="value" id="orderDateContainer"></div>
+                </div>
+                <div class="data-item">
+                    <div class="label">Hình thức</div>
+                    <div class="value">Giao hàng tận nơi</div>
+                </div>
+            </div>
+
+            <div class="section-header">
+                <i data-lucide="shopping-bag" style="width: 14px;"></i>
+                Chi tiết sản phẩm
+            </div>
+            <div class="product-list" id="productList">
+                <!-- Products will be injected here -->
+            </div>
+
+            <div id="realImageSection" style="margin-top: 24px;">
+                <div class="section-header">
+                    <i data-lucide="image" style="width: 14px;"></i>
+                    Hình ảnh thực tế đơn hàng
+                    <small id="debugImageStatus" style="font-size: 11px; color: #666; margin-left: 8px;">(đang tải...)</small>
+                </div>
+                <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:12px;">
+                    <button id="uploadRealImageBtn" type="button" class="action-btn secondary" style="padding: 8px 14px; font-size: 13px; display:none;">
+                        <i data-lucide="upload" style="width: 16px;"></i>
+                        Thêm ảnh thực tế
+                    </button>
+                    <span id="uploadRealImageHint" style="font-size: 12px; color: #475569; display:none;">Chỉ hiển thị khi bật chỉnh sửa</span>
+                </div>
+                <div class="real-image-gallery" id="realImageGallery" style="display:none;"></div>
+                <div id="noImagesMsg" style="padding: 20px 12px; text-align: center; color: #666; font-size: 13px; background: #f8fafc; border-radius: 12px; border: 1px dashed var(--border);">
+                    <i data-lucide="image-off" style="width: 24px; height: 24px; display: inline-block; margin-bottom: 8px; opacity: 0.5;"></i>
+                    <div>Chưa có ảnh thực tế cho đơn hàng này</div>
+                </div>
+            </div>
+
+            <div class="summary-box">
+                <div class="summary-row">
+                    <span style="color: var(--text-muted)">Tạm tính</span>
+                    <span id="subtotal" style="font-weight: 700;">0₫</span>
+                </div>
+                <div class="summary-row">
+                    <span style="color: var(--text-muted)">Phí vận chuyển</span>
+                    <div id="shippingFeeContainer" style="text-align: right; min-width: 120px;"></div>
+                </div>
+                <div class="summary-row" id="surchargeRow" style="display: none;">
+                    <span style="color: var(--text-muted)">Phụ thu</span>
+                    <div id="surchargeContainer" style="text-align: right; min-width: 120px;"></div>
+                </div>
+                <div class="summary-row total">
+                    <span>Tổng cộng</span>
+                    <span class="total-price" id="totalAmount">0₫</span>
+                </div>
+                <div class="summary-row" id="prepaidRow" style="display: none;">
+                    <span style="color: #10b981">Đã thanh toán</span>
+                    <div id="prepaidContainer" style="text-align: right; min-width: 120px;"></div>
+                </div>
+                <div class="summary-row" id="remainingRow" style="display: none;">
+                    <span style="color: #ef4444; font-weight: 700;">THU HỘ</span>
+                    <span id="remaining" style="font-weight: 800; color: #ef4444; font-size: 18px;">0₫</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p class="thank-you">Cảm ơn bạn đã mua sắm!</p>
+            <p class="footer-info">Pumalife Store - 47/12A Thăng Long, P. Tân Sơn Nhất, Hồ Chí Minh</p>
+            <p class="footer-info">Hotline: 03 5757 3070 | Web: pumalifestore.vercel.app</p>
+        </div>
+    </div>
+
+    <div class="bill-actions" id="billActions" style="display: none;">
+        <button id="editBillBtn" class="action-btn secondary" style="display: none;">
+            <i data-lucide="edit-3" style="width: 18px;"></i> Chỉnh sửa hóa đơn
+        </button>
+        <button id="saveBillBtn" class="action-btn primary" style="display: none;">
+            <i data-lucide="save" style="width: 18px;"></i> Lưu thay đổi
+        </button>
+    </div>
+
+    <script type="module">
+        import { primarySupabase } from './supabase-config.mjs';
+        // Pancake Configuration
+        const PANCAKE_SHOP_ID = '1290216404'; // From sidepanel.js
+        const PANCAKE_API_KEY = '8477ff85ed5446be826044de9ff8869d'; // From sidepanel.js
+        const PANCAKE_ACCESS_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVHVhbiBEYW5nIiwiZXhwIjoxNzg0MzIwMzEwLCJhcHBsaWNhdGlvbiI6MSwidWlkIjoiNzJlZmM2N2ItMDU5OC00MTk5LWFmNGUtYjFkYWMyMDVkNDQyIiwic2Vzc2lvbl9pZCI6ImUzNTEwZDE3LWU2NmEtNGVlZC1hMmE0LTc4NDQ4ZWQ2YzM0NCIsImlhdCI6MTc3NjU0NDMxMCwiZmJfaWQiOiIxNDI1Njc5MDQwNzgyMjU2IiwibG9naW5fc2Vzc2lvbl9pZCI6bnVsbCwiZmJfbmFtZSI6IlR1YW4gRGFuZyJ9._D6aFELWl7EAd0AeDJBRZ8qCwTVKuiYAmI4Z_7YTXu0';
+        const SUPABASE_URL = primarySupabase.url;
+        const SUPABASE_KEY = primarySupabase.anonKey;
+        let currentRenderedOrder = null;
+        let currentFetchedOrder = null;
+        let isEditMode = false;
+
+        function getBillEditStorageKey(orderId) {
+            return `pumalife_bill_edit_${orderId}`;
+        }
+
+        function loadSavedBillEdits(orderId) {
+            try {
+                const raw = localStorage.getItem(getBillEditStorageKey(orderId));
+                return raw ? JSON.parse(raw) : null;
+            } catch (err) {
+                console.warn('Không thể đọc dữ liệu lưu bill:', err);
+                return null;
+            }
+        }
+
+        function saveBillEdits(orderId, data) {
+            try {
+                localStorage.setItem(getBillEditStorageKey(orderId), JSON.stringify(data));
+            } catch (err) {
+                console.warn('Không thể lưu dữ liệu bill:', err);
+            }
+        }
+
+        function clearBillEdits(orderId) {
+            try {
+                localStorage.removeItem(getBillEditStorageKey(orderId));
+            } catch (err) {
+                console.warn('Không thể xóa dữ liệu bill:', err);
+            }
+        }
+
+        function applySavedEdits(order, edits) {
+            if (!edits || !order) return order;
+            const merged = JSON.parse(JSON.stringify(order));
+            if (edits.bill_full_name) merged.bill_full_name = edits.bill_full_name;
+            if (edits.bill_phone_number) merged.bill_phone_number = edits.bill_phone_number;
+            if (edits.shipping_address) merged.shipping_address = merged.shipping_address || {};
+            if (edits.shipping_address?.full_address) merged.shipping_address.full_address = edits.shipping_address.full_address;
+            if (edits.shipping_address?.full_name) merged.shipping_address.full_name = edits.shipping_address.full_name;
+            if (edits.shipping_address?.phone_number) merged.shipping_address.phone_number = edits.shipping_address.phone_number;
+            if (edits.custom_date_display) merged.custom_date_display = edits.custom_date_display;
+            if (edits.shipping_fee !== undefined) merged.shipping_fee = edits.shipping_fee;
+            if (edits.surcharge !== undefined) merged.surcharge = edits.surcharge;
+            if (edits.prepaid !== undefined) merged.prepaid = edits.prepaid;
+            if (Array.isArray(edits.items) && merged.items) {
+                edits.items.forEach((itemEdit, idx) => {
+                    if (!merged.items[idx]) return;
+                    if (itemEdit.retail_price !== undefined) merged.items[idx].retail_price = itemEdit.retail_price;
+                    if (itemEdit.quantity !== undefined) merged.items[idx].quantity = itemEdit.quantity;
+                });
+            }
+            return merged;
+        }
+
+        function normalizeOrderId(value) {
+            if (!value) return '';
+            const str = value.toString().trim();
+            const match = str.match(/\d+$/);
+            return match ? match[0] : str;
+        }
+
+        function normalizeHinhanh(value) {
+            if (!value) return [];
+            if (typeof value === 'string') {
+                try {
+                    const parsed = JSON.parse(value);
+                    if (Array.isArray(parsed)) return parsed.filter(u => !!u && typeof u === 'string');
+                } catch (e) {
+                    // Not JSON, treat as single URL string
+                }
+                return [value];
+            }
+            if (Array.isArray(value)) {
+                return value.flatMap(v => normalizeHinhanh(v));
+            }
+            if (typeof value === 'object') {
+                return Object.values(value).flatMap(v => normalizeHinhanh(v));
+            }
+            return [];
+        }
+
+        async function fetchRealImagesForOrder(order) {
+            if (!order) return [];
+            console.log('fetchRealImagesForOrder - input order:', order);
+            const candidates = new Set();
+            const rawValues = [order.display_id, order.order_sn, order.code, order.id, order.order_id];
+            rawValues.forEach(val => {
+                if (val !== null && val !== undefined) {
+                    const str = val.toString().trim();
+                    if (str) {
+                        candidates.add(str);
+                        // Also add version without local_ prefix
+                        if (str.startsWith('local_')) {
+                            candidates.add(str.replace('local_', ''));
+                        }
+                    }
+                }
+            });
+
+            const displayId = order.display_id || order.order_sn || order.code || order.id;
+            if (displayId) {
+                const digitsOnly = displayId.toString().replace(/\D/g, '');
+                if (digitsOnly) candidates.add(digitsOnly);
+            }
+
+            const possibleIds = Array.from(candidates);
+            console.log('Searching real images for possible order IDs:', possibleIds);
+            if (possibleIds.length === 0) return [];
+
+            try {
+                const urls = [];
+                
+                // Try fetching by each possible order ID to avoid loading ALL records
+                for (const orderId of possibleIds) {
+                    const encodedId = encodeURIComponent(orderId);
+                    const queryUrl = `${SUPABASE_URL}/rest/v1/chatbot_images?select=id,order_id,customer_name,hinhanh&or=(order_id.eq.${encodedId},customer_name.eq.${encodedId})&hinhanh=not.is.null&limit=10`;
+                    console.log('fetchRealImagesForOrder - queryUrl:', queryUrl);
+                    try {
+                        const res = await fetch(queryUrl, {
+                            headers: {
+                                'apikey': SUPABASE_KEY,
+                                'Authorization': `Bearer ${SUPABASE_KEY}`,
+                                'Accept': 'application/json'
+                            }
+                        });
+                        console.log('fetchRealImagesForOrder - res status:', res.status);
+
+                        if (res.ok) {
+                            const data = await res.json();
+                            console.log(`Found ${data.length} image records for order ID "${orderId}":`, data);
+                            
+                            if (Array.isArray(data)) {
+                                data.forEach(row => {
+                                    if (row.hinhanh) {
+                                        const items = normalizeHinhanh(row.hinhanh);
+                                        console.log('Extracted images from record:', items);
+                                        items.forEach(u => {
+                                            if (typeof u === 'string' && u.trim()) urls.push(u.trim());
+                                        });
+                                    }
+                                });
+                            }
+                        }
+                    } catch (err) {
+                        console.warn(`Failed to fetch images for order ID "${orderId}":`, err);
+                    }
+                }
+
+                const uniqueUrls = Array.from(new Set(urls));
+                console.log('Final image URLs found:', uniqueUrls);
+                return uniqueUrls;
+            } catch (err) {
+                console.error('Fetch real images failed:', err);
+                return [];
+            }
+        }
+
+        async function uploadImageToPancake(file) {
+            if (!file) return null;
+            const uploadUrl = `https://pos.pancake.vn/api/v1/contents?api_key=${encodeURIComponent(PANCAKE_API_KEY)}`;
+            try {
+                const formData = new FormData();
+                formData.append('file', file);
+                const response = await fetch(uploadUrl, {
+                    method: 'POST',
+                    body: formData
+                });
+                const result = await response.json();
+                const imageUrl = result.content_url || (result.data && result.data.url);
+                if (result.success && imageUrl) {
+                    return imageUrl;
+                }
+                console.error('Pancake Upload Error:', result);
+                return null;
+            } catch (err) {
+                console.error('uploadImageToPancake Error:', err);
+                return null;
+            }
+        }
+
+        async function getExistingRealImageRow(order) {
+            if (!order) return null;
+            const displayId = order.display_id || order.order_sn || order.code || order.id;
+            if (!displayId) return null;
+            try {
+                const fetchUrl = `${SUPABASE_URL}/rest/v1/chatbot_images?select=*,hinhanh&order_id=eq.${encodeURIComponent(displayId)}&hinhanh=not.is.null&limit=1`;
+                const res = await fetch(fetchUrl, {
+                    headers: {
+                        'apikey': SUPABASE_KEY,
+                        'Authorization': `Bearer ${SUPABASE_KEY}`,
+                        'Accept': 'application/json'
+                    }
+                });
+                if (!res.ok) return null;
+                const data = await res.json();
+                if (Array.isArray(data) && data.length > 0) {
+                    data[0].hinhanh = normalizeHinhanh(data[0].hinhanh);
+                    return data[0];
+                }
+            } catch (err) {
+                console.error('getExistingRealImageRow Error:', err);
+            }
+            return null;
+        }
+
+        async function upsertRealImagesForOrder(order, imageUrls) {
+            if (!order || !Array.isArray(imageUrls) || imageUrls.length === 0) return false;
+            const displayId = order.display_id || order.order_sn || order.code || order.id;
+            if (!displayId) return false;
+            const normalizedUrls = Array.from(new Set(imageUrls.filter(u => typeof u === 'string' && u.trim()).map(u => u.trim())));
+            if (normalizedUrls.length === 0) return false;
+            const existingRow = await getExistingRealImageRow(order);
+            try {
+                if (existingRow && existingRow.id) {
+                    const merged = Array.from(new Set([...(existingRow.hinhanh || []), ...normalizedUrls]));
+                    const patchRes = await fetch(`${SUPABASE_URL}/rest/v1/chatbot_images?id=eq.${existingRow.id}`, {
+                        method: 'PATCH',
+                        headers: {
+                            'apikey': SUPABASE_KEY,
+                            'Authorization': `Bearer ${SUPABASE_KEY}`,
+                            'Content-Type': 'application/json',
+                            'Prefer': 'return=representation'
+                        },
+                        body: JSON.stringify({ hinhanh: merged })
+                    });
+                    if (!patchRes.ok) {
+                        console.error('Patch real images failed:', await patchRes.text());
+                        return false;
+                    }
+                    return true;
+                }
+                const name = order.bill_full_name || order.customer_name || 'Khách';
+                const notePrint = (order.note_print || order.note || '').toString();
+                const normalizedId = normalizeOrderId(displayId);
+                const payload = {
+                    order_id: normalizedId,
+                    customer_name: name,
+                    note_print: notePrint,
+                    status_id: order.status || 0,
+                    processed: null,
+                    hinhanh: normalizedUrls
+                };
+                const insertRes = await fetch(`${SUPABASE_URL}/rest/v1/chatbot_images?on_conflict=order_id`, {
+                    method: 'POST',
+                    headers: {
+                        'apikey': SUPABASE_KEY,
+                        'Authorization': `Bearer ${SUPABASE_KEY}`,
+                        'Content-Type': 'application/json',
+                        'Prefer': 'return=representation'
+                    },
+                    body: JSON.stringify(payload)
+                });
+                if (!insertRes.ok) {
+                    console.error('Insert real images failed:', await insertRes.text());
+                    return false;
+                }
+                return true;
+            } catch (err) {
+                console.error('upsertRealImagesForOrder Error:', err);
+                return false;
+            }
+        }
+
+        async function handleRealImageUpload(files) {
+            if (!files || files.length === 0 || !currentFetchedOrder) return;
+            const imageFiles = Array.from(files);
+            const statusText = document.getElementById('debugImageStatus');
+            if (statusText) {
+                statusText.textContent = `(Đang upload ${imageFiles.length} ảnh...)`;
+                statusText.style.color = 'var(--primary)';
+            }
+            const uploadedUrls = [];
+            for (const file of imageFiles) {
+                const imageUrl = await uploadImageToPancake(file);
+                if (imageUrl) uploadedUrls.push(imageUrl);
+            }
+            if (uploadedUrls.length === 0) {
+                if (statusText) {
+                    statusText.textContent = '(Upload thất bại)';
+                    statusText.style.color = '#ef4444';
+                }
+                alert('Không thể upload ảnh. Kiểm tra token Pancake hoặc kết nối mạng.');
+                return;
+            }
+            const saved = await upsertRealImagesForOrder(currentFetchedOrder, uploadedUrls);
+            if (!saved) {
+                if (statusText) {
+                    statusText.textContent = '(Lưu ảnh thất bại)';
+                    statusText.style.color = '#ef4444';
+                }
+                alert('Ảnh đã upload nhưng không thể lưu vào Supabase.');
+                return;
+            }
+            if (statusText) {
+                statusText.textContent = `(${uploadedUrls.length} ảnh đã lưu)`;
+                statusText.style.color = '#10b981';
+            }
+            await renderOrder(currentFetchedOrder);
+        }
+
+        function setupRealImageUploadButton() {
+            const uploadBtn = document.getElementById('uploadRealImageBtn');
+            if (!uploadBtn || uploadBtn.dataset.setup === 'true') return;
+            let fileInput = document.getElementById('realImageUploadInput');
+            if (!fileInput) {
+                fileInput = document.createElement('input');
+                fileInput.type = 'file';
+                fileInput.id = 'realImageUploadInput';
+                fileInput.style.display = 'none';
+                fileInput.accept = 'image/*';
+                fileInput.multiple = true;
+                fileInput.addEventListener('change', async (e) => {
+                    await handleRealImageUpload(e.target.files);
+                    fileInput.value = '';
+                });
+                document.body.appendChild(fileInput);
+            }
+            uploadBtn.addEventListener('click', () => {
+                if (fileInput) fileInput.click();
+            });
+            uploadBtn.dataset.setup = 'true';
+        }
+
+        function formatPrice(num) {
+            return new Intl.NumberFormat('vi-VN').format(num) + '₫';
+        }
+
+        function isUserLoggedIn() {
+            return localStorage.getItem('pumalife_isLoggedIn') === 'true';
+        }
+
+        function setFieldValue(containerId, value, options = {}) {
+            const container = document.getElementById(containerId);
+            if (!container) return;
+            const { editable = false, type = 'text', multiline = false, placeholder = '---' } = options;
+
+            if (!editable) {
+                container.innerHTML = '';
+                const span = document.createElement('span');
+                span.textContent = value || placeholder;
+                container.appendChild(span);
+                return;
+            }
+
+            let input;
+            if (multiline) {
+                input = container.querySelector('textarea');
+                if (!input) {
+                    input = document.createElement('textarea');
+                    input.className = 'editable-field';
+                    input.rows = 2;
+                    input.placeholder = placeholder;
+                    container.innerHTML = '';
+                    container.appendChild(input);
+                }
+            } else {
+                input = container.querySelector('input');
+                if (!input) {
+                    input = document.createElement('input');
+                    input.className = 'editable-field';
+                    input.type = type;
+                    input.placeholder = placeholder;
+                    container.innerHTML = '';
+                    container.appendChild(input);
+                }
+            }
+
+            input.value = value || '';
+            if (type === 'number') input.step = '0.01';
+        }
+
+        function updateOrderFromEditor(order) {
+            if (!order) return null;
+            const nameInput = document.querySelector('#customerNameContainer input');
+            const phoneInput = document.querySelector('#customerPhoneContainer input');
+            const addressInput = document.querySelector('#customerAddressContainer textarea');
+            const dateInput = document.querySelector('#orderDateContainer input');
+            const shippingInput = document.querySelector('#shippingFeeContainer input');
+            const surchargeInput = document.querySelector('#surchargeContainer input');
+            const prepaidInput = document.querySelector('#prepaidContainer input');
+
+            const edits = {
+                bill_full_name: order.bill_full_name,
+                bill_phone_number: order.bill_phone_number,
+                shipping_address: order.shipping_address ? { ...order.shipping_address } : {},
+                custom_date_display: order.custom_date_display,
+                shipping_fee: parseFloat(order.shipping_fee || 0) || 0,
+                surcharge: parseFloat(order.surcharge || 0) || 0,
+                prepaid: parseFloat(order.prepaid || 0) || 0,
+                items: []
+            };
+
+            if (nameInput) {
+                const nameValue = nameInput.value.trim();
+                edits.bill_full_name = nameValue;
+                edits.shipping_address.full_name = nameValue;
+            }
+            if (phoneInput) {
+                const phoneValue = phoneInput.value.trim();
+                edits.bill_phone_number = phoneValue;
+                edits.shipping_address.phone_number = phoneValue;
+            }
+            if (addressInput) {
+                edits.shipping_address.full_address = addressInput.value.trim();
+                edits.shipping_address.address = addressInput.value.trim();
+            }
+            if (dateInput) edits.custom_date_display = dateInput.value.trim();
+
+            edits.shipping_fee = parseFloat(shippingInput?.value || '0') || 0;
+            edits.surcharge = parseFloat(surchargeInput?.value || '0') || 0;
+            edits.prepaid = parseFloat(prepaidInput?.value || '0') || 0;
+
+            const productInputs = document.querySelectorAll('#productList input.product-edit-input');
+            productInputs.forEach(input => {
+                const idx = Number(input.dataset.index);
+                const field = input.dataset.field;
+                if (!Number.isFinite(idx)) return;
+                edits.items[idx] = edits.items[idx] || {};
+                if (field === 'price') edits.items[idx].retail_price = parseFloat(input.value || '0') || 0;
+                if (field === 'qty') edits.items[idx].quantity = parseInt(input.value || '1') || 1;
+            });
+
+            return edits;
+        }
+
+        function setEditMode(enabled) {
+            isEditMode = enabled && isUserLoggedIn();
+            const editBtn = document.getElementById('editBillBtn');
+            if (editBtn) {
+                editBtn.textContent = isEditMode ? 'Hủy chỉnh sửa' : 'Chỉnh sửa hóa đơn';
+                editBtn.innerHTML = isEditMode
+                    ? '<i data-lucide="x-circle" style="width: 18px;"></i> Hủy chỉnh sửa'
+                    : '<i data-lucide="edit-3" style="width: 18px;"></i> Chỉnh sửa hóa đơn';
+            }
+            showSaveButton(isEditMode);
+            if (currentFetchedOrder) {
+                renderOrder(currentFetchedOrder);
+            }
+        }
+
+        function getAccessToken() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const urlToken = urlParams.get('token') || urlParams.get('access_token');
+            if (urlToken) return urlToken;
+
+            return window.PANCAKE_ACCESS_TOKEN ||
+                localStorage.getItem('PANCAKE_ACCESS_TOKEN') ||
+                localStorage.getItem('pancake_access_token') ||
+                localStorage.getItem('pumalife_pancake_access_token') ||
+                PANCAKE_ACCESS_TOKEN ||
+                null;
+        }
+
+        async function resolvePancakeNumericOrderId(order) {
+            if (!order) return null;
+            const candidate = order.id || order.order_id || order.display_id || order.code || '';
+            const raw = String(candidate).trim();
+            if (!raw) return null;
+
+            // If the order object comes from Pancake and already contains a numeric ID.
+            if (/^\d+$/.test(raw)) return raw;
+
+            // Try parse numeric order_id from Pancake order_link.
+            if (order.order_link) {
+                try {
+                    const url = new URL(order.order_link);
+                    const orderIdParam = url.searchParams.get('order_id');
+                    if (orderIdParam && /^\d+$/.test(orderIdParam.trim())) {
+                        console.log('Resolved numeric ID from order_link:', orderIdParam);
+                        return orderIdParam.trim();
+                    }
+                } catch (err) {
+                    console.warn('Could not parse order_link for numeric ID', err);
+                }
+            }
+
+            if (order.url || order.link || order.order_url) {
+                const rawUrl = order.url || order.link || order.order_url;
+                try {
+                    const url = new URL(rawUrl);
+                    const orderIdParam = url.searchParams.get('order_id');
+                    if (orderIdParam && /^\d+$/.test(orderIdParam.trim())) {
+                        console.log('Resolved numeric ID from alternate url field:', orderIdParam);
+                        return orderIdParam.trim();
+                    }
+                } catch (err) {
+                    console.warn('Could not parse alternate order url for numeric ID', err);
+                }
+            }
+
+            try {
+                const token = getAccessToken();
+                let searchUrl;
+                if (token) {
+                    searchUrl = `https://pos.pancake.vn/api/v1/shops/${PANCAKE_SHOP_ID}/orders?access_token=${token}&page_size=15&search_term=${encodeURIComponent(raw)}`;
+                } else {
+                    searchUrl = `https://pos.pages.fm/api/v1/shops/${PANCAKE_SHOP_ID}/orders?api_key=${PANCAKE_API_KEY}&page_number=1&page_size=15&id=${encodeURIComponent(raw)}`;
+                }
+
+                const res = await fetch(searchUrl);
+                if (!res.ok) return null;
+                const data = await res.json();
+                let items = Array.isArray(data.data) ? data.data : Array.isArray(data.items) ? data.items : [];
+                if (!items.length && !token) {
+                    const fallbackUrl = `https://pos.pages.fm/api/v1/shops/${PANCAKE_SHOP_ID}/orders?api_key=${PANCAKE_API_KEY}&page_number=1&page_size=15&search=${encodeURIComponent(raw)}`;
+                    const fallbackRes = await fetch(fallbackUrl);
+                    if (fallbackRes.ok) {
+                        const fallbackData = await fallbackRes.json();
+                        items = Array.isArray(fallbackData.data) ? fallbackData.data : Array.isArray(fallbackData.items) ? fallbackData.items : [];
+                    }
+                }
+                if (items.length > 0) {
+                    const exact = items.find(o =>
+                        (o.display_id && String(o.display_id).trim() === raw) ||
+                        (o.id && String(o.id).trim() === raw) ||
+                        (o.order_id && String(o.order_id).trim() === raw) ||
+                        (o.code && String(o.code).trim() === raw)
+                    );
+                    if (exact && exact.id) {
+                        console.log('Resolved numeric ID from Pancake search:', exact.id);
+                        return String(exact.id);
+                    }
+                }
+            } catch (err) {
+                console.warn('resolvePancakeNumericOrderId fail', err);
+            }
+            return null;
+        }
+
+        async function updatePancakeOrder(order, edits) {
+            if (!order || !edits) return false;
+            try {
+                const numericId = await resolvePancakeNumericOrderId(order);
+                if (!numericId) {
+                    console.warn('Không tìm thấy numeric order ID để cập nhật Pancake.');
+                    return false;
+                }
+
+                const payload = {};
+                if (edits.bill_full_name !== undefined) payload.bill_full_name = edits.bill_full_name;
+                if (edits.bill_phone_number !== undefined) payload.bill_phone_number = edits.bill_phone_number;
+                if (edits.shipping_address) payload.shipping_address = {
+                    ...(order.shipping_address || {}),
+                    ...edits.shipping_address
+                };
+                if (edits.custom_date_display !== undefined) payload.custom_date_display = edits.custom_date_display;
+                if (edits.shipping_fee !== undefined) payload.shipping_fee = edits.shipping_fee;
+                if (edits.surcharge !== undefined) payload.surcharge = edits.surcharge;
+                if (edits.prepaid !== undefined) payload.prepaid = edits.prepaid;
+
+                if (Object.keys(payload).length === 0) {
+                    return true;
+                }
+
+                const token = getAccessToken();
+            const baseUrl = token ? 'https://pos.pancake.vn' : 'https://pos.pages.fm';
+            const query = token ? `access_token=${token}` : `api_key=${PANCAKE_API_KEY}`;
+            const response = await fetch(`${baseUrl}/api/v1/shops/${PANCAKE_SHOP_ID}/orders/${numericId}?${query}`, {
+                    method: 'PATCH',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+
+                if (!response.ok) {
+                    console.warn('Pancake update request failed', response.status, response.statusText);
+                    return false;
+                }
+
+                const result = await response.json();
+                if (!result || !result.success) {
+                    console.warn('Pancake update response invalid', result);
+                    return false;
+                }
+
+                return true;
+            } catch (err) {
+                console.error('updatePancakeOrder error', err);
+                return false;
+            }
+        }
+
+        function showEditButton() {
+            const editBtn = document.getElementById('editBillBtn');
+            if (!editBtn) return;
+            editBtn.style.display = isUserLoggedIn() ? 'inline-flex' : 'none';
+            if (!editBtn.dataset.setup) {
+                editBtn.dataset.setup = 'true';
+                editBtn.addEventListener('click', () => {
+                    setEditMode(!isEditMode);
+                });
+            }
+        }
+
+        function showSaveButton(editable) {
+            const saveBtn = document.getElementById('saveBillBtn');
+            if (!saveBtn) return;
+            saveBtn.style.display = editable ? 'inline-flex' : 'none';
+            if (editable && !saveBtn.dataset.setup) {
+                saveBtn.dataset.setup = 'true';
+                saveBtn.addEventListener('click', async () => {
+                    if (!currentFetchedOrder) return;
+                    const originalHtml = saveBtn.innerHTML;
+                    saveBtn.disabled = true;
+                    saveBtn.innerHTML = '<i data-lucide="loader" class="spin"></i> Đang lưu...';
+
+                    const edits = updateOrderFromEditor(currentFetchedOrder);
+                    if (!edits) {
+                        saveBtn.disabled = false;
+                        saveBtn.innerHTML = originalHtml;
+                        return;
+                    }
+
+                    saveBillEdits(currentFetchedOrder.id || currentFetchedOrder.order_id || currentFetchedOrder.display_id, edits);
+                    const syncOk = await updatePancakeOrder(currentFetchedOrder, edits);
+                    currentRenderedOrder = applySavedEdits(currentFetchedOrder, edits);
+                    isEditMode = false;
+                    renderOrder(currentRenderedOrder);
+                    showEditButton();
+
+                    if (syncOk) {
+                        saveBtn.innerHTML = '<i data-lucide="check" style="width: 18px;"></i> Đã lưu';
+                    } else {
+                        saveBtn.innerHTML = '<i data-lucide="alert-circle" style="width: 18px;"></i> Lưu tạm';
+                    }
+
+                    if (window.lucide) lucide.createIcons();
+                    setTimeout(() => {
+                        saveBtn.disabled = false;
+                        saveBtn.innerHTML = 'Lưu thay đổi';
+                        if (window.lucide) lucide.createIcons();
+                    }, 1800);
+                });
+            }
+        }
+
+        // Utility to copy text safely (handles both localhost/HTTPS and IP-based URLs)
+        window.safeCopyText = function (text) {
+            return new Promise((resolve, reject) => {
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(text).then(resolve).catch(err => {
+                        if (fallbackCopyLegacy(text)) resolve();
+                        else reject(err);
+                    });
+                } else {
+                    if (fallbackCopyLegacy(text)) resolve();
+                    else reject(new Error('Clipboard API not available'));
+                }
+            });
+
+            function fallbackCopyLegacy(val) {
+                const textArea = document.createElement("textarea");
+                textArea.value = val;
+                textArea.style.position = "fixed";
+                textArea.style.left = "-9999px";
+                textArea.style.top = "0";
+                document.body.appendChild(textArea);
+                textArea.focus();
+                textArea.select();
+                let successful = false;
+                try {
+                    successful = document.execCommand('copy');
+                } catch (err) {
+                    successful = false;
+                }
+                document.body.removeChild(textArea);
+                return successful;
+            }
+        };
+
+        async function init() {
+            if (window.lucide) lucide.createIcons();
+            showEditButton();
+
+            // View full image function
+            window.viewFullImage = function(imageUrl) {
+                const modal = document.createElement('div');
+                modal.style.cssText = `
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: rgba(0, 0, 0, 0.9);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    z-index: 9999;
+                    padding: 20px;
+                    cursor: pointer;
+                `;
+                
+                const img = document.createElement('img');
+                img.src = imageUrl;
+                img.style.cssText = `
+                    max-width: 90vw;
+                    max-height: 90vh;
+                    object-fit: contain;
+                    border-radius: 8px;
+                    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+                `;
+                
+                const closeBtn = document.createElement('button');
+                closeBtn.innerHTML = '✕';
+                closeBtn.style.cssText = `
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
+                    background: rgba(255, 255, 255, 0.2);
+                    color: white;
+                    border: none;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    font-size: 24px;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: all 0.3s ease;
+                `;
+                
+                closeBtn.onmouseover = () => {
+                    closeBtn.style.background = 'rgba(255, 255, 255, 0.3)';
+                };
+                
+                closeBtn.onmouseout = () => {
+                    closeBtn.style.background = 'rgba(255, 255, 255, 0.2)';
+                };
+                
+                const close = () => {
+                    modal.remove();
+                };
+                
+                closeBtn.onclick = close;
+                modal.onclick = close;
+                img.onclick = (e) => e.stopPropagation();
+                
+                modal.appendChild(img);
+                modal.appendChild(closeBtn);
+                document.body.appendChild(modal);
+            };
+
+            // Bind configuration to window scope so geo_logic.js can access them (must be before any geo calls)
+            window.PANCAKE_API_KEY = PANCAKE_API_KEY;
+            window.PANCAKE_SHOP_ID = PANCAKE_SHOP_ID;
+            window.PANCAKE_ACCESS_TOKEN = getAccessToken();
+
+            // Get Order ID from URL
+            const getParam = (name) => {
+                const urlParams = new URLSearchParams(window.location.search);
+                let val = urlParams.get(name);
+                if (!val && window.location.hash) {
+                    const hashParams = new URLSearchParams(window.location.hash.split('?')[1] || window.location.hash.substring(1));
+                    val = hashParams.get(name);
+                }
+                if (!val) {
+                    const match = window.location.href.match(/[?&]id=([^&#]*)/i);
+                    if (match) val = decodeURIComponent(match[1]);
+                }
+                if (!val) {
+                    const parts = window.location.pathname.split('/');
+                    const lastPart = parts[parts.length - 1];
+                    if (lastPart && lastPart !== 'bill' && lastPart !== 'bill.html' && lastPart !== '') {
+                        val = lastPart;
+                    }
+                }
+                return val;
+            };
+
+            const waybillIdParam = getParam('waybillId');
+            const orderId = getParam('id') || getParam('orderId');
+            const autocopy = getParam('autocopy');
+
+            if (!orderId && !waybillIdParam) {
+                showError('❌ Không tìm thấy mã đơn hàng hoặc mã vận đơn!');
+                return;
+            }
+
+            try {
+                let order = null;
+                if (waybillIdParam) {
+                    order = await fetchOrderFromSupabaseByWaybill(waybillIdParam);
+                    if (!order && orderId) {
+                        order = await fetchOrderFromSupabase(orderId);
+                    }
+                } else {
+                    order = await fetchOrderFromSupabase(orderId);
+                }
+
+                // 2. Fallback to Pancake POS API if not found on Supabase
+                if (!order) {
+                    console.log('ℹ️ Order not found on Supabase, falling back to Pancake POS API...');
+                    order = await fetchPancakeOrder(orderId || waybillIdParam);
+                }
+
+                if (!order) {
+                    // Try searching by display ID or waybill if available
+                    order = await searchPancakeOrder(orderId || waybillIdParam);
+                }
+
+                if (!order) {
+                    throw new Error('Đơn hàng không tồn tại trên hệ thống hoặc ID không hợp lệ.');
+                }
+
+                await renderOrder(order);
+
+                // Auto-copy if requested
+                if (autocopy === '1') {
+                    setTimeout(async () => {
+                        try {
+                            if (window.autoSnapshot) {
+                                await window.autoSnapshot(false);
+                                setTimeout(() => window.close(), 1500);
+                            }
+                        } catch (err) {
+                            console.error('Auto-copy failed:', err);
+                        }
+                    }, 1500);
+                }
+
+            } catch (err) {
+                console.error(err);
+                showError(`❌ Lỗi: ${err.message}`);
+            }
+        }
+
+        async function fetchOrderFromSupabase(id) {
+            try {
+                console.log(`🔍 Fetching order ${id} from Supabase...`);
+                // Match by either primary ID or display_id
+                let query = `${SUPABASE_URL}/rest/v1/pancake_orders?select=*,items:pancake_order_items(*)&or=(id.eq.${id},display_id.eq.${id})`;
+                
+                // If ID is not numeric, search by ID string directly
+                if (isNaN(id)) {
+                    query = `${SUPABASE_URL}/rest/v1/pancake_orders?select=*,items:pancake_order_items(*)&id=eq.${id}`;
+                }
+
+                const res = await fetch(query, {
+                    headers: {
+                        'apikey': SUPABASE_KEY,
+                        'Authorization': `Bearer ${SUPABASE_KEY}`
+                    }
+                });
+
+                const data = await res.json();
+                if (Array.isArray(data) && data.length > 0) {
+                    const o = data[0];
+                    console.log('✅ Found order on Supabase:', o);
+                    
+                    let shippingAddress = {};
+                    if (o.shipping_address) {
+                        if (typeof o.shipping_address === 'string') {
+                            try {
+                                shippingAddress = JSON.parse(o.shipping_address);
+                            } catch (e) {
+                                console.warn('Failed parsing shipping_address JSON string:', e);
+                            }
+                        } else {
+                            shippingAddress = o.shipping_address;
+                        }
+                    }
+
+                    // Dynamically compile full address using geo_logic.js if IDs are present
+                    let fullAddress = shippingAddress.full_address || '';
+                    if (!fullAddress || fullAddress.length < 15 || !(fullAddress.includes('Quận') || fullAddress.includes('Huyện') || fullAddress.includes('Thành phố') || fullAddress.includes('Hà Nội'))) {
+                        const street = o.address || shippingAddress.address || '';
+                        let ward = shippingAddress.commune_name || shippingAddress.commune || shippingAddress.ward || '';
+                        let district = shippingAddress.district_name || shippingAddress.district || '';
+                        let province = shippingAddress.province_name || shippingAddress.province || '';
+
+                        try {
+                            if (!province && shippingAddress.province_id && typeof getProvinces === 'function') {
+                                const provinces = await getProvinces();
+                                const found = provinces.find(p => String(p.id) === String(shippingAddress.province_id));
+                                if (found) province = found.name;
+                            }
+                            if (!district && shippingAddress.district_id && shippingAddress.province_id && typeof getDistricts === 'function') {
+                                const districts = await getDistricts(shippingAddress.province_id);
+                                const found = districts.find(d => String(d.id) === String(shippingAddress.district_id));
+                                if (found) district = found.name;
+                            }
+                            if (!ward && (shippingAddress.commune_id || shippingAddress.ward_id) && shippingAddress.province_id && shippingAddress.district_id && typeof getWards === 'function') {
+                                const wards = await getWards(shippingAddress.province_id, shippingAddress.district_id);
+                                const found = wards.find(w => String(w.id) === String(shippingAddress.commune_id || shippingAddress.ward_id));
+                                if (found) ward = found.name;
+                            }
+                        } catch (err) {
+                            console.warn('Geo translation inside fetchOrderFromSupabase failed:', err);
+                        }
+
+                        if (ward || district || province) {
+                            const parts = [street, ward, district, province].map(p => String(p || '').trim()).filter(p => p);
+                            fullAddress = parts.join(', ');
+                        } else {
+                            fullAddress = street;
+                        }
+                    }
+
+                    // Inject constructed fullAddress back into shippingAddress object
+                    shippingAddress.full_address = fullAddress;
+                    
+                    // Map Supabase order object to Pancake POS Schema
+                    const mappedOrder = {
+                        id: o.id,
+                        display_id: o.display_id || o.id,
+                        order_sn: o.display_id,
+                        bill_full_name: o.bill_full_name,
+                        bill_phone_number: o.bill_phone_number,
+                        status: o.status,
+                        shipping_fee: o.shipping_fee,
+                        surcharge: o.surcharge,
+                        prepaid: o.prepaid,
+                        discount: o.discount_amount || 0,
+                        total_price: o.total_price,
+                        cod: o.cod,
+                        note: o.note,
+                        note_image: o.note_image || [],
+                        jt_waybill_id: o.jt_waybill_id || o.jt_waybill || o.waybill_id || '',
+                        jt_status_name: o.jt_status_name || o.jt_status || '',
+                        jt_status_code: o.jt_status_code || o.jt_status_code || null,
+                        shipping_address: shippingAddress,
+                        address: fullAddress,
+                        conversation_id: o.conversation_id,
+                        page_id: o.page_id,
+                        inserted_at: o.inserted_at,
+                        updated_at: o.updated_at,
+                        items: (o.items || []).map(item => ({
+                            product_name: item.product_name,
+                            quantity: item.quantity,
+                            price: item.retail_price,
+                            discount_each_product: parseInt(item.discount_each_product) || 0,
+                            variation_info: item.variation_info || {
+                                name: item.product_name,
+                                retail_price: item.retail_price,
+                                images: []
+                            }
+                        }))
+                    };
+                    return mappedOrder;
+                }
+            } catch (err) {
+                console.error('❌ Failed to fetch order from Supabase:', err);
+            }
+            return null;
+        }
+
+        async function fetchOrderFromSupabaseByWaybill(waybillId) {
+            try {
+                console.log(`🔍 Fetching order by J&T waybill ${waybillId} from Supabase...`);
+                const query = `${SUPABASE_URL}/rest/v1/pancake_orders?select=*,items:pancake_order_items(*)&jt_waybill_id=eq.${encodeURIComponent(waybillId)}`;
+                const res = await fetch(query, {
+                    headers: {
+                        'apikey': SUPABASE_KEY,
+                        'Authorization': `Bearer ${SUPABASE_KEY}`
+                    }
+                });
+                const data = await res.json();
+                if (Array.isArray(data) && data.length > 0) {
+                    console.log('✅ Found order by waybill on Supabase:', data[0]);
+                    return await normalizeSupabaseOrder(data[0]);
+                }
+            } catch (err) {
+                console.error('❌ Failed to fetch order by waybill from Supabase:', err);
+            }
+            return null;
+        }
+
+        async function normalizeSupabaseOrder(o) {
+            let shippingAddress = {};
+            if (o.shipping_address) {
+                if (typeof o.shipping_address === 'string') {
+                    try {
+                        shippingAddress = JSON.parse(o.shipping_address);
+                    } catch (err) {
+                        console.warn('Failed parsing shipping_address JSON string:', err);
+                    }
+                } else {
+                    shippingAddress = o.shipping_address;
+                }
+            }
+
+            let fullAddress = shippingAddress.full_address || '';
+            if (!fullAddress || fullAddress.length < 15 || !(fullAddress.includes('Quận') || fullAddress.includes('Huyện') || fullAddress.includes('Thành phố') || fullAddress.includes('Hà Nội'))) {
+                const street = o.address || shippingAddress.address || '';
+                let ward = shippingAddress.commune_name || shippingAddress.commune || shippingAddress.ward || '';
+                let district = shippingAddress.district_name || shippingAddress.district || '';
+                let province = shippingAddress.province_name || shippingAddress.province || '';
+
+                try {
+                    if (!province && shippingAddress.province_id && typeof getProvinces === 'function') {
+                        const provinces = await getProvinces();
+                        const found = provinces.find(p => String(p.id) === String(shippingAddress.province_id));
+                        if (found) province = found.name;
+                    }
+                    if (!district && shippingAddress.district_id && shippingAddress.province_id && typeof getDistricts === 'function') {
+                        const districts = await getDistricts(shippingAddress.province_id);
+                        const found = districts.find(d => String(d.id) === String(shippingAddress.district_id));
+                        if (found) district = found.name;
+                    }
+                    if (!ward && (shippingAddress.commune_id || shippingAddress.ward_id) && shippingAddress.province_id && shippingAddress.district_id && typeof getWards === 'function') {
+                        const wards = await getWards(shippingAddress.province_id, shippingAddress.district_id);
+                        const found = wards.find(w => String(w.id) === String(shippingAddress.commune_id || shippingAddress.ward_id));
+                        if (found) ward = found.name;
+                    }
+                } catch (err) {
+                    console.warn('Geo translation inside normalizeSupabaseOrder failed:', err);
+                }
+
+                if (ward || district || province) {
+                    const parts = [street, ward, district, province].map(p => String(p || '').trim()).filter(p => p);
+                    fullAddress = parts.join(', ');
+                } else {
+                    fullAddress = street;
+                }
+            }
+
+            shippingAddress.full_address = fullAddress;
+            return {
+                id: o.id,
+                display_id: o.display_id || o.id,
+                order_sn: o.display_id,
+                bill_full_name: o.bill_full_name,
+                bill_phone_number: o.bill_phone_number,
+                status: o.status,
+                shipping_fee: o.shipping_fee,
+                surcharge: o.surcharge,
+                prepaid: o.prepaid,
+                discount: o.discount_amount || 0,
+                total_price: o.total_price,
+                cod: o.cod,
+                note: o.note,
+                note_image: o.note_image || [],
+                jt_waybill_id: o.jt_waybill_id || o.jt_waybill || o.waybill_id || '',
+                jt_status_name: o.jt_status_name || o.jt_status || '',
+                jt_status_code: o.jt_status_code || o.jt_status_code || null,
+                shipping_address: shippingAddress,
+                address: fullAddress,
+                conversation_id: o.conversation_id,
+                page_id: o.page_id,
+                inserted_at: o.inserted_at,
+                updated_at: o.updated_at,
+                items: (o.items || []).map(item => ({
+                    product_name: item.product_name,
+                    quantity: item.quantity,
+                    price: item.retail_price,
+                    discount_each_product: parseInt(item.discount_each_product) || 0,
+                    variation_info: item.variation_info || {
+                        name: item.product_name,
+                        retail_price: item.retail_price,
+                        images: []
+                    }
+                }))
+            };
+        }
+
+        async function fetchPancakeOrder(id) {
+            try {
+                const token = getAccessToken();
+                const query = token ? `access_token=${token}` : `api_key=${PANCAKE_API_KEY}`;
+                const url = `https://pos.pancake.vn/api/v1/shops/${PANCAKE_SHOP_ID}/orders/${id}?${query}`;
+                const res = await fetch(url);
+                const json = await res.json();
+                if (json.success && json.data) return json.data;
+            } catch (e) {
+                console.warn('Fetch by ID failed:', e);
+            }
+            return null;
+        }
+
+        async function searchPancakeOrder(term) {
+            try {
+                const token = getAccessToken();
+                const query = token ? `access_token=${token}` : `api_key=${PANCAKE_API_KEY}`;
+                const url = `https://pos.pancake.vn/api/v1/shops/${PANCAKE_SHOP_ID}/orders?${query}&page_size=15&search_term=${term}`;
+                const res = await fetch(url);
+                const json = await res.json();
+                if (json.success && json.data && json.data.length > 0) return json.data[0];
+            } catch (e) {
+                console.warn('Search failed:', e);
+            }
+            return null;
+        }
+
+        async function fetchLivePancakeTracking(displayId) {
+            try {
+                console.log(`📡 Fetching live tracking info from Pancake for display_id: ${displayId}...`);
+                
+                const token = getAccessToken();
+                const queryParam = token ? `access_token=${token}` : `api_key=${PANCAKE_API_KEY}`;
+                
+                // Try searching with the full custom code prefix "pumalife_15080" first
+                const searchTerm = `pumalife_${displayId}`;
+                const url = `https://pos.pancake.vn/api/v1/shops/${PANCAKE_SHOP_ID}/orders?${queryParam}&page_size=15&search_term=${encodeURIComponent(searchTerm)}`;
+                
+                console.log(`📡 Calling Pancake API URL: ${url}`);
+                const res = await fetch(url);
+                console.log(`📡 Response status from Pancake: ${res.status}`);
+                
+                if (!res.ok) {
+                    console.error(`❌ HTTP error fetching Pancake order:`, res.statusText);
+                    return null;
+                }
+                
+                const json = await res.json();
+                console.log(`📡 Pancake POS search result:`, json);
+                
+                let items = Array.isArray(json.data) ? json.data : Array.isArray(json.items) ? json.items : [];
+                
+                // Fallback: search by numerical displayId if search by custom code yielded no results
+                if (items.length === 0) {
+                    console.log(`ℹ️ No items found with search term "${searchTerm}". Retrying with "${displayId}"...`);
+                    const fallbackUrl = `https://pos.pancake.vn/api/v1/shops/${PANCAKE_SHOP_ID}/orders?${queryParam}&page_size=15&search_term=${encodeURIComponent(displayId)}`;
+                    const fallbackRes = await fetch(fallbackUrl);
+                    if (fallbackRes.ok) {
+                        const fallbackJson = await fallbackRes.json();
+                        items = Array.isArray(fallbackJson.data) ? fallbackJson.data : Array.isArray(fallbackJson.items) ? fallbackJson.items : [];
+                        console.log(`📡 Pancake POS fallback search result:`, fallbackJson);
+                    }
+                }
+
+                if (items.length > 0) {
+                    const exact = items.find(o => {
+                        const oDisplayId = String(o.display_id || '').trim();
+                        const oCustomId = String(o.custom_id || '').trim().toLowerCase().replace(/_/g, '');
+                        const oCode = String(o.code || '').trim().toLowerCase().replace(/_/g, '');
+                        
+                        const targetDisplayId = String(displayId).trim();
+                        const targetCustomIdCombined = `pumalife${displayId}`.toLowerCase();
+                        
+                        return oDisplayId === targetDisplayId || 
+                               oCustomId === targetCustomIdCombined || 
+                               oCode === targetCustomIdCombined;
+                    });
+                    
+                    if (exact) {
+                        console.log(`🎯 Resolved live shipping details successfully:`, exact);
+                        return exact;
+                    } else {
+                        console.warn(`⚠️ Items returned but none matched display_id ${displayId} exactly.`);
+                    }
+                } else {
+                    console.warn(`⚠️ No orders found on Pancake for search term.`);
+                }
+            } catch (err) {
+                console.error('⚠️ fetchLivePancakeTracking failed:', err);
+            }
+            return null;
+        }
+
+        function getJtApiUrl(waybillId) {
+            return `/api/jt-track?waybillId=${encodeURIComponent(waybillId)}`;
+        }
+
+        async function fetchJtTracking(waybillId) {
+            if (!waybillId) return null;
+            try {
+                const url = getJtApiUrl(waybillId);
+                const res = await fetch(url, { method: 'GET' });
+                if (!res.ok) {
+                    const text = await res.text();
+                    console.error('❌ fetchJtTracking failed:', res.status, text);
+                    return null;
+                }
+                return await res.json();
+            } catch (err) {
+                console.error('❌ fetchJtTracking failed:', err);
+                return null;
+            }
+        }
+
+        function isSpxWaybill(waybillId) {
+            return /^SPX/i.test(String(waybillId || '').trim());
+        }
+
+        async function fetchSpxTracking(waybillId, orderId) {
+            // Management data supplies proof photos that the public tracking API omits.
+            let proofError = '';
+            if (orderId) {
+                try {
+                    const proofResponse = await fetch(`${SUPABASE_URL}/functions/v1/create-order`, {
+                        method: 'POST',
+                        headers: { apikey: SUPABASE_KEY, Authorization: `Bearer ${SUPABASE_KEY}`, 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ action: 'get_bill_tracking', order_id: orderId }),
+                        signal: AbortSignal.timeout(18000)
+                    });
+                    const proof = await proofResponse.json();
+                    if (proofResponse.ok && proof?.retcode === 0 && proof.data?.order_info?.spx_tn === waybillId && proof.data?.tracking_info) return proof;
+                    proofError = proof?.error || 'Không tải được ảnh bằng chứng SPX';
+                    console.warn('SPX bill proof unavailable:', proofResponse.status, proofError);
+                } catch (err) { proofError = 'Không kết nối được dịch vụ ảnh bằng chứng SPX'; }
+            }
+            if (!waybillId) return null;
+            try {
+                const params = new URLSearchParams({ spx_tn: waybillId, language_code: 'vi' });
+                const response = await fetch(`/api-spx/shipment/order/open/order/get_order_info?${params.toString()}`, {
+                    method: 'GET',
+                    headers: {
+                        Accept: 'application/json, text/plain, */*',
+                        'Accept-Language': 'vi-VN,vi;q=0.9',
+                        Referer: 'https://spx.vn/track'
+                    }
+                });
+                if (!response.ok) {
+                    console.error('SPX tracking request failed:', response.status);
+                    return null;
+                }
+                const result = await response.json();
+                return result?.retcode === 0 ? { ...result, proof_unavailable: Boolean(proofError) } : null;
+            } catch (err) {
+                console.error('SPX tracking request failed:', err);
+                return null;
+            }
+        }
+
+        function formatSpxTrackingTime(timestamp) {
+            if (!timestamp) return '';
+            const value = Number(timestamp);
+            const date = new Date(value < 10000000000 ? value * 1000 : value);
+            return Number.isNaN(date.getTime()) ? '' : date.toLocaleString('vi-VN');
+        }
+
+        const SPX_STATUS_TRANSLATIONS = {
+            delivered: 'Đã giao hàng',
+            'reschedule pickup': 'Hẹn lại ngày lấy hàng',
+            'pickup on hold': 'Lấy hàng chưa thành công',
+            'out for delivery': 'Đang giao hàng',
+            'enter last mile hub': 'Đã đến trạm giao hàng cuối',
+            'domestic line haul end': 'Đã hoàn tất trung chuyển nội địa',
+            'left domestic sorting center': 'Đã rời trung tâm phân loại',
+            'loaded to truck in sorting centre': 'Đã xếp lên xe trung chuyển',
+            'loaded to truck in sorting center': 'Đã xếp lên xe trung chuyển',
+            'packed in domestic sorting centre': 'Đã đóng gói tại trung tâm phân loại',
+            'packed in domestic sorting center': 'Đã đóng gói tại trung tâm phân loại',
+            'enter domestic sorting center': 'Đã đến trung tâm phân loại',
+            'domestic line haul': 'Đang trung chuyển nội địa',
+            'left domestic first mile hub': 'Đã rời trạm lấy hàng',
+            manifested: 'Đang chuẩn bị hàng',
+            'pending pickup': 'Chờ lấy hàng'
+        };
+
+        function translateSpxStatus(record, currentStatus) {
+            const candidates = [record?.tracking_name, record?.milestone_name]
+                .map(value => String(value || '').trim().toLowerCase()).filter(Boolean);
+            if (!candidates.length) candidates.push(String(currentStatus || '').trim().toLowerCase());
+            for (const candidate of candidates) {
+                if (SPX_STATUS_TRANSLATIONS[candidate]) return SPX_STATUS_TRANSLATIONS[candidate];
+            }
+            return 'Cập nhật hành trình';
+        }
+
+        function escapeSpxHtml(value) {
+            return String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+        }
+
+        function renderSpxProofs(result, record, usedUrls) {
+            const tracking = result?.data?.tracking_info || {};
+            const proofs = [];
+            for (const item of tracking.ep_info_list || []) {
+                if (item.tracking_code === record.tracking_code) proofs.push(...(item.pod_list || []), ...(item.pop_list || []));
+            }
+            const delivered = record.tracking_code === 'F980' || String(record.tracking_name).toLowerCase() === 'delivered';
+            if (delivered) proofs.push(...(tracking.pod_list || []));
+            const urls = proofs.filter(url => {
+                try {
+                    if (new URL(url).protocol !== 'https:' || usedUrls.has(url)) return false;
+                    usedUrls.add(url); return true;
+                } catch { return false; }
+            });
+            if (!urls.length) return '';
+            return `<div class="spx-proof-gallery"><strong>${delivered ? 'Ảnh bằng chứng giao hàng' : 'Ảnh bằng chứng xử lý vận đơn'}</strong><div class="spx-proof-images">${urls.map(url => `<a href="${escapeSpxHtml(url)}" target="_blank" rel="noopener noreferrer" title="Mở ảnh bằng chứng"><img src="${escapeSpxHtml(url)}" loading="lazy" alt="Ảnh bằng chứng SPX"><span>Mở ảnh</span></a>`).join('')}</div></div>`;
+        }
+
+        function renderSpxTimeline(result, timelineEl, timelineContent) {
+            const info = result?.data?.order_info || {};
+            const records = Array.isArray(result?.data?.sls_tracking_info?.records)
+                ? [...result.data.sls_tracking_info.records].sort((a, b) => Number(b.actual_time || 0) - Number(a.actual_time || 0))
+                : [];
+
+            if (!timelineEl || !timelineContent) return;
+            if (records.length === 0) {
+                timelineEl.style.display = 'none';
+                return;
+            }
+
+            timelineEl.style.display = 'block';
+            const usedProofUrls = new Set();
+            timelineContent.innerHTML = records.map((record, index) => {
+                const title = translateSpxStatus(record, info.tracking_code_group_name);
+                const proofHtml = renderSpxProofs(result, record, usedProofUrls);
+                const description = record.buyer_description || record.description || record.seller_description || '';
+                const location = record.current_location?.full_address || record.current_location?.location_name || '';
+                return `
+                    <div style="margin-bottom: 10px; position: relative;">
+                        <div style="position: absolute; left: -19px; top: 3px; width: 6px; height: 6px; border-radius: 50%; background: ${index === 0 ? 'var(--primary)' : '#cbd5e1'};"></div>
+                        <div style="font-weight: 700; color: ${index === 0 ? 'var(--primary)' : '#334155'};">${escapeSpxHtml(title)}</div>
+                        <div style="color: #64748b; font-size: 10px;">${formatSpxTrackingTime(record.actual_time)}</div>
+                        ${description ? `<div style="font-style: italic; color: #94a3b8; margin-top: 2px;">${escapeSpxHtml(description)}</div>` : ''}
+                        ${location ? `<div style="font-style: italic; color: #0f172a; margin-top: 2px;">${escapeSpxHtml(location)}</div>` : ''}
+                        ${proofHtml}
+                    </div>
+                `;
+            }).join('');
+            if (result?.proof_unavailable) {
+                const notice = document.createElement('div');
+                notice.className = 'spx-proof-unavailable';
+                notice.textContent = 'Chưa tải được ảnh bằng chứng SPX. Hành trình bên trên vẫn là dữ liệu tra cứu công khai.';
+                timelineContent.appendChild(notice);
+            }
+            if (window.lucide) lucide.createIcons();
+        }
+
+        // Bind configuration to window scope so geo_logic.js can access them
+        window.PANCAKE_API_KEY = PANCAKE_API_KEY;
+        window.PANCAKE_SHOP_ID = PANCAKE_SHOP_ID;
+
+        window.compileFullAddress = async function(order) {
+            if (!order) return '';
+            
+            // Set access token to window so geo_logic can use the most up to date credentials
+            window.PANCAKE_ACCESS_TOKEN = getAccessToken();
+
+            // 1. Check shipping_address block
+            const sa = order.shipping_address || {};
+            // If sa.address contains the full concatenated address string from Supabase
+            if (sa.address && sa.address.length > 15 && (sa.address.includes('Quận') || sa.address.includes('Huyện') || sa.address.includes('Thành phố') || sa.address.includes('Hà Nội'))) {
+                return sa.address;
+            }
+            if (sa.full_address && sa.full_address.length > 15) {
+                return sa.full_address;
+            }
+
+            // 2. Check partner billing address (often complete address for delivery carrier)
+            const billing = (order.billings && order.billings[0]) || {};
+            const billingAddr = billing.shipping_address || billing.address || '';
+            if (typeof billingAddr === 'string' && billingAddr.length > 15 && (billingAddr.includes('Quận') || billingAddr.includes('Huyện') || billingAddr.includes('Thành phố') || billingAddr.includes('Hà Nội'))) {
+                return billingAddr;
+            }
+            if (billing.shipping_address && billing.shipping_address.full_address) {
+                return billing.shipping_address.full_address;
+            }
+
+            const shippingInfo = order.shipping_info || {};
+            if (shippingInfo.address && shippingInfo.address.length > 15 && (shippingInfo.address.includes('Quận') || shippingInfo.address.includes('Huyện') || shippingInfo.address.includes('Thành phố') || shippingInfo.address.includes('Hà Nội'))) {
+                return shippingInfo.address;
+            }
+
+            // 3. Assemble fields dynamically if no pre-built address exists
+            const street = sa.address || order.address || '';
+            let ward = sa.commune_name || sa.commune || sa.ward || order.commune_name || order.commune_name_api || '';
+            let district = sa.district_name || order.district_name || order.district_name_api || '';
+            let province = sa.province_name || order.province_name || order.province_name_api || '';
+            
+            // Resolve IDs dynamically using geo_logic.js if names are empty but IDs exist
+            try {
+                if (!province && sa.province_id && typeof getProvinces === 'function') {
+                    const provinces = await getProvinces();
+                    const found = provinces.find(p => String(p.id) === String(sa.province_id));
+                    if (found) province = found.name;
+                }
+                if (!district && sa.district_id && sa.province_id && typeof getDistricts === 'function') {
+                    const districts = await getDistricts(sa.province_id);
+                    const found = districts.find(d => String(d.id) === String(sa.district_id));
+                    if (found) district = found.name;
+                }
+                if (!ward && (sa.commune_id || sa.ward_id) && sa.province_id && sa.district_id && typeof getWards === 'function') {
+                    const wards = await getWards(sa.province_id, sa.district_id);
+                    const found = wards.find(w => String(w.id) === String(sa.commune_id || sa.ward_id));
+                    if (found) ward = found.name;
+                }
+            } catch (err) {
+                console.warn('Geolocation resolution via geo_logic.js failed:', err);
+            }
+            
+            if (ward || district || province) {
+                const parts = [street, ward, district, province].map(p => String(p || '').trim()).filter(p => p);
+                const combined = parts.join(', ');
+                if (combined.length > street.length) return combined;
+            }
+
+            return street;
+        };
+
+        async function renderOrder(order) {
+            // Render basic info (Pancake Schema)
+            const displayId = order.display_id || order.order_sn || order.id;
+            console.log('Rendering order with displayId:', displayId, 'Full order object:', order);
+            document.getElementById('orderIdText').textContent = '#' + displayId;
+
+            const trackingEl = document.getElementById('trackingText');
+            const timelineEl = document.getElementById('deliveryTimeline');
+            const timelineContent = document.getElementById('timelineContent');
+
+            const fallbackTrk = order.partner_tracking_code || order.tracking_number || order.tracking_code ||
+                (order.partner && order.partner.extend_code) ||
+                (order.billings && order.billings[0]?.partner_tracking_code) ||
+                (order.billings && order.billings[0]?.tracking_number) ||
+                (order.shipping_info && order.shipping_info.tracking_number);
+            if (trackingEl) {
+                if (order.jt_waybill_id) {
+                    trackingEl.style.display = 'block';
+                    trackingEl.textContent = `Mã vận đơn ${isSpxWaybill(order.jt_waybill_id) ? 'SPX' : 'J&T'}: ${order.jt_waybill_id}`;
+                } else if (fallbackTrk) {
+                    trackingEl.style.display = 'block';
+                    trackingEl.textContent = 'Mã vận đơn: ' + fallbackTrk;
+                } else {
+                    trackingEl.style.display = 'none';
+                }
+            }
+
+            if (order.jt_waybill_id && isSpxWaybill(order.jt_waybill_id)) {
+                fetchSpxTracking(order.jt_waybill_id, order.id).then(result => {
+                    renderSpxTimeline(result, timelineEl, timelineContent);
+                });
+            } else if (order.jt_waybill_id) {
+                fetchJtTracking(order.jt_waybill_id).then(result => {
+                    if (timelineEl && timelineContent) {
+                        const jtRoot = result?.data || {};
+                        const details = Array.isArray(jtRoot.details)
+                            ? jtRoot.details
+                            : Array.isArray(jtRoot?.data?.[0]?.details)
+                                ? jtRoot.data[0].details
+                                : [];
+
+                        console.log('J&T tracking result:', result, 'found details:', details.length, 'dataType:', Object.prototype.toString.call(result?.data));
+
+                        if (details.length > 0) {
+                            const sorted = [...details].sort((a, b) => new Date(b.scanTime) - new Date(a.scanTime));
+                            timelineEl.style.display = 'block';
+                            timelineContent.innerHTML = sorted.map((update, idx) => `
+                                <div style="margin-bottom: 10px; position: relative;">
+                                    <div style="position: absolute; left: -19px; top: 3px; width: 6px; height: 6px; border-radius: 50%; background: ${idx === 0 ? 'var(--primary)' : '#cbd5e1'};"></div>
+                                    <div style="font-weight: 700; color: ${idx === 0 ? 'var(--primary)' : '#334155'};">${update.scanTypeName || 'Cập nhật hành trình'}</div>
+                                    <div style="color: #64748b; font-size: 10px;">${update.scanTime ? new Date(update.scanTime).toLocaleString('vi-VN') : ''}</div>
+                                    <div style="font-style: italic; color: #94a3b8; margin-top: 2px;">${update.waybillTrackingContent || update.remark || ''}</div>
+                                    ${update.scanNetworkName ? `<div style="font-style: italic; color: #0f172a; margin-top: 2px;">${update.scanNetworkName}</div>` : ''}
+                                </div>
+                            `).join('');
+                            if (window.lucide) lucide.createIcons();
+                        } else {
+                            console.warn('J&T tracking details empty or missing:', result);
+                            timelineEl.style.display = 'none';
+                        }
+                    }
+                }).catch(err => {
+                    console.error('J&T tracking load failed:', err);
+                    if (timelineEl) timelineEl.style.display = 'none';
+                });
+            } else {
+                fetchLivePancakeTracking(displayId).then(liveOrder => {
+                    if (liveOrder) {
+                        if (trackingEl) {
+                            const trk = liveOrder.partner_tracking_code ||
+                                liveOrder.tracking_number ||
+                                liveOrder.tracking_code ||
+                                (liveOrder.partner && liveOrder.partner.extend_code) ||
+                                (liveOrder.billings && liveOrder.billings[0]?.partner_tracking_code) ||
+                                (liveOrder.billings && liveOrder.billings[0]?.tracking_number) ||
+                                (liveOrder.shipping_info && liveOrder.shipping_info.tracking_number);
+                            if (trk) {
+                                trackingEl.style.display = 'block';
+                                trackingEl.textContent = 'Mã vận đơn: ' + trk;
+                            } else {
+                                trackingEl.style.display = 'none';
+                            }
+                        }
+
+                        if (timelineEl && timelineContent && liveOrder.partner && liveOrder.partner.extend_update) {
+                            timelineEl.style.display = 'block';
+                            timelineContent.innerHTML = liveOrder.partner.extend_update.map((update, idx) => `
+                                <div style="margin-bottom: 10px; position: relative;">
+                                    <div style="position: absolute; left: -19px; top: 3px; width: 6px; height: 6px; border-radius: 50%; background: ${idx === 0 ? 'var(--primary)' : '#cbd5e1'};"></div>
+                                    <div style="font-weight: 700; color: ${idx === 0 ? 'var(--primary)' : '#334155'};">${update.status}</div>
+                                    <div style="color: #64748b; font-size: 10px;">${update.update_at ? new Date(update.update_at).toLocaleString('vi-VN') : ''}</div>
+                                    ${update.location ? `<div style="font-style: italic; color: #94a3b8; margin-top: 2px;">${update.location}</div>` : ''}
+                                </div>
+                            `).join('');
+                            if (window.lucide) lucide.createIcons();
+                        } else if (timelineEl) {
+                            timelineEl.style.display = 'none';
+                        }
+
+                        const liveShipping = liveOrder.shipping_address || {};
+                        window.compileFullAddress(liveOrder).then(liveAddress => {
+                            const liveName = liveShipping.full_name || liveOrder.bill_full_name || (liveOrder.customer ? liveOrder.customer.name : '');
+                            const livePhone = liveShipping.phone_number || liveOrder.bill_phone_number || (liveOrder.customer ? liveOrder.customer.phone_number : '');
+                            
+                            if (liveAddress) {
+                                setFieldValue('customerAddressContainer', liveAddress, {
+                                    editable: isEditMode && isUserLoggedIn(),
+                                    multiline: true,
+                                    placeholder: 'Nhập địa chỉ nhận hàng'
+                                });
+                            }
+                            if (liveName) {
+                                setFieldValue('customerNameContainer', liveName, {
+                                    editable: isEditMode && isUserLoggedIn(),
+                                    placeholder: 'Nhập tên người nhận'
+                                });
+                            }
+                            if (livePhone) {
+                                setFieldValue('customerPhoneContainer', livePhone, {
+                                    editable: isEditMode && isUserLoggedIn(),
+                                    placeholder: 'Nhập số điện thoại'
+                                });
+                            }
+                        });
+                    }
+                });
+            }
+
+            // Customer Info (Pancake Schema) - Prioritize RECIPIENT info over CUSTOMER info
+            const shippingInfo = order.shipping_address || {};
+            
+            // Priority: shipping_address.full_name -> bill_full_name -> customer.name
+            const receiverName = shippingInfo.full_name || order.bill_full_name || (order.customer ? order.customer.name : '') || 'Khách lẻ';
+            
+            // Priority: shipping_address.phone_number -> bill_phone_number -> customer.phone_number
+            const receiverPhone = shippingInfo.phone_number || order.bill_phone_number || (order.customer ? order.customer.phone_number : '') || '---';
+            
+            currentFetchedOrder = order;
+            const savedEdits = loadSavedBillEdits(order.id || order.order_id || order.display_id);
+            if (savedEdits) {
+                order = applySavedEdits(order, savedEdits);
+                currentFetchedOrder = order;
+            }
+
+            window.currentRenderedOrder = order;
+            if (!isUserLoggedIn()) isEditMode = false;
+            const editable = isEditMode && isUserLoggedIn();
+
+            const receiverAddress = order.address || '';
+            setFieldValue('customerAddressContainer', receiverAddress, {
+                editable,
+                multiline: true,
+                placeholder: 'Nhập địa chỉ nhận hàng'
+            });
+            const formattedDate = order.custom_date_display || new Date(order.inserted_at || order.created_at || new Date()).toLocaleString('vi-VN', {
+                timeZone: 'Asia/Ho_Chi_Minh',
+                day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit'
+            });
+
+            setFieldValue('customerNameContainer', receiverName, {
+                editable,
+                placeholder: 'Nhập tên người nhận'
+            });
+            setFieldValue('customerPhoneContainer', receiverPhone, {
+                editable,
+                placeholder: 'Nhập số điện thoại'
+            });
+            setFieldValue('orderDateContainer', formattedDate, {
+                editable,
+                placeholder: 'Nhập ngày đặt hàng'
+            });
+            showSaveButton(editable);
+
+            const uploadBtn = document.getElementById('uploadRealImageBtn');
+            const uploadHint = document.getElementById('uploadRealImageHint');
+            const hasUploadCredentials = Boolean(getAccessToken() || PANCAKE_API_KEY);
+            if (uploadBtn) {
+                uploadBtn.style.display = editable ? 'inline-flex' : 'none';
+                uploadBtn.disabled = !editable || !hasUploadCredentials;
+                if (editable && !hasUploadCredentials) {
+                    uploadBtn.title = 'Cần token Pancake hoặc API key để upload ảnh';
+                } else if (uploadBtn) {
+                    uploadBtn.title = 'Upload ảnh thực tế cho đơn hàng';
+                }
+            }
+            if (uploadHint) {
+                uploadHint.style.display = editable ? 'none' : 'inline-block';
+            }
+            setupRealImageUploadButton();
+
+            const badge = document.getElementById('statusBadge');
+            if (badge) {
+                badge.style.display = 'none';
+            }
+
+            if (order.status === 7 || order.status_name === 'Đã hủy') {
+                if (badge) {
+                    badge.style.display = 'inline-flex';
+                    badge.style.background = '#fee2e2';
+                    badge.style.color = '#ef4444';
+                    badge.innerHTML = '<i data-lucide="x-circle" style="width: 12px;"></i> Đã hủy';
+                }
+            }
+
+            // Real order images from Supabase
+            const realImageSection = document.getElementById('realImageSection');
+            const realImageGallery = document.getElementById('realImageGallery');
+            const noImagesMsg = document.getElementById('noImagesMsg');
+            const debugImageStatus = document.getElementById('debugImageStatus');
+            
+            if (realImageSection && realImageGallery && debugImageStatus) {
+                debugImageStatus.textContent = `(đang tải...)`;
+                debugImageStatus.style.color = '#666';
+                
+                try {
+                    const realImageUrls = await fetchRealImagesForOrder(order);
+                    console.log('✅ Real image URLs result:', realImageUrls);
+                    
+                    if (realImageUrls && realImageUrls.length > 0) {
+                        debugImageStatus.textContent = `(${realImageUrls.length} ảnh)`;
+                        debugImageStatus.style.color = '#10b981';
+                        realImageGallery.style.display = 'grid';
+                        realImageGallery.innerHTML = realImageUrls.map((url, idx) => `
+                            <div class="real-image-card" onclick="window.viewFullImage('${url.replace(/'/g, "\\'")}')" title="Bấm để xem ảnh lớn">
+                                <img src="${url}" alt="Hình ảnh thực tế #${idx + 1}" onerror="this.parentElement.innerHTML='<div class=real-image-placeholder>Lỗi tải ảnh</div>'">
+                            </div>
+                        `).join('');
+                        if (noImagesMsg) noImagesMsg.style.display = 'none';
+                    } else {
+                        debugImageStatus.textContent = `(0 ảnh)`;
+                        debugImageStatus.style.color = '#999';
+                        realImageGallery.style.display = 'none';
+                        realImageGallery.innerHTML = '';
+                        if (noImagesMsg) noImagesMsg.style.display = 'block';
+                    }
+                } catch (err) {
+                    console.error('❌ Lỗi tải ảnh thực tế:', err);
+                    debugImageStatus.textContent = `(lỗi tải)`;
+                    debugImageStatus.style.color = '#ef4444';
+                    realImageGallery.style.display = 'none';
+                    if (noImagesMsg) {
+                        noImagesMsg.style.display = 'block';
+                        noImagesMsg.innerHTML = '<div style="color: #ef4444;">⚠️ Lỗi tải ảnh thực tế. Vui lòng thử lại.</div>';
+                    }
+                }
+            }
+
+            // Products
+            const list = document.getElementById('productList');
+            list.innerHTML = '';
+            const items = order.items || [];
+            let subtotal = 0;
+
+            items.forEach((item, idx) => {
+                // Pancake item fields (Schema based)
+                const vInfo = item.variation_info || {};
+
+                const rawName = String(item.product_name || item.name || vInfo.name || 'Sản phẩm').trim();
+                const itemNote = String(item.item_note || vInfo.item_note || '').trim();
+                const fields = Array.isArray(vInfo.fields) ? vInfo.fields : [];
+
+                const findFieldValue = (patterns) => {
+                    for (const field of fields) {
+                        if (!field || typeof field !== 'object') continue;
+                        const fieldName = String(field.name || field.label || '').trim();
+                        const fieldValue = String(field.value || field.option || field.text || '').trim();
+                        if (fieldValue && patterns.some(re => re.test(fieldName))) return fieldValue;
+                    }
+                    return '';
+                };
+
+                let sizeValue = findFieldValue([/size/i, /kích\s*thước/i]);
+                let colorValue = findFieldValue([/màu/i, /color/i]);
+
+                if (!sizeValue) {
+                    const sizeMatch = itemNote.match(/(?:size|kích\s*thước)\s*[:\-]?\s*([^,|;]+)/i);
+                    if (sizeMatch) sizeValue = sizeMatch[1].trim();
+                }
+                if (!colorValue) {
+                    const colorMatch = itemNote.match(/(?:màu\s*sắc|màu|color)\s*[:\-]?\s*([^,|;]+)/i);
+                    if (colorMatch) colorValue = colorMatch[1].trim();
+                }
+                if (!sizeValue) {
+                    const trailingSize = rawName.match(/\s+-\s+((?:EU\s*)?\d{1,2}(?:\.\d+)?(?:\s*[-/]\s*\d{1,2}(?:\.\d+)?)?)\s*$/i);
+                    if (trailingSize) sizeValue = trailingSize[1].replace(/^EU\s*/i, '').trim();
+                }
+
+                let displayName = rawName;
+                if (sizeValue) {
+                    const escapedSize = sizeValue.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                    displayName = displayName.replace(new RegExp('\\s+-\\s+(?:EU\\s*)?' + escapedSize + '\\s*$', 'i'), '').trim();
+                }
+                const noteBaseName = itemNote.split(/,\s*(?:size|kích\s*thước|màu\s*sắc|màu|color)\b/i)[0]?.trim();
+                if (noteBaseName && rawName.toLowerCase().startsWith(noteBaseName.toLowerCase())) {
+                    displayName = noteBaseName;
+                }
+
+                const extraVariationParts = [];
+                fields.forEach(field => {
+                    if (!field || typeof field !== 'object') return;
+                    const fieldName = String(field.name || field.label || '').trim();
+                    const fieldValue = String(field.value || field.option || field.text || '').trim();
+                    if (!fieldValue || /size|kích\s*thước|màu|color/i.test(fieldName)) return;
+                    extraVariationParts.push(fieldName ? `${fieldName}: ${fieldValue}` : fieldValue);
+                });
+
+                const variantDetailsHtml = [
+                    sizeValue ? `<div><strong>Kích thước:</strong> size ${sizeValue}</div>` : '',
+                    colorValue ? `<div><strong>Màu sắc:</strong> ${colorValue}</div>` : '',
+                    ...extraVariationParts.map(v => `<div>${v}</div>`)
+                ].filter(Boolean).join('');
+
+                const price = parseFloat(vInfo.retail_price || item.retail_price || item.price || 0);
+                const qty = parseInt(item.quantity || 1) || 1;
+
+                // Try to determine if discount is per-unit or total
+                let discountEach = 0;
+                if (item.discount_each_product !== undefined) {
+                    discountEach = parseFloat(item.discount_each_product || 0);
+                } else if (item.discount !== undefined) {
+                    const d = parseFloat(item.discount || 0);
+                    // If discount is very large (e.g. > unit price), it's likely the total discount for the line
+                    if (d > price && qty > 1) {
+                        discountEach = d / qty;
+                    } else {
+                        discountEach = d;
+                    }
+                }
+
+                const itemTotal = (price - discountEach) * qty;
+                subtotal += itemTotal;
+
+                // Image
+                let img = '';
+                if (vInfo.images && Array.isArray(vInfo.images) && vInfo.images.length > 0) {
+                    img = vInfo.images[0];
+                }
+                if (!img && item.image) img = item.image;
+                if (!img) img = 'https://via.placeholder.com/80?text=No+Img';
+
+                const div = document.createElement('div');
+                div.className = 'product-item';
+                div.innerHTML = `
+                    <img src="${img}" class="product-image" onerror="this.src='https://via.placeholder.com/80?text=Error'">
+                    <div class="product-info">
+                        <div class="product-name">${displayName}</div>
+                        <div class="product-variant">${variantDetailsHtml}</div>
+                        ${discountEach > 0 ? `<div style="font-size: 11px; color: #ef4444; font-weight: 600;">Giảm giá: -${formatPrice(discountEach)}/món</div>` : ''}
+                    </div>
+                    <div class="product-price-qty">
+                        <div class="price-text">
+                            ${editable ? `
+                                <input class="product-edit-input" data-index="${idx}" data-field="price" type="number" min="0" value="${price.toFixed(0)}">
+                            ` : discountEach > 0 ? `
+                                <span style="font-size: 12px; text-decoration: line-through; color: var(--text-muted); font-weight: 500; margin-right: 4px;">${formatPrice(price)}</span>
+                                <span>${formatPrice(price - discountEach)}</span>
+                            ` : `<span>${formatPrice(price)}</span>`}
+                        </div>
+                        <div class="qty-text">
+                            ${editable ? `<input class="product-edit-input" data-index="${idx}" data-field="qty" type="number" min="1" value="${qty}">` : `x${qty}`}
+                        </div>
+                    </div>
+                `;
+                list.appendChild(div);
+            });
+
+            // Totals
+            // Totals
+            const ship = parseFloat(order.shipping_fee || 0);
+            const surchargeVal = parseFloat(order.surcharge || 0);
+            const prepaidVal = parseFloat(order.prepaid || 0);
+            const total = subtotal + ship + surchargeVal;
+            const remainingVal = Math.max(0, total - prepaidVal);
+
+            document.getElementById('subtotal').textContent = formatPrice(subtotal);
+            if (editable) {
+                setFieldValue('shippingFeeContainer', ship.toString(), {
+                    editable,
+                    type: 'number',
+                    placeholder: '0'
+                });
+            } else {
+                setFieldValue('shippingFeeContainer', formatPrice(ship), {
+                    editable: false
+                });
+            }
+
+            if (editable) {
+                document.getElementById('surchargeRow').style.display = 'flex';
+                setFieldValue('surchargeContainer', surchargeVal.toString(), {
+                    editable,
+                    type: 'number',
+                    placeholder: '0'
+                });
+            } else if (surchargeVal > 0) {
+                document.getElementById('surchargeRow').style.display = 'flex';
+                setFieldValue('surchargeContainer', formatPrice(surchargeVal), {
+                    editable: false
+                });
+            } else {
+                document.getElementById('surchargeRow').style.display = 'none';
+                setFieldValue('surchargeContainer', '0', {
+                    editable: false
+                });
+            }
+
+            document.getElementById('totalAmount').textContent = formatPrice(total);
+
+            if (editable) {
+                document.getElementById('prepaidRow').style.display = 'flex';
+                setFieldValue('prepaidContainer', prepaidVal.toString(), {
+                    editable,
+                    type: 'number',
+                    placeholder: '0'
+                });
+            } else if (prepaidVal > 0) {
+                document.getElementById('prepaidRow').style.display = 'flex';
+                setFieldValue('prepaidContainer', formatPrice(prepaidVal), {
+                    editable: false
+                });
+            } else {
+                document.getElementById('prepaidRow').style.display = 'none';
+                setFieldValue('prepaidContainer', '0', {
+                    editable: false
+                });
+            }
+
+            if (remainingVal > 0 || prepaidVal > 0 || editable) {
+                document.getElementById('remainingRow').style.display = 'flex';
+                document.getElementById('remaining').textContent = formatPrice(remainingVal);
+            }
+
+            // Show UI
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('billContent').style.display = 'block';
+            const billActions = document.getElementById('billActions');
+            if (billActions) {
+                const editBtn = document.getElementById('editBillBtn');
+                const saveBtn = document.getElementById('saveBillBtn');
+                billActions.style.display = (editBtn?.style.display !== 'none' || saveBtn?.style.display !== 'none') ? 'flex' : 'none';
+            }
+            if (window.lucide) lucide.createIcons();
+
+            setupSnapshot(displayId);
+        }
+
+        function showError(msg) {
+            document.getElementById('loading').innerHTML = `
+                <p style="color: red; font-weight: bold;">${msg}</p>
+                <div style="text-align: left; background: #f8fafc; padding: 20px; border-radius: 12px; margin-top: 20px; border: 1px solid var(--border); max-width: 400px;">
+                    <p style="font-size: 12px; color: #1e293b; word-break: break-all;"><b>Link:</b> ${window.location.href}</p>
+                </div>
+            `;
+        }
+
+        function setupSnapshot(orderId) {
+            // Snapshot functionality removed.
+            // Keep autoSnapshot safe for legacy autocopy handling.
+            window.autoSnapshot = null;
+        }
+
+        window.onload = init;
+    </script>
+</body>
+
+</html>

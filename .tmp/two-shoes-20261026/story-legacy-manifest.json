@@ -1,0 +1,49 @@
+{
+  "taskId": "adidas-astir-kh8240-jq6441-story-20261026-0800-legacy-mirror",
+  "receipt": {
+    "version": 1,
+    "skillRead": true,
+    "productName": "adidas Astir KH8240 kem hồng và JQ6441 trắng xám điểm hồng",
+    "priceText": "Đồng giá 1.295K/đôi",
+    "sizeText": "KH8240: 35.5, 36, 36.5, 37, 39, 40.5; JQ6441: 35.5, 36, 36.5, 37, 38, 38.5, 39, 40",
+    "candidateUrls": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/8e57aec457c34efc851f009916e96ea3_9366/KH8240_01_00_standard.jpg\nhttps://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/9fac7be3c8a34f2bb18be87ae568dc5a_9366/KH8240_02_standard_hover.jpg\nhttps://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/f4856a5180144e35b3956b0347c4cc44_9366/KH8240_04_standard.jpg\nhttps://img.ltwebstatic.com/v4/j/spmp/2026/10/15/25/1792059552f87fa9dcd440f215a2b820c46d27f480.jpg\nhttps://img.ltwebstatic.com/v4/j/spmp/2026/10/15/89/179205955410cb1065cc38a620dcd05aebe73d3aac.jpg\nhttps://img.ltwebstatic.com/v4/j/spmp/2026/10/15/11/1792059556852a543df6494a051a5cd69d22b25051.jpg\nhttps://img.ltwebstatic.com/v4/j/spmp/2026/10/15/21/17920595580a605a3a802cbb6828a6eb8dc72b7bf9.jpg",
+    "researchLimitedReason": "Đã mở full-size 7 ảnh sản phẩm (3 KH8240 chính thức adidas + 4 JQ6441 từ SHEIN), kèm 2 screenshot người dùng để đọc size. Rednote yêu cầu đăng nhập; Facebook không có kết quả đúng mã phù hợp; Joom bot.limit_reached. Google cuộn sâu chủ yếu ảnh studio hoặc sai mẫu. Theo chỉ dẫn người dùng mới nhất, tìm bối cảnh người mang thật và ghép đúng giày; đã kiểm tra 7 ảnh bối cảnh The Sole Supplier, chọn 4 cảnh đa dạng. Không khai đủ 20 ảnh sản phẩm.",
+    "captionReviewed": true,
+    "images": {
+      "https://content.pancake.vn/2-2610/2026/10/25/484974b704c7de9bce5838de9e5ea21d54ce16b4.png": {
+        "originalUrl": "https://content.pancake.vn/2-2610/2026/10/25/a8c9491662098e0caa045f1f7fb0e893ee899839.png",
+        "sourcePage": "https://thesolesupplier.co.uk/news/summer-lookbook-how-to-style-the-adidas-astir/",
+        "decision": "ai_edit",
+        "reason": "Thiết kế Story dọc từ hai ảnh ghép đã duyệt của bài 13013; kiểm tra đúng tên, giá, toàn bộ size, giày và bố cục. Chữ giá/size được chủ động thêm cho Story theo luồng StoryCreator.",
+        "originalReviewed": true,
+        "productVerified": true,
+        "sceneVerified": true,
+        "finalReviewed": true,
+        "aiTaskId": "1881",
+        "aiOutputUrl": "https://content.pancake.vn/2-2610/2026/10/25/484974b704c7de9bce5838de9e5ea21d54ce16b4.png",
+        "compared": true
+      }
+    }
+  },
+  "posts": [
+    {
+      "platforms": "story1",
+      "content": "Một chút hồng nhẹ hay trắng xám — hai lựa chọn adidas Astir cùng giá 1.295K/đôi 🤍\n\nKH8240 tông kem điểm hồng; JQ6441 tông trắng xám điểm hồng. Phom đế chunky làm điểm nhấn cho set jeans, áo thun hoặc chân váy đơn giản.\n\n• KH8240: size 35.5, 36, 36.5, 37, 39, 40.5.\n• JQ6441: size 35.5, 36, 36.5, 37, 38, 38.5, 39, 40.\n\nĐồng giá 1.295K/đôi. Nhắn shop mã mẫu + size để được tư vấn nhé 💌",
+      "imageUrls": [
+        "https://content.pancake.vn/2-2610/2026/10/25/484974b704c7de9bce5838de9e5ea21d54ce16b4.png"
+      ],
+      "status": "pending",
+      "scheduled_at": "2026-10-26T01:00:00.000Z"
+    },
+    {
+      "platforms": "story2",
+      "content": "Một chút hồng nhẹ hay trắng xám — hai lựa chọn adidas Astir cùng giá 1.295K/đôi 🤍\n\nKH8240 tông kem điểm hồng; JQ6441 tông trắng xám điểm hồng. Phom đế chunky làm điểm nhấn cho set jeans, áo thun hoặc chân váy đơn giản.\n\n• KH8240: size 35.5, 36, 36.5, 37, 39, 40.5.\n• JQ6441: size 35.5, 36, 36.5, 37, 38, 38.5, 39, 40.\n\nĐồng giá 1.295K/đôi. Nhắn shop mã mẫu + size để được tư vấn nhé 💌",
+      "imageUrls": [
+        "https://content.pancake.vn/2-2610/2026/10/25/484974b704c7de9bce5838de9e5ea21d54ce16b4.png"
+      ],
+      "status": "pending",
+      "scheduled_at": "2026-10-26T01:00:00.000Z"
+    }
+  ],
+  "sourcePostId": 13013
+}

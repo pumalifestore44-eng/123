@@ -1,0 +1,628 @@
+{
+  "key": "smax::fb1574281086218015::fb26055402170718628",
+  "savedAt": "2026-09-17T15:59:42.244Z",
+  "thread": {
+    "__v": 0,
+    "_created_at": "2026-09-13T10:46:44.295Z",
+    "_synced_at": "2026-09-15T11:02:11.021Z",
+    "controlled_by": "OTHER",
+    "created_at": "2026-09-13T10:46:44.296Z",
+    "customer_pid": "fb26055402170718628",
+    "customer_pids": [
+      "fb26055402170718628"
+    ],
+    "emails": [],
+    "es_id": "fb1574281086218015_fb26055402170718628",
+    "facebook": {
+      "customer_tags": [],
+      "id": "t_2577357905979943",
+      "link": "/1574281086218015/inbox/4325236677789095/?section=messages",
+      "post_ids": []
+    },
+    "id": "6aa67f14d3ffeae3d5af2b22",
+    "internal": {
+      "message": null,
+      "users": []
+    },
+    "last_message_at": "2026-09-15T11:02:07.795Z",
+    "last_message_by_customer_at": "2026-09-13T11:31:43.399Z",
+    "last_message_id": "6aa925b08e8b0fa27825b2bf",
+    "last_user_replied": {
+      "id": "6984fdd4965d6ffa9fa973dd",
+      "name": "Dang LE Cong Tuan",
+      "picture": "https://cdn.smax.in/s04/smaxai/avatars/122148177098299508.jpg?expire=1789344000000&signature=cfcb71281594e6836f2506eaa1401ff2aac4ce71cb794b6e768155a31a07d8cc"
+    },
+    "message": "Offers and announcements",
+    "page_pid": "fb1574281086218015",
+    "phones": [
+      "0971114514"
+    ],
+    "platform": "facebook",
+    "read": true,
+    "replied": true,
+    "replied_by": {},
+    "replied_first": "2026-09-13T11:01:58.153Z",
+    "reply_count": 0,
+    "root_message_pids": [],
+    "tag_aliases": [],
+    "tid": "fb26055402170718628",
+    "type": "facebook_message",
+    "updated_at": "2026-09-15T11:02:08.832Z",
+    "user": {
+      "job_id": null
+    },
+    "viewing": {},
+    "can_reply_message": false,
+    "customer": {
+      "id": "6aa67f13c153bb6b354a2d64",
+      "pid": "fb26055402170718628",
+      "subscribed": true,
+      "page_pid": "fb1574281086218015",
+      "thread_tid": "fb26055402170718628",
+      "biz_alias": "tuant2lqd",
+      "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/fb1574281086218015?tid=fb26055402170718628",
+      "platform": "facebook",
+      "name": "Uyen Trieu",
+      "profile_name": "Uyen Trieu",
+      "gender": "female",
+      "picture": "https://cdn-vn.smax.in/s04/smaxai/pages/fb1574281086218015/customers/fb26055402170718628.jpg?expire=1789689600000&signature=6464b397d2cc0435e9a037afdf22f9f5349d9d84b8ea4946188b45394affa934",
+      "locale": "en_GB",
+      "notes": [],
+      "phone": "0971114514",
+      "phones": [
+        {
+          "value": "0971114514",
+          "time": "2026-09-13T11:31:40.651Z"
+        }
+      ],
+      "emails": [],
+      "source": "inbox",
+      "attrs": [],
+      "facebook": {
+        "conversation_id": "t_2577357905979943",
+        "conversation_link": "/1574281086218015/inbox/4325236677789095/?section=messages",
+        "first_name": "Uyen",
+        "gender": "female",
+        "id": "26055402170718628",
+        "last_name": "Trieu",
+        "locale": "en_GB",
+        "name": "Uyen Trieu",
+        "page_id": "1574281086218015",
+        "page_name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+        "picture": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=Aa2GFm5MjmozFn0HmNACmCwCd4xWCuGYu8Bg2WnDgIvRhq8W8X147-Hpwi3EbJK604RoW_2YVJLw&psid=26055402170718628&width=300&ext=1791888404&hash=AfshuTyZx-1Lcdsxo6t8iLpF",
+        "topics": []
+      },
+      "broadcast_ids": [],
+      "in_sequences": [],
+      "out_sequences": [],
+      "tags": [],
+      "last_inbox_updated": "2026-09-13T11:31:43.399Z",
+      "last_message_at": "2026-09-15T11:02:07.795Z",
+      "last_content_by_user": "",
+      "last_content_by_page": "Offers and announcements",
+      "interaction": {
+        "first": "2026-09-13T10:46:42.352Z",
+        "last": "2026-09-13T11:31:43.399Z"
+      },
+      "users": [],
+      "follow_ups": [],
+      "scores": [],
+      "logs": [],
+      "last_app_id": "263902037430900",
+      "updated_at": "2026-09-15T11:02:08.829Z",
+      "created_at": "2026-09-13T10:46:43.680Z"
+    },
+    "customers": [
+      {
+        "id": "6aa67f13c153bb6b354a2d64",
+        "pid": "fb26055402170718628",
+        "subscribed": true,
+        "page_pid": "fb1574281086218015",
+        "thread_tid": "fb26055402170718628",
+        "biz_alias": "tuant2lqd",
+        "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/fb1574281086218015?tid=fb26055402170718628",
+        "platform": "facebook",
+        "name": "Uyen Trieu",
+        "profile_name": "Uyen Trieu",
+        "gender": "female",
+        "picture": "https://cdn-vn.smax.in/s04/smaxai/pages/fb1574281086218015/customers/fb26055402170718628.jpg?expire=1789689600000&signature=6464b397d2cc0435e9a037afdf22f9f5349d9d84b8ea4946188b45394affa934",
+        "locale": "en_GB",
+        "notes": [],
+        "phone": "0971114514",
+        "phones": [
+          {
+            "value": "0971114514",
+            "time": "2026-09-13T11:31:40.651Z"
+          }
+        ],
+        "emails": [],
+        "source": "inbox",
+        "attrs": [],
+        "facebook": {
+          "conversation_id": "t_2577357905979943",
+          "conversation_link": "/1574281086218015/inbox/4325236677789095/?section=messages",
+          "first_name": "Uyen",
+          "gender": "female",
+          "id": "26055402170718628",
+          "last_name": "Trieu",
+          "locale": "en_GB",
+          "name": "Uyen Trieu",
+          "page_id": "1574281086218015",
+          "page_name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+          "picture": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=Aa2GFm5MjmozFn0HmNACmCwCd4xWCuGYu8Bg2WnDgIvRhq8W8X147-Hpwi3EbJK604RoW_2YVJLw&psid=26055402170718628&width=300&ext=1791888404&hash=AfshuTyZx-1Lcdsxo6t8iLpF",
+          "topics": []
+        },
+        "broadcast_ids": [],
+        "in_sequences": [],
+        "out_sequences": [],
+        "tags": [],
+        "last_inbox_updated": "2026-09-13T11:31:43.399Z",
+        "last_message_at": "2026-09-15T11:02:07.795Z",
+        "last_content_by_user": "",
+        "last_content_by_page": "Offers and announcements",
+        "interaction": {
+          "first": "2026-09-13T10:46:42.352Z",
+          "last": "2026-09-13T11:31:43.399Z"
+        },
+        "users": [],
+        "follow_ups": [],
+        "scores": [],
+        "logs": [],
+        "last_app_id": "263902037430900",
+        "updated_at": "2026-09-15T11:02:08.829Z",
+        "created_at": "2026-09-13T10:46:43.680Z"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "id": "6aa67f142ebeb633f9370174",
+      "pid": "fbm_H5a0oaxHldW8eOniTxTOoY13yYgf1puJ88pJovXLB_7RT3bGbhSPsjn2z6wYynHkw-TdeIxZLlojRhNpsaLm_A",
+      "tid": "fb26055402170718628",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Bạn ơi mình 2 nha",
+      "facebook": {
+        "id": "m_H5a0oaxHldW8eOniTxTOoY13yYgf1puJ88pJovXLB_7RT3bGbhSPsjn2z6wYynHkw-TdeIxZLlojRhNpsaLm_A",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb26055402170718628",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-13T10:46:44.314Z",
+      "customer_created_at": "2026-09-13T10:46:43.680Z",
+      "created_at": "2026-09-13T10:46:42.352Z",
+      "updated_at": "2026-09-13T10:46:42.352Z"
+    },
+    {
+      "id": "6aa67f3926ba6579bc79dcde",
+      "pid": "fbm_JotCSbVDsyBB1Cb-lxInDI13yYgf1puJ88pJovXLB_5VTFrsM1eU9yCkIMiJmHKBGvDYcChRbes8F4XS1OB_sQ",
+      "tid": "fb26055402170718628",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "1 hộp 255k ạ",
+      "facebook": {
+        "id": "m_JotCSbVDsyBB1Cb-lxInDI13yYgf1puJ88pJovXLB_5VTFrsM1eU9yCkIMiJmHKBGvDYcChRbes8F4XS1OB_sQ",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-13T10:47:21.213Z",
+      "customer_created_at": "2026-09-13T10:46:43.680Z",
+      "created_at": "2026-09-13T10:47:20.218Z",
+      "updated_at": "2026-09-13T10:47:20.218Z",
+      "seen": false
+    },
+    {
+      "id": "6aa67f4534f1b75c60631c82",
+      "pid": "fbm_Dq7oi29jbCFe2sUkmx-6yo13yYgf1puJ88pJovXLB_49ARxPaJoxNJHHB6yiHMjSG_rAuojHUNAjFi-MaXAg5g",
+      "tid": "fb26055402170718628",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Cọc giúp shop 200k ạ",
+      "facebook": {
+        "id": "m_Dq7oi29jbCFe2sUkmx-6yo13yYgf1puJ88pJovXLB_49ARxPaJoxNJHHB6yiHMjSG_rAuojHUNAjFi-MaXAg5g",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-13T10:47:33.201Z",
+      "customer_created_at": "2026-09-13T10:46:43.680Z",
+      "created_at": "2026-09-13T10:47:32.229Z",
+      "updated_at": "2026-09-13T10:47:32.229Z",
+      "seen": false
+    },
+    {
+      "id": "6aa67f48be8ad031057ca891",
+      "pid": "fbm_2osJSC6A0rqRb8qp241aN413yYgf1puJ88pJovXLB_6vqOhGLeGAKoGqEqHDSwqEeVKVTCS5xX88mi18XqLyZw",
+      "tid": "fb26055402170718628",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Nội dung chuyển khoản chỉ cần ghi tên người và gửi ảnh chụp màn hình chuyển khoản là được.",
+      "facebook": {
+        "id": "m_2osJSC6A0rqRb8qp241aN413yYgf1puJ88pJovXLB_6vqOhGLeGAKoGqEqHDSwqEeVKVTCS5xX88mi18XqLyZw",
+        "attachments": [
+          {
+            "name": "image",
+            "mime_type": "image/png",
+            "url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t1.15752-9/799767373_1065251926390368_2384366720362451793_n.png?_nc_cat=110&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=g0_8rqVNGu0Q7kNvwGm3u6A&_nc_oc=AdokU93hpMpHXnSanwiF1nVvaNxAz71KHKMbgdnrZ3M-UAoYZtCHTml3PHBHwYdjKZohA7XTrU4pNBRyuKbmJDo-&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw6-2.xx&oh=03_Q7cD6QGzT0FPdw2sCYQQeaXc0gnR5yaQWJNEbUeW2pt0wkRDew&oe=6ACDFE30",
+            "url_preview": "https://scontent-dfw6-2.xx.fbcdn.net/v/t1.15752-9/799767373_1065251926390368_2384366720362451793_n.png?_nc_cat=110&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=g0_8rqVNGu0Q7kNvwGm3u6A&_nc_oc=AdokU93hpMpHXnSanwiF1nVvaNxAz71KHKMbgdnrZ3M-UAoYZtCHTml3PHBHwYdjKZohA7XTrU4pNBRyuKbmJDo-&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw6-2.xx&oh=03_Q7cD6QGzT0FPdw2sCYQQeaXc0gnR5yaQWJNEbUeW2pt0wkRDew&oe=6ACDFE30"
+          }
+        ],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-13T10:47:36.110Z",
+      "customer_created_at": "2026-09-13T10:46:43.680Z",
+      "created_at": "2026-09-13T10:47:35.036Z",
+      "updated_at": "2026-09-13T10:47:35.036Z",
+      "seen": false
+    },
+    {
+      "id": "6aa67f51664b42906f84359a",
+      "pid": "fbm_bv2DRRY2E3kHIt9HHCpGWo13yYgf1puJ88pJovXLB_6CanljA2O2mJ9qt3PMLm26qq0eIdxe8p3iju4aZZ-6aQ",
+      "tid": "fb26055402170718628",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_bv2DRRY2E3kHIt9HHCpGWo13yYgf1puJ88pJovXLB_6CanljA2O2mJ9qt3PMLm26qq0eIdxe8p3iju4aZZ-6aQ",
+        "attachments": [],
+        "cards": [
+          {
+            "type": "generic",
+            "text": "Transfer requested",
+            "buttons": []
+          }
+        ],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-13T10:47:45.912Z",
+      "customer_created_at": "2026-09-13T10:46:43.680Z",
+      "created_at": "2026-09-13T10:47:44.944Z",
+      "updated_at": "2026-09-13T10:47:44.944Z",
+      "seen": false
+    },
+    {
+      "id": "6aa67f57766c61833c54be61",
+      "pid": "fbm_PRDk3JdB7hbW3L9kDkqNkI13yYgf1puJ88pJovXLB_72EtcmJYOjbu_RSIBr43zmhSr-uBw1AFgnzT9AeJ2Fqg",
+      "tid": "fb26055402170718628",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_PRDk3JdB7hbW3L9kDkqNkI13yYgf1puJ88pJovXLB_72EtcmJYOjbu_RSIBr43zmhSr-uBw1AFgnzT9AeJ2Fqg",
+        "attachments": [],
+        "cards": [
+          {
+            "type": "generic",
+            "text": "Transfer requested",
+            "buttons": []
+          }
+        ],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-13T10:47:51.904Z",
+      "customer_created_at": "2026-09-13T10:46:43.680Z",
+      "created_at": "2026-09-13T10:47:50.970Z",
+      "updated_at": "2026-09-13T10:47:50.970Z",
+      "seen": false
+    },
+    {
+      "id": "6aa67f9346392679aa82fc11",
+      "pid": "fbm_8G3gwOq1OEE8lA364a7qRo13yYgf1puJ88pJovXLB_7VU4kENgUjy0Tzkhf0F98ADmdUrbJ-3PdnaLblFXkbow",
+      "tid": "fb26055402170718628",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_8G3gwOq1OEE8lA364a7qRo13yYgf1puJ88pJovXLB_7VU4kENgUjy0Tzkhf0F98ADmdUrbJ-3PdnaLblFXkbow",
+        "attachments": [
+          {
+            "name": "image",
+            "mime_type": "image/jpg",
+            "url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t1.15752-9/801368867_1392292145808785_903465659173451490_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=OzxqqQ7HBQ4Q7kNvwEXB4cj&_nc_oc=AdoE5X5Yj6fti9Jl7ghzrWKvgxtjmvqnFA9vkiQT05P6OIPhBFHvBfQhos4VOTY6K0qynNNoHaCyvrhAhQxJflHf&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&oh=03_Q7cD6QEhD0b5FdzV40piYKSdRm3ifLF3gGAcz28aYK0zH4yLHA&oe=6ACDEFBF",
+            "url_preview": "https://scontent-dfw6-1.xx.fbcdn.net/v/t1.15752-9/801368867_1392292145808785_903465659173451490_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=OzxqqQ7HBQ4Q7kNvwEXB4cj&_nc_oc=AdoE5X5Yj6fti9Jl7ghzrWKvgxtjmvqnFA9vkiQT05P6OIPhBFHvBfQhos4VOTY6K0qynNNoHaCyvrhAhQxJflHf&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&oh=03_Q7cD6QEhD0b5FdzV40piYKSdRm3ifLF3gGAcz28aYK0zH4yLHA&oe=6ACDEFBF"
+          }
+        ],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb26055402170718628",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-13T10:48:51.593Z",
+      "customer_created_at": "2026-09-13T10:46:43.680Z",
+      "created_at": "2026-09-13T10:48:50.304Z",
+      "updated_at": "2026-09-13T10:48:50.304Z"
+    },
+    {
+      "id": "6aa67fec0c1690a30cb08250",
+      "pid": "fbm_AfJ1BKbpoInOS2hjXVhlIo13yYgf1puJ88pJovXLB_4BLieCXML0ErF_p_FHyqq3PxyUQ_38ZFaJOCBmnQ663g",
+      "tid": "fb26055402170718628",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Shop lên đơn 2 hộp mặt nạ đất set 255k/ 1 hộp",
+      "facebook": {
+        "id": "m_AfJ1BKbpoInOS2hjXVhlIo13yYgf1puJ88pJovXLB_4BLieCXML0ErF_p_FHyqq3PxyUQ_38ZFaJOCBmnQ663g",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-13T10:50:20.577Z",
+      "customer_created_at": "2026-09-13T10:46:43.680Z",
+      "created_at": "2026-09-13T10:50:19.511Z",
+      "updated_at": "2026-09-13T10:50:19.511Z",
+      "seen": false
+    },
+    {
+      "id": "6aa682a7ac18462cfa3b41ff",
+      "pid": "fbm_yce9AwjPShwXzzRn0HH84Y13yYgf1puJ88pJovXLB_5brz2j2V5EtuGDO5noGXOK7BDrIMmNSuo158O98ERzTg",
+      "tid": "fb26055402170718628",
+      "platform": "facebook",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "fb1574281086218015",
+      "message": "anh/chị cho shop xin địa chỉ nhận hàng, sđt để shop note vào đơn ạ.",
+      "facebook": {
+        "id": "m_yce9AwjPShwXzzRn0HH84Y13yYgf1puJ88pJovXLB_5brz2j2V5EtuGDO5noGXOK7BDrIMmNSuo158O98ERzTg",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "361260004211097",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-13T11:01:59.488Z",
+      "created_at": "2026-09-13T11:01:58.152Z",
+      "updated_at": "2026-09-13T11:01:58.152Z",
+      "seen": false
+    },
+    {
+      "id": "6aa68401f18d96dcc9367eb0",
+      "pid": "fbm_IE2JWFxuN-x8FYNveb1IEo13yYgf1puJ88pJovXLB_4n8FVKXoOatIrizAhBQUx_0LAaFJAAUOeMnO4mjsF3iw",
+      "tid": "fb26055402170718628",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_IE2JWFxuN-x8FYNveb1IEo13yYgf1puJ88pJovXLB_4n8FVKXoOatIrizAhBQUx_0LAaFJAAUOeMnO4mjsF3iw",
+        "attachments": [
+          {
+            "name": "image",
+            "mime_type": "image/png",
+            "url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t1.15752-9/802332724_2119089222045006_1840189382596582062_n.png?_nc_cat=101&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=kJO0YCO-uKAQ7kNvwGr15m8&_nc_oc=Adpnxt9LZHceYqInMTysEgFx2dIlaF6STbCFeIbskFBTBBqFmlMyj9HgsYM8kvzYgWskES9-rG3e_xOVqQ6d7ZN8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&oh=03_Q7cD6QEsJOCRed7bak-C_KF_3YSrCR4QyIhkTXt3CKjhlKybfw&oe=6ACDFA22",
+            "url_preview": "https://scontent-dfw6-1.xx.fbcdn.net/v/t1.15752-9/802332724_2119089222045006_1840189382596582062_n.png?_nc_cat=101&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=kJO0YCO-uKAQ7kNvwGr15m8&_nc_oc=Adpnxt9LZHceYqInMTysEgFx2dIlaF6STbCFeIbskFBTBBqFmlMyj9HgsYM8kvzYgWskES9-rG3e_xOVqQ6d7ZN8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&oh=03_Q7cD6QEsJOCRed7bak-C_KF_3YSrCR4QyIhkTXt3CKjhlKybfw&oe=6ACDFA22"
+          }
+        ],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-13T11:07:45.911Z",
+      "customer_created_at": "2026-09-13T10:46:43.680Z",
+      "created_at": "2026-09-13T11:07:44.720Z",
+      "updated_at": "2026-09-13T11:07:44.720Z",
+      "seen": false
+    },
+    {
+      "id": "6aa684054188e141f3df54b3",
+      "pid": "fbm_hZOTCYEIFc2ik2NLqkuod413yYgf1puJ88pJovXLB_4Kb4tCIQ3RBVlDc20SjrAqYx8ix0tWFL7yygd-6vYiSA",
+      "tid": "fb26055402170718628",
+      "platform": "facebook",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "fb1574281086218015",
+      "message": "Đơn hàng pumalife16170 đã được tạo thành công. \nSản phẩm: mặt nạ đất sét - 50ml x2\nHàng về có 2 hình thức thanh toán CK và COD. Nếu thanh toán COD thì + thêm 1.5% cho truy thu thuế.\nThông tin đơn hàng tại đây: https://pumalifeorder.vercel.app/bill.html?id=16170",
+      "facebook": {
+        "id": "m_hZOTCYEIFc2ik2NLqkuod413yYgf1puJ88pJovXLB_4Kb4tCIQ3RBVlDc20SjrAqYx8ix0tWFL7yygd-6vYiSA",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "361260004211097",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-13T11:07:49.423Z",
+      "created_at": "2026-09-13T11:07:48.758Z",
+      "updated_at": "2026-09-13T11:07:48.758Z",
+      "seen": false
+    },
+    {
+      "id": "6aa6899c3084d0baa0db582f",
+      "pid": "fbm_9oHsB05kUzuPGumxVmlzeY13yYgf1puJ88pJovXLB_4uqvwDddkuEtKNBp4QcQSoC2pXv4FutNKneRR6F9X3ng",
+      "tid": "fb26055402170718628",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Hoàng Uyên, ĐT 0971.114.514, ĐC: 641 Trần Phú, Phường Phước Hậu, Vĩnh Long",
+      "facebook": {
+        "id": "m_9oHsB05kUzuPGumxVmlzeY13yYgf1puJ88pJovXLB_4uqvwDddkuEtKNBp4QcQSoC2pXv4FutNKneRR6F9X3ng",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb26055402170718628",
+      "type": "facebook_message",
+      "phones": [
+        {
+          "value": "0971.114.514",
+          "offset": 15,
+          "length": 12
+        }
+      ],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-13T11:31:40.661Z",
+      "customer_created_at": "2026-09-13T10:46:43.680Z",
+      "created_at": "2026-09-13T11:31:39.404Z",
+      "updated_at": "2026-09-13T11:31:39.404Z"
+    },
+    {
+      "id": "6aa689a08135c1f0159960c1",
+      "pid": "fbm_3RTeNloNbAMjVD5UsiyGXI13yYgf1puJ88pJovXLB_784585HSoumStxPiZEHGXLScNRxflxNXEmCOpP1Y3LWg",
+      "tid": "fb26055402170718628",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_3RTeNloNbAMjVD5UsiyGXI13yYgf1puJ88pJovXLB_784585HSoumStxPiZEHGXLScNRxflxNXEmCOpP1Y3LWg",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb26055402170718628",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-13T11:31:44.607Z",
+      "customer_created_at": "2026-09-13T10:46:43.680Z",
+      "created_at": "2026-09-13T11:31:43.399Z",
+      "updated_at": "2026-09-13T11:31:43.399Z"
+    },
+    {
+      "id": "6aa925b08e8b0fa27825b2bf",
+      "pid": "fbm_A7G8EZDTusjfWanfNdgcwI13yYgf1puJ88pJovXLB_5hKyGYL6ii6cHEF9pomgdcaIjiv9bzrOmLp1U0sYnJYw",
+      "tid": "fb26055402170718628",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Offers and announcements",
+      "facebook": {
+        "id": "m_A7G8EZDTusjfWanfNdgcwI13yYgf1puJ88pJovXLB_5hKyGYL6ii6cHEF9pomgdcaIjiv9bzrOmLp1U0sYnJYw",
+        "attachments": [],
+        "cards": [
+          {
+            "type": "generic",
+            "text": "Offers and announcements",
+            "desc": "Don't want to miss out on the latest sales? You can stop these messages at any time.",
+            "buttons": [
+              "Offers and announcements"
+            ]
+          }
+        ],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-15T11:02:08.824Z",
+      "customer_created_at": "2026-09-13T10:46:43.680Z",
+      "created_at": "2026-09-15T11:02:07.795Z",
+      "updated_at": "2026-09-15T11:02:07.795Z",
+      "seen": false
+    }
+  ]
+}

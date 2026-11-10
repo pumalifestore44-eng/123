@@ -1,0 +1,16 @@
+{
+  "name": "scheduled-zalo-sender",
+  "version": "1.0.0",
+  "description": "Polls Supabase posts table and sends pending zalo content to configured Zalo threads",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test index.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

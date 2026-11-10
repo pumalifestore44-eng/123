@@ -1,0 +1,184 @@
+{
+  "taskId": "adidas-astir-kh8240-jq6441-1295k-20261026-1100",
+  "receipt": {
+    "version": 1,
+    "skillRead": true,
+    "productName": "adidas Astir KH8240 kem hồng và JQ6441 trắng xám điểm hồng",
+    "priceText": "Đồng giá 1.295K/đôi",
+    "sizeText": "KH8240: 35.5, 36, 36.5, 37, 39, 40.5; JQ6441: 35.5, 36, 36.5, 37, 38, 38.5, 39, 40",
+    "candidateUrls": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/8e57aec457c34efc851f009916e96ea3_9366/KH8240_01_00_standard.jpg\nhttps://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/9fac7be3c8a34f2bb18be87ae568dc5a_9366/KH8240_02_standard_hover.jpg\nhttps://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/f4856a5180144e35b3956b0347c4cc44_9366/KH8240_04_standard.jpg\nhttps://img.ltwebstatic.com/v4/j/spmp/2026/10/15/25/1792059552f87fa9dcd440f215a2b820c46d27f480.jpg\nhttps://img.ltwebstatic.com/v4/j/spmp/2026/10/15/89/179205955410cb1065cc38a620dcd05aebe73d3aac.jpg\nhttps://img.ltwebstatic.com/v4/j/spmp/2026/10/15/11/1792059556852a543df6494a051a5cd69d22b25051.jpg\nhttps://img.ltwebstatic.com/v4/j/spmp/2026/10/15/21/17920595580a605a3a802cbb6828a6eb8dc72b7bf9.jpg",
+    "researchLimitedReason": "Đã mở full-size 7 ảnh sản phẩm (3 KH8240 chính thức adidas + 4 JQ6441 từ SHEIN), kèm 2 screenshot người dùng để đọc size. Rednote yêu cầu đăng nhập; Facebook không có kết quả đúng mã phù hợp; Joom bot.limit_reached. Google cuộn sâu chủ yếu ảnh studio hoặc sai mẫu. Theo chỉ dẫn người dùng mới nhất, tìm bối cảnh người mang thật và ghép đúng giày; đã kiểm tra 7 ảnh bối cảnh The Sole Supplier, chọn 4 cảnh đa dạng. Không khai đủ 20 ảnh sản phẩm.",
+    "captionReviewed": true,
+    "images": {
+      "https://content.pancake.vn/2-2610/2026/10/25/a8c9491662098e0caa045f1f7fb0e893ee899839.png": {
+        "originalUrl": "https://cms-cdn.thesolesupplier.co.uk/2022/05/dsc-2556.jpg",
+        "sourcePage": "https://thesolesupplier.co.uk/news/summer-lookbook-how-to-style-the-adidas-astir/",
+        "decision": "composite",
+        "reason": "Ghép KH8240 đúng màu, mắt xỏ dây, logo, phom và đế vào ảnh người mang thật; đối chiếu nguồn sản phẩm nhiều góc. Giữ tư thế, trang phục và bối cảnh. Ảnh rõ, thấy trọn đôi, không chữ chèn hoặc watermark.",
+        "originalReviewed": true,
+        "productVerified": true,
+        "sceneVerified": true,
+        "finalReviewed": true,
+        "aiTaskId": "1877",
+        "aiOutputUrl": "https://content.pancake.vn/2-2610/2026/10/25/a8c9491662098e0caa045f1f7fb0e893ee899839.png",
+        "compared": true,
+        "sceneSourceUrl": "https://cms-cdn.thesolesupplier.co.uk/2022/05/dsc-2556.jpg",
+        "externalImageGenExecutionId": "exec-88e46517-f6c9-4dd9-b0c7-a37040a684ed",
+        "uploadBytesVerified": true,
+        "productSourcePage": "https://www.adidas.com.hk/en/adidas-astir-w-shoes/KH8240.html"
+      },
+      "https://content.pancake.vn/2-2610/2026/10/25/887edf3f3ebc6728f84cb0dddbbe923812f2cee0.png": {
+        "originalUrl": "https://cms-cdn.thesolesupplier.co.uk/2022/05/dsc-2597.jpg",
+        "sourcePage": "https://thesolesupplier.co.uk/news/summer-lookbook-how-to-style-the-adidas-astir/",
+        "decision": "composite",
+        "reason": "Ghép JQ6441 đúng màu, mắt xỏ dây, logo, phom và đế vào ảnh người mang thật; đối chiếu nguồn sản phẩm nhiều góc. Giữ tư thế, trang phục và bối cảnh. Ảnh rõ, thấy trọn đôi, không chữ chèn hoặc watermark.",
+        "originalReviewed": true,
+        "productVerified": true,
+        "sceneVerified": true,
+        "finalReviewed": true,
+        "aiTaskId": "1878",
+        "aiOutputUrl": "https://content.pancake.vn/2-2610/2026/10/25/887edf3f3ebc6728f84cb0dddbbe923812f2cee0.png",
+        "compared": true,
+        "sceneSourceUrl": "https://cms-cdn.thesolesupplier.co.uk/2022/05/dsc-2597.jpg",
+        "externalImageGenExecutionId": "exec-af9fb2d4-7a06-4515-870a-9661e1223f07",
+        "uploadBytesVerified": true,
+        "productSourcePage": "https://us.shein.com/Originals-Astir-Versatile-Comfortable-Durable-Low-Top-Dad-Shoes-White-Sneakers-Women-JQ6441-p-575385890.html"
+      },
+      "https://content.pancake.vn/2-2610/2026/10/25/4b9f83f1f9fa7b6dd0b8c3a369e946a075895133.png": {
+        "originalUrl": "https://cms-cdn.thesolesupplier.co.uk/2022/05/dsc-2706.jpg",
+        "sourcePage": "https://thesolesupplier.co.uk/news/summer-lookbook-how-to-style-the-adidas-astir/",
+        "decision": "composite",
+        "reason": "Ghép KH8240 đúng màu, mắt xỏ dây, logo, phom và đế vào ảnh người mang thật; đối chiếu nguồn sản phẩm nhiều góc. Giữ tư thế, trang phục và bối cảnh. Ảnh rõ, thấy trọn đôi, không chữ chèn hoặc watermark.",
+        "originalReviewed": true,
+        "productVerified": true,
+        "sceneVerified": true,
+        "finalReviewed": true,
+        "aiTaskId": "1879",
+        "aiOutputUrl": "https://content.pancake.vn/2-2610/2026/10/25/4b9f83f1f9fa7b6dd0b8c3a369e946a075895133.png",
+        "compared": true,
+        "sceneSourceUrl": "https://cms-cdn.thesolesupplier.co.uk/2022/05/dsc-2706.jpg",
+        "externalImageGenExecutionId": "exec-2e9116a2-3a76-4a70-a537-0dcc0ca85f43",
+        "uploadBytesVerified": true,
+        "productSourcePage": "https://www.adidas.com.hk/en/adidas-astir-w-shoes/KH8240.html"
+      },
+      "https://content.pancake.vn/2-2610/2026/10/25/1019c70fb24ac31b2968e8c727ced9b3b773409e.png": {
+        "originalUrl": "https://cms-cdn.thesolesupplier.co.uk/2022/05/adidas-astir-styling-1.png",
+        "sourcePage": "https://thesolesupplier.co.uk/news/summer-lookbook-how-to-style-the-adidas-astir/",
+        "decision": "composite",
+        "reason": "Ghép JQ6441 đúng màu, mắt xỏ dây, logo, phom và đế vào ảnh người mang thật; đối chiếu nguồn sản phẩm nhiều góc. Giữ tư thế, trang phục và bối cảnh. Ảnh rõ, thấy trọn đôi, không chữ chèn hoặc watermark.",
+        "originalReviewed": true,
+        "productVerified": true,
+        "sceneVerified": true,
+        "finalReviewed": true,
+        "aiTaskId": "1880",
+        "aiOutputUrl": "https://content.pancake.vn/2-2610/2026/10/25/1019c70fb24ac31b2968e8c727ced9b3b773409e.png",
+        "compared": true,
+        "sceneSourceUrl": "https://cms-cdn.thesolesupplier.co.uk/2022/05/adidas-astir-styling-1.png",
+        "externalImageGenExecutionId": "exec-a96f684e-820f-428c-9be4-26d52fd2ae92",
+        "uploadBytesVerified": true,
+        "productSourcePage": "https://us.shein.com/Originals-Astir-Versatile-Comfortable-Durable-Low-Top-Dad-Shoes-White-Sneakers-Women-JQ6441-p-575385890.html"
+      }
+    }
+  },
+  "posts": [
+    {
+      "platforms": "facebook2",
+      "content": "Một chút hồng nhẹ hay trắng xám — hai lựa chọn adidas Astir cùng giá 1.295K/đôi 🤍\n\nKH8240 tông kem điểm hồng; JQ6441 tông trắng xám điểm hồng. Phom đế chunky làm điểm nhấn cho set jeans, áo thun hoặc chân váy đơn giản.\n\n• KH8240: size 35.5, 36, 36.5, 37, 39, 40.5.\n• JQ6441: size 35.5, 36, 36.5, 37, 38, 38.5, 39, 40.\n\nĐồng giá 1.295K/đôi. Nhắn shop mã mẫu + size để được tư vấn nhé 💌",
+      "imageUrls": [
+        "https://content.pancake.vn/2-2610/2026/10/25/a8c9491662098e0caa045f1f7fb0e893ee899839.png",
+        "https://content.pancake.vn/2-2610/2026/10/25/887edf3f3ebc6728f84cb0dddbbe923812f2cee0.png",
+        "https://content.pancake.vn/2-2610/2026/10/25/4b9f83f1f9fa7b6dd0b8c3a369e946a075895133.png",
+        "https://content.pancake.vn/2-2610/2026/10/25/1019c70fb24ac31b2968e8c727ced9b3b773409e.png"
+      ],
+      "status": "processing",
+      "scheduled_at": "2026-10-26T04:00:00.000Z"
+    },
+    {
+      "platforms": "group_messenger",
+      "content": "Hai mẫu adidas Astir KH8240 và JQ6441 đồng giá 1.295K/đôi.\nKH8240 kem hồng: size 35.5, 36, 36.5, 37, 39, 40.5.\nJQ6441 trắng xám điểm hồng: size 35.5, 36, 36.5, 37, 38, 38.5, 39, 40.\nNhắn shop mã mẫu + size để được tư vấn nhé!",
+      "imageUrls": [
+        "https://content.pancake.vn/2-2610/2026/10/25/a8c9491662098e0caa045f1f7fb0e893ee899839.png",
+        "https://content.pancake.vn/2-2610/2026/10/25/887edf3f3ebc6728f84cb0dddbbe923812f2cee0.png",
+        "https://content.pancake.vn/2-2610/2026/10/25/4b9f83f1f9fa7b6dd0b8c3a369e946a075895133.png"
+      ],
+      "status": "pending",
+      "scheduled_at": "2026-10-26T04:00:00.000Z"
+    },
+    {
+      "platforms": "group_fb",
+      "content": "Một chút hồng nhẹ hay trắng xám — hai lựa chọn adidas Astir cùng giá 1.295K/đôi 🤍\n\nKH8240 tông kem điểm hồng; JQ6441 tông trắng xám điểm hồng. Phom đế chunky làm điểm nhấn cho set jeans, áo thun hoặc chân váy đơn giản.\n\n• KH8240: size 35.5, 36, 36.5, 37, 39, 40.5.\n• JQ6441: size 35.5, 36, 36.5, 37, 38, 38.5, 39, 40.\n\nĐồng giá 1.295K/đôi. Nhắn shop mã mẫu + size để được tư vấn nhé 💌",
+      "imageUrls": [
+        "https://content.pancake.vn/2-2610/2026/10/25/a8c9491662098e0caa045f1f7fb0e893ee899839.png",
+        "https://content.pancake.vn/2-2610/2026/10/25/887edf3f3ebc6728f84cb0dddbbe923812f2cee0.png",
+        "https://content.pancake.vn/2-2610/2026/10/25/4b9f83f1f9fa7b6dd0b8c3a369e946a075895133.png",
+        "https://content.pancake.vn/2-2610/2026/10/25/1019c70fb24ac31b2968e8c727ced9b3b773409e.png"
+      ],
+      "status": "pending",
+      "scheduled_at": "2026-10-26T04:00:00.000Z"
+    },
+    {
+      "platforms": "zalo",
+      "content": "Hai mẫu adidas Astir KH8240 và JQ6441 đồng giá 1.295K/đôi.\nKH8240 kem hồng: size 35.5, 36, 36.5, 37, 39, 40.5.\nJQ6441 trắng xám điểm hồng: size 35.5, 36, 36.5, 37, 38, 38.5, 39, 40.\nNhắn shop mã mẫu + size để được tư vấn nhé!",
+      "imageUrls": [
+        "https://content.pancake.vn/2-2610/2026/10/25/a8c9491662098e0caa045f1f7fb0e893ee899839.png",
+        "https://content.pancake.vn/2-2610/2026/10/25/887edf3f3ebc6728f84cb0dddbbe923812f2cee0.png",
+        "https://content.pancake.vn/2-2610/2026/10/25/4b9f83f1f9fa7b6dd0b8c3a369e946a075895133.png"
+      ],
+      "status": "pending",
+      "scheduled_at": "2026-10-26T04:00:00.000Z"
+    }
+  ],
+  "research": {
+    "date": "2026-10-26",
+    "productNameSource": "https://www.adidas.com.hk/en/adidas-astir-w-shoes/KH8240.html",
+    "currentTrendEvidence": "No sufficiently relevant recent trend evidence found. Caption based on visible product details and a styling suggestion, without trend claims.",
+    "limitations": "Reference screenshots reviewed full size. Rednote login wall; adidas HTTP 403; Joom bot.limit_reached; Facebook no relevant exact-model photos. Google results largely studio photos or other models; no full-size lifestyle candidates approved.",
+    "lookbook": {
+      "url": "https://thesolesupplier.co.uk/news/summer-lookbook-how-to-style-the-adidas-astir/",
+      "updated": "2022-07-12",
+      "use": "Source real photos only; not evidence of a current trend."
+    }
+  },
+  "userPreferences": {
+    "doNotMentionStockGrade": true,
+    "compositeOnSourcedRealPhotos": true
+  },
+  "localEdits": [
+    {
+      "code": "KH8240",
+      "file": "kh8240-1-composite-v1.png",
+      "scene": "https://cms-cdn.thesolesupplier.co.uk/2022/05/dsc-2556.jpg",
+      "toolId": "exec-88e46517-f6c9-4dd9-b0c7-a37040a684ed",
+      "finalUrl": "https://content.pancake.vn/2-2610/2026/10/25/a8c9491662098e0caa045f1f7fb0e893ee899839.png",
+      "aiTaskId": "1877",
+      "uploadBytesVerified": true
+    },
+    {
+      "code": "JQ6441",
+      "file": "jq6441-1-composite-v1.png",
+      "scene": "https://cms-cdn.thesolesupplier.co.uk/2022/05/dsc-2597.jpg",
+      "toolId": "exec-af9fb2d4-7a06-4515-870a-9661e1223f07",
+      "finalUrl": "https://content.pancake.vn/2-2610/2026/10/25/887edf3f3ebc6728f84cb0dddbbe923812f2cee0.png",
+      "aiTaskId": "1878",
+      "uploadBytesVerified": true
+    },
+    {
+      "code": "KH8240",
+      "file": "kh8240-2-composite-v1.png",
+      "scene": "https://cms-cdn.thesolesupplier.co.uk/2022/05/dsc-2706.jpg",
+      "toolId": "exec-2e9116a2-3a76-4a70-a537-0dcc0ca85f43",
+      "finalUrl": "https://content.pancake.vn/2-2610/2026/10/25/4b9f83f1f9fa7b6dd0b8c3a369e946a075895133.png",
+      "aiTaskId": "1879",
+      "uploadBytesVerified": true
+    },
+    {
+      "code": "JQ6441",
+      "file": "jq6441-2-composite-v2.png",
+      "scene": "https://cms-cdn.thesolesupplier.co.uk/2022/05/adidas-astir-styling-1.png",
+      "toolId": "exec-a96f684e-820f-428c-9be4-26d52fd2ae92",
+      "finalUrl": "https://content.pancake.vn/2-2610/2026/10/25/1019c70fb24ac31b2968e8c727ced9b3b773409e.png",
+      "aiTaskId": "1880",
+      "uploadBytesVerified": true
+    }
+  ]
+}

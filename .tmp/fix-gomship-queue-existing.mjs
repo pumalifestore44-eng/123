@@ -1,0 +1,13 @@
+import{readFileSync,writeFileSync}from'node:fs';
+const path="smax-chat-manager - Copy (2)/supabase/gomship_extension_queue.sql";
+let src=readFileSync(path,'utf8');
+const before="where order_id=p_order_id and status is distinct from 'cancelled'";
+const after="where order_id=p_order_id";
+if(src.split(before).length!==2)throw Error("enqueue prior shipment check mismatch");
+src=src.replace(before,after);
+const before2="where order_id=item.order_id and status is distinct from 'cancelled'";
+const after2="where order_id=item.order_id";
+if(src.split(before2).length!==2)throw Error("claim prior shipment check mismatch");
+src=src.replace(before2,after2);
+writeFileSync(path,src);
+console.log('Blocked existing prior shipment rows before POST, including cancelled ones');

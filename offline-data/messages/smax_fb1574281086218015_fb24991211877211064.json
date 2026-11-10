@@ -1,0 +1,3788 @@
+{
+  "key": "smax::fb1574281086218015::fb24991211877211064",
+  "savedAt": "2026-09-17T15:59:17.559Z",
+  "thread": {
+    "__v": 0,
+    "_created_at": "2026-02-05T22:35:02.300Z",
+    "_synced_at": "2026-09-16T11:55:18.698Z",
+    "controlled_by": "SMAXAI",
+    "created_at": "2026-02-05T22:35:02.301Z",
+    "customer_pid": "fb24991211877211064",
+    "customer_pids": [
+      "fb24991211877211064"
+    ],
+    "emails": [],
+    "es_id": "fb1574281086218015_fb24991211877211064",
+    "facebook": {
+      "customer_tags": [],
+      "id": "t_10224842561691098",
+      "link": "/1574281086218015/inbox/4010982969214469/?section=messages",
+      "post_ids": []
+    },
+    "id": "69851b16a00c25386b8b1a3e",
+    "internal": {
+      "message": null,
+      "users": []
+    },
+    "last_message_at": "2026-09-16T11:52:54.235Z",
+    "last_message_by_customer_at": "2026-09-16T11:06:15.661Z",
+    "last_message_id": "6aaa8316c8f943ddcd2c38b7",
+    "last_seen_at": "2026-09-16T11:55:15.593Z",
+    "last_user_replied": {
+      "id": "6984fdd4965d6ffa9fa973dd",
+      "name": "Dang LE Cong Tuan",
+      "picture": "https://cdn.smax.in/s04/smaxai/avatars/122148177098299508.jpg?expire=1789603200000&signature=52d778d31619ae96252ab00a9912f3ca7add9d902271f5c1e44f31bac2fd426b"
+    },
+    "message": "Đơn hàng pumalife16200 đã được tạo thành công. \nSản phẩm: Giày PUMA Palermo OG 'Brown White' 396463-56 - 37 x1\nHàng về có 2 hình thức thanh toán CK và COD. Nếu thanh toán COD thì + thêm 1.5% cho truy thu thuế.\nThông tin đơn hàng tại đây: https://pumalifeorder.vercel.app/bill.html?id=16200",
+    "page_pid": "fb1574281086218015",
+    "phones": [
+      "0765805555"
+    ],
+    "platform": "facebook",
+    "read": true,
+    "replied": true,
+    "replied_by": {
+      "id": "6984fdd4965d6ffa9fa973dd"
+    },
+    "replied_first": "2026-07-20T09:19:42.879Z",
+    "reply_count": 0,
+    "root_message_pids": [],
+    "tag_aliases": [],
+    "tid": "fb24991211877211064",
+    "type": "facebook_message",
+    "updated_at": "2026-09-16T11:55:17.747Z",
+    "user": {
+      "job_id": null
+    },
+    "viewing": {},
+    "can_reply_message": false,
+    "customer": {
+      "id": "69851addb22b3b31226a0911",
+      "pid": "fb24991211877211064",
+      "subscribed": true,
+      "page_pid": "fb1574281086218015",
+      "thread_tid": "fb24991211877211064",
+      "biz_alias": "tuant2lqd",
+      "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/fb1574281086218015?tid=fb24991211877211064",
+      "platform": "facebook",
+      "name": "Hương Giang",
+      "profile_name": "Hương Giang",
+      "gender": "female",
+      "picture": "https://cdn-vn.smax.in/s03/smaxai/pages/fb1574281086218015/customers/fb24991211877211064.jpg?expire=1789689600000&signature=09cee8cc3abcf82b091c647228eb52e5570188aeffdaa9da0645dd96a32eb044",
+      "locale": "vi_VN",
+      "notes": [],
+      "phone": "0765805555",
+      "phones": [
+        {
+          "value": "0765805555",
+          "time": "2026-07-20T09:17:18.119Z"
+        }
+      ],
+      "email": "",
+      "emails": [],
+      "source": "crawl",
+      "attrs": [],
+      "facebook": {
+        "conversation_id": "t_10224842561691098",
+        "conversation_link": "/1574281086218015/inbox/4010982969214469/?section=messages",
+        "first_name": "Giang",
+        "gender": "female",
+        "id": "24991211877211064",
+        "last_name": "Hương",
+        "locale": "vi_VN",
+        "name": "Hương Giang",
+        "page_id": "1574281086218015",
+        "page_name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+        "picture": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=Aa1QRhRrY4AocwaZoPio3fI8E2_ERh4jHzNuRtglGr4n_44Za0_gn9CeAyAkpORu6lTLXgxHw8Gg&psid=24991211877211064&width=300&ext=1792129807&hash=AfveyWQsFEVCZoVpCOlKU8XI",
+        "topics": []
+      },
+      "broadcast_ids": [],
+      "in_sequences": [],
+      "out_sequences": [],
+      "tags": [],
+      "last_inbox_updated": "2026-09-16T11:06:15.661Z",
+      "last_message_at": "2026-09-16T11:52:54.235Z",
+      "last_content_by_user": "OK shop",
+      "last_content_by_page": "Đơn hàng pumalife16200 đã được tạo thành công. \nSản phẩm: Giày PUMA Palermo OG 'Brown White' 396463-56 - 37 x1\nHàng về có 2 hình thức thanh toán CK và COD. Nếu thanh toán COD thì + thêm 1.5% cho truy thu thuế.\nThông tin đơn hàng tại đây: https://pumalifeorder.vercel.app/bill.html?id=16200",
+      "interaction": {
+        "first": "2025-10-25T03:23:34.000Z",
+        "last": "2026-09-16T11:06:15.661Z"
+      },
+      "users": [],
+      "follow_ups": [],
+      "scores": [],
+      "logs": [],
+      "last_app_id": "361260004211097",
+      "updated_at": "2026-09-16T11:52:55.211Z",
+      "created_at": "2026-02-05T22:34:05.310Z"
+    },
+    "customers": [
+      {
+        "id": "69851addb22b3b31226a0911",
+        "pid": "fb24991211877211064",
+        "subscribed": true,
+        "page_pid": "fb1574281086218015",
+        "thread_tid": "fb24991211877211064",
+        "biz_alias": "tuant2lqd",
+        "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/fb1574281086218015?tid=fb24991211877211064",
+        "platform": "facebook",
+        "name": "Hương Giang",
+        "profile_name": "Hương Giang",
+        "gender": "female",
+        "picture": "https://cdn-vn.smax.in/s03/smaxai/pages/fb1574281086218015/customers/fb24991211877211064.jpg?expire=1789689600000&signature=09cee8cc3abcf82b091c647228eb52e5570188aeffdaa9da0645dd96a32eb044",
+        "locale": "vi_VN",
+        "notes": [],
+        "phone": "0765805555",
+        "phones": [
+          {
+            "value": "0765805555",
+            "time": "2026-07-20T09:17:18.119Z"
+          }
+        ],
+        "email": "",
+        "emails": [],
+        "source": "crawl",
+        "attrs": [],
+        "facebook": {
+          "conversation_id": "t_10224842561691098",
+          "conversation_link": "/1574281086218015/inbox/4010982969214469/?section=messages",
+          "first_name": "Giang",
+          "gender": "female",
+          "id": "24991211877211064",
+          "last_name": "Hương",
+          "locale": "vi_VN",
+          "name": "Hương Giang",
+          "page_id": "1574281086218015",
+          "page_name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+          "picture": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=Aa1QRhRrY4AocwaZoPio3fI8E2_ERh4jHzNuRtglGr4n_44Za0_gn9CeAyAkpORu6lTLXgxHw8Gg&psid=24991211877211064&width=300&ext=1792129807&hash=AfveyWQsFEVCZoVpCOlKU8XI",
+          "topics": []
+        },
+        "broadcast_ids": [],
+        "in_sequences": [],
+        "out_sequences": [],
+        "tags": [],
+        "last_inbox_updated": "2026-09-16T11:06:15.661Z",
+        "last_message_at": "2026-09-16T11:52:54.235Z",
+        "last_content_by_user": "OK shop",
+        "last_content_by_page": "Đơn hàng pumalife16200 đã được tạo thành công. \nSản phẩm: Giày PUMA Palermo OG 'Brown White' 396463-56 - 37 x1\nHàng về có 2 hình thức thanh toán CK và COD. Nếu thanh toán COD thì + thêm 1.5% cho truy thu thuế.\nThông tin đơn hàng tại đây: https://pumalifeorder.vercel.app/bill.html?id=16200",
+        "interaction": {
+          "first": "2025-10-25T03:23:34.000Z",
+          "last": "2026-09-16T11:06:15.661Z"
+        },
+        "users": [],
+        "follow_ups": [],
+        "scores": [],
+        "logs": [],
+        "last_app_id": "361260004211097",
+        "updated_at": "2026-09-16T11:52:55.211Z",
+        "created_at": "2026-02-05T22:34:05.310Z"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "id": "69851b183eaad50453550e9b",
+      "pid": "fbm_jvLJEutKE8P3d5t9v9wkZkD7Spp4i2SRs4Put7OE1K7G5fyq8IYIBQsk9asHbFs4hrzPPsboocKDXiI9cIxcpg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_jvLJEutKE8P3d5t9v9wkZkD7Spp4i2SRs4Put7OE1K7G5fyq8IYIBQsk9asHbFs4hrzPPsboocKDXiI9cIxcpg",
+        "attachments": [
+          {
+            "name": "image-838628041961024",
+            "mime_type": "image/jpeg",
+            "url": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/566529336_838628045294357_1989111754661108043_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=QdDtu6nvX4cQ7kNvwEVj0zT&_nc_oc=Adn8B0Ai2-UOR3UB9tfUeaie8SeHWUKUG4owIDh0ngjq7R7kgtzt3zkFysDrni-xQc0&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQH_7XnMx-lP79LsvJtTXhimI5CVfFr-ISPB9RrB--fTJ53__bbN-U3s5pnNueazNGEjoGuhF9Hq&oh=03_Q7cD4gFRspwExr-yLaYLBtVQzkDaM7J5kzKb3hAOKNTXUDuq-Q&oe=69AC8847",
+            "url_preview": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/566529336_838628045294357_1989111754661108043_n.jpg?stp=dst-jpg_s280x280_tt6&_nc_cat=109&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=QdDtu6nvX4cQ7kNvwEVj0zT&_nc_oc=Adn8B0Ai2-UOR3UB9tfUeaie8SeHWUKUG4owIDh0ngjq7R7kgtzt3zkFysDrni-xQc0&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQFjlPeLOc1i5vEefrGdlY-sdAJcWsQvtMaj_LDCj5rK76DotrJIqZdQ7SEBKKd7RiC7F37l6wNh&oh=03_Q7cD4gGC5YMuaSf5wgBKoxtGsgfynfb0lsYYPSxC1LB5z1T4pQ&oe=69AC8847"
+          }
+        ],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.941Z",
+      "created_at": "2025-10-25T03:23:34.000Z",
+      "updated_at": "2025-10-25T03:23:34.000Z"
+    },
+    {
+      "id": "69851b187c5cba9323c2d057",
+      "pid": "fbm_LleZr2f_n6Nk9c_nntJN9kD7Spp4i2SRs4Put7OE1K6WXrL6oDa1HKBypv7-1LibAWMhK9rwFgQa7Y7wjBvCmQ",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Mình muốn order đôi này",
+      "facebook": {
+        "id": "m_LleZr2f_n6Nk9c_nntJN9kD7Spp4i2SRs4Put7OE1K6WXrL6oDa1HKBypv7-1LibAWMhK9rwFgQa7Y7wjBvCmQ",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.948Z",
+      "created_at": "2025-10-25T03:24:35.000Z",
+      "updated_at": "2025-10-25T03:24:35.000Z"
+    },
+    {
+      "id": "69851b18dc0230f75d5cf6da",
+      "pid": "fbm_lJ7Be4K7SqzNV3E8KJjOlkD7Spp4i2SRs4Put7OE1K55s8smaEKOnY3thgjK4fo3sdlJaVt1pZO2ouOGhwWKBA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Dạ size bao nheieu em check ạ",
+      "facebook": {
+        "id": "m_lJ7Be4K7SqzNV3E8KJjOlkD7Spp4i2SRs4Put7OE1K55s8smaEKOnY3thgjK4fo3sdlJaVt1pZO2ouOGhwWKBA",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.962Z",
+      "created_at": "2025-10-25T03:29:55.000Z",
+      "updated_at": "2025-10-25T03:29:55.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b18a8b8e923de815219",
+      "pid": "fbm_LerlqXCrSm5xrUbOwbjArED7Spp4i2SRs4Put7OE1K5hbTPTFeA7AMqmOaRP9hInDQmxbWe9DwWL4c8hyjxmgA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Chị đi sz 37 em",
+      "facebook": {
+        "id": "m_LerlqXCrSm5xrUbOwbjArED7Spp4i2SRs4Put7OE1K5hbTPTFeA7AMqmOaRP9hInDQmxbWe9DwWL4c8hyjxmgA",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.946Z",
+      "created_at": "2025-10-25T03:34:19.000Z",
+      "updated_at": "2025-10-25T03:34:19.000Z"
+    },
+    {
+      "id": "69851b18bf2d3d264bd7e824",
+      "pid": "fbm_FfWUrlYDpq8MCsWuFsLZpED7Spp4i2SRs4Put7OE1K4byR8s2nA4vZsEvVEXIkTl5WXp3ooN1bmz6t6kt1Udzw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Có sz gẫy ko em ?",
+      "facebook": {
+        "id": "m_FfWUrlYDpq8MCsWuFsLZpED7Spp4i2SRs4Put7OE1K4byR8s2nA4vZsEvVEXIkTl5WXp3ooN1bmz6t6kt1Udzw",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.952Z",
+      "created_at": "2025-10-25T03:34:48.000Z",
+      "updated_at": "2025-10-25T03:34:48.000Z"
+    },
+    {
+      "id": "69851b1872c7c762bd6059d3",
+      "pid": "fbm_lxJOGJVTr2LD1I2-XK3qS0D7Spp4i2SRs4Put7OE1K6vrDq_R_tlRyOLJaVDZrNu3vz3CCSKkWwgga961F-abg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_lxJOGJVTr2LD1I2-XK3qS0D7Spp4i2SRs4Put7OE1K6vrDq_R_tlRyOLJaVDZrNu3vz3CCSKkWwgga961F-abg",
+        "attachments": [
+          {
+            "name": "image-1273977710945938",
+            "mime_type": "image/jpeg",
+            "url": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/448660620_992902962557668_3283286882472042292_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=nc8ejHC0LfQQ7kNvwEyAFT3&_nc_oc=AdnsCZiVCAZdR6KgG1mjYZpVDLYe-6CF0YKuhkioJQS9uMM1WFG-63b9SnANK4195qA&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQFp5nqcPZFs65sdAK1sYqyGM6brzakmYUkuiD_sPBCTNjoeOJXjQ5NwAmj_Xc1ArgHKurcQWnVK&oh=03_Q7cD4gEDIlLZ9yFBGHyUHm-LssKSnUuUsU4f2vlLCUQpIlSRCw&oe=69ACA2B7",
+            "url_preview": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/448660620_992902962557668_3283286882472042292_n.jpg?stp=dst-jpg_p280x280_tt6&_nc_cat=100&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=nc8ejHC0LfQQ7kNvwEyAFT3&_nc_oc=AdnsCZiVCAZdR6KgG1mjYZpVDLYe-6CF0YKuhkioJQS9uMM1WFG-63b9SnANK4195qA&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQGeKzhTytqO05312Ig9HfpHIW5HS1-O0gzWQTpONDYrB0ORU_iS4UOEjUs1xb_3jEnPXJ6CwH4z&oh=03_Q7cD4gFPS778pMQM7vk_6Lp3KYRywSZjXC9SNIUv_i9gIkUmng&oe=69ACA2B7"
+          }
+        ],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.959Z",
+      "created_at": "2025-10-25T03:47:09.000Z",
+      "updated_at": "2025-10-25T03:47:09.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b186b52ee4a0db7cdb5",
+      "pid": "fbm_YtZvOtgRwUBkK4NOof77Z0D7Spp4i2SRs4Put7OE1K5qp0izdl2e6P137ZK92vLQ05ts3Ht0X0DL9uqVwAH-Cg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "bảng size adidas ạ",
+      "facebook": {
+        "id": "m_YtZvOtgRwUBkK4NOof77Z0D7Spp4i2SRs4Put7OE1K5qp0izdl2e6P137ZK92vLQ05ts3Ht0X0DL9uqVwAH-Cg",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.973Z",
+      "created_at": "2025-10-25T03:47:11.000Z",
+      "updated_at": "2025-10-25T03:47:11.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b18b2e8badf7fb52556",
+      "pid": "fbm_1S7GCIaEdoaeWwQv9yqx4UD7Spp4i2SRs4Put7OE1K5FBzUwo0jZ5RIgTV_dCdnEcKTJwZ0xxW756lYgk_eY9Q",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Dạ size 37 giá 1690K ạ",
+      "facebook": {
+        "id": "m_1S7GCIaEdoaeWwQv9yqx4UD7Spp4i2SRs4Put7OE1K5FBzUwo0jZ5RIgTV_dCdnEcKTJwZ0xxW756lYgk_eY9Q",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.961Z",
+      "created_at": "2025-10-25T03:47:55.000Z",
+      "updated_at": "2025-10-25T03:47:55.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b18b2e8badf7fb52558",
+      "pid": "fbm_SvBKlGV56dXsjnILf8sHbUD7Spp4i2SRs4Put7OE1K5MVNxskHLgnFYyvzDSyv9OUggHSZG34vCnObAMGoAxHg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Dạ e check nhầm mẫu ạ , size 37 giá 1780K vẫn còn deal sale ạ",
+      "facebook": {
+        "id": "m_SvBKlGV56dXsjnILf8sHbUD7Spp4i2SRs4Put7OE1K5MVNxskHLgnFYyvzDSyv9OUggHSZG34vCnObAMGoAxHg",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.967Z",
+      "created_at": "2025-10-25T03:50:30.000Z",
+      "updated_at": "2025-10-25T03:50:30.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b180b11db350bdcdf4d",
+      "pid": "fbm_oGorqZyLuqVjqTcZbQVWT0D7Spp4i2SRs4Put7OE1K7chKcSV-lP5aw-PrNtGR1rRpYS1IXkcm1OM0kyu-cG2w",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Bình thường c đi 37 sz chân 23,5 e ạ",
+      "facebook": {
+        "id": "m_oGorqZyLuqVjqTcZbQVWT0D7Spp4i2SRs4Put7OE1K7chKcSV-lP5aw-PrNtGR1rRpYS1IXkcm1OM0kyu-cG2w",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.967Z",
+      "created_at": "2025-10-25T03:52:15.000Z",
+      "updated_at": "2025-10-25T03:52:15.000Z"
+    },
+    {
+      "id": "69851b19b2e8badf7fb5255a",
+      "pid": "fbm_IL3u7-jNj9iYCaG-ScthqUD7Spp4i2SRs4Put7OE1K4sji0lt5fpXrIc4a9TPKKahOa2eirP4sbAPSrNQRZ0UA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "37 1/3 là to hơn 37 phải ko em",
+      "facebook": {
+        "id": "m_IL3u7-jNj9iYCaG-ScthqUD7Spp4i2SRs4Put7OE1K4sji0lt5fpXrIc4a9TPKKahOa2eirP4sbAPSrNQRZ0UA",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:05.008Z",
+      "created_at": "2025-10-25T03:52:42.000Z",
+      "updated_at": "2025-10-25T03:52:42.000Z"
+    },
+    {
+      "id": "69851b1998a88c147f6f631d",
+      "pid": "fbm_M3DLOA5amhLKQ5ZLjA6m3kD7Spp4i2SRs4Put7OE1K5sFt0k1qrhlYYsPUpwaj5OeKM0DV0LBoavU99CpPNVGQ",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Dạ 37 1/3 là 37 ạ",
+      "facebook": {
+        "id": "m_M3DLOA5amhLKQ5ZLjA6m3kD7Spp4i2SRs4Put7OE1K5sFt0k1qrhlYYsPUpwaj5OeKM0DV0LBoavU99CpPNVGQ",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:05.015Z",
+      "created_at": "2025-10-25T03:54:08.000Z",
+      "updated_at": "2025-10-25T03:54:08.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b19b2e8badf7fb5255c",
+      "pid": "fbm_O7eZZHQY1NF1PoUHagzITUD7Spp4i2SRs4Put7OE1K4u1rTf0a6JpLxrqClqcjaG4mMVh_YJrJ8o8tln_hwb-g",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Chân 23.5cm = size 38 ạ",
+      "facebook": {
+        "id": "m_O7eZZHQY1NF1PoUHagzITUD7Spp4i2SRs4Put7OE1K4u1rTf0a6JpLxrqClqcjaG4mMVh_YJrJ8o8tln_hwb-g",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:05.015Z",
+      "created_at": "2025-10-25T03:54:39.000Z",
+      "updated_at": "2025-10-25T03:54:39.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b198298b3c2886faf0a",
+      "pid": "fbm_G7eh7QpsVDHb5oMs0aDLEUD7Spp4i2SRs4Put7OE1K4NDpvZIbocH2WJm4tCGNSb5vdjpGw-mSnOLj199rH6kA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Ok vậy c đặt 38 nhé",
+      "facebook": {
+        "id": "m_G7eh7QpsVDHb5oMs0aDLEUD7Spp4i2SRs4Put7OE1K4NDpvZIbocH2WJm4tCGNSb5vdjpGw-mSnOLj199rH6kA",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:05.018Z",
+      "created_at": "2025-10-25T03:54:54.000Z",
+      "updated_at": "2025-10-25T03:54:54.000Z"
+    },
+    {
+      "id": "69851b197c5cba9323c2d059",
+      "pid": "fbm_rzF3Ojfw4KqneCrzUgzkH0D7Spp4i2SRs4Put7OE1K5A5elj7Q6dt2sgk9kj1iM-aet9qWD_WN5l7K5RyWlPSw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Dạ c chốt order cọc trc giúp e 700K ạ",
+      "facebook": {
+        "id": "m_rzF3Ojfw4KqneCrzUgzkH0D7Spp4i2SRs4Put7OE1K5A5elj7Q6dt2sgk9kj1iM-aet9qWD_WN5l7K5RyWlPSw",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:05.012Z",
+      "created_at": "2025-10-25T03:55:16.000Z",
+      "updated_at": "2025-10-25T03:55:16.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b190b11db350bdcdf4f",
+      "pid": "fbm_v0CQuMUeVMaQ2syGSkjcFkD7Spp4i2SRs4Put7OE1K5HGQEmhwNDPhsa3OzPmtY-dCzOS2XOBEvpYdgys4gFWQ",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Ok e",
+      "facebook": {
+        "id": "m_v0CQuMUeVMaQ2syGSkjcFkD7Spp4i2SRs4Put7OE1K5HGQEmhwNDPhsa3OzPmtY-dCzOS2XOBEvpYdgys4gFWQ",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:05.016Z",
+      "created_at": "2025-10-25T03:55:25.000Z",
+      "updated_at": "2025-10-25T03:55:25.000Z"
+    },
+    {
+      "id": "69851b1934e2942b96189349",
+      "pid": "fbm_qjYyLtKbNh8Z0GuWYrnxbkD7Spp4i2SRs4Put7OE1K6DFtGNIjpYlQhMBNIXYjISnNhOkriUVgc2jST9TFSEmA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Order 20 ngày tính từ lúc mình cọc order ạ",
+      "facebook": {
+        "id": "m_qjYyLtKbNh8Z0GuWYrnxbkD7Spp4i2SRs4Put7OE1K6DFtGNIjpYlQhMBNIXYjISnNhOkriUVgc2jST9TFSEmA",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:05.010Z",
+      "created_at": "2025-10-25T03:55:28.000Z",
+      "updated_at": "2025-10-25T03:55:28.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b191eb9a6849b09d3be",
+      "pid": "fbm_HMmV0mjft0WmXIGldsUQz0D7Spp4i2SRs4Put7OE1K5yluCbuc5CZ8Wwp2Lnd349XeaxEZSR8yfSRtlTmxOTgA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Cho c stk",
+      "facebook": {
+        "id": "m_HMmV0mjft0WmXIGldsUQz0D7Spp4i2SRs4Put7OE1K5yluCbuc5CZ8Wwp2Lnd349XeaxEZSR8yfSRtlTmxOTgA",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:05.005Z",
+      "created_at": "2025-10-25T03:55:29.000Z",
+      "updated_at": "2025-10-25T03:55:29.000Z"
+    },
+    {
+      "id": "69851b1852b4f449c469fd39",
+      "pid": "fbm_LArq6DR5l9umuimR-KDch0D7Spp4i2SRs4Put7OE1K77R1hoQcN496pP--903bMfuJqsuV9gHaW4ytoTwxZq-A",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_LArq6DR5l9umuimR-KDch0D7Spp4i2SRs4Put7OE1K77R1hoQcN496pP--903bMfuJqsuV9gHaW4ytoTwxZq-A",
+        "attachments": [
+          {
+            "name": "image-1777756509803069",
+            "mime_type": "image/jpeg",
+            "url": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/475434336_2553901808137455_3531348175245826847_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=LFMNYZVwOXsQ7kNvwHpHxAC&_nc_oc=AdmNBnhtjAVNszGnyK84Ur9bYjihDjKLSkYhfGwG7YErkILpbei4UY3f2-mK6131__U&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQEOVTR5V7ztAzoXKmf54NUYYo4yHEg0HsmF8q0Rt6bG9OXlmbCCP0KfKtJdZDkLVfLrU7gHKCzW&oh=03_Q7cD4gGnnyG8rkbtqMGGtr7j14s5vqZM0WkvW-oTsl1QtqEmVA&oe=69ACA15A",
+            "url_preview": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/475434336_2553901808137455_3531348175245826847_n.jpg?stp=dst-jpg_p280x280_tt6&_nc_cat=103&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=LFMNYZVwOXsQ7kNvwHpHxAC&_nc_oc=AdmNBnhtjAVNszGnyK84Ur9bYjihDjKLSkYhfGwG7YErkILpbei4UY3f2-mK6131__U&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQEYCGUy4b72FoUb9stDVYxqPkAByTel1wF5Yh1oU5XAAufqcXOuLEKQyUj7sF0WnVV6kLi8JuY1&oh=03_Q7cD4gEAWVujgd9QX2nJ80069y6nqCL15QTUvzESNiSF8dCk1g&oe=69ACA15A"
+          }
+        ],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.912Z",
+      "created_at": "2025-10-25T03:55:32.000Z",
+      "updated_at": "2025-10-25T03:55:32.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b186fb87dd9ce59fa4e",
+      "pid": "fbm_ZDVdC12ZauDWEVWNK72wrkD7Spp4i2SRs4Put7OE1K52L9sZRWfhefywhW1omx77g_2kcecONNU4x4LUBDVWYw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_ZDVdC12ZauDWEVWNK72wrkD7Spp4i2SRs4Put7OE1K52L9sZRWfhefywhW1omx77g_2kcecONNU4x4LUBDVWYw",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.918Z",
+      "created_at": "2025-10-25T03:55:33.000Z",
+      "updated_at": "2025-10-25T03:55:33.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b18758b94d07dd35737",
+      "pid": "fbm_PiGpu1oediS6TSBPvlylqkD7Spp4i2SRs4Put7OE1K4v3LgUlrdrZDLQevCXmv4gDEWRe4Hz9DrPqcLno25mqA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "NỘI DUNG CHUYỂN KHOẢN\nChỉ cần ghi tên và gửi ảnh ủy nhiệm hoặc màn hình e-banking sau khi chuyển tiền là được ạ.\nKhông ghi thêm bất cứ thông tin gì khác.",
+      "facebook": {
+        "id": "m_PiGpu1oediS6TSBPvlylqkD7Spp4i2SRs4Put7OE1K4v3LgUlrdrZDLQevCXmv4gDEWRe4Hz9DrPqcLno25mqA",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.909Z",
+      "created_at": "2025-10-25T03:55:36.000Z",
+      "updated_at": "2025-10-25T03:55:36.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b18bd474fefd0ae646f",
+      "pid": "fbm_iKTzGhAA1PmhVj9f79BaV0D7Spp4i2SRs4Put7OE1K5sDPi1G-yisJraHbMyFIvOY_OwafQDEnP6t5l8J0jvlw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_iKTzGhAA1PmhVj9f79BaV0D7Spp4i2SRs4Put7OE1K5sDPi1G-yisJraHbMyFIvOY_OwafQDEnP6t5l8J0jvlw",
+        "attachments": [
+          {
+            "name": "image-1888180018800521",
+            "mime_type": "image/jpeg",
+            "url": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/566485590_1888180022133854_4095146523446745231_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=gfJvOwvrmaUQ7kNvwHHCsmn&_nc_oc=AdkHQjWcszACtRKyyYfOlPA2OTaZnZrUdkk1CTDW27xNsVbsXlbC7pu2E69wWo50Qso&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQFwNsUV3qpguc6zVDkJyutHMceYJ8cu4-wdve90C4VPTnEChzJDZFOtFb4HuIRM6nsVvRuiF50z&oh=03_Q7cD4gFvX8Jjwoip9YFry9ja_Fr1LdMEwV3hKnIuMFJGnaej0A&oe=69AC83F1",
+            "url_preview": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/566485590_1888180022133854_4095146523446745231_n.jpg?stp=dst-jpg_p280x280_tt6&_nc_cat=105&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=gfJvOwvrmaUQ7kNvwHHCsmn&_nc_oc=AdkHQjWcszACtRKyyYfOlPA2OTaZnZrUdkk1CTDW27xNsVbsXlbC7pu2E69wWo50Qso&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQF3TgExBh1l5mJKYzwSVXDtK6WiExe4zwIYrnEAXQZjdeFi3IZ-3lyxmaNMV2-e_lmDCbGb6dB1&oh=03_Q7cD4gEFdmxKTS9eVpZvxiy9yxCuY6jKI8ICkPn8usmuCbWKpg&oe=69AC83F1"
+          }
+        ],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.909Z",
+      "created_at": "2025-10-25T03:57:36.000Z",
+      "updated_at": "2025-10-25T03:57:36.000Z"
+    },
+    {
+      "id": "69851b18758b94d07dd35739",
+      "pid": "fbm_IOes_K3V30BrTg3CIarHvkD7Spp4i2SRs4Put7OE1K4nXt_UemMGI_phoJrGvbdres8E0mR5nb2nWlr1jKK6cg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_IOes_K3V30BrTg3CIarHvkD7Spp4i2SRs4Put7OE1K4nXt_UemMGI_phoJrGvbdres8E0mR5nb2nWlr1jKK6cg",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.916Z",
+      "created_at": "2025-10-25T03:57:41.000Z",
+      "updated_at": "2025-10-25T03:57:41.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b183eaad50453550e99",
+      "pid": "fbm_oHRZSA0D7zzappRTJ5xlokD7Spp4i2SRs4Put7OE1K4h7tfoEXOOBQcEd3KvCbVZg271043D_FSH4d_NCuZZvQ",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "C Ck nhé",
+      "facebook": {
+        "id": "m_oHRZSA0D7zzappRTJ5xlokD7Spp4i2SRs4Put7OE1K4h7tfoEXOOBQcEd3KvCbVZg271043D_FSH4d_NCuZZvQ",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.907Z",
+      "created_at": "2025-10-25T03:57:45.000Z",
+      "updated_at": "2025-10-25T03:57:45.000Z"
+    },
+    {
+      "id": "69851b188298b3c2886faf08",
+      "pid": "fbm_Jx-2iqXjZf05IDw1CEs9fED7Spp4i2SRs4Put7OE1K7kcKTJZoJRCcmsLsvdFxWud8PkfYRGNMXjQnvck3YofA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Dạ e lên đơn size 37 giá 1780K ạ",
+      "facebook": {
+        "id": "m_Jx-2iqXjZf05IDw1CEs9fED7Spp4i2SRs4Put7OE1K7kcKTJZoJRCcmsLsvdFxWud8PkfYRGNMXjQnvck3YofA",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.916Z",
+      "created_at": "2025-10-25T03:58:09.000Z",
+      "updated_at": "2025-10-25T03:58:09.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b18cd1851d3edf77a6f",
+      "pid": "fbm_x4r0R-S9bEUGScPwn_96rkD7Spp4i2SRs4Put7OE1K5-hOVMcG6N1uis6ey39vTgOLZEfRhbpzXm0dmAtyouCg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Đã cọc 700K ạ",
+      "facebook": {
+        "id": "m_x4r0R-S9bEUGScPwn_96rkD7Spp4i2SRs4Put7OE1K5-hOVMcG6N1uis6ey39vTgOLZEfRhbpzXm0dmAtyouCg",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.917Z",
+      "created_at": "2025-10-25T03:58:14.000Z",
+      "updated_at": "2025-10-25T03:58:14.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b1866fda5305925f73d",
+      "pid": "fbm_Qen6LoxddQ2fK_P4udnY7ED7Spp4i2SRs4Put7OE1K7IGOQ9CSfmjW0gu4frXjkHPA36-9FSMyoBPDy0d5LLSw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Sz 38 mà e",
+      "facebook": {
+        "id": "m_Qen6LoxddQ2fK_P4udnY7ED7Spp4i2SRs4Put7OE1K7IGOQ9CSfmjW0gu4frXjkHPA36-9FSMyoBPDy0d5LLSw",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.915Z",
+      "created_at": "2025-10-25T03:58:20.000Z",
+      "updated_at": "2025-10-25T03:58:20.000Z"
+    },
+    {
+      "id": "69851b18d9104e53b98a3fac",
+      "pid": "fbm_Z2hRCnu4cOZ6WxQY7EMC3kD7Spp4i2SRs4Put7OE1K5rsqdYY4BUgGjEkwF3z6PQmBFSjS82hItkl9T4J5c-jw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "À OK 37 1/3",
+      "facebook": {
+        "id": "m_Z2hRCnu4cOZ6WxQY7EMC3kD7Spp4i2SRs4Put7OE1K5rsqdYY4BUgGjEkwF3z6PQmBFSjS82hItkl9T4J5c-jw",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:04.910Z",
+      "created_at": "2025-10-25T03:58:42.000Z",
+      "updated_at": "2025-10-25T03:58:42.000Z"
+    },
+    {
+      "id": "69851b16d9104e53b98a3f8f",
+      "pid": "fbm_TuOvj9DmKeUAXHX_Q4IuiUD7Spp4i2SRs4Put7OE1K7V2oGD7TYCNcoCoMpebmFFg7-6tJ1BgvxCIpXjKzmeQw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "C vừa xem lại tn",
+      "facebook": {
+        "id": "m_TuOvj9DmKeUAXHX_Q4IuiUD7Spp4i2SRs4Put7OE1K7V2oGD7TYCNcoCoMpebmFFg7-6tJ1BgvxCIpXjKzmeQw",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.452Z",
+      "created_at": "2025-10-25T03:58:50.000Z",
+      "updated_at": "2025-10-25T03:58:50.000Z"
+    },
+    {
+      "id": "69851b16cad594cb6eb555c8",
+      "pid": "fbm_ovC8fY06shwNcx_Zdy3UHUD7Spp4i2SRs4Put7OE1K6_QUM-mveoqY-ifXsy0_WGhc594_uSimcpoPY0pCmR9w",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Size 38 ạ e nhầm",
+      "facebook": {
+        "id": "m_ovC8fY06shwNcx_Zdy3UHUD7Spp4i2SRs4Put7OE1K6_QUM-mveoqY-ifXsy0_WGhc594_uSimcpoPY0pCmR9w",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.456Z",
+      "created_at": "2025-10-25T04:00:28.000Z",
+      "updated_at": "2025-10-25T04:00:28.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b16937c15e4020ea053",
+      "pid": "fbm_pDRpmokbkjEJbjHGkhQo4ED7Spp4i2SRs4Put7OE1K5zuUh7zeDLL5p2XrGA_fBv9Kkz63l3j7RJnNVqg8XW9w",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Chân c 23.5cm = size 38",
+      "facebook": {
+        "id": "m_pDRpmokbkjEJbjHGkhQo4ED7Spp4i2SRs4Put7OE1K5zuUh7zeDLL5p2XrGA_fBv9Kkz63l3j7RJnNVqg8XW9w",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.456Z",
+      "created_at": "2025-10-25T04:00:35.000Z",
+      "updated_at": "2025-10-25T04:00:35.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b16b3b51692cea59933",
+      "pid": "fbm_fxSv9mUy2Ie-gbmDPiO1pUD7Spp4i2SRs4Put7OE1K7qq--YP2zpjpN3AlElXXJnsWOuSmBzEvFxgOagnIhpVQ",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Chân 24cm = size 38.5",
+      "facebook": {
+        "id": "m_fxSv9mUy2Ie-gbmDPiO1pUD7Spp4i2SRs4Put7OE1K7qq--YP2zpjpN3AlElXXJnsWOuSmBzEvFxgOagnIhpVQ",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.461Z",
+      "created_at": "2025-10-25T04:00:49.000Z",
+      "updated_at": "2025-10-25T04:00:49.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b16b22b3b31226a0b43",
+      "pid": "fbm_uTjarIp1NOAowlh1R9y8qUD7Spp4i2SRs4Put7OE1K7cBa3pX8Xz7-6gVc3CrqLnug5XSH82MZ8JGrB68d1MLw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Ok em",
+      "facebook": {
+        "id": "m_uTjarIp1NOAowlh1R9y8qUD7Spp4i2SRs4Put7OE1K7cBa3pX8Xz7-6gVc3CrqLnug5XSH82MZ8JGrB68d1MLw",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.479Z",
+      "created_at": "2025-10-25T04:01:15.000Z",
+      "updated_at": "2025-10-25T04:01:15.000Z"
+    },
+    {
+      "id": "69851b16e36bd8878cd93f50",
+      "pid": "fbm_2hwSJX27cilMocXsRzxkpkD7Spp4i2SRs4Put7OE1K5lEyi2TTdgw_fbwQdK9pK7pI3NUWG5fW44z7A-O4pOwg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Dạ shop đã note đơn order của mình rồi ạ. Mình kiểm tra xem thông tin sản phẩm của đơn hàng đã đúng chưa. Nếu có sai xót báo liền cho shop\nHàng về có 2 hình thức thanh toán CK và COD.\nNếu thanh toán COD thì + thêm 1.5% cho truy thu thuế.",
+      "facebook": {
+        "id": "m_2hwSJX27cilMocXsRzxkpkD7Spp4i2SRs4Put7OE1K5lEyi2TTdgw_fbwQdK9pK7pI3NUWG5fW44z7A-O4pOwg",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.460Z",
+      "created_at": "2025-10-25T04:08:26.000Z",
+      "updated_at": "2025-10-25T04:08:26.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b16a8b8e923de8151f4",
+      "pid": "fbm_abi1HMAFnwSPlvQ8yHlwo0D7Spp4i2SRs4Put7OE1K4a4JurvhKCxVAibqyS8mNvbLukWtRca0be6deE4xdq0g",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_abi1HMAFnwSPlvQ8yHlwo0D7Spp4i2SRs4Put7OE1K4a4JurvhKCxVAibqyS8mNvbLukWtRca0be6deE4xdq0g",
+        "attachments": [
+          {
+            "name": "image-836173499098830",
+            "mime_type": "image/jpeg",
+            "url": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/566473920_1142537440836468_8191207587227795359_n.png?stp=dst-png_s1080x2048&_nc_cat=104&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=RkHtLEETqtQQ7kNvwGFVGtO&_nc_oc=AdnyKDrJcvlWbKFQpPskIXuMfgnl51PtFunmFcjO4ClYliV8B35AraAXiNraiAzmk-w&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQHwmMI5EJQl5Q1pV2E3E345OODAXmAnuFtunlETBefYTHS-tqaMBBKTvFcK16uvOpWTmkjd57m4&oh=03_Q7cD4gFMBKf4Grt6bs4Mt_W7N4x-eVgJ-YzskZGvYlNGhz2k-w&oe=69AC98A2",
+            "url_preview": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/566473920_1142537440836468_8191207587227795359_n.png?stp=dst-png_p280x280&_nc_cat=104&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=RkHtLEETqtQQ7kNvwGFVGtO&_nc_oc=AdnyKDrJcvlWbKFQpPskIXuMfgnl51PtFunmFcjO4ClYliV8B35AraAXiNraiAzmk-w&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQEfvqRlrTdeb7KnZ7aivv02IwBJbV8Qw5Ma6BGlPWOelxFrUY-e2XRf9GpAi61zXP4-yvRYDxXy&oh=03_Q7cD4gHz-r6uBPfLQocPVu-Bnj4iWS7vVzg227vLlDidbtc6rA&oe=69AC98A2"
+          }
+        ],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.460Z",
+      "created_at": "2025-10-25T04:08:37.000Z",
+      "updated_at": "2025-10-25T04:08:37.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b16b2b675cd93b47ea7",
+      "pid": "fbm_a8cvWlbb_g6TCKQjyWuyUkD7Spp4i2SRs4Put7OE1K6vziQ56sD0H0uiX9Nlkqtyh4X_-Z5QwP_vvCxu4feDpA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Ok e",
+      "facebook": {
+        "id": "m_a8cvWlbb_g6TCKQjyWuyUkD7Spp4i2SRs4Put7OE1K6vziQ56sD0H0uiX9Nlkqtyh4X_-Z5QwP_vvCxu4feDpA",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.479Z",
+      "created_at": "2025-10-25T04:13:34.000Z",
+      "updated_at": "2025-10-25T04:13:34.000Z"
+    },
+    {
+      "id": "69851b163887efc2ce9d037b",
+      "pid": "fbm_OViyKd9dFiVkDltSmJZ3W0D7Spp4i2SRs4Put7OE1K6Kd_0X6c051YKQAep7_MqfDVTtfFoK-kzVmi0mCh62Cg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_OViyKd9dFiVkDltSmJZ3W0D7Spp4i2SRs4Put7OE1K6Kd_0X6c051YKQAep7_MqfDVTtfFoK-kzVmi0mCh62Cg",
+        "attachments": [
+          {}
+        ],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.469Z",
+      "created_at": "2025-10-25T04:19:51.000Z",
+      "updated_at": "2025-10-25T04:19:51.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b16318330b16c16eb74",
+      "pid": "fbm_p0ktD_5KgQ8_77lGaqbb4kD7Spp4i2SRs4Put7OE1K7jZCrgoJ9wrgUbLY28MyE2TvMNeRwWMXe5TEGS7sFbhw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Khi hàng về mình thanh toán CK trước hay COD.\nNếu COD thì thuế sẽ truy thu thêm 1.5%",
+      "facebook": {
+        "id": "m_p0ktD_5KgQ8_77lGaqbb4kD7Spp4i2SRs4Put7OE1K7jZCrgoJ9wrgUbLY28MyE2TvMNeRwWMXe5TEGS7sFbhw",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.525Z",
+      "created_at": "2025-10-25T04:19:52.000Z",
+      "updated_at": "2025-10-25T04:19:52.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b164d32770933c2a7d9",
+      "pid": "fbm_o1LkXmCuQLz_LcdfdSTThkD7Spp4i2SRs4Put7OE1K7eyDYiN5bsnpWznuGWlYmuxPPFVsjM3bAd7h-cdWDBrg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Hành về c Ck full nha",
+      "facebook": {
+        "id": "m_o1LkXmCuQLz_LcdfdSTThkD7Spp4i2SRs4Put7OE1K7eyDYiN5bsnpWznuGWlYmuxPPFVsjM3bAd7h-cdWDBrg",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.511Z",
+      "created_at": "2025-10-25T07:19:13.000Z",
+      "updated_at": "2025-10-25T07:19:13.000Z"
+    },
+    {
+      "id": "69851b16318330b16c16eb72",
+      "pid": "fbm_oogWr2HB-t7zlv45mJrcxkD7Spp4i2SRs4Put7OE1K7Ej3XDTSwSIaUyrNQG4hlq_9MI8kvpoIaaUfW0rFDbyg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Dạ đơn mình về shop báo ạ",
+      "facebook": {
+        "id": "m_oogWr2HB-t7zlv45mJrcxkD7Spp4i2SRs4Put7OE1K7Ej3XDTSwSIaUyrNQG4hlq_9MI8kvpoIaaUfW0rFDbyg",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.512Z",
+      "created_at": "2025-10-25T07:25:37.000Z",
+      "updated_at": "2025-10-25T07:25:37.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b167c5cba9323c2d032",
+      "pid": "fbm_Jv3uVPnAmfFKp5unjmZ1bED7Spp4i2SRs4Put7OE1K7SHjx-sWJdRI7-x7dXC6X0msK49QUzwpQYSNSozV0h1A",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_Jv3uVPnAmfFKp5unjmZ1bED7Spp4i2SRs4Put7OE1K7SHjx-sWJdRI7-x7dXC6X0msK49QUzwpQYSNSozV0h1A",
+        "attachments": [
+          {}
+        ],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.509Z",
+      "created_at": "2025-11-12T13:14:23.000Z",
+      "updated_at": "2025-11-12T13:14:23.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b16b22b3b31226a0b47",
+      "pid": "fbm_DJBAwaETFYogXlyrKFBG7ED7Spp4i2SRs4Put7OE1K6iEzJ9CIs5-b9ruIB14vbuycH7SYomvaQM798UQbacJw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_DJBAwaETFYogXlyrKFBG7ED7Spp4i2SRs4Put7OE1K6iEzJ9CIs5-b9ruIB14vbuycH7SYomvaQM798UQbacJw",
+        "attachments": [
+          {
+            "name": "image-1167543391649070",
+            "mime_type": "image/jpeg",
+            "url": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/580904471_1167543398315736_3953104394734928443_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=7sx97q-RsgUQ7kNvwE7kDLZ&_nc_oc=AdlyU3JAtGneyXCVLh8gvkFYaldWfyBhSWPNZkL7eCshYiU2eRD7fbySyE0ZoKmm6E8&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQGMJXTQXjXz0GPStdooRo0Czs5j4z69lYgNLJjUyqTz3W6QK5xzlJ0MHl4mYdBp_s8GEh0mXmyx&oh=03_Q7cD4gEjVIrVyelCDeJEha9YOk6LSXevVjSMHwuCyi-yfcNxIA&oe=69AC9F84",
+            "url_preview": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/580904471_1167543398315736_3953104394734928443_n.jpg?stp=dst-jpg_s280x280_tt6&_nc_cat=102&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=7sx97q-RsgUQ7kNvwE7kDLZ&_nc_oc=AdlyU3JAtGneyXCVLh8gvkFYaldWfyBhSWPNZkL7eCshYiU2eRD7fbySyE0ZoKmm6E8&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQG8kiFugDuyhjfoJunoCBj5Jj2dwtEseF8YiTg25ma1Ub1pjzyU-bSPh0vW6cwCxGBk0dPBICDk&oh=03_Q7cD4gGN55mNK_ut1-fwF78TJPvPP4SbcQLMXcbMoHagL4_bqw&oe=69AC9F84"
+          },
+          {
+            "name": "image-2662176717480999",
+            "mime_type": "image/jpeg",
+            "url": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/579105899_2662176720814332_6178890599958293231_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=z3iptxRBvnMQ7kNvwHGJ7Ai&_nc_oc=Adk4dlgQdsFRAi5ZOFAS_skTJwVwf4T8evpgW0MdJ9tWpnIqKMLSCkft04tNLTv54pA&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQFM3D-Lw91l4msIEer9QeK0SUnEzuAlG6749Ynhl4Srkecj1d9qla_YYILYuPoCMbfewd4f_qBZ&oh=03_Q7cD4gHphY4OAZVs_GOwo5ntMRfjh2APH2JI4l48Btsuis9ydA&oe=69AC8A42",
+            "url_preview": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/579105899_2662176720814332_6178890599958293231_n.jpg?stp=dst-jpg_s280x280_tt6&_nc_cat=111&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=z3iptxRBvnMQ7kNvwHGJ7Ai&_nc_oc=Adk4dlgQdsFRAi5ZOFAS_skTJwVwf4T8evpgW0MdJ9tWpnIqKMLSCkft04tNLTv54pA&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQHRUsZoT3BbMcC0txc7kudEyF2fHbuDaz-ZxnvJSIybiUPmAWYmxCZLBTGERpA9aoT0rmsM0Ks1&oh=03_Q7cD4gHrvSSoXsh6TAu_bj9ydJ3Kf1kUDIUhG8CxdtTLMI2qoA&oe=69AC8A42"
+          }
+        ],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.508Z",
+      "created_at": "2025-11-12T13:14:33.000Z",
+      "updated_at": "2025-11-12T13:14:33.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b163bf2f5ff3da079d8",
+      "pid": "fbm_5BurAZdNuetl2PqpheWMb0D7Spp4i2SRs4Put7OE1K6gBzoOPWsDHinRbLi6bYrkGFaJuA49XVE2SsynkOjnkw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Dạ mình còn 1080k + ship ạ",
+      "facebook": {
+        "id": "m_5BurAZdNuetl2PqpheWMb0D7Spp4i2SRs4Put7OE1K6gBzoOPWsDHinRbLi6bYrkGFaJuA49XVE2SsynkOjnkw",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.516Z",
+      "created_at": "2025-11-12T13:14:41.000Z",
+      "updated_at": "2025-11-12T13:14:41.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b16a8b8e923de8151f8",
+      "pid": "fbm_yMNw2rsKGJlbUXGSDVbjC0D7Spp4i2SRs4Put7OE1K40slHSdjKgF975Jd9PuhrVXcMstXs7_ndXbyLSOZ8S-w",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "ship hcm 25K tỉnh thành khác 35K",
+      "facebook": {
+        "id": "m_yMNw2rsKGJlbUXGSDVbjC0D7Spp4i2SRs4Put7OE1K40slHSdjKgF975Jd9PuhrVXcMstXs7_ndXbyLSOZ8S-w",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.510Z",
+      "created_at": "2025-11-12T13:14:44.000Z",
+      "updated_at": "2025-11-12T13:14:44.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b16937c15e4020ea05e",
+      "pid": "fbm_5n8tGmQkecrRiyngSuQu30D7Spp4i2SRs4Put7OE1K7_3hbA8faV60m3X7-wyvLo7uozDWHMDEp-Nm8cG7INuA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_5n8tGmQkecrRiyngSuQu30D7Spp4i2SRs4Put7OE1K7_3hbA8faV60m3X7-wyvLo7uozDWHMDEp-Nm8cG7INuA",
+        "attachments": [
+          {
+            "name": "image-1348867639977737",
+            "mime_type": "image/jpeg",
+            "url": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/475434336_2553901808137455_3531348175245826847_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=LFMNYZVwOXsQ7kNvwHpHxAC&_nc_oc=AdmNBnhtjAVNszGnyK84Ur9bYjihDjKLSkYhfGwG7YErkILpbei4UY3f2-mK6131__U&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQH6i2S3u4Z-I10cJEu3i_EDXrtjymUmYjskD_wAxCA3Gc3zy6zTBaxkWaFtug7PbQ__d8jYdjpM&oh=03_Q7cD4gEMFep93M1i8kDi6jN6JtJtW-N39uPpl6yL1S4vtHUKWA&oe=69ACA15A",
+            "url_preview": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/475434336_2553901808137455_3531348175245826847_n.jpg?stp=dst-jpg_p280x280_tt6&_nc_cat=103&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=LFMNYZVwOXsQ7kNvwHpHxAC&_nc_oc=AdmNBnhtjAVNszGnyK84Ur9bYjihDjKLSkYhfGwG7YErkILpbei4UY3f2-mK6131__U&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQF9kKqDU7CzzHIToBPYZaOex_pW9WKnrpq2VtnqHsmz7BzZR7eC9uDdIvEKTX2jhL60ykRL9cvP&oh=03_Q7cD4gF0liZXq0rN4wtmQw879mIHgXkX_p0JzxVUUhUpn_OwLg&oe=69ACA15A"
+          }
+        ],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.520Z",
+      "created_at": "2025-11-12T13:14:59.000Z",
+      "updated_at": "2025-11-12T13:14:59.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b1605362a5424addb55",
+      "pid": "fbm_wRP4F9PH-0hEn7xBgZikekD7Spp4i2SRs4Put7OE1K4JyfDTVoIBOWX8zY58rpfgx6cQyk8HboIKirD_LpiLJw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_wRP4F9PH-0hEn7xBgZikekD7Spp4i2SRs4Put7OE1K4JyfDTVoIBOWX8zY58rpfgx6cQyk8HboIKirD_LpiLJw",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.520Z",
+      "created_at": "2025-11-12T13:15:00.000Z",
+      "updated_at": "2025-11-12T13:15:00.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b16aee259ecae2e07a2",
+      "pid": "fbm_jt_QRv0ofTEgbQV4znSpx0D7Spp4i2SRs4Put7OE1K6WmKK9JYmPmQLOD9yes-EGjW7kpQCbJ5i2qVulsBUYfQ",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "NỘI DUNG CHUYỂN KHOẢN\r\nChỉ cần ghi tên và gửi ảnh ủy nhiệm hoặc màn hình e-banking sau khi chuyển tiền là được ạ.\r\nKhông ghi thêm bất cứ thông tin gì khác.",
+      "facebook": {
+        "id": "m_jt_QRv0ofTEgbQV4znSpx0D7Spp4i2SRs4Put7OE1K6WmKK9JYmPmQLOD9yes-EGjW7kpQCbJ5i2qVulsBUYfQ",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.531Z",
+      "created_at": "2025-11-12T13:15:01.000Z",
+      "updated_at": "2025-11-12T13:15:01.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b1605362a5424addb58",
+      "pid": "fbm_xJzG8LrPyOEK8TbYyKEGlED7Spp4i2SRs4Put7OE1K7HNBVg4kKNpgYJ7NURzvY0hZxfhA74uBL5eIYAIgrcJw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_xJzG8LrPyOEK8TbYyKEGlED7Spp4i2SRs4Put7OE1K7HNBVg4kKNpgYJ7NURzvY0hZxfhA74uBL5eIYAIgrcJw",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.538Z",
+      "created_at": "2025-11-12T13:15:06.000Z",
+      "updated_at": "2025-11-12T13:15:06.000Z"
+    },
+    {
+      "id": "69851b162ef719e3f05caaa1",
+      "pid": "fbm_5Yx4kMzUfcBl7t1-tby3aUD7Spp4i2SRs4Put7OE1K7xYWYuP9MI2XpENmtZdwu213wkjYM_pz337FlcbGer7Q",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_5Yx4kMzUfcBl7t1-tby3aUD7Spp4i2SRs4Put7OE1K7xYWYuP9MI2XpENmtZdwu213wkjYM_pz337FlcbGer7Q",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.544Z",
+      "created_at": "2025-11-12T13:32:05.000Z",
+      "updated_at": "2025-11-12T13:32:05.000Z"
+    },
+    {
+      "id": "69851b163eaad50453550e7c",
+      "pid": "fbm_0p-kcObaTj3qlywbvpYwwkD7Spp4i2SRs4Put7OE1K6wJG9JJJEpqg-LGeC467VqE8AuFZ2RtUwzmBYpoM13dw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "dạ giày về rồi ạ",
+      "facebook": {
+        "id": "m_0p-kcObaTj3qlywbvpYwwkD7Spp4i2SRs4Put7OE1K6wJG9JJJEpqg-LGeC467VqE8AuFZ2RtUwzmBYpoM13dw",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.554Z",
+      "created_at": "2025-11-13T03:56:24.000Z",
+      "updated_at": "2025-11-13T03:56:24.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b16758b94d07dd35718",
+      "pid": "fbm_u_hGgX4xWcfl8wvbGkPc1kD7Spp4i2SRs4Put7OE1K5pYguq51INDDO-8QbNgph5K3BPVLV5xeQjLyYypvSyrg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Tổng của c là 1115000",
+      "facebook": {
+        "id": "m_u_hGgX4xWcfl8wvbGkPc1kD7Spp4i2SRs4Put7OE1K5pYguq51INDDO-8QbNgph5K3BPVLV5xeQjLyYypvSyrg",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.552Z",
+      "created_at": "2025-11-13T03:58:00.000Z",
+      "updated_at": "2025-11-13T03:58:00.000Z"
+    },
+    {
+      "id": "69851b16e7c0ac4ecf9ec12d",
+      "pid": "fbm__Ysxr3aqagGGTlgmd2pLC0D7Spp4i2SRs4Put7OE1K4CIumbGxMqNKrgQUL_HvxtJvXccdPMw2R0xVEywaA-jg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Địa chỉ: Sn 11b ngõ 154 Bồ đề, Long Biên, Ha Nôi",
+      "facebook": {
+        "id": "m__Ysxr3aqagGGTlgmd2pLC0D7Spp4i2SRs4Put7OE1K4CIumbGxMqNKrgQUL_HvxtJvXccdPMw2R0xVEywaA-jg",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.564Z",
+      "created_at": "2025-11-13T03:59:16.000Z",
+      "updated_at": "2025-11-13T03:59:16.000Z"
+    },
+    {
+      "id": "69851b1698a88c147f6f6300",
+      "pid": "fbm_-HBfkueNhRBr425RKHRNGUD7Spp4i2SRs4Put7OE1K7542Y6zH2I1f6P44O6t9VbHLexHMX7HwAwKPMID4aoDQ",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Sdt 0765805555",
+      "facebook": {
+        "id": "m_-HBfkueNhRBr425RKHRNGUD7Spp4i2SRs4Put7OE1K7542Y6zH2I1f6P44O6t9VbHLexHMX7HwAwKPMID4aoDQ",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [
+        {
+          "value": "0765805555",
+          "offset": 4,
+          "length": 10
+        }
+      ],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.566Z",
+      "created_at": "2025-11-13T03:59:30.000Z",
+      "updated_at": "2025-11-13T03:59:30.000Z"
+    },
+    {
+      "id": "69851b16a61418bb8c1efda0",
+      "pid": "fbm_bOia3iBuUfDWCLaGMWBS5UD7Spp4i2SRs4Put7OE1K75GDadF5K5ZvbM9Pvt9VcD10ECCkYg_ybdhITjDJ2KxA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Bgio là Ck hết phải ko e",
+      "facebook": {
+        "id": "m_bOia3iBuUfDWCLaGMWBS5UD7Spp4i2SRs4Put7OE1K75GDadF5K5ZvbM9Pvt9VcD10ECCkYg_ybdhITjDJ2KxA",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.572Z",
+      "created_at": "2025-11-13T04:00:21.000Z",
+      "updated_at": "2025-11-13T04:00:21.000Z"
+    },
+    {
+      "id": "69851b166fb87dd9ce59fa35",
+      "pid": "fbm_dbUHqVV91qC5r4BB2VrjEkD7Spp4i2SRs4Put7OE1K4B7YILIvyzTLFUCKOM6Nt0ToJTn7nbz0XwHDEUKOBdVQ",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "dạ đúng r ạ",
+      "facebook": {
+        "id": "m_dbUHqVV91qC5r4BB2VrjEkD7Spp4i2SRs4Put7OE1K4B7YILIvyzTLFUCKOM6Nt0ToJTn7nbz0XwHDEUKOBdVQ",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.573Z",
+      "created_at": "2025-11-13T06:20:48.000Z",
+      "updated_at": "2025-11-13T06:20:48.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b166b52ee4a0db7cd8b",
+      "pid": "fbm_uT4rCAd2fteuqBHOqfDif0D7Spp4i2SRs4Put7OE1K41P1ai82NWJ6YPlHkMrb1lEM0-d20tpasJnYA75j1UOA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_uT4rCAd2fteuqBHOqfDif0D7Spp4i2SRs4Put7OE1K41P1ai82NWJ6YPlHkMrb1lEM0-d20tpasJnYA75j1UOA",
+        "attachments": [
+          {
+            "name": "image-2886158018249620",
+            "mime_type": "image/jpeg",
+            "url": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/582094833_2886158021582953_4858130355298855206_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=zr6tXwUrs-oQ7kNvwHdtq-U&_nc_oc=Adky2zg2lqYPM7dPGi5bSc6MdrGUW0rzoUlyk8NkSvLpmDpVT43Bb-yc1cAoBNMNOso&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQF2HJw5OqLqYUHHunhdcnZcqZ00abZLx9V06C4nM6B1kHd-3z5vW7qYIzkc5L6lYFxRUL_i_oGM&oh=03_Q7cD4gHLNiwG4E4ovY2Ez4F5d7hkcGxpK-zL7Ya3Dt4e_pLyUQ&oe=69ACA69D",
+            "url_preview": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/582094833_2886158021582953_4858130355298855206_n.jpg?stp=dst-jpg_p280x280_tt6&_nc_cat=100&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=zr6tXwUrs-oQ7kNvwHdtq-U&_nc_oc=Adky2zg2lqYPM7dPGi5bSc6MdrGUW0rzoUlyk8NkSvLpmDpVT43Bb-yc1cAoBNMNOso&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQHnaqP5YKOQlTWc-N_P4mDL7yGhOx_RIKPDp2WCo046OWebADqFZA7LtHHBVv8BLUhERMkbRjPv&oh=03_Q7cD4gElAMwSb4BXe5OPOcCY2_hSQvXbRq2QdswRlnJ91qSMbg&oe=69ACA69D"
+          }
+        ],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.577Z",
+      "created_at": "2025-11-13T07:15:56.000Z",
+      "updated_at": "2025-11-13T07:15:56.000Z"
+    },
+    {
+      "id": "69851b16e2c2c871fe3a3e2f",
+      "pid": "fbm_ENJxpjMakfrDCG_zdeuLPUD7Spp4i2SRs4Put7OE1K5a3O3OoLz81jo1209dJ7HceUN3xRPfT2UXDKTGbC8PAg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "C Ck full rồi nhes",
+      "facebook": {
+        "id": "m_ENJxpjMakfrDCG_zdeuLPUD7Spp4i2SRs4Put7OE1K5a3O3OoLz81jo1209dJ7HceUN3xRPfT2UXDKTGbC8PAg",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.575Z",
+      "created_at": "2025-11-13T07:16:12.000Z",
+      "updated_at": "2025-11-13T07:16:12.000Z"
+    },
+    {
+      "id": "69851b16d69002daf0ba9a27",
+      "pid": "fbm_a0QFIqr4NRdMp4KtNZrMRED7Spp4i2SRs4Put7OE1K7vbqIIC6S2DOEdSIJ2HWl8DA4de4w-cG40t2spmfZ6Yg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "E gửi giày cho c",
+      "facebook": {
+        "id": "m_a0QFIqr4NRdMp4KtNZrMRED7Spp4i2SRs4Put7OE1K7vbqIIC6S2DOEdSIJ2HWl8DA4de4w-cG40t2spmfZ6Yg",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.579Z",
+      "created_at": "2025-11-13T07:16:19.000Z",
+      "updated_at": "2025-11-13T07:16:19.000Z"
+    },
+    {
+      "id": "69851b168de7054585a46d70",
+      "pid": "fbm_sBY2m8mRvCpCWkmaO00THUD7Spp4i2SRs4Put7OE1K7uXipXHXtOB58vkjXwdSJGMw32uz6DsHKpcQ8o0ZuHNQ",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_sBY2m8mRvCpCWkmaO00THUD7Spp4i2SRs4Put7OE1K7uXipXHXtOB58vkjXwdSJGMw32uz6DsHKpcQ8o0ZuHNQ",
+        "attachments": [
+          {}
+        ],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.598Z",
+      "created_at": "2025-11-13T08:37:40.000Z",
+      "updated_at": "2025-11-13T08:37:40.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b1652b4f449c469fd17",
+      "pid": "fbm_lL7umRzy_YbB6ugu2drCxkD7Spp4i2SRs4Put7OE1K4cspqLDxfEftfv7rLxV1BXVq6cgZokbZrFSbVwpJjIzw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_lL7umRzy_YbB6ugu2drCxkD7Spp4i2SRs4Put7OE1K4cspqLDxfEftfv7rLxV1BXVq6cgZokbZrFSbVwpJjIzw",
+        "attachments": [
+          {}
+        ],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.605Z",
+      "created_at": "2025-11-16T02:17:11.000Z",
+      "updated_at": "2025-11-16T02:17:11.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b16d69002daf0ba9a2d",
+      "pid": "fbm_DAZV7dHCA8SHleVQKiBhpUD7Spp4i2SRs4Put7OE1K6hTW1tawv2dv1vSyXW-h689nXkD4_H2gQGHF-zLerFxA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Đơn hàng pumalife7323 đã được giao thành công. Cảm ơn bạn đã mua hàng tại Pumalife Store. \nNếu có thắc mắc cần giải đáp mình đừng ngần ngại nhắn tin để đội ngũ của shop hỗ trợ cho mình.",
+      "facebook": {
+        "id": "m_DAZV7dHCA8SHleVQKiBhpUD7Spp4i2SRs4Put7OE1K6hTW1tawv2dv1vSyXW-h689nXkD4_H2gQGHF-zLerFxA",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.639Z",
+      "created_at": "2025-11-16T03:34:06.000Z",
+      "updated_at": "2025-11-16T03:34:06.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b16cad594cb6eb555d3",
+      "pid": "fbm_hIlMcWa1e_2fHx527_hGMED7Spp4i2SRs4Put7OE1K5zKWQiersU57_WZSfAhkKBsVu72RxlkJ1Uc9qIaSeFDQ",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_hIlMcWa1e_2fHx527_hGMED7Spp4i2SRs4Put7OE1K5zKWQiersU57_WZSfAhkKBsVu72RxlkJ1Uc9qIaSeFDQ",
+        "attachments": [
+          {
+            "name": "image-1166137979036556",
+            "mime_type": "image/jpeg",
+            "url": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/597144255_1166137982369889_5830417017335041774_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=VUAamFu5tfkQ7kNvwFzuBOG&_nc_oc=AdmJySUXmDIExXuefRgBk_7NdGOa8vjQuaG4EtjRZQHZuIqM-oz5HZWsIQvuwrSj8dw&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQHh2_WFE1xzHVriKCKK1jxijQDcc4hnhF3XzkycaVXz5iAcX2uKys5Nj73TllIAEzZrpUcjcich&oh=03_Q7cD4gEgo9MMN5dlxxGwTNlsjdvXG3HECcc_-qS18VBt8lIZXA&oe=69AC9F86",
+            "url_preview": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/597144255_1166137982369889_5830417017335041774_n.jpg?stp=dst-jpg_p280x280_tt6&_nc_cat=100&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=VUAamFu5tfkQ7kNvwFzuBOG&_nc_oc=AdmJySUXmDIExXuefRgBk_7NdGOa8vjQuaG4EtjRZQHZuIqM-oz5HZWsIQvuwrSj8dw&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQHZYhcaJ1feYkqCVK_li9ZcQotG5_jiNOeztxQJ-koHFQtPEdbw6_0LIufESPzfUnsLsBzsnYk2&oh=03_Q7cD4gGDrRIcgGGqjgPkIk2ijpGPqzGf34CKQzIXQ-R_bBHvJQ&oe=69AC9F86"
+          },
+          {
+            "name": "image-714969348336151",
+            "mime_type": "image/jpeg",
+            "url": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/593468430_714969351669484_4494809588779915186_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=UqTRWmU6-doQ7kNvwFZe-bT&_nc_oc=Adkd8YVgS_hfOGTFQKketTD3fe5XqndB3Vv-Lc_3wFkLgsyylnBI8VHdNQCoeaOb53E&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQF5taMMSjyw8Lgk4KVGuMnQjYhoT0qlKiVwo1iB6ldcZa-UlYbZmSUvnBsvZ1PrWu6Ga0NXwEX0&oh=03_Q7cD4gF4mJUTyFctVHHg7pb-v7Hrp_krt4ZXVRoAp_3hgz21CA&oe=69AC93DD",
+            "url_preview": "https://scontent.fdad5-1.fna.fbcdn.net/v/t1.15752-9/593468430_714969351669484_4494809588779915186_n.jpg?stp=dst-jpg_s280x280_tt6&_nc_cat=105&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=UqTRWmU6-doQ7kNvwFZe-bT&_nc_oc=Adkd8YVgS_hfOGTFQKketTD3fe5XqndB3Vv-Lc_3wFkLgsyylnBI8VHdNQCoeaOb53E&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&edm=AKu_40MEAAAA&_nc_tpa=Q5bMBQEeqTx6nYRXB4hwGSkQPOCbYf5AaIjtA3j-cR1LXz1Abs7mEKWg9sI8GE4AYv8I8khyzH3gdYQ2&oh=03_Q7cD4gG05OoFBZRjUIqeUoQbR-xW8tUVMvQTUa3A1lHQJx11oQ&oe=69AC93DD"
+          }
+        ],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.616Z",
+      "created_at": "2025-12-08T04:02:08.000Z",
+      "updated_at": "2025-12-08T04:02:08.000Z"
+    },
+    {
+      "id": "69851b16937c15e4020ea065",
+      "pid": "fbm_pMmF1XJ1d3hiYNnqXubwPUD7Spp4i2SRs4Put7OE1K6tY5dnN3xFc6T_-RWRKtBMh8eh3D4WgLZiVIdDX1Vl-Q",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Em ơi",
+      "facebook": {
+        "id": "m_pMmF1XJ1d3hiYNnqXubwPUD7Spp4i2SRs4Put7OE1K6tY5dnN3xFc6T_-RWRKtBMh8eh3D4WgLZiVIdDX1Vl-Q",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.614Z",
+      "created_at": "2025-12-08T04:02:28.000Z",
+      "updated_at": "2025-12-08T04:02:28.000Z"
+    },
+    {
+      "id": "69851b16320117c6e6b27493",
+      "pid": "fbm_HeKo5W6jpdku7U0GRD36CED7Spp4i2SRs4Put7OE1K6ln23KrjydEOnWSX5o9TW2c4tYAKnQ6kZ1vXw_PDugaw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "C thấy đăng trong nhóm",
+      "facebook": {
+        "id": "m_HeKo5W6jpdku7U0GRD36CED7Spp4i2SRs4Put7OE1K6ln23KrjydEOnWSX5o9TW2c4tYAKnQ6kZ1vXw_PDugaw",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.613Z",
+      "created_at": "2025-12-08T04:03:02.000Z",
+      "updated_at": "2025-12-08T04:03:02.000Z"
+    },
+    {
+      "id": "69851b1698a88c147f6f6306",
+      "pid": "fbm_ZFZrPiK08llFSVvNc8D7jUD7Spp4i2SRs4Put7OE1K6n6iZcudIgzq47boINu5UBMI0XtansvbK4OunO7MjNSA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Sz 44 còn ko e",
+      "facebook": {
+        "id": "m_ZFZrPiK08llFSVvNc8D7jUD7Spp4i2SRs4Put7OE1K6n6iZcudIgzq47boINu5UBMI0XtansvbK4OunO7MjNSA",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.623Z",
+      "created_at": "2025-12-08T04:03:19.000Z",
+      "updated_at": "2025-12-08T04:03:19.000Z"
+    },
+    {
+      "id": "69851b167c5cba9323c2d038",
+      "pid": "fbm_uY1sUddUda1zEgtDRatV6ED7Spp4i2SRs4Put7OE1K4sIBgMLkn6r3FTwIE2fPGRt-aUpAOlJSQyUP4_ANSa_Q",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Dạ còn ạ",
+      "facebook": {
+        "id": "m_uY1sUddUda1zEgtDRatV6ED7Spp4i2SRs4Put7OE1K4sIBgMLkn6r3FTwIE2fPGRt-aUpAOlJSQyUP4_ANSa_Q",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.627Z",
+      "created_at": "2025-12-08T04:04:35.000Z",
+      "updated_at": "2025-12-08T04:04:35.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b16a61418bb8c1efda3",
+      "pid": "fbm_9feXXQyZzTsn7MlfdzGBFkD7Spp4i2SRs4Put7OE1K6Yyuf6mtjKDngZwS7ip8wrhUwMf_BZfWdVeHhNsE7oSA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_9feXXQyZzTsn7MlfdzGBFkD7Spp4i2SRs4Put7OE1K6Yyuf6mtjKDngZwS7ip8wrhUwMf_BZfWdVeHhNsE7oSA",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.634Z",
+      "created_at": "2025-12-08T04:04:37.000Z",
+      "updated_at": "2025-12-08T04:04:37.000Z"
+    },
+    {
+      "id": "69851b16933b84ccf669c6e6",
+      "pid": "fbm_42gf3YRPtttyATG2AA_k60D7Spp4i2SRs4Put7OE1K7bVrn54ympltfmEkRNsMfOhZwmnkgSRdRmfyJ_ozze_Q",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Oki e gửi cho c nhá",
+      "facebook": {
+        "id": "m_42gf3YRPtttyATG2AA_k60D7Spp4i2SRs4Put7OE1K7bVrn54ympltfmEkRNsMfOhZwmnkgSRdRmfyJ_ozze_Q",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.624Z",
+      "created_at": "2025-12-08T04:05:00.000Z",
+      "updated_at": "2025-12-08T04:05:00.000Z"
+    },
+    {
+      "id": "69851b16c13c38b14d1378b0",
+      "pid": "fbm_xC4Jlo4BahiCVBHbuCxsgUD7Spp4i2SRs4Put7OE1K5Y2Ha_qgHfCvOsASE2iBtCl3KjuBHdGZ5ao3uyXlv5AQ",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_xC4Jlo4BahiCVBHbuCxsgUD7Spp4i2SRs4Put7OE1K5Y2Ha_qgHfCvOsASE2iBtCl3KjuBHdGZ5ao3uyXlv5AQ",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.399Z",
+      "created_at": "2025-12-08T04:05:06.000Z",
+      "updated_at": "2025-12-08T04:05:06.000Z"
+    },
+    {
+      "id": "69851b16e7c0ac4ecf9ec120",
+      "pid": "fbm_hk8sN1yjNIjv7CSK7K0vzUD7Spp4i2SRs4Put7OE1K7ghCpjoX3k6mKhvv5Jgj-O4T-XqD5HT1i1dlUmYbL3Yg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Chị cod hay ck ạ",
+      "facebook": {
+        "id": "m_hk8sN1yjNIjv7CSK7K0vzUD7Spp4i2SRs4Put7OE1K7ghCpjoX3k6mKhvv5Jgj-O4T-XqD5HT1i1dlUmYbL3Yg",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.415Z",
+      "created_at": "2025-12-08T04:08:00.000Z",
+      "updated_at": "2025-12-08T04:08:00.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b16aee259ecae2e0795",
+      "pid": "fbm_FHB6fI1VUUVcVKi-7Ej0mUD7Spp4i2SRs4Put7OE1K7Q80nSjfNxnhm1qtUhJFXboxmwKXhH4TYt08cwlQYsFQ",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Ship cod vẫn là 1030k phải khum e ?",
+      "facebook": {
+        "id": "m_FHB6fI1VUUVcVKi-7Ej0mUD7Spp4i2SRs4Put7OE1K7Q80nSjfNxnhm1qtUhJFXboxmwKXhH4TYt08cwlQYsFQ",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.411Z",
+      "created_at": "2025-12-08T04:08:51.000Z",
+      "updated_at": "2025-12-08T04:08:51.000Z"
+    },
+    {
+      "id": "69851b1689c82263ae64a45d",
+      "pid": "fbm_3Q2GZlfIXwmZppzx5jEvbUD7Spp4i2SRs4Put7OE1K4CY7x4FJlFEGvBLk4Nv11xa56ftXcIaFsOS_nsxrppjw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Dạ cod thì cọc giúp em 100k để em lên đơn giao ạ",
+      "facebook": {
+        "id": "m_3Q2GZlfIXwmZppzx5jEvbUD7Spp4i2SRs4Put7OE1K4CY7x4FJlFEGvBLk4Nv11xa56ftXcIaFsOS_nsxrppjw",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.428Z",
+      "created_at": "2025-12-08T04:10:15.000Z",
+      "updated_at": "2025-12-08T04:10:15.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b1652b4f449c469fd08",
+      "pid": "fbm_x4HgeZqpsDma--rea2kB5ED7Spp4i2SRs4Put7OE1K4KdYmMeCuNUgvSLS1974BeiW6M3K0zN1qOpaIRJm073A",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_x4HgeZqpsDma--rea2kB5ED7Spp4i2SRs4Put7OE1K4KdYmMeCuNUgvSLS1974BeiW6M3K0zN1qOpaIRJm073A",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.401Z",
+      "created_at": "2025-12-08T04:11:49.000Z",
+      "updated_at": "2025-12-08T04:11:49.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b16e3ffabb7d4de91be",
+      "pid": "fbm_hbLgzn0ISqUCN3GbVfSj-0D7Spp4i2SRs4Put7OE1K4ny9SZcCpf7Sg_YHBrgqwWtgvrhy7ruBDOFSTYpsU34A",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "C Ck rồi e nhé",
+      "facebook": {
+        "id": "m_hbLgzn0ISqUCN3GbVfSj-0D7Spp4i2SRs4Put7OE1K4ny9SZcCpf7Sg_YHBrgqwWtgvrhy7ruBDOFSTYpsU34A",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "24991211877211064",
+          "name": "Hương Giang"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.420Z",
+      "created_at": "2025-12-08T04:12:12.000Z",
+      "updated_at": "2025-12-08T04:12:12.000Z"
+    },
+    {
+      "id": "69851b16bd474fefd0ae6448",
+      "pid": "fbm_Gd-z2Wczr75mbm3iMKfLjED7Spp4i2SRs4Put7OE1K77GSSqhsfB0_98p2URwyt7Gvk3ESccUV_tzfJA_sTjzA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "cho e thông tin giao hàng ạ",
+      "facebook": {
+        "id": "m_Gd-z2Wczr75mbm3iMKfLjED7Spp4i2SRs4Put7OE1K77GSSqhsfB0_98p2URwyt7Gvk3ESccUV_tzfJA_sTjzA",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.407Z",
+      "created_at": "2025-12-08T05:23:46.000Z",
+      "updated_at": "2025-12-08T05:23:46.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b16dc0230f75d5cf6ae",
+      "pid": "fbm_N5iDQ4Ny3M1vzp26wgsnJUD7Spp4i2SRs4Put7OE1K7_DOs8a8Sx9rbBeg7AlJP1XWFKNicuewS_Zln4LBkSBQ",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_N5iDQ4Ny3M1vzp26wgsnJUD7Spp4i2SRs4Put7OE1K7_DOs8a8Sx9rbBeg7AlJP1XWFKNicuewS_Zln4LBkSBQ",
+        "attachments": [
+          {}
+        ],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.436Z",
+      "created_at": "2025-12-08T05:29:53.000Z",
+      "updated_at": "2025-12-08T05:29:53.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b16b2e8badf7fb52534",
+      "pid": "fbm_lLfDvv8MEG9Hvv8cMUPjIUD7Spp4i2SRs4Put7OE1K5cYdKldJiuCNHjMX3ekIIz4Y2NNFQETv_jmzJDDj1NRw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "",
+      "facebook": {
+        "id": "m_lLfDvv8MEG9Hvv8cMUPjIUD7Spp4i2SRs4Put7OE1K5cYdKldJiuCNHjMX3ekIIz4Y2NNFQETv_jmzJDDj1NRw",
+        "attachments": [
+          {}
+        ],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.406Z",
+      "created_at": "2025-12-11T01:49:31.000Z",
+      "updated_at": "2025-12-11T01:49:31.000Z",
+      "seen": true
+    },
+    {
+      "id": "69851b162b578e57cbeb5aed",
+      "pid": "fbm_Qja-J0tOp-Wha_XJFIn1VkD7Spp4i2SRs4Put7OE1K7Fh7y7DM1o0AMFtHoramNowkfeooShJGuTFXj-FVA_Zg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Đơn hàng pumalife8030 đã được giao thành công. Cảm ơn bạn đã mua hàng tại Pumalife Store. \nNếu có thắc mắc cần giải đáp mình đừng ngần ngại nhắn tin để đội ngũ của shop hỗ trợ cho mình.",
+      "facebook": {
+        "id": "m_Qja-J0tOp-Wha_XJFIn1VkD7Spp4i2SRs4Put7OE1K7Fh7y7DM1o0AMFtHoramNowkfeooShJGuTFXj-FVA_Zg",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "_created_at": "2026-02-05T22:35:02.402Z",
+      "created_at": "2025-12-11T04:00:25.000Z",
+      "updated_at": "2025-12-11T04:00:25.000Z",
+      "seen": true
+    },
+    {
+      "id": "6a5de59e33ea61d27249738f",
+      "pid": "fbm_xYvuL5WvWmiVzhovn-KYakD7Spp4i2SRs4Put7OE1K4ifc9tiMfom6UU1M1L-UddFaePzD4Awam1VvhmOArsuw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_xYvuL5WvWmiVzhovn-KYakD7Spp4i2SRs4Put7OE1K4ifc9tiMfom6UU1M1L-UddFaePzD4Awam1VvhmOArsuw",
+        "attachments": [
+          {
+            "name": "image",
+            "mime_type": "image/jpg",
+            "url": "https://scontent.xx.fbcdn.net/v/t1.15752-9/749713848_1334627608753483_8587259863844477586_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=1OeYm6CoR_sQ7kNvwES_5dt&_nc_oc=AdpMBq6VKdFFTCtnO0TByYRY1YSlIXiEYnvqBDynQFKQ_zUh7vuxeqEm7VJaizAA8AuA6wtqHSvQYqgukBs9L-SI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD5wFdZRZTzfCTEEvLL-EW-WSv4ven5e7dxhN2vQuiMPiXeQ&oe=6A85492F",
+            "url_preview": "https://scontent.xx.fbcdn.net/v/t1.15752-9/749713848_1334627608753483_8587259863844477586_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=1OeYm6CoR_sQ7kNvwES_5dt&_nc_oc=AdpMBq6VKdFFTCtnO0TByYRY1YSlIXiEYnvqBDynQFKQ_zUh7vuxeqEm7VJaizAA8AuA6wtqHSvQYqgukBs9L-SI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD5wFdZRZTzfCTEEvLL-EW-WSv4ven5e7dxhN2vQuiMPiXeQ&oe=6A85492F"
+          }
+        ],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-20T09:08:46.106Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-20T09:08:42.907Z",
+      "updated_at": "2026-07-20T09:08:42.907Z"
+    },
+    {
+      "id": "6a5de5befa9d3a1dbfa95578",
+      "pid": "fbm_zVjV77rjzZciB76m_6ouKED7Spp4i2SRs4Put7OE1K7aq09qhiLFc6hC5NlCwDcMZ878e_XF_MzT4Ck3mg58sg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Shop òi mình ord đôi này 37,5 nha",
+      "facebook": {
+        "id": "m_zVjV77rjzZciB76m_6ouKED7Spp4i2SRs4Put7OE1K7aq09qhiLFc6hC5NlCwDcMZ878e_XF_MzT4Ck3mg58sg",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-20T09:09:18.676Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-20T09:09:17.119Z",
+      "updated_at": "2026-07-20T09:09:17.119Z"
+    },
+    {
+      "id": "6a5de605bcc9c1d4ff0cfdc1",
+      "pid": "fbm_26skaFOX4EHcyF2ZcW8zHUD7Spp4i2SRs4Put7OE1K7GqDd0DVpZTVWfel5Zh2ovCsNLl5qb4N1wkPDdzPLOow",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Địa chỉ mới: No12/3 khu đô thị Sài Đồng, Long Biên, Hà nội \nDt : 0765805555",
+      "facebook": {
+        "id": "m_26skaFOX4EHcyF2ZcW8zHUD7Spp4i2SRs4Put7OE1K7GqDd0DVpZTVWfel5Zh2ovCsNLl5qb4N1wkPDdzPLOow",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [
+        {
+          "value": "0765805555",
+          "offset": 65,
+          "length": 10
+        }
+      ],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-20T09:10:29.076Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-20T09:10:27.517Z",
+      "updated_at": "2026-07-20T09:10:27.517Z"
+    },
+    {
+      "id": "6a5de613157849c90fe8790f",
+      "pid": "fbm_-HgGbW1fxLcWE3NXnlB_ikD7Spp4i2SRs4Put7OE1K6g8JDbRxvCU5mkvywywXTI1J41ueOL-7WRb-nK0pY39w",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "dạ còn ạ",
+      "facebook": {
+        "id": "m_-HgGbW1fxLcWE3NXnlB_ikD7Spp4i2SRs4Put7OE1K6g8JDbRxvCU5mkvywywXTI1J41ueOL-7WRb-nK0pY39w",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-20T09:10:43.180Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-20T09:10:42.063Z",
+      "updated_at": "2026-07-20T09:10:42.063Z",
+      "seen": true
+    },
+    {
+      "id": "6a5de61aa72d81858005dd51",
+      "pid": "fbm_3dV4CaPr79tAWx39t2BngUD7Spp4i2SRs4Put7OE1K7QkK4G5iwcRqv09zRee90OCmm47X3g6J93AvZkZGpCEA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "cọc giúp shop 200k ạ",
+      "facebook": {
+        "id": "m_3dV4CaPr79tAWx39t2BngUD7Spp4i2SRs4Put7OE1K7QkK4G5iwcRqv09zRee90OCmm47X3g6J93AvZkZGpCEA",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-20T09:10:50.327Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-20T09:10:49.077Z",
+      "updated_at": "2026-07-20T09:10:49.077Z",
+      "seen": true
+    },
+    {
+      "id": "6a5de62acb6dad674772adea",
+      "pid": "fbm_wvopjuB-UjgjU0SwM0dir0D7Spp4i2SRs4Put7OE1K6trhClZRz7JJEP3Iftw0-IAkc2oRIQv7vC0T0JqM__kg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "OK shop",
+      "facebook": {
+        "id": "m_wvopjuB-UjgjU0SwM0dir0D7Spp4i2SRs4Put7OE1K6trhClZRz7JJEP3Iftw0-IAkc2oRIQv7vC0T0JqM__kg",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-20T09:11:06.320Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-20T09:11:04.663Z",
+      "updated_at": "2026-07-20T09:11:04.663Z"
+    },
+    {
+      "id": "6a5de69d3944b303140b0c33",
+      "pid": "fbm_85CQwA-2TZLW35TlbI2sq0D7Spp4i2SRs4Put7OE1K6ygZvGlidTTaA4qB_E8Y0gvSfnazCyeKaJZkv_ACOVpA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_85CQwA-2TZLW35TlbI2sq0D7Spp4i2SRs4Put7OE1K6ygZvGlidTTaA4qB_E8Y0gvSfnazCyeKaJZkv_ACOVpA",
+        "attachments": [
+          {
+            "name": "image",
+            "mime_type": "image/jpg",
+            "url": "https://scontent.xx.fbcdn.net/v/t1.15752-9/682306469_950581747590963_7157426189558536584_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=AK8aGrSCN2gQ7kNvwGjqVE9&_nc_oc=AdqSVj7wqxEd3BBwX9cnFAd8vCUVic9XBmSYbxsExKQBJjd-x5Y_vxGBOlvlVECf5b4tSxhDsNrKyqcLMwlx03gJ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD5wEo7ekDI6TbAIhwijA2f4GBGaB5bW4gUjubAGUbu0kCiA&oe=6A854C1E",
+            "url_preview": "https://scontent.xx.fbcdn.net/v/t1.15752-9/682306469_950581747590963_7157426189558536584_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=AK8aGrSCN2gQ7kNvwGjqVE9&_nc_oc=AdqSVj7wqxEd3BBwX9cnFAd8vCUVic9XBmSYbxsExKQBJjd-x5Y_vxGBOlvlVECf5b4tSxhDsNrKyqcLMwlx03gJ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD5wEo7ekDI6TbAIhwijA2f4GBGaB5bW4gUjubAGUbu0kCiA&oe=6A854C1E"
+          }
+        ],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-20T09:13:01.958Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-20T09:13:00.066Z",
+      "updated_at": "2026-07-20T09:13:00.066Z",
+      "seen": true
+    },
+    {
+      "id": "6a5de69fea773d7b98f65095",
+      "pid": "fbm_9ESoZHQ0ihHDjWxwE0519kD7Spp4i2SRs4Put7OE1K5TtgOHo-gbs7m2qNj1DNQyOhBnt6LAbMGJtdB8MVWVrw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Nội dung chuyển khoản chỉ cần ghi tên người và gửi ảnh chụp màn hình chuyển khoản là được.",
+      "facebook": {
+        "id": "m_9ESoZHQ0ihHDjWxwE0519kD7Spp4i2SRs4Put7OE1K5TtgOHo-gbs7m2qNj1DNQyOhBnt6LAbMGJtdB8MVWVrw",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-20T09:13:03.738Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-20T09:13:00.758Z",
+      "updated_at": "2026-07-20T09:13:00.758Z",
+      "seen": true
+    },
+    {
+      "id": "6a5de6a0287fd4f6dcbd4713",
+      "pid": "fbm_ElgvDAcKzz6Y7DamKgltEkD7Spp4i2SRs4Put7OE1K7Sb0bbISCFTCXTzBm5usRIgoJKgAaw5CTxRoZBMtWGJA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_ElgvDAcKzz6Y7DamKgltEkD7Spp4i2SRs4Put7OE1K7Sb0bbISCFTCXTzBm5usRIgoJKgAaw5CTxRoZBMtWGJA",
+        "attachments": [],
+        "cards": [
+          {
+            "type": "generic",
+            "text": "Transfer requested",
+            "buttons": []
+          }
+        ],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-20T09:13:05.000Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-20T09:13:01.003Z",
+      "updated_at": "2026-07-20T09:13:01.003Z",
+      "seen": true
+    },
+    {
+      "id": "6a5de7525cdb7e16b560fddd",
+      "pid": "fbm_d87Sa7n-2NnE3pkFzYFmIkD7Spp4i2SRs4Put7OE1K7HwxlWQfGURMR9phNlb4b1n4qCQ02WY_x3q3P9VMHL8g",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_d87Sa7n-2NnE3pkFzYFmIkD7Spp4i2SRs4Put7OE1K7HwxlWQfGURMR9phNlb4b1n4qCQ02WY_x3q3P9VMHL8g",
+        "attachments": [
+          {
+            "name": "image",
+            "mime_type": "image/jpg",
+            "url": "https://scontent.xx.fbcdn.net/v/t1.15752-9/749076603_1584524856390890_6869056856269905437_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=KGogjMijgvEQ7kNvwHwv5bQ&_nc_oc=Ado0M_9utDdEsJj-k6gm611_N8UljPE8zuzZnZSzChn0IrlujuNvfteu_pC0AkWzPhMY7aAeLRuLGSguYjgBxvM3&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD5wGng0BMxCcz-lWij8emLlDw41WrQwP12NJWtz7j3QVrWQ&oe=6A856396",
+            "url_preview": "https://scontent.xx.fbcdn.net/v/t1.15752-9/749076603_1584524856390890_6869056856269905437_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=KGogjMijgvEQ7kNvwHwv5bQ&_nc_oc=Ado0M_9utDdEsJj-k6gm611_N8UljPE8zuzZnZSzChn0IrlujuNvfteu_pC0AkWzPhMY7aAeLRuLGSguYjgBxvM3&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD5wGng0BMxCcz-lWij8emLlDw41WrQwP12NJWtz7j3QVrWQ&oe=6A856396"
+          }
+        ],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-20T09:16:02.519Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-20T09:16:00.667Z",
+      "updated_at": "2026-07-20T09:16:00.667Z"
+    },
+    {
+      "id": "6a5de7591c200d2eb5aa9e3a",
+      "pid": "fbm_FEQOfEataIqbTZt8EV-o_ED7Spp4i2SRs4Put7OE1K70UqTofohcIgrSSGM5q6Ojd4xX8ve46fweSH44DZQmpQ",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_FEQOfEataIqbTZt8EV-o_ED7Spp4i2SRs4Put7OE1K70UqTofohcIgrSSGM5q6Ojd4xX8ve46fweSH44DZQmpQ",
+        "attachments": [],
+        "cards": [
+          {
+            "type": "generic",
+            "text": "Payment confirmed",
+            "desc": "Receipt attached",
+            "buttons": [
+              "See details"
+            ]
+          }
+        ],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-20T09:16:09.323Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-20T09:16:07.864Z",
+      "updated_at": "2026-07-20T09:16:07.864Z",
+      "seen": true
+    },
+    {
+      "id": "6a5de76fbcc9c1d4ff0cfe38",
+      "pid": "fbm_itFhU8_awyoyIZ2FBPg8skD7Spp4i2SRs4Put7OE1K47dDV3CWq1nLJh7GUGPxsOWdNL1hD5FcNcAn4lvx5VPQ",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "shop lên đơn order giày size 37.5 640k ạ",
+      "facebook": {
+        "id": "m_itFhU8_awyoyIZ2FBPg8skD7Spp4i2SRs4Put7OE1K47dDV3CWq1nLJh7GUGPxsOWdNL1hD5FcNcAn4lvx5VPQ",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-20T09:16:31.100Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-20T09:16:27.538Z",
+      "updated_at": "2026-07-20T09:16:27.538Z",
+      "seen": true
+    },
+    {
+      "id": "6a5de7a0256e1f99aba41cdd",
+      "pid": "1830c715-4284-44ba-8623-7200a8460ab6",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "1830c715-4284-44ba-8623-7200a8460ab6",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-20T09:17:20.208Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-20T09:17:15.000Z",
+      "updated_at": "2026-07-20T09:17:15.000Z"
+    },
+    {
+      "id": "6a5de79e8110f2f806a1b516",
+      "pid": "fbm_BEtiLYtcCAVRZr1zOq9YSUD7Spp4i2SRs4Put7OE1K76ITHS44r8mu2rF0kxKEPt-vl7QTT7f0KRojMqvNLASA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Giang Hương\n+84765805555\nNo 12/3 khu đô thị Sài Đồng\nPhúc Lợi\nLong Biên\nHà nội\nVietnam",
+      "facebook": {
+        "id": "m_BEtiLYtcCAVRZr1zOq9YSUD7Spp4i2SRs4Put7OE1K76ITHS44r8mu2rF0kxKEPt-vl7QTT7f0KRojMqvNLASA",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "reply_to_pid": "fbm_p0d8kivSjKOMeF0EUFiK2UD7Spp4i2SRs4Put7OE1K6nSFr4kPhwzhtc5Q3ElzeE5imdE0tEDK_WLuvmSm-C5Q",
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [
+        {
+          "value": "+84765805555",
+          "offset": 12,
+          "length": 12
+        }
+      ],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-20T09:17:18.144Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-20T09:17:16.653Z",
+      "updated_at": "2026-07-20T09:17:16.653Z"
+    },
+    {
+      "id": "6a5de82733ea61d272497485",
+      "pid": "fbm_wGc0lOrADFnZD_20I-52HUD7Spp4i2SRs4Put7OE1K7QWI8kt5BijYS0nXV8gbPXgQJU4lPSyiRIylhYyummjg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_wGc0lOrADFnZD_20I-52HUD7Spp4i2SRs4Put7OE1K7QWI8kt5BijYS0nXV8gbPXgQJU4lPSyiRIylhYyummjg",
+        "attachments": [
+          {
+            "name": "image",
+            "mime_type": "image/png",
+            "url": "https://scontent.xx.fbcdn.net/v/t1.15752-9/750684473_2505249226581413_5985820089108414129_n.png?_nc_cat=106&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=EkYcAAnxn8IQ7kNvwGOOrHy&_nc_oc=Ado9VQiL3cwEAf_ddaqbzdQ9982Z0fRMHc4trlyR8vCcB5okYRqB1oaGwX9h0V5hxpci6q_kzas7aUB162xY4dAP&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD5wGJnwV7LJviG9vm7a4oFjTuYnpJpREKGFTP9ysxsXlczg&oe=6A854877",
+            "url_preview": "https://scontent.xx.fbcdn.net/v/t1.15752-9/750684473_2505249226581413_5985820089108414129_n.png?_nc_cat=106&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=EkYcAAnxn8IQ7kNvwGOOrHy&_nc_oc=Ado9VQiL3cwEAf_ddaqbzdQ9982Z0fRMHc4trlyR8vCcB5okYRqB1oaGwX9h0V5hxpci6q_kzas7aUB162xY4dAP&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD5wGJnwV7LJviG9vm7a4oFjTuYnpJpREKGFTP9ysxsXlczg&oe=6A854877"
+          }
+        ],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-20T09:19:35.651Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-20T09:19:34.501Z",
+      "updated_at": "2026-07-20T09:19:34.501Z",
+      "seen": true
+    },
+    {
+      "id": "6a5de82fc76a01adcab1552d",
+      "pid": "fbm_7-4QZD0RXzCvSX6wy6pcDUD7Spp4i2SRs4Put7OE1K44xL2G0pWT0QGsnBxnEmMhzj4UcBhj9zI-Earlr2jcPA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "fb1574281086218015",
+      "message": "Đơn hàng pumalife15369 đã được tạo thành công. \nHàng về có 2 hình thức thanh toán CK và COD. Nếu thanh toán COD thì + thêm 1.5% cho truy thu thuế.\nMình kiểm tra xem thông tin sản phẩm của đơn hàng đã đúng chưa. \nThông tin đơn hàng tại đây: https://pumalifeorder.vercel.app/bill.html?id=15369",
+      "facebook": {
+        "id": "m_7-4QZD0RXzCvSX6wy6pcDUD7Spp4i2SRs4Put7OE1K44xL2G0pWT0QGsnBxnEmMhzj4UcBhj9zI-Earlr2jcPA",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "361260004211097",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-20T09:19:43.755Z",
+      "created_at": "2026-07-20T09:19:42.878Z",
+      "updated_at": "2026-07-20T09:19:42.878Z",
+      "seen": true
+    },
+    {
+      "id": "6a5de894dfbc4a255a34350b",
+      "pid": "fbm_1MWFGZsu9ucV-sWbSGyEokD7Spp4i2SRs4Put7OE1K6OTsBVNXFbbUEiCOwk7YGFYBpfCnLL5QfIKQez2q1uIw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "OK giay về mình CK nhé",
+      "facebook": {
+        "id": "m_1MWFGZsu9ucV-sWbSGyEokD7Spp4i2SRs4Put7OE1K6OTsBVNXFbbUEiCOwk7YGFYBpfCnLL5QfIKQez2q1uIw",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-20T09:21:24.452Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-20T09:21:23.060Z",
+      "updated_at": "2026-07-20T09:21:23.060Z"
+    },
+    {
+      "id": "6a5de8bf7857037d9a7ee9a1",
+      "pid": "fbm_ccaBb8Q4jaLHOLN7bqEyy0D7Spp4i2SRs4Put7OE1K6DAs1_lnvyqT8-379UDmsjfLOTttxhl5qhEXG-I0jhKQ",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "dạ vâng ạ",
+      "facebook": {
+        "id": "m_ccaBb8Q4jaLHOLN7bqEyy0D7Spp4i2SRs4Put7OE1K6DAs1_lnvyqT8-379UDmsjfLOTttxhl5qhEXG-I0jhKQ",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-20T09:22:07.559Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-20T09:22:06.004Z",
+      "updated_at": "2026-07-20T09:22:06.004Z",
+      "seen": true
+    },
+    {
+      "id": "6a608b6bd4b42e33696c9e53",
+      "pid": "fbm_GGuFiPpK1EixRBtoV3n2U0D7Spp4i2SRs4Put7OE1K7RibG1JDs7lD3cZSXbjlPjTtNlxkR_KhtdhhFdn57tSg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Ưu đãi và thông báo",
+      "facebook": {
+        "id": "m_GGuFiPpK1EixRBtoV3n2U0D7Spp4i2SRs4Put7OE1K7RibG1JDs7lD3cZSXbjlPjTtNlxkR_KhtdhhFdn57tSg",
+        "attachments": [],
+        "cards": [
+          {
+            "type": "generic",
+            "text": "Ưu đãi và thông báo",
+            "desc": "Bạn không muốn bỏ lỡ đợt giảm giá mới nhất? Bạn có thể dừng nhận các tin nhắn này bất cứ lúc nào.",
+            "buttons": [
+              "Ưu đãi và thông báo"
+            ]
+          }
+        ],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-22T09:20:43.417Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-22T09:20:41.483Z",
+      "updated_at": "2026-07-22T09:20:41.483Z",
+      "seen": true
+    },
+    {
+      "id": "6a608d7769ca80aea075d13f",
+      "pid": "d8bbcaa8-c8a2-4416-9c2f-ecb1ec09d84f",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Đăng kí topic: Updates and promotions",
+      "facebook": {
+        "id": "d8bbcaa8-c8a2-4416-9c2f-ecb1ec09d84f",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-22T09:29:27.411Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-22T09:29:25.606Z",
+      "updated_at": "2026-07-22T09:29:25.606Z"
+    },
+    {
+      "id": "6a6c2324fece1d08ab4c62e9",
+      "pid": "fbm_1RU0lbD6RQH_Yn3FU5z_DkD7Spp4i2SRs4Put7OE1K52oKn2_C1SgLuxcKhCcWWTORz30QWiBt0t24oH9qk5OA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Đơn hàng pumalife15369 của bạn đã về đến shop ở HCM.\nSố tiền còn lại cần phải thanh toán 475.000đ\nBạn thanh toán ck hay COD ạ.\nNếu thanh toán COD thì + thêm 1.5% cho truy thu thuế. \nhình ảnh hàng về xem tại link: https://pumalifeorder.vercel.app/bill.html?id=15369",
+      "facebook": {
+        "id": "m_1RU0lbD6RQH_Yn3FU5z_DkD7Spp4i2SRs4Put7OE1K52oKn2_C1SgLuxcKhCcWWTORz30QWiBt0t24oH9qk5OA",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-31T04:23:00.652Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-31T04:22:59.054Z",
+      "updated_at": "2026-07-31T04:22:59.054Z",
+      "seen": true
+    },
+    {
+      "id": "6a6c2337ba460cc8fb49ebf8",
+      "pid": "fbm_EjvvTGZx4q1LzZZi79Ep60D7Spp4i2SRs4Put7OE1K4Fo_iV15F2PXAbCsYi3c8cDTDuT8xXj72KLDw51gCXLA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_EjvvTGZx4q1LzZZi79Ep60D7Spp4i2SRs4Put7OE1K4Fo_iV15F2PXAbCsYi3c8cDTDuT8xXj72KLDw51gCXLA",
+        "attachments": [
+          {
+            "name": "image",
+            "mime_type": "image/jpg",
+            "url": "https://scontent.xx.fbcdn.net/v/t1.15752-9/759455825_1029629213015952_7106498531023835159_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=JHG03YsRPDoQ7kNvwHR4PZG&_nc_oc=Ado4fOeMlnjC-UwvQt4s4CHkU9makN4Al1vAb1Ab0f0V_eMdkQ7LpoHsx-LvldOZvYgVH1A29zfNEJl1HIUmCeWH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD6AEJjeSskWk-yOsLqiPI8lzLMBnhouAXTenFpzbv0CzjAA&oe=6A93909E",
+            "url_preview": "https://scontent.xx.fbcdn.net/v/t1.15752-9/759455825_1029629213015952_7106498531023835159_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=JHG03YsRPDoQ7kNvwHR4PZG&_nc_oc=Ado4fOeMlnjC-UwvQt4s4CHkU9makN4Al1vAb1Ab0f0V_eMdkQ7LpoHsx-LvldOZvYgVH1A29zfNEJl1HIUmCeWH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD6AEJjeSskWk-yOsLqiPI8lzLMBnhouAXTenFpzbv0CzjAA&oe=6A93909E"
+          }
+        ],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-31T04:23:19.730Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-31T04:23:18.467Z",
+      "updated_at": "2026-07-31T04:23:18.467Z",
+      "seen": true
+    },
+    {
+      "id": "6a6c2bba0cd98a075940eadd",
+      "pid": "fbm_nwEuLv3tvXlZ_3ZxPZbQV0D7Spp4i2SRs4Put7OE1K6OzNPoKx9y_Bm_oSAj1A3Pmj0S76V_JBO27U7_As6L8w",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_nwEuLv3tvXlZ_3ZxPZbQV0D7Spp4i2SRs4Put7OE1K6OzNPoKx9y_Bm_oSAj1A3Pmj0S76V_JBO27U7_As6L8w",
+        "attachments": [
+          {
+            "name": "image",
+            "mime_type": "image/jpg",
+            "url": "https://scontent.xx.fbcdn.net/v/t1.15752-9/757146773_1567046945009122_8007721101240220604_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=e3mX_nkG4CkQ7kNvwGLdlmh&_nc_oc=Adrm1OXIBkw1oT4-K7ZEp9rWC6E-uDa-1mP1oV85oHSC_HowZXijYyjjCL_5P0aUwEr8OBeMsP0csd6E5Z1RFIOk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD6AGGKyb6t1AO-F-R7UScp08m9C49xqC0SIUpayjD7m8czA&oe=6A939D41",
+            "url_preview": "https://scontent.xx.fbcdn.net/v/t1.15752-9/757146773_1567046945009122_8007721101240220604_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=e3mX_nkG4CkQ7kNvwGLdlmh&_nc_oc=Adrm1OXIBkw1oT4-K7ZEp9rWC6E-uDa-1mP1oV85oHSC_HowZXijYyjjCL_5P0aUwEr8OBeMsP0csd6E5Z1RFIOk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD6AGGKyb6t1AO-F-R7UScp08m9C49xqC0SIUpayjD7m8czA&oe=6A939D41"
+          }
+        ],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-31T04:59:38.453Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-31T04:59:36.711Z",
+      "updated_at": "2026-07-31T04:59:36.711Z"
+    },
+    {
+      "id": "6a6c2bc522f33c260f3ebe7f",
+      "pid": "fbm_NT7TCUAkmg7XJf14HkORR0D7Spp4i2SRs4Put7OE1K7CT94buggTtJvtBDAfz61fUXxdAJDGunTrxcfVYDKAbQ",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_NT7TCUAkmg7XJf14HkORR0D7Spp4i2SRs4Put7OE1K7CT94buggTtJvtBDAfz61fUXxdAJDGunTrxcfVYDKAbQ",
+        "attachments": [],
+        "cards": [
+          {
+            "type": "generic",
+            "text": "Payment confirmed",
+            "desc": "Receipt attached",
+            "buttons": [
+              "See details"
+            ]
+          }
+        ],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-31T04:59:49.420Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-31T04:59:48.179Z",
+      "updated_at": "2026-07-31T04:59:48.179Z",
+      "seen": true
+    },
+    {
+      "id": "6a6c329c5a219f0d0b85ae53",
+      "pid": "fbm_QLDm_9LAb4ddlvurj4zPx0D7Spp4i2SRs4Put7OE1K4xoLsXQIGVA0H39Fq6hUdvNIgZuknw3shp7L2PVFL99g",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "fb1574281086218015",
+      "message": "Đã tạo vận đơn giao hàng thành công. Thông tin nhận hàng:  Hương Giang | sđt +84765805555 | No 12/3 khu đô thị Sài Đồng, phường Phúc Lợi, quận Long Biên, Hà nội\nSố tiền COD: 0đ\nBạn theo dõi tình trạng giao hàng tại link https://pumalifeorder.vercel.app/bill.html?id=15369\nBạn vui lòng kiểm tra lại thông tin đã chính xác chưa, nếu có sai sót báo lại shop ngay.",
+      "facebook": {
+        "id": "m_QLDm_9LAb4ddlvurj4zPx0D7Spp4i2SRs4Put7OE1K4xoLsXQIGVA0H39Fq6hUdvNIgZuknw3shp7L2PVFL99g",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "361260004211097",
+      "type": "facebook_message",
+      "phones": [
+        {
+          "value": "+84765805555",
+          "offset": 77,
+          "length": 12
+        }
+      ],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-31T05:29:00.837Z",
+      "created_at": "2026-07-31T05:29:00.033Z",
+      "updated_at": "2026-07-31T05:29:00.033Z",
+      "seen": true
+    },
+    {
+      "id": "6a6c36c9b5eee506a1305345",
+      "pid": "fbm_tcV7XleJ2YMlFzEkQ0Qo2UD7Spp4i2SRs4Put7OE1K75Z6lYxJRtflNLRKh1oPErHR9LlzxNJ28LMPAnxhmSdw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Tks shop",
+      "facebook": {
+        "id": "m_tcV7XleJ2YMlFzEkQ0Qo2UD7Spp4i2SRs4Put7OE1K75Z6lYxJRtflNLRKh1oPErHR9LlzxNJ28LMPAnxhmSdw",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-31T05:46:49.866Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-07-31T05:46:48.311Z",
+      "updated_at": "2026-07-31T05:46:48.311Z"
+    },
+    {
+      "id": "6aaa2e0f5e5f75763aa4ce50",
+      "pid": "fbm_SoRZYEV6CaM8g0e5muDaEUD7Spp4i2SRs4Put7OE1K7Rq2KkTM4nZAwCVdOLWgzu5-PFj4IIxRttW57q8oVQ0g",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_SoRZYEV6CaM8g0e5muDaEUD7Spp4i2SRs4Put7OE1K7Rq2KkTM4nZAwCVdOLWgzu5-PFj4IIxRttW57q8oVQ0g",
+        "attachments": [
+          {
+            "name": "image",
+            "mime_type": "image/jpg",
+            "url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t1.15752-9/808189954_1746056319949595_4576421595150219165_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=EoDHJvlK3nIQ7kNvwE8bexP&_nc_oc=AdosIvl9G2anCLkQzul768yRg-8VzXzmH3oqeLAnhzbpBIMBAj1_6aeWoQAQbWyNyQHp9eih6cVMGSEC9EsEIG1B&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&oh=03_Q7cD6QHDHHuk_PLcx6R8wT189ZxAGFwZliNycBpeaJkDThFpGA&oe=6AD19D66",
+            "url_preview": "https://scontent-dfw6-1.xx.fbcdn.net/v/t1.15752-9/808189954_1746056319949595_4576421595150219165_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=EoDHJvlK3nIQ7kNvwE8bexP&_nc_oc=AdosIvl9G2anCLkQzul768yRg-8VzXzmH3oqeLAnhzbpBIMBAj1_6aeWoQAQbWyNyQHp9eih6cVMGSEC9EsEIG1B&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&oh=03_Q7cD6QHDHHuk_PLcx6R8wT189ZxAGFwZliNycBpeaJkDThFpGA&oe=6AD19D66"
+          }
+        ],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-16T05:50:07.207Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-09-16T05:50:05.194Z",
+      "updated_at": "2026-09-16T05:50:05.194Z"
+    },
+    {
+      "id": "6aaa2e2c0b12b827557c529c",
+      "pid": "fbm_6nZl7n_R6OJ2Klzsq3VHbUD7Spp4i2SRs4Put7OE1K79BxhUHAEqkMsgAT8dxmNkuysBht8B7MwCIqJNEQrGAA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Lấy cho mình đôi sz 37 nha shop",
+      "facebook": {
+        "id": "m_6nZl7n_R6OJ2Klzsq3VHbUD7Spp4i2SRs4Put7OE1K79BxhUHAEqkMsgAT8dxmNkuysBht8B7MwCIqJNEQrGAA",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-16T05:50:36.851Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-09-16T05:50:35.662Z",
+      "updated_at": "2026-09-16T05:50:35.662Z"
+    },
+    {
+      "id": "6aaa33c9afa8e0f16f95f4f5",
+      "pid": "fbm_JhWFC2D1Om2acdrXnu8PjED7Spp4i2SRs4Put7OE1K5pMQXMsmP2_PfDaFVep_cu1FkRO3Fo_WdM5skTKrHWQA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "dạ mình chốt cọc trc 500K ạ",
+      "facebook": {
+        "id": "m_JhWFC2D1Om2acdrXnu8PjED7Spp4i2SRs4Put7OE1K5pMQXMsmP2_PfDaFVep_cu1FkRO3Fo_WdM5skTKrHWQA",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-16T06:14:33.781Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-09-16T06:14:32.798Z",
+      "updated_at": "2026-09-16T06:14:32.798Z",
+      "seen": true
+    },
+    {
+      "id": "6aaa474cf930a008e9e61abd",
+      "pid": "fbm_XW6SJhkn8Qiy9dx1hIz2SED7Spp4i2SRs4Put7OE1K6T35HGzZEarG3dK1ioegvRS9TqznFP3uZzXgvnJj1tbA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Nội dung chuyển khoản chỉ cần ghi tên người và gửi ảnh chụp màn hình chuyển khoản là được.",
+      "facebook": {
+        "id": "m_XW6SJhkn8Qiy9dx1hIz2SED7Spp4i2SRs4Put7OE1K6T35HGzZEarG3dK1ioegvRS9TqznFP3uZzXgvnJj1tbA",
+        "attachments": [
+          {
+            "name": "image",
+            "mime_type": "image/png",
+            "url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t1.15752-9/799767373_1065251926390368_2384366720362451793_n.png?_nc_cat=110&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=-guq6IZUyaEQ7kNvwGhvxwp&_nc_oc=AdqjDQHueeY73M1R9TXJaZ9_GCE6VENzS6fVJACjaWe_9aidVkHwiVHbliy31VKvmpakuQ5L0dFaqJX_63lqXXjS&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw6-2.xx&oh=03_Q7cD6QEtN-L73KoYEEaFxUVhxGu0hDofsBM9lhKq_iloHz6T8Q&oe=6AD1BA70",
+            "url_preview": "https://scontent-dfw6-2.xx.fbcdn.net/v/t1.15752-9/799767373_1065251926390368_2384366720362451793_n.png?_nc_cat=110&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=-guq6IZUyaEQ7kNvwGhvxwp&_nc_oc=AdqjDQHueeY73M1R9TXJaZ9_GCE6VENzS6fVJACjaWe_9aidVkHwiVHbliy31VKvmpakuQ5L0dFaqJX_63lqXXjS&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw6-2.xx&oh=03_Q7cD6QEtN-L73KoYEEaFxUVhxGu0hDofsBM9lhKq_iloHz6T8Q&oe=6AD1BA70"
+          }
+        ],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-16T07:37:48.378Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-09-16T07:37:47.329Z",
+      "updated_at": "2026-09-16T07:37:47.329Z",
+      "seen": true
+    },
+    {
+      "id": "6aaa474dfe29ace05cbc0cdb",
+      "pid": "fbm_bJiUcg7JPtq5q9PZ5xv0QUD7Spp4i2SRs4Put7OE1K5uuofKqW0Z6PJYlzTa-Fn7a-UUrnYUrvQgpF63xkUSwg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_bJiUcg7JPtq5q9PZ5xv0QUD7Spp4i2SRs4Put7OE1K5uuofKqW0Z6PJYlzTa-Fn7a-UUrnYUrvQgpF63xkUSwg",
+        "attachments": [],
+        "cards": [
+          {
+            "type": "generic",
+            "text": "Transfer requested",
+            "buttons": []
+          }
+        ],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-16T07:37:49.848Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-09-16T07:37:48.870Z",
+      "updated_at": "2026-09-16T07:37:48.870Z",
+      "seen": true
+    },
+    {
+      "id": "6aaa47585e5f75763aa4db14",
+      "pid": "fbm_VvjR_PiNaT-HVSOsICXg-kD7Spp4i2SRs4Put7OE1K7j5GPwkahgES-gHw3c-nNVPD2vbyw4EXHFFOa1of-EgA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "B order nhắn shop liền nhé, k nhảy giá nề",
+      "facebook": {
+        "id": "m_VvjR_PiNaT-HVSOsICXg-kD7Spp4i2SRs4Put7OE1K7j5GPwkahgES-gHw3c-nNVPD2vbyw4EXHFFOa1of-EgA",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-16T07:38:00.166Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-09-16T07:37:59.174Z",
+      "updated_at": "2026-09-16T07:37:59.174Z",
+      "seen": true
+    },
+    {
+      "id": "6aaa6f10fa9f03021a55eddf",
+      "pid": "fbm_DG2UQaJ6GhAwvkY1B0Dl1UD7Spp4i2SRs4Put7OE1K4Lh_aVdt8Ss7ThovWOgLZjte8BToSJsuQaJaa18jxssg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_DG2UQaJ6GhAwvkY1B0Dl1UD7Spp4i2SRs4Put7OE1K4Lh_aVdt8Ss7ThovWOgLZjte8BToSJsuQaJaa18jxssg",
+        "attachments": [
+          {
+            "name": "image",
+            "mime_type": "image/jpg",
+            "url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t1.15752-9/808264807_1067618442721409_5550675232215368127_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=-vjH_bSU82YQ7kNvwGsN7QN&_nc_oc=AdoVnaLmFcQw8FNlevl9FAK6Ni2wqCLeVqTzwnhP2Un-mCBi7c5sYbRw4s4rvwFuky-xuploQpnU4hT2lArhjt7x&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw6-2.xx&oh=03_Q7cD6QFLppOHIX0oweCr4sB-Q8fO439w1iqbWVOGO1MTEnWqcQ&oe=6AD1F01E",
+            "url_preview": "https://scontent-dfw6-2.xx.fbcdn.net/v/t1.15752-9/808264807_1067618442721409_5550675232215368127_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=-vjH_bSU82YQ7kNvwGsN7QN&_nc_oc=AdoVnaLmFcQw8FNlevl9FAK6Ni2wqCLeVqTzwnhP2Un-mCBi7c5sYbRw4s4rvwFuky-xuploQpnU4hT2lArhjt7x&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw6-2.xx&oh=03_Q7cD6QFLppOHIX0oweCr4sB-Q8fO439w1iqbWVOGO1MTEnWqcQ&oe=6AD1F01E"
+          }
+        ],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-16T10:27:28.272Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-09-16T10:27:26.961Z",
+      "updated_at": "2026-09-16T10:27:26.961Z"
+    },
+    {
+      "id": "6aaa6f1b4b30e43613568379",
+      "pid": "fbm_wrfHlAM7zWzPgbkZJ5xQgUD7Spp4i2SRs4Put7OE1K7zL71uZ4rOySxtLWyQwBbfytFz2XjtOWg5ukq-PV7AAA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_wrfHlAM7zWzPgbkZJ5xQgUD7Spp4i2SRs4Put7OE1K7zL71uZ4rOySxtLWyQwBbfytFz2XjtOWg5ukq-PV7AAA",
+        "attachments": [],
+        "cards": [
+          {
+            "type": "generic",
+            "text": "Payment confirmed",
+            "desc": "Receipt attached",
+            "buttons": [
+              "See details"
+            ]
+          }
+        ],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-16T10:27:39.172Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-09-16T10:27:38.207Z",
+      "updated_at": "2026-09-16T10:27:38.207Z",
+      "seen": true
+    },
+    {
+      "id": "6aaa7119ab3e8d6e52564253",
+      "pid": "fbm_ID33en_JloWfVqiq93JYtkD7Spp4i2SRs4Put7OE1K4nPsj0fmaaVrcnluUUE6L6Y9wzsODhKpL3mRrPejLcKA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "Dạ shop lên đơn order giày size 37 1290k ạ",
+      "facebook": {
+        "id": "m_ID33en_JloWfVqiq93JYtkD7Spp4i2SRs4Put7OE1K4nPsj0fmaaVrcnluUUE6L6Y9wzsODhKpL3mRrPejLcKA",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-16T10:36:09.795Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-09-16T10:36:08.799Z",
+      "updated_at": "2026-09-16T10:36:08.799Z",
+      "seen": true
+    },
+    {
+      "id": "6aaa78289f93a0e93c2c251f",
+      "pid": "fbm_hSKmv2FSyD-l0KbbfjD-30D7Spp4i2SRs4Put7OE1K7ZIH6eTl4vndVLIVEp1Honv9AwGcTTJEahQ9Fvql_YUg",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "OK shop",
+      "facebook": {
+        "id": "m_hSKmv2FSyD-l0KbbfjD-30D7Spp4i2SRs4Put7OE1K7ZIH6eTl4vndVLIVEp1Honv9AwGcTTJEahQ9Fvql_YUg",
+        "attachments": [],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb24991211877211064",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-16T11:06:16.916Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-09-16T11:06:15.661Z",
+      "updated_at": "2026-09-16T11:06:15.661Z"
+    },
+    {
+      "id": "6aaa8310945cffa4fe51da11",
+      "pid": "fbm_HeUKKJq7dQHOaRg3-hu_a0D7Spp4i2SRs4Put7OE1K4S_WKXvk-lIPLwfl9EYY6ijp0C-MZ4e7r9CrX2ROZjjw",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "m_HeUKKJq7dQHOaRg3-hu_a0D7Spp4i2SRs4Put7OE1K4S_WKXvk-lIPLwfl9EYY6ijp0C-MZ4e7r9CrX2ROZjjw",
+        "attachments": [
+          {
+            "name": "image",
+            "mime_type": "image/png",
+            "url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t1.15752-9/811027709_1386070133104188_7621927603834798866_n.png?_nc_cat=102&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=gjGtZ4OQeTMQ7kNvwHfLHgR&_nc_oc=Ado0sp3z7o9dbRDBWQLFpXA55q-we0y3mUKO4LL3iAURs9RNjPAuBYaqa7Ach4Hmkc4o1rfeSbjHv-nleXmDM6xg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&oh=03_Q7cD6QFBAEeC25SsQRJUDo7fBEjMYRoVtJ6lPN1Os348F5vPOg&oe=6AD1FBA4",
+            "url_preview": "https://scontent-dfw6-1.xx.fbcdn.net/v/t1.15752-9/811027709_1386070133104188_7621927603834798866_n.png?_nc_cat=102&ccb=1-7&_nc_sid=eb2e90&_nc_ohc=gjGtZ4OQeTMQ7kNvwHfLHgR&_nc_oc=Ado0sp3z7o9dbRDBWQLFpXA55q-we0y3mUKO4LL3iAURs9RNjPAuBYaqa7Ach4Hmkc4o1rfeSbjHv-nleXmDM6xg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&oh=03_Q7cD6QFBAEeC25SsQRJUDo7fBEjMYRoVtJ6lPN1Os348F5vPOg&oe=6AD1FBA4"
+          }
+        ],
+        "cards": [],
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "263902037430900",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-16T11:52:48.650Z",
+      "customer_created_at": "2026-02-05T22:34:05.310Z",
+      "created_at": "2026-09-16T11:52:47.586Z",
+      "updated_at": "2026-09-16T11:52:47.586Z",
+      "seen": true
+    },
+    {
+      "id": "6aaa8316c8f943ddcd2c38b7",
+      "pid": "fbm_2zf8knLrpCoBSSzAOSRsH0D7Spp4i2SRs4Put7OE1K7QV8FuHPitfeAVXVc8tVtcDtZ9XfceriygbLuRbypfeA",
+      "tid": "fb24991211877211064",
+      "platform": "facebook",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "fb1574281086218015",
+      "message": "Đơn hàng pumalife16200 đã được tạo thành công. \nSản phẩm: Giày PUMA Palermo OG 'Brown White' 396463-56 - 37 x1\nHàng về có 2 hình thức thanh toán CK và COD. Nếu thanh toán COD thì + thêm 1.5% cho truy thu thuế.\nThông tin đơn hàng tại đây: https://pumalifeorder.vercel.app/bill.html?id=16200",
+      "facebook": {
+        "id": "m_2zf8knLrpCoBSSzAOSRsH0D7Spp4i2SRs4Put7OE1K7QV8FuHPitfeAVXVc8tVtcDtZ9XfceriygbLuRbypfeA",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "app_id": "361260004211097",
+      "type": "facebook_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-16T11:52:54.388Z",
+      "created_at": "2026-09-16T11:52:53.296Z",
+      "updated_at": "2026-09-16T11:52:53.296Z",
+      "seen": true
+    }
+  ]
+}

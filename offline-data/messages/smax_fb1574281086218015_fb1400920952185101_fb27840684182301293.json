@@ -1,0 +1,142 @@
+{
+  "key": "smax::fb1574281086218015::fb1400920952185101_fb27840684182301293",
+  "savedAt": "2026-09-17T15:59:05.544Z",
+  "thread": {
+    "__v": 0,
+    "_created_at": "2026-09-17T03:35:18.860Z",
+    "_synced_at": "2026-09-17T03:35:19.676Z",
+    "controlled_by": "OTHER",
+    "created_at": "2026-09-17T03:35:18.862Z",
+    "customer_pid": "fb1574281086218015",
+    "customer_pids": [],
+    "emails": [],
+    "es_id": "fb1574281086218015_fb1400920952185101_fb27840684182301293",
+    "facebook": {
+      "customer_tags": [],
+      "id": "1400920952185101_1341659575693737",
+      "link": "https://www.facebook.com/pumalife/posts/pfbid0wdNJ73Nu5dmVCnXjtj8LFirmavpYtiGYz1xFv68jteVcDS5EqGf7B3LHn8zEptGBl",
+      "post_id": "1574281086218015_1400920952185101",
+      "post_ids": [
+        "1574281086218015_1400920952185101"
+      ]
+    },
+    "id": "6aab5ff61a7d91310a3cab46",
+    "internal": {
+      "message": null,
+      "users": []
+    },
+    "last_message_at": "2026-09-17T03:35:12.000Z",
+    "last_message_id": "6aab5ff664925170c89fa9a1",
+    "message": "dạ dc ạ",
+    "page_pid": "fb1574281086218015",
+    "phones": [],
+    "platform": "facebook",
+    "read": true,
+    "replied": true,
+    "replied_by": {},
+    "reply_count": 1,
+    "root_message_pids": [],
+    "tag_aliases": [],
+    "tid": "fb1400920952185101_fb27840684182301293",
+    "type": "facebook_comment",
+    "updated_at": "2026-09-17T03:35:18.903Z",
+    "viewing": {},
+    "can_reply_message": false,
+    "customer": {
+      "id": "698515163bf2f5ff3da03716",
+      "pid": "fb1574281086218015",
+      "subscribed": false,
+      "page_pid": "fb1574281086218015",
+      "thread_tid": "fb1574281086218015",
+      "biz_alias": "tuant2lqd",
+      "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/fb1574281086218015?tid=fb1574281086218015",
+      "platform": "facebook",
+      "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+      "profile_name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+      "last_name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+      "picture": "https://cdn-vn.smax.in/s03/smaxai/pages/fb1574281086218015/customers/fb1574281086218015.jpg?expire=1789689600000&signature=74d61d1b072df10f03ccda434d7bf3e3d6a994d3149247af2e503374e844ddc1",
+      "notes": [],
+      "phone": "",
+      "phones": [],
+      "email": "",
+      "emails": [],
+      "source": "comment",
+      "attrs": [],
+      "facebook": {
+        "post_id": "1574281086218015_1186841520259713",
+        "post_content": "New Balance 237 \n\nĐế cao như này hack dáng tôn chiều cao 3-4cm \n\n#1378k full size nam nữ",
+        "post_hashtag": "#1378k",
+        "id": "1574281086218015",
+        "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+        "page_id": "1574281086218015",
+        "page_name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+        "picture": "https://graph.facebook.com/1574281086218015/picture?width=300&heigh=300",
+        "topics": []
+      },
+      "broadcast_ids": [],
+      "in_sequences": [],
+      "out_sequences": [],
+      "tags": [],
+      "last_comment_link": "https://www.facebook.com/949532180657316/posts/1186841520259713",
+      "last_content_by_page": "Dạ anh chị Tuấn Hiền inbox cho shop để được hỗ trợ nhanh nhất ạ",
+      "interaction": {
+        "first": "2026-02-05T22:09:27.229Z",
+        "last": "2020-06-27T04:49:03.000Z"
+      },
+      "users": [],
+      "follow_ups": [],
+      "scores": [],
+      "logs": [],
+      "updated_at": "2026-09-17T13:10:50.027Z",
+      "created_at": "2026-02-05T22:09:26.395Z"
+    },
+    "customers": []
+  },
+  "messages": [
+    {
+      "id": "6aab5ff664925170c89fa9a1",
+      "pid": "fb1400920952185101_1341659575693737",
+      "tid": "fb1400920952185101_fb27840684182301293",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "message": "dạ dc ạ",
+      "facebook": {
+        "id": "1400920952185101_1341659575693737",
+        "attachments": [],
+        "can_hide": true,
+        "can_like": true,
+        "can_remove": true,
+        "can_reply_privately": false,
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "is_hidden": false,
+        "parent_id": "1400920952185101_1843061423522160",
+        "post": {
+          "id": "1574281086218015_1400920952185101",
+          "message": "dạ dc ạ",
+          "link": "https://www.facebook.com/pumalife/posts/pfbid0wdNJ73Nu5dmVCnXjtj8LFirmavpYtiGYz1xFv68jteVcDS5EqGf7B3LHn8zEptGBl",
+          "message_tags": []
+        },
+        "quick_replies": [],
+        "shares": [],
+        "user_likes": false,
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_subcomment",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T03:35:18.885Z",
+      "customer_created_at": "2026-02-05T22:09:26.395Z",
+      "created_at": "2026-09-17T03:35:12.000Z",
+      "updated_at": "2026-09-17T03:35:12.000Z",
+      "seen": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "taskId": "adidas-astir-kh8240-jq6441-1295k-20261026-1100",
+  "scheduled_at": "2026-10-26T04:00:00.000Z",
+  "platforms": ["facebook2", "group_messenger", "group_fb", "zalo"],
+  "facebookCaption": "Một chút hồng nhẹ hay trắng xám — hai lựa chọn adidas Astir cùng giá 1.295K/đôi 🤍\n\nKH8240 tông kem điểm hồng; JQ6441 tông trắng xám điểm hồng. Phom đế chunky làm điểm nhấn cho set jeans, áo thun hoặc chân váy đơn giản.\n\n• KH8240: size 35.5, 36, 36.5, 37, 39, 40.5.\n• JQ6441: size 35.5, 36, 36.5, 37, 38, 38.5, 39, 40.\n\nĐồng giá 1.295K/đôi. Nhắn shop mã mẫu + size để được tư vấn nhé 💌",
+  "shortCaption": "Hai mẫu adidas Astir KH8240 và JQ6441 đồng giá 1.295K/đôi.\nKH8240 kem hồng: size 35.5, 36, 36.5, 37, 39, 40.5.\nJQ6441 trắng xám điểm hồng: size 35.5, 36, 36.5, 37, 38, 38.5, 39, 40.\nNhắn shop mã mẫu + size để được tư vấn nhé!",
+  "referenceImages": ["https://content.pancake.vn/2-2610/2026/10/25/1839d86271effef31e27f57cbe0c6029614cc0f2.png", "https://content.pancake.vn/2-2610/2026/10/25/92a6d88734954752e4eb4b73380f2800251ba4ce.png"],
+  "status": "local_draft_awaiting_image_selection",
+  "duplicateCheck": "No posts containing KH8240 or JQ6441 found at preparation time",
+  "research": {
+    "date": "2026-10-26",
+    "productNameSource": "https://www.adidas.com.hk/en/adidas-astir-w-shoes/KH8240.html",
+    "currentTrendEvidence": "No sufficiently relevant recent trend evidence found. Caption based on visible product details and a styling suggestion, without trend claims.",
+    "limitations": "Reference screenshots reviewed full size. Rednote login wall; adidas HTTP 403; Joom bot.limit_reached; Facebook no relevant exact-model photos. Google results largely studio photos or other models; no full-size lifestyle candidates approved."
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "code": "KH8240",
+    "file": "kh8240-1-composite-v1.png",
+    "scene": "https://cms-cdn.thesolesupplier.co.uk/2022/05/dsc-2556.jpg",
+    "toolId": "exec-88e46517-f6c9-4dd9-b0c7-a37040a684ed",
+    "finalUrl": "https://content.pancake.vn/2-2610/2026/10/25/a8c9491662098e0caa045f1f7fb0e893ee899839.png",
+    "aiTaskId": "1877"
+  },
+  {
+    "code": "JQ6441",
+    "file": "jq6441-1-composite-v1.png",
+    "scene": "https://cms-cdn.thesolesupplier.co.uk/2022/05/dsc-2597.jpg",
+    "toolId": "exec-af9fb2d4-7a06-4515-870a-9661e1223f07",
+    "finalUrl": "https://content.pancake.vn/2-2610/2026/10/25/887edf3f3ebc6728f84cb0dddbbe923812f2cee0.png",
+    "aiTaskId": "1878"
+  },
+  {
+    "code": "KH8240",
+    "file": "kh8240-2-composite-v1.png",
+    "scene": "https://cms-cdn.thesolesupplier.co.uk/2022/05/dsc-2706.jpg",
+    "toolId": "exec-2e9116a2-3a76-4a70-a537-0dcc0ca85f43",
+    "finalUrl": "https://content.pancake.vn/2-2610/2026/10/25/4b9f83f1f9fa7b6dd0b8c3a369e946a075895133.png",
+    "aiTaskId": "1879"
+  },
+  {
+    "code": "JQ6441",
+    "file": "jq6441-2-composite-v2.png",
+    "scene": "https://cms-cdn.thesolesupplier.co.uk/2022/05/adidas-astir-styling-1.png",
+    "toolId": "exec-a96f684e-820f-428c-9be4-26d52fd2ae92",
+    "finalUrl": "https://content.pancake.vn/2-2610/2026/10/25/1019c70fb24ac31b2968e8c727ced9b3b773409e.png",
+    "aiTaskId": "1880"
+  }
+]

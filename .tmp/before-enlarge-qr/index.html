@@ -1,0 +1,1752 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smax Chat Hub Pro - Quản lý Hội thoại & Đơn hàng</title>
+    <!-- Google Fonts & Lucide Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="/lucide.min.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/conversation-search.css">
+    <link rel="stylesheet" href="/ui-refresh.css">
+    <link rel="stylesheet" href="/ai-agent.css">
+</head>
+<body>
+    <!-- PREMIUM LOGIN SCREEN -->
+    <div id="loginScreen" style="display: flex; position: fixed; inset: 0; background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); z-index: 9999; align-items: center; justify-content: center; font-family: 'Outfit', sans-serif;">
+        <section class="login-intro" aria-label="Giới thiệu Smax Hub">
+            <p class="ux-eyebrow">Pumalife Store · Không gian làm việc</p>
+            <h2>Kết nối khách hàng.<br>Quản lý bán hàng<br>thật nhẹ nhàng.</h2>
+            <p>Tập trung hội thoại, đơn hàng và thông tin khách hàng trong một không gian làm việc thống nhất.</p>
+            <div class="login-features">
+                <div class="login-feature"><i data-lucide="messages-square" aria-hidden="true"></i><div><strong>Hội thoại đa kênh</strong><span>Theo dõi và phản hồi khách hàng thuận tiện</span></div></div>
+                <div class="login-feature"><i data-lucide="shopping-bag" aria-hidden="true"></i><div><strong>Đơn hàng rõ ràng</strong><span>Quản lý trạng thái và tra cứu nhanh chóng</span></div></div>
+                <div class="login-feature"><i data-lucide="users" aria-hidden="true"></i><div><strong>Chăm sóc khách hàng</strong><span>Thông tin và lịch sử mua hàng liền mạch</span></div></div>
+            </div>
+        </section>
+        <div class="login-card" style="background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.5); border-radius: 24px; padding: 48px; width: 100%; max-width: 440px; box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.15); display: flex; flex-direction: column; gap: 28px;">
+            <div style="text-align: center;">
+                <h1 style="font-family: 'Outfit', sans-serif; font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0 0 8px 0; letter-spacing: -0.03em;">PUMALIFE<span style="color:#ef4444;">STORE</span></h1>
+                <p style="font-size: 0.88rem; color: #64748b; margin: 0; font-weight: 500;">Hệ thống quản lý Hub & Đơn hàng</p>
+            </div>
+            
+            <form id="loginForm" style="display: flex; flex-direction: column; gap: 20px;">
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                    <label style="font-size: 0.78rem; font-weight: 700; color: #475569; text-transform: uppercase; letter-spacing: 0.05em;" for="loginEmail">Tài khoản Email</label>
+                    <input type="email" id="loginEmail" autocomplete="username" placeholder="pumalifestore@gmail.com" required style="width: 100%; padding: 14px 16px; border-radius: 12px; border: 1px solid #cbd5e1; background-color: rgba(255,255,255,0.7); color: #0f172a; font-family: inherit; font-size: 0.9rem; outline: none; transition: border-color 0.2s;">
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                    <label style="font-size: 0.78rem; font-weight: 700; color: #475569; text-transform: uppercase; letter-spacing: 0.05em;" for="loginPassword">Mật khẩu</label>
+                    <input type="password" id="loginPassword" autocomplete="current-password" placeholder="••••••••" required style="width: 100%; padding: 14px 16px; border-radius: 12px; border: 1px solid #cbd5e1; background-color: rgba(255,255,255,0.7); color: #0f172a; font-family: inherit; font-size: 0.9rem; outline: none; transition: border-color 0.2s;">
+                </div>
+                
+                <div id="loginError" role="alert" style="display: none; color: #ef4444; font-size: 0.82rem; font-weight: 600; text-align: center;">
+                    Tài khoản hoặc mật khẩu không chính xác!
+                </div>
+
+                <button type="submit" style="width: 100%; padding: 14px; border-radius: 12px; background: linear-gradient(135deg, #4f46e5, #4338ca); color: #ffffff; font-family: inherit; font-size: 0.92rem; font-weight: 700; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.3); transition: transform 0.1s, opacity 0.2s;">
+                    Đăng nhập hệ thống
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="app-container" id="appContainer" style="display: flex; height: 100vh; height: 100dvh; overflow: hidden; width: 100%;">
+        
+        <!-- MOBILE TOP BAR -->
+        <header class="mobile-top-bar" style="display: none; justify-content: space-between; align-items: center; padding: 0 16px; background: var(--bg-panel); border-bottom: 1px solid var(--border); z-index: 1010; height: 50px; width: 100%;">
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <i data-lucide="message-square-text" style="width: 20px; height: 20px; color: var(--primary);"></i>
+                <span style="font-weight: 700; font-size: 0.95rem; color: var(--text-main);">Smax Hub</span>
+            </div>
+            <button id="mobileMenuBtn" aria-label="Mở menu điều hướng" aria-controls="mobileDropdownMenu" aria-expanded="false" style="background: none; border: none; color: var(--text-main); cursor: pointer; display: flex; align-items: center; justify-content: center; padding: 6px;">
+                <i data-lucide="menu" style="width: 24px; height: 24px;"></i>
+            </button>
+        </header>
+
+        <!-- MOBILE DROPDOWN MENU -->
+        <div id="mobileDropdownMenu" style="display: none; position: absolute; top: 50px; left: 0; right: 0; background: var(--bg-panel); border-bottom: 1px solid var(--border); box-shadow: 0 10px 25px rgba(0,0,0,0.15); z-index: 1009; padding: 8px 16px; flex-direction: column; gap: 4px;">
+            <button class="tab-nav-btn active" data-target="chat-tab-content" style="display: flex; align-items: center; gap: 10px; width: 100%; padding: 12px 16px; background: none; border: none; border-radius: 8px; color: var(--text-main); font-weight: 600; font-family: inherit; font-size: 0.88rem; cursor: pointer; text-align: left;">
+                <i data-lucide="message-circle" style="width: 16px; height: 16px;"></i>
+                <span>Tin nhắn Smax</span>
+            </button>
+            <button class="tab-nav-btn" data-target="orders-tab-content" style="display: flex; align-items: center; gap: 10px; width: 100%; padding: 12px 16px; background: none; border: none; border-radius: 8px; color: var(--text-muted); font-weight: 600; font-family: inherit; font-size: 0.88rem; cursor: pointer; text-align: left;">
+                <i data-lucide="shopping-bag" style="width: 16px; height: 16px;"></i>
+                <span>Đơn hàng</span>
+            </button>
+            <button class="tab-nav-btn" data-target="products-tab-content" style="display: flex; align-items: center; gap: 10px; width: 100%; padding: 12px 16px; background: none; border: none; border-radius: 8px; color: var(--text-muted); font-weight: 600; font-family: inherit; font-size: 0.88rem; cursor: pointer; text-align: left;">
+                <i data-lucide="package" style="width: 16px; height: 16px;"></i>
+                <span>Sản phẩm</span>
+            </button>
+            <button class="tab-nav-btn" data-target="customers-tab-content" style="display: flex; align-items: center; gap: 10px; width: 100%; padding: 12px 16px; background: none; border: none; border-radius: 8px; color: var(--text-muted); font-weight: 600; font-family: inherit; font-size: 0.88rem; cursor: pointer; text-align: left;">
+                <i data-lucide="users" style="width: 16px; height: 16px;"></i>
+                <span>Khách hàng</span>
+            </button>
+            <button class="tab-nav-btn" data-target="chatbot-tab-content" style="display: flex; align-items: center; gap: 10px; width: 100%; padding: 12px 16px; background: none; border: none; border-radius: 8px; color: var(--text-muted); font-weight: 600; font-family: inherit; font-size: 0.88rem; cursor: pointer; text-align: left;">
+                <i data-lucide="bot" style="width: 16px; height: 16px;"></i>
+                <span>Chatbot</span>
+            </button>
+            <button class="tab-nav-btn" data-target="spx-tracking-tab-content" style="display:flex; align-items:center; gap:10px; width:100%; padding:12px 16px; background:none; border:none; border-radius:8px; color:var(--text-muted); font-weight:600; font-size:0.85rem; cursor:pointer; text-align:left;">
+                    <i data-lucide="truck" style="width:18px; height:18px; flex-shrink:0;"></i>
+                    <span>Quản lý vận đơn giao hàng</span>
+                </button>
+                <button class="tab-nav-btn" data-target="website-tab-content" style="display: flex; align-items: center; gap: 10px; width: 100%; padding: 12px 16px; background: none; border: none; border-radius: 8px; color: var(--text-muted); font-weight: 600; font-family: inherit; font-size: 0.88rem; cursor: pointer; text-align: left;">
+                <i data-lucide="globe" style="width: 16px; height: 16px;"></i>
+                <span>Website</span>
+            </button>
+        </div>
+
+        <!-- SIDEBAR: Channel & Page Selection -->
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <div class="brand-logo">
+                    <i data-lucide="message-square-text" class="logo-icon"></i>
+                </div>
+                <div class="brand-text">
+                    <h2>Smax Hub</h2>
+                    <span>Hệ thống quản lý</span>
+                </div>
+            </div>
+
+            <!-- MAIN TABS MENU -->
+            <nav class="sidebar-nav-tabs" aria-label="Điều hướng chính" style="padding: 10px 16px; display: flex; flex-direction: column; gap: 6px; border-bottom: 1px solid var(--border); padding-bottom: 15px; margin-bottom: 10px;">
+                <button class="tab-nav-btn active" data-target="chat-tab-content" style="display: flex; align-items: center; gap: 10px; width: 100%; padding: 10px 16px; background: none; border: none; border-radius: 8px; color: var(--text-main); font-weight: 600; font-family: inherit; font-size: 0.88rem; cursor: pointer; text-align: left; transition: all 0.2s;">
+                    <i data-lucide="message-circle" style="width: 16px; height: 16px;"></i>
+                    <span>Tin nhắn Smax</span>
+                </button>
+                <button class="tab-nav-btn" data-target="orders-tab-content" style="display: flex; align-items: center; gap: 10px; width: 100%; padding: 10px 16px; background: none; border: none; border-radius: 8px; color: var(--text-muted); font-weight: 600; font-family: inherit; font-size: 0.88rem; cursor: pointer; text-align: left; transition: all 0.2s;">
+                    <i data-lucide="shopping-bag" style="width: 16px; height: 16px;"></i>
+                    <span>Đơn hàng</span>
+                </button>
+                <button class="tab-nav-btn" data-target="products-tab-content" style="display: flex; align-items: center; gap: 10px; width: 100%; padding: 10px 16px; background: none; border: none; border-radius: 8px; color: var(--text-muted); font-weight: 600; font-family: inherit; font-size: 0.88rem; cursor: pointer; text-align: left; transition: all 0.2s;">
+                    <i data-lucide="package" style="width: 16px; height: 16px;"></i>
+                    <span>Sản phẩm</span>
+                </button>
+                <button class="tab-nav-btn" data-target="customers-tab-content" style="display: flex; align-items: center; gap: 10px; width: 100%; padding: 10px 16px; background: none; border: none; border-radius: 8px; color: var(--text-muted); font-weight: 600; font-family: inherit; font-size: 0.88rem; cursor: pointer; text-align: left; transition: all 0.2s;">
+                    <i data-lucide="users" style="width: 16px; height: 16px;"></i>
+                    <span>Khách hàng</span>
+                </button>
+                <button class="tab-nav-btn" data-target="chatbot-tab-content" style="display: flex; align-items: center; gap: 10px; width: 100%; padding: 10px 16px; background: none; border: none; border-radius: 8px; color: var(--text-muted); font-weight: 600; font-family: inherit; font-size: 0.88rem; cursor: pointer; text-align: left; transition: all 0.2s;">
+                    <i data-lucide="bot" style="width: 16px; height: 16px;"></i>
+                    <span>Chatbot</span>
+                </button>
+                <button class="tab-nav-btn" data-target="spx-tracking-tab-content" style="display:flex; align-items:center; gap:10px; width:100%; padding:12px 16px; background:none; border:none; border-radius:8px; color:var(--text-muted); font-weight:600; font-size:0.85rem; cursor:pointer; text-align:left;">
+                    <i data-lucide="truck" style="width:18px; height:18px; flex-shrink:0;"></i>
+                    <span>Quản lý vận đơn giao hàng</span>
+                </button>
+                <button class="tab-nav-btn" data-target="website-tab-content" style="display: flex; align-items: center; gap: 10px; width: 100%; padding: 10px 16px; background: none; border: none; border-radius: 8px; color: var(--text-muted); font-weight: 600; font-family: inherit; font-size: 0.88rem; cursor: pointer; text-align: left; transition: all 0.2s;">
+                    <i data-lucide="globe" style="width: 16px; height: 16px;"></i>
+                    <span>Website</span>
+                </button>
+            </nav>
+            
+            <div class="sidebar-menu" id="sidebarChannelMenu">
+                <div class="menu-label">Kênh kết nối</div>
+                <ul class="channel-list" id="channelList" style="margin-bottom: 0;">
+                    <li class="channel-item active" data-page-pid="all" id="allChannelsItem" style="display: flex; align-items: center; justify-content: space-between; position: relative;">
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <i data-lucide="layers"></i>
+                            <span>Tất cả các trang</span>
+                            <i data-lucide="chevron-down" id="channelChevron" style="width: 14px; height: 14px; transition: transform 0.2s; transform: rotate(-90deg); color: var(--text-muted);"></i>
+                        </div>
+                        <span class="badge" id="badge-all">0</span>
+                    </li>
+                </ul>
+                <div id="subChannelsContainer" style="display: none; flex-direction: column; gap: 4px; padding-left: 12px; margin-top: 4px; border-left: 1px dashed var(--border);"></div>
+            </div>
+
+            <div class="sidebar-footer" style="display:flex; justify-content:space-between; align-items:center;">
+                <div class="user-profile" style="flex:1;">
+                    <div class="avatar" id="userAvatar">AD</div>
+                    <div class="user-info">
+                        <h4 id="userName">Administrator</h4>
+                        <span id="userStatus">Online</span>
+                    </div>
+                </div>
+                <button id="btnLogout" title="Đăng xuất" style="background:none; border:none; color:var(--text-muted); cursor:pointer; padding:6px; border-radius:6px; display:flex; align-items:center; justify-content:center; transition: background-color 0.2s;">
+                    <i data-lucide="log-out" style="width:16px; height:16px;"></i>
+                </button>
+            </div>
+        </aside>
+
+        <!-- TAB CONTENT 1: CHAT DASHBOARD -->
+        <div id="chat-tab-content" class="tab-view-panel" style="display: flex; flex: 1; min-width: 0; width: 100%;">
+            <!-- MAIN FEED: Thread list -->
+            <section class="thread-feed">
+                <div class="feed-header">
+                    <h3>Hội thoại</h3>
+                    <span class="thread-count-badge" id="threadCount">0 tin nhắn</span>
+                </div>
+
+                <div class="search-toolbar-row">
+                    <div class="search-box">
+                        <i data-lucide="search" class="search-icon"></i>
+                        <input type="text" id="threadSearch" placeholder="Tìm theo tên, SĐT hoặc nội dung tin nhắn...">
+                        <button id="clearSearchBtn" aria-label="Xóa nội dung tìm kiếm" class="clear-btn" style="display:none;">
+                            <i data-lucide="x"></i>
+                        </button>
+                    </div>
+                    <div class="channel-filter-dropdown">
+                        <button type="button" id="channelFilterBtn" class="channel-filter-btn">
+                            <span class="filter-label">ALL</span>
+                            <i data-lucide="chevron-down" class="filter-icon"></i>
+                        </button>
+                        <div id="channelFilterMenu" class="channel-filter-menu">
+                            <button type="button" class="channel-filter-item active" data-pid="all">ALL</button>
+                            <button type="button" class="channel-filter-item" data-pid="fb1574281086218015">Pumalife Store II</button>
+                            <button type="button" class="channel-filter-item" data-pid="ig17841471719838606">Pumalife IG</button>
+                            <button type="button" class="channel-filter-item" data-pid="ttw6622749003845042177">Pumalife TikTok</button>
+                            <button type="button" class="channel-filter-item" data-pid="zlw266741166578791076">Pumalife Zalo</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-tabs">
+                    <button class="filter-tab active" data-filter="all">Tất cả</button>
+                    <button class="filter-tab" data-filter="seen">Đã xem</button>
+                    <button class="filter-tab" data-filter="unseen">Chưa xem</button>
+                    <button class="filter-tab" data-filter="unreplied">Chưa trả lời</button>
+                </div>
+
+                <div class="thread-list-container" id="threadList">
+                    <div class="loading-state">
+                        <div class="spinner"></div>
+                        <p>Đang tải danh sách hội thoại...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CHAT AREA: Message flow -->
+            <main class="chat-area">
+                <div class="chat-wrapper" id="chatWrapper" style="display: none;">
+                    <header class="chat-header">
+                        <div class="active-customer">
+                            <button class="action-btn mobile-back-btn" id="btnMobileBack" title="Quay lại danh sách" style="display:none;">
+                                <i data-lucide="arrow-left"></i>
+                            </button>
+                            <div class="customer-avatar" id="activeCustAvatar"></div>
+                            <div class="customer-details">
+                                <h3 id="activeCustName">Khách hàng</h3>
+                                <div class="customer-status">
+                                    <span class="status-indicator"></span>
+                                    <span id="activeCustPlatform">Messenger</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-actions">
+                            <button class="action-btn" id="btnLinkCurrentTab" onclick="window.linkActiveThreadWithCurrentTab()" title="Liên kết hội thoại với tab Chrome hiện tại" style="color:var(--primary);">
+                                <i data-lucide="link-2"></i>
+                            </button>
+                            <button class="action-btn" id="btnRefreshChat" title="Tải lại chat">
+                                <i data-lucide="rotate-cw"></i>
+                            </button>
+                            <button class="action-btn" id="btnQuickCreateOrder" onclick="quickCreateOrder()" title="Tạo đơn nhanh" style="color:var(--primary);">
+                                <i data-lucide="shopping-cart"></i>
+                            </button>
+                            <button class="action-btn" id="btnToggleDetails" title="Thông tin khách hàng">
+                                <i data-lucide="user"></i>
+                            </button>
+                        </div>
+                    </header>
+                    <div class="messages-flow" id="messagesFlow"></div>
+
+                    <footer class="chat-footer" style="position: relative;">
+                        <!-- PENDING IMAGE PREVIEW (paste/upload chờ gửi) -->
+                        <div id="pendingAttachmentEnv" style="display:none; align-items:flex-end; gap:10px; padding:8px 12px; background:var(--bg-card); border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
+                            <div style="position:relative; display:inline-block;">
+                                <img id="pendingImagePreview" src="" alt="Ảnh chờ gửi" style="max-height:120px; max-width:200px; border-radius:8px; border:2px solid var(--primary); object-fit:contain; display:block;">
+                                <button id="clearPendingImage" title="Hủy ảnh" style="position:absolute;top:-8px;right:-8px;width:22px;height:22px;border-radius:50%;background:#ef4444;color:#fff;border:2px solid #fff;font-size:14px;font-weight:bold;cursor:pointer;display:flex;align-items:center;justify-content:center;line-height:1;padding:0;">&times;</button>
+                            </div>
+                            <div style="display:flex;flex-direction:column;gap:4px;">
+                                <span id="pendingAttachmentStatus" style="font-size:0.72rem;color:var(--text-muted);font-style:italic;">Sẵn sàng gửi</span>
+                                <span style="font-size:0.7rem;color:var(--primary);font-weight:600;">Nhấn Enter hoặc nút Gửi để gửi ảnh ⬆</span>
+                            </div>
+                        </div>
+                        <!-- QUICK REPLIES POPOVER -->
+                        <div id="quickReplyPopover" class="quick-reply-popover" style="display: none;">
+                            <div class="popover-header">
+                                <span>Tin nhắn mẫu</span>
+                                <button id="btnToggleAddQuickReply" class="add-new-btn-quick" title="Thêm tin nhắn mẫu mới">
+                                    <i data-lucide="plus" style="width: 14px; height: 14px;"></i>
+                                </button>
+                            </div>
+                            
+                            <div id="quickReplyList" class="quick-reply-popover-list"></div>
+
+                            <div id="quickReplyForm" class="quick-reply-add-form" style="display: none;">
+                                <div class="form-group-quick">
+                                    <label>Phím tắt (vd: /diachi)</label>
+                                    <input type="text" id="qrShortcutInput" placeholder="/viet_tat">
+                                </div>
+                                <div class="form-group-quick">
+                                    <label>Nội dung tin nhắn</label>
+                                    <textarea id="qrContentInput" placeholder="Nhập nội dung mẫu..."></textarea>
+                                </div>
+                                <div class="form-group-quick">
+                                    <label>Đường dẫn hình ảnh (tùy chọn)</label>
+                                    <div style="display: flex; gap: 8px;">
+                                        <input type="text" id="qrImageInput" placeholder="https://..." style="flex: 1;">
+                                        <button id="btnUploadQRImage" class="upload-qr-img-btn" title="Tải ảnh lên"><i data-lucide="upload" style="width:14px;"></i></button>
+                                    </div>
+                                    <input type="file" id="qrImageFileInput" accept="image/*" style="display:none;">
+                                </div>
+                                <div class="form-actions-quick">
+                                    <button id="btnCancelAddQR" class="btn-secondary-quick">Hủy</button>
+                                    <button id="btnSaveAddQR" class="btn-primary-quick">Lưu lại</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="console-tools">
+                            <button class="tool-btn" id="btnUploadImage" title="Gửi ảnh">
+                                <i data-lucide="image"></i>
+                            </button>
+                            <button class="tool-btn" id="btnQuickReplies" title="Tin nhắn mẫu (⚡)">
+                                <i data-lucide="zap"></i>
+                            </button>
+                            <button class="tool-btn" id="btnOpenPaymentHistory" title="Lịch sử giao dịch ngân hàng">
+                                <i data-lucide="landmark"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="input-wrapper">
+                            <textarea id="messageInput" placeholder="Nhập tin nhắn... (Enter để gửi, Ctrl + Enter để xuống dòng)"></textarea>
+                        </div>
+                        
+                        <button class="send-btn" id="btnSendMessage" aria-label="Gửi tin nhắn">
+                            <i data-lucide="send"></i>
+                        </button>
+                    </footer>
+                </div>
+
+                <div class="empty-chat-state" id="emptyChatState">
+                    <div class="empty-illustration">
+                        <i data-lucide="message-square-dashed"></i>
+                    </div>
+                    <h3>Sẵn sàng kết nối khách hàng</h3>
+                    <p>Hãy chọn một khách hàng từ danh sách bên trái để bắt đầu trò chuyện.</p>
+                </div>
+            </main>
+
+            <div class="details-overlay" id="detailsOverlay"></div>
+            <aside class="details-panel hidden" id="detailsPanel">
+                <div class="panel-header">
+                    <h3>Thông tin khách hàng</h3>
+                    <button class="close-btn" id="btnCloseDetails" aria-label="Đóng thông tin khách hàng"><i data-lucide="x"></i></button>
+                </div>
+
+                <div class="panel-body">
+                    <div class="profile-card">
+                        <div class="profile-avatar" id="detailsAvatar"></div>
+                        <h4 id="detailsName">Khách hàng</h4>
+                        <span id="detailsId">TID: 0</span>
+                    </div>
+
+                    <div class="info-section">
+                        <div class="section-title">Thông tin khách hàng</div>
+                        <div class="info-group">
+                            <label>Họ tên</label>
+                            <div class="info-value-row">
+                                <span id="detailsNameField">Chưa cập nhật</span>
+                            </div>
+                        </div>
+                        <div class="info-group">
+                            <label>Số điện thoại</label>
+                            <div class="info-value-row">
+                                <span id="detailsPhone">Chưa cập nhật</span>
+                                <button class="copy-btn" id="btnCopyPhone" title="Sao chép"><i data-lucide="copy"></i></button>
+                            </div>
+                        </div>
+                        <div class="info-group">
+                            <label>Địa chỉ</label>
+                            <div class="info-value-row">
+                                <span id="detailsAddress">Chưa cập nhật</span>
+                            </div>
+                        </div>
+                        <div class="info-group">
+                            <label>Page ID</label>
+                            <div class="info-value-row">
+                                <span id="detailsPageId">Chưa có</span>
+                            </div>
+                        </div>
+                        <div class="info-group">
+                            <label>FB ID</label>
+                            <div class="info-value-row">
+                                <span id="detailsFbId">Chưa có</span>
+                            </div>
+                        </div>
+                        <div class="info-group" style="border-top: 1px dashed var(--border); padding-top: 10px; margin-top: 10px;">
+                            <label>Liên kết hội thoại</label>
+                            <div class="info-value-row" style="margin-top:4px;">
+                                <span id="detailsLinkedConv" style="word-break: break-all; font-size: 0.8rem; line-height: 1.3;">Chưa liên kết</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-section" style="margin-top: 20px;">
+                        <div class="section-title">Đơn hàng gần đây</div>
+                        <div class="orders-history-list" id="customerOrdersList">
+                            <div class="empty-orders" style="font-size: 0.8rem; color: var(--text-muted); text-align: center; padding: 16px 0;">
+                                Chưa chọn khách hàng hoặc không có đơn hàng.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <!-- TAB CONTENT 2: ORDERS MANAGEMENT DASHBOARD -->
+        <div id="orders-tab-content" class="tab-view-panel" style="display: none; flex-direction: column; height: 100vh; height: 100dvh; overflow: hidden; flex: 1 1 0%; min-width: 0px; width: 100%;">
+            <div class="sticky-header" style="position: sticky; position: -webkit-sticky; top: 50px; z-index: 1001; background-color: var(--bg-panel); flex-shrink: 0; padding: 20px 20px 10px 20px;">
+                
+                <!-- Orders Dashboard Header -->
+                <div class="orders-dashboard-header" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:24px;">
+                    <div class="dashboard-header-title">
+                        <p class="ux-eyebrow">Không gian làm việc</p>
+                        <h2 style="font-size: 1.5rem; font-weight:800; color:var(--text-main);">Quản lý đơn hàng</h2>
+                        <p style="font-size: 0.85rem; color:var(--text-muted); margin-top:4px;">Theo dõi, xử lý và tra cứu đơn hàng tại một nơi.</p>
+                    </div>
+                    <div class="orders-header-actions" style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                        <div class="orders-pagination-inline" style="display:flex; align-items:center; gap:8px; white-space:nowrap; color: var(--text-muted); font-size:0.9rem;">
+                            <span class="orders-count-desktop">Hiển thị <span id="ordersTotalCount">0</span> đơn hàng</span>
+                            <span class="orders-count-mobile" style="display:none;"><span id="ordersTotalCountMobile">0</span> ĐH</span>
+                            <button id="btnPrevOrdersPage" class="btn-secondary-quick" style="padding: 8px 16px;">Trước</button>
+                            <button id="btnNextOrdersPage" class="btn-secondary-quick" style="padding: 8px 16px;">Sau</button>
+                        </div>
+                        <button class="btn-secondary-quick" id="btnOpenJtConfig" style="padding: 10px 20px; border-radius: 8px; display:flex; align-items:center; gap:8px;">
+                            <i data-lucide="settings" style="width:16px; height:16px;"></i>
+                            <span>Cấu hình J&T</span>
+                        </button>
+                        <button class="btn-secondary-quick" id="btnOpenPaymentHistoryOrders" style="padding: 10px 20px; border-radius: 8px; display:flex; align-items:center; gap:8px;">
+                            <i data-lucide="landmark" style="width:16px; height:16px;"></i>
+                            <span>Xem giao dịch</span>
+                        </button>
+                        <button class="btn-secondary-quick" id="btnOpenWalkInOrderModal" style="padding: 10px 20px; border-radius: 8px; display:flex; align-items:center; gap:8px;">
+                            <i data-lucide="shopping-bag" style="width:16px; height:16px;"></i>
+                            <span>Tạo đơn vãng lai</span>
+                        </button>
+                        <button class="btn-primary-quick" id="btnReloadAllOrders" style="padding: 10px 20px; border-radius: 8px; display:flex; align-items:center; gap:8px;">
+                            <i data-lucide="refresh-cw" style="width:16px; height:16px;"></i>
+                            <span>Tải lại dữ liệu</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Search and Filters Controls -->
+                <div class="orders-filter-bar" style="display:flex; gap:16px; margin-bottom:20px; align-items:center;">
+                <div style="flex:1; position:relative; display:flex; align-items:center;">
+                    <i data-lucide="search" style="position:absolute; left:16px; color:var(--text-muted); width:18px;"></i>
+                    <input type="text" id="dashboardOrderSearch" placeholder="Tìm kiếm theo Tên khách, Số điện thoại, Mã đơn, Tên hoặc Mã sản phẩm..." style="width:100%; padding:12px 12px 12px 46px; border-radius:10px; border:1px solid var(--border); background-color:var(--bg-panel); color:var(--text-main); font-family:inherit; outline:none; font-size:0.9rem;">
+                </div>
+                    <div id="dashboardWarehouseFilterWrap" style="min-width:240px; display:none;">
+<select id="dashboardWarehouseFilter" style="width:100%; padding:12px; border-radius:10px; border:1px solid var(--border); background-color:var(--bg-panel); color:var(--text-main); font-family:inherit; outline:none; font-size:0.9rem; cursor:pointer;"><option value="all">Tất cả kho lấy hàng</option></select>
+</div>
+<div style="min-width: 200px;">
+                        <select id="dashboardOrderStatusFilter" style="width:100%; padding:12px; border-radius:10px; border:1px solid var(--border); background-color:var(--bg-panel); color:var(--text-main); font-family:inherit; outline:none; font-size:0.9rem; cursor:pointer;">
+                            <option value="all">Tất cả trạng thái</option>
+                            <option value="Chờ xử lý (Mới)">Chờ xử lý (Mới)</option>
+                            <option value="Đã xác nhận">Đã xác nhận</option>
+                            <option value="Chờ Deal">Chờ Deal</option>
+                            <option value="Đã mua hàng">Đã mua hàng</option>
+                            <option value="Đang đóng gói">Đang đóng gói</option>
+                            <option value="Đang nhập hàng">Đang nhập hàng</option>
+                            <option value="Chờ lấy hàng">Chờ lấy hàng</option>
+                            <option value="Đang vận chuyển">Đang vận chuyển</option>
+                            <option value="Đang giao">Đang giao</option>
+                            <option value="Hoàn thành">Hoàn thành</option>
+                            <option value="Đã hủy">Đã hủy</option>
+                            <option value="Đã xóa">Đã xóa</option>
+                            <option value="Chờ in">Chờ in</option>
+                            <option value="Đã in">Đã in</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TABLE CONTAINER -->
+            <div class="orders-table-wrapper" style="flex: 1; overflow-y: auto !important; -webkit-overflow-scrolling: touch; margin: 24px 20px 20px 20px; padding-top: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); border: 1px solid var(--border); border-radius: 12px; background-color: var(--bg-panel);">
+                <table style="width:100%; border-collapse:separate !important; border-spacing:0 12px !important; text-align:left; font-size:0.88rem;">
+                    <thead style="background-color:var(--bg-card); border-bottom:1px solid var(--border); position:sticky; top:0; z-index:10;">
+                        <tr>
+                            <th style="padding:16px 20px; font-weight:700; color:var(--text-muted); width:110px;">MÃ ĐƠN</th>
+                            <th style="padding:16px 20px; font-weight:700; color:var(--text-muted);">KHÁCH HÀNG</th>
+                            <th style="padding:16px 20px; font-weight:700; color:var(--text-muted); width:120px;">SỐ ĐIỆN THOẠI</th>
+                            <th style="padding:16px 20px; font-weight:700; color:var(--text-muted); width:200px;">SẢN PHẨM</th>
+                            <th style="padding:16px 20px; font-weight:700; color:var(--text-muted); width:140px;">TỔNG TIỀN</th>
+                            <th style="padding:16px 20px; font-weight:700; color:var(--text-muted); width:120px;">TRẠNG THÁI</th>
+                            <th style="padding:16px 20px; font-weight:700; color:var(--text-muted); width:180px;">GIAO HÀNG</th>
+                            <th style="padding:16px 20px; font-weight:700; color:var(--text-muted); width:110px;">NGÀY TẠO</th>
+                        </tr>
+                    </thead>
+                    <tbody id="dashboardOrdersTableBody">
+                        <!-- Loaded dynamically -->
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+        <!-- TAB CONTENT 3: PRODUCTS MANAGEMENT -->
+        <div id="products-tab-content" class="tab-view-panel" style="display: none; flex: 1; flex-direction: column; background: var(--bg-app); overflow: hidden; padding: 30px;">
+            <div class="dashboard-header" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px;">
+                <div class="dashboard-header-title">
+                        <p class="ux-eyebrow">Không gian làm việc</p>
+                    <h2 style="font-size: 1.5rem; font-weight:800; color:var(--text-main);">Quản lý sản phẩm</h2>
+                    <p style="font-size: 0.85rem; color:var(--text-muted); margin-top:4px;">Quản lý sản phẩm, biến thể và giá bán.</p>
+                </div>
+                <button class="btn-primary-quick" id="btnOpenAddProductModal" style="padding: 10px 20px; border-radius: 8px; display:flex; align-items:center; gap:8px;">
+                    <i data-lucide="plus-circle" style="width:16px; height:16px;"></i>
+                    <span>Thêm sản phẩm</span>
+                </button>
+            </div>
+            <div style="display:flex; gap:16px; margin-bottom:20px; align-items:center;">
+                <div style="flex:1; position:relative; display:flex; align-items:center;">
+                    <i data-lucide="search" style="position:absolute; left:16px; color:var(--text-muted); width:18px;"></i>
+                    <input type="text" id="productSearch" placeholder="Tìm kiếm theo Tên sản phẩm..." style="width:100%; padding:12px 12px 12px 46px; border-radius:10px; border:1px solid var(--border); background-color:var(--bg-panel); color:var(--text-main); font-family:inherit; outline:none; font-size:0.9rem;">
+                </div>
+            </div>
+            <div class="orders-table-wrapper" style="flex:1; background-color:var(--bg-panel); border:1px solid var(--border); border-radius:12px; overflow-y:auto; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+                <table style="width:100%; border-collapse:collapse; text-align:left; font-size:0.88rem;">
+                    <thead style="background-color:var(--bg-card); border-bottom:1px solid var(--border); position:sticky; top:0; z-index:10;">
+                        <tr>
+                            <th style="padding:16px 20px; font-weight:700; color:var(--text-muted); width:80px;">ẢNH</th>
+                            <th style="padding:16px 20px; font-weight:700; color:var(--text-muted);">TÊN SẢN PHẨM</th>
+                            <th style="padding:16px 20px; font-weight:700; color:var(--text-muted); width:170px;">GIÁ BÁN</th>
+                            <th style="padding:16px 20px; font-weight:700; color:var(--text-muted); width:160px;">BIẾN THỂ</th>
+                            <th style="padding:16px 20px; font-weight:700; color:var(--text-muted); width:120px;">NGÀY TẠO</th>
+                            <th style="padding:16px 20px; font-weight:700; color:var(--text-muted); width:120px; text-align:center;">THAO TÁC</th>
+                        </tr>
+                    </thead>
+                    <tbody id="productsTableBody"></tbody>
+                </table>
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-top:20px;">
+                <div style="font-size:0.85rem; color:var(--text-muted);">
+                    Hiển thị <span id="productsTotalCount">0</span> sản phẩm
+                </div>
+                <div style="display:flex; gap:8px;">
+                    <button id="btnPrevProductsPage" class="btn-secondary-quick" style="padding: 8px 16px;">Trước</button>
+                    <button id="btnNextProductsPage" class="btn-secondary-quick" style="padding: 8px 16px;">Sau</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB CONTENT 4: CUSTOMERS MANAGEMENT -->
+        <div id="customers-tab-content" class="tab-view-panel" style="display: none; flex: 1; flex-direction: column; background: var(--bg-app); overflow: hidden; padding: 30px;">
+            <div class="dashboard-header" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px;">
+                <div class="dashboard-header-title">
+                        <p class="ux-eyebrow">Không gian làm việc</p>
+                    <h2 style="font-size: 1.5rem; font-weight:800; color:var(--text-main);">Quản lý khách hàng</h2>
+                    <p style="font-size: 0.85rem; color:var(--text-muted); margin-top:4px;">Tra cứu thông tin và chăm sóc khách hàng.</p>
+                </div>
+                <button class="btn-primary-quick" id="btnOpenAddCustomerModal" style="padding: 10px 20px; border-radius: 8px; display:flex; align-items:center; gap:8px;">
+                    <i data-lucide="plus-circle" style="width:16px; height:16px;"></i>
+                    <span>Thêm khách hàng</span>
+                </button>
+            </div>
+            <div style="display:flex; gap:16px; margin-bottom:20px; align-items:center;">
+                <div style="flex:1; position:relative; display:flex; align-items:center;">
+                    <i data-lucide="search" style="position:absolute; left:16px; color:var(--text-muted); width:18px;"></i>
+                    <input type="text" id="customerSearch" placeholder="Tìm kiếm theo Tên khách hàng hoặc Số điện thoại..." style="width:100%; padding:12px 12px 12px 46px; border-radius:10px; border:1px solid var(--border); background-color:var(--bg-panel); color:var(--text-main); font-family:inherit; outline:none; font-size:0.9rem;">
+                </div>
+            </div>
+            <div class="orders-table-wrapper" style="flex:1; background-color:var(--bg-panel); border:1px solid var(--border); border-radius:12px; overflow-y:auto; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+                <table style="width:100%; border-collapse:collapse; text-align:left; font-size:0.88rem;">
+                    <thead style="background-color:var(--bg-card); border-bottom:1px solid var(--border); position:sticky; top:0; z-index:10;">
+                        <tr>
+                            <th style="padding:14px 16px; font-weight:700; color:var(--text-muted); width:60px; text-align:center;">AVATAR</th>
+                            <th style="padding:14px 16px; font-weight:700; color:var(--text-muted);">TÊN KHÁCH HÀNG</th>
+                            <th style="padding:14px 16px; font-weight:700; color:var(--text-muted); width:130px;">SỐ ĐIỆN THOẠI</th>
+                            <th style="padding:14px 16px; font-weight:700; color:var(--text-muted);">ĐỊA CHỈ</th>
+                            <th style="padding:14px 16px; font-weight:700; color:var(--text-muted); width:120px;">PAGE ID</th>
+                            <th style="padding:14px 16px; font-weight:700; color:var(--text-muted); width:140px;">FB ID</th>
+                            <th style="padding:14px 16px; font-weight:700; color:var(--text-muted); width:130px; text-align:center;">HỘI THOẠI</th>
+                            <th style="padding:14px 16px; font-weight:700; color:var(--text-muted); width:140px; text-align:center;">THAO TÁC</th>
+                        </tr>
+                    </thead>
+                    <tbody id="customersTableBody"></tbody>
+                </table>
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-top:20px;">
+                <div style="font-size:0.85rem; color:var(--text-muted);">
+                    Hiển thị <span id="customersTotalCount">0</span> khách hàng
+                </div>
+                <div style="display:flex; gap:8px;">
+                    <button id="btnPrevCustomersPage" class="btn-secondary-quick" style="padding: 8px 16px;">Trước</button>
+                    <button id="btnNextCustomersPage" class="btn-secondary-quick" style="padding: 8px 16px;">Sau</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB CONTENT 5: CHATBOT AUTO MESSAGE -->
+        <div id="chatbot-tab-content" class="tab-view-panel" style="display: none; flex: 1; flex-direction: column; background: var(--bg-app); overflow-y: auto; padding: 30px;">
+            <div class="dashboard-header" style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:24px; gap:24px;">
+                <div class="dashboard-header-title">
+                        <p class="ux-eyebrow">Không gian làm việc</p>
+                    <h2 style="font-size:1.5rem; font-weight:800; color:var(--text-main);">Cấu hình Chatbot Tự động</h2>
+                    <p style="font-size:0.85rem; color:var(--text-muted); margin-top:4px;">Tự động gửi tin nhắn chăm sóc khách hàng dựa trên trạng thái đơn hàng từ Pancake.</p>
+                </div>
+                <button id="btnSaveChatbotConfig" onclick="saveChatbotConfig()" style="padding:10px 22px; border-radius:10px; border:none; background:linear-gradient(135deg,var(--primary),#6366f1); color:#fff; font-weight:700; font-size:0.88rem; cursor:pointer; display:flex; align-items:center; gap:8px; white-space:nowrap; box-shadow:0 4px 12px rgba(99,102,241,0.3);">
+                    <i data-lucide="save" style="width:16px;height:16px;"></i>
+                    Lưu cấu hình
+                </button>
+            </div>
+
+            <div style="display:grid; grid-template-columns:1fr 280px; gap:24px; align-items:start;">
+                <!-- LEFT: Status Cards -->
+                <div>
+                    <!-- Macros Banner -->
+                    <div style="background:linear-gradient(135deg,rgba(99,102,241,0.08),rgba(139,92,246,0.08)); border:1px solid rgba(99,102,241,0.2); border-radius:12px; padding:14px 18px; margin-bottom:20px;">
+                        <div style="font-size:0.78rem; font-weight:700; color:var(--primary); margin-bottom:10px; display:flex; align-items:center; gap:6px;">
+                            <i data-lucide="code-2" style="width:14px;height:14px;"></i>
+                            Các biến hỗ trợ (Macros)
+                        </div>
+                        <div style="display:flex; flex-wrap:wrap; gap:8px;">
+                            <span class="macro-chip" onclick="insertMacro('#DISPLAY_ID')">#DISPLAY_ID</span>
+                            <span class="macro-chip" onclick="insertMacro('#CUSTOMER_NAME')">#CUSTOMER_NAME</span>
+                            <span class="macro-chip" onclick="insertMacro('#LINKBILL')">#LINKBILL</span>
+                            <span class="macro-chip" onclick="insertMacro('#RECEIVER_NAME')">#RECEIVER_NAME</span>
+                            <span class="macro-chip" onclick="insertMacro('#RECEIVER_PHONE')">#RECEIVER_PHONE</span>
+                            <span class="macro-chip" onclick="insertMacro('#FULL_ADDRESS')">#FULL_ADDRESS</span>
+                            <span class="macro-chip" onclick="insertMacro('#ORDER_TOTAL')">#ORDER_TOTAL</span>
+                            <span class="macro-chip" onclick="insertMacro('#REMAINING')">#REMAINING</span>
+                            <span class="macro-chip" onclick="insertMacro('#PRODUCTS')">#PRODUCTS</span>
+                            <span class="macro-chip" onclick="insertMacro('#JT_WAYBILL_ID')">#JT_WAYBILL_ID</span>
+                        </div>
+                        <div style="font-size:0.75rem; color:var(--text-muted); margin-top:8px;">Click vào biến để chèn vào ô đang soạn tin nhắn.</div>
+                    </div>
+
+                    <!-- Status Cards -->
+                    <div id="chatbotStatusList" style="display:flex; flex-direction:column; gap:10px;"></div>
+                    <div style="margin-top:22px;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:12px;">
+                            <div>
+                                <div style="font-size:0.95rem; font-weight:700; color:var(--text-main);">Quy tắc từ khóa</div>
+                                <div style="font-size:0.82rem; color:var(--text-muted);">Tạo quy tắc kích hoạt chat tự động theo từ khóa.</div>
+                            </div>
+                            <button type="button" onclick="addKeywordRule()" style="padding:10px 16px; border:none; border-radius:12px; background:linear-gradient(135deg,var(--primary),#6366f1); color:#fff; font-weight:700; cursor:pointer;">Thêm quy tắc</button>
+                        </div>
+                        <div id="chatbotKeywordRules" style="display:flex; flex-direction:column; gap:12px;"></div>
+                    </div>
+                </div>
+
+                <!-- RIGHT: Guide + Status -->
+                <div style="position:sticky; top:0;">
+                    <div style="background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; padding:20px; margin-bottom:16px;">
+                        <div style="font-size:0.88rem; font-weight:700; color:var(--text-main); margin-bottom:12px;">Hướng dẫn</div>
+                        <ul style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; padding-left:16px; margin:0;">
+                            <li>Bật công tắc bên cạnh mỗi trạng thái để kích hoạt gửi tin tự động.</li>
+                            <li>Nội dung tin nhắn sẽ được gửi trực tiếp qua Smax.ai cho khách hàng ngay khi trạng thái đơn đổi trên Pancake.</li>
+                            <li>Khuyến dùng: Nên bật cho các trạng thái <strong>Đã xác nhận</strong> (gửi link bill) và <strong>Hoàn thành</strong> (cảm ơn).</li>
+                            <li>Hệ thống sẽ chỉ gửi tin nhắn nếu hội thoại khách hàng đã tồn tại trên Smax.</li>
+                        </ul>
+                    </div>
+                    <div style="background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; padding:20px;">
+                        <div style="font-size:0.88rem; font-weight:700; color:var(--text-main); margin-bottom:12px;">Trạng thái hệ thống</div>
+                        <div style="display:flex; align-items:center; gap:8px;">
+                            <span style="width:10px; height:10px; border-radius:50%; background:#22c55e; display:inline-block; box-shadow:0 0 6px rgba(34,197,94,0.5);"></span>
+                            <span style="font-size:0.83rem; color:#22c55e; font-weight:600;">Bot đang sẵn sàng</span>
+                        </div>
+                        <div style="margin-top:12px; font-size:0.78rem; color:var(--text-muted);" id="chatbotLastSaved">Chưa lưu cấu hình nào.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="spx-tracking-tab-content" class="tab-view-panel" style="display:none; flex:1; flex-direction:column; min-width:0;">
+            <div class="spx-page">
+                <p class="ux-eyebrow">Không gian làm việc · SPX Express</p>
+                <h2>Quản lý vận đơn giao hàng</h2>
+                <p class="spx-intro">Quét bill, ghi nhận vận đơn và theo dõi kiện hàng đã được SPX lấy.</p>
+                <section class="spx-entry" aria-label="Thêm vận đơn">
+                    <form id="spxTrackingForm">
+                        <label for="spxTrackingCode">Mã vận đơn hoặc link QR<textarea id="spxTrackingCode" rows="2" placeholder="SPXVN… SPXVN… - SPXVN…, SPXVN…" required autocomplete="off" spellcheck="false"></textarea></label>
+                        <label for="spxTrackingNote">Ghi chú (tùy chọn)<input id="spxTrackingNote" placeholder="Tên khách, mã đơn hoặc ghi chú" maxlength="500"></label>
+                        <button type="submit" class="spx-primary" id="spxAddTracking">Thêm vận đơn</button>
+                    </form>
+                    <div class="spx-tools">
+                        <button type="button" id="spxStartCamera"><i data-lucide="scan-line" style="width:16px;height:16px;"></i>Quét QR bằng camera</button>
+                        <label class="spx-file-button" for="spxQrFile">Chọn ảnh bill để quét QR<input id="spxQrFile" type="file" accept="image/*" hidden></label>
+                        <button type="button" id="spxStopCamera" hidden>Tắt camera</button>
+                    </div>
+                    <p class="spx-hint">Nhập nhiều mã cách nhau bằng dấu cách, dấu - hoặc dấu phẩy; có thể dán nhiều dòng. Enter để thêm, Shift + Enter để xuống dòng. Mã trùng sẽ được bỏ qua. Có thể dùng máy quét mã cầm tay trong ô nhập.</p>
+                    <div id="spxQrArea" hidden>
+                        <div id="spxQrReader"></div>
+                        <div id="spxQrFeedback" class="spx-qr-feedback" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+                    </div>
+                </section>
+                <div id="spxTrackingNotice" class="spx-notice" role="status" aria-live="polite">Bấm nút để kiểm tra trạng thái. Tự cập nhật một lần khi đủ 24 giờ kể từ lần kiểm tra gần nhất và trang đang mở.</div>
+                <div class="spx-toolbar">
+                    <input id="spxTrackingSearch" type="search" placeholder="Tìm mã vận đơn hoặc ghi chú…" aria-label="Tìm vận đơn">
+                    <button type="button" id="spxReloadTracking">Tải lại danh sách</button>
+                    <button type="button" class="spx-primary" id="spxCheckActive">Kiểm tra trạng thái ngay</button>
+                </div>
+                <div class="spx-columns">
+                    <section class="spx-column" aria-labelledby="spxPendingHeading">
+                        <div class="spx-column-heading"><h3 id="spxPendingHeading">Chờ lấy hàng</h3><span id="spxPendingCount">0</span></div>
+                        <div class="spx-tracking-list" id="spxPendingList"></div>
+                    </section>
+                    <section class="spx-column spx-column-in_transit" aria-labelledby="spxTransitHeading">
+                        <div class="spx-column-heading"><h3 id="spxTransitHeading">Đang vận chuyển</h3><span id="spxTransitCount">0</span></div>
+                        <div class="spx-tracking-list" id="spxTransitList"></div>
+                    </section>
+                    <section class="spx-column spx-column-out_for_delivery" aria-labelledby="spxDeliveringHeading">
+                        <div class="spx-column-heading"><h3 id="spxDeliveringHeading">Đang giao hàng</h3><span id="spxDeliveringCount">0</span></div>
+                        <div class="spx-tracking-list" id="spxDeliveringList"></div>
+                    </section>
+                    <section class="spx-column spx-column-delivered" aria-labelledby="spxDeliveredHeading">
+                        <div class="spx-column-heading"><h3 id="spxDeliveredHeading">Đã giao hàng</h3><span id="spxDeliveredCount">0</span></div>
+                        <div class="spx-tracking-list" id="spxDeliveredList"></div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB CONTENT 6: WEBSITE -->
+        <div id="website-tab-content" class="tab-view-panel" style="display: none; flex: 1; flex-direction: column; overflow: hidden;">
+            <div style="padding: 32px 36px; overflow-y: auto; height: 100%;">
+                <div class="dashboard-header-title">
+                        <p class="ux-eyebrow">Không gian làm việc</p>
+                    <h2 style="font-size:1.6rem; font-weight:800; color:var(--text-main); margin-bottom:6px;">Công cụ Website</h2>
+                    <p style="font-size:0.88rem; color:var(--text-muted); margin-bottom:28px;">Truy cập nhanh các trang quản lý và hỗ trợ công việc của PumaLife.</p>
+                </div>
+
+                <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:20px;">
+
+                    <!-- Card 1: Chỉnh sửa ảnh -->
+                    <div style="background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; padding:24px 20px; border-left:4px solid #7c3aed; display:flex; flex-direction:column; gap:10px; transition:box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(124,58,237,0.12)'" onmouseout="this.style.boxShadow='none'">
+                        <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+                            <div style="width:44px;height:44px;border-radius:12px;background:rgba(124,58,237,0.1);display:flex;align-items:center;justify-content:center;">
+                                <i data-lucide="image" style="width:22px;height:22px;color:#7c3aed;"></i>
+                            </div>
+                            <a href="https://wowedit.site" target="_blank" style="color:var(--text-muted);display:flex;align-items:center;">
+                                <i data-lucide="external-link" style="width:15px;height:15px;"></i>
+                            </a>
+                        </div>
+                        <div style="font-size:1rem;font-weight:700;color:var(--text-main);">Chỉnh sửa ảnh</div>
+                        <div style="font-size:0.8rem;color:var(--text-muted);line-height:1.5;">Công cụ thiết kế, xóa nền và tối ưu hình ảnh sản phẩm chuyên nghiệp.</div>
+                        <a href="https://wowedit.site" target="_blank" style="color:#7c3aed;font-size:0.78rem;font-weight:600;text-decoration:none;display:flex;align-items:center;gap:4px;margin-top:auto;padding-top:6px;">wowedit.site <i data-lucide="chevron-right" style="width:12px;height:12px;"></i></a>
+                    </div>
+
+                    <!-- Card 2: Đăng bài -->
+                    <div style="background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; padding:24px 20px; border-left:4px solid #8b5cf6; display:flex; flex-direction:column; gap:10px; transition:box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(139,92,246,0.12)'" onmouseout="this.style.boxShadow='none'">
+                        <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+                            <div style="width:44px;height:44px;border-radius:12px;background:rgba(139,92,246,0.1);display:flex;align-items:center;justify-content:center;">
+                                <i data-lucide="layout-dashboard" style="width:22px;height:22px;color:#8b5cf6;"></i>
+                            </div>
+                            <a href="https://pumalifepost.vercel.app" target="_blank" style="color:var(--text-muted);display:flex;align-items:center;">
+                                <i data-lucide="external-link" style="width:15px;height:15px;"></i>
+                            </a>
+                        </div>
+                        <div style="font-size:1rem;font-weight:700;color:var(--text-main);">Đăng bài</div>
+                        <div style="font-size:0.8rem;color:var(--text-muted);line-height:1.5;">Hệ thống quản lý nội dung mạng xã hội và đăng bài viết hàng loạt.</div>
+                        <a href="https://pumalifepost.vercel.app" target="_blank" style="color:#8b5cf6;font-size:0.78rem;font-weight:600;text-decoration:none;display:flex;align-items:center;gap:4px;margin-top:auto;padding-top:6px;">pumalifepost.vercel.app <i data-lucide="chevron-right" style="width:12px;height:12px;"></i></a>
+                    </div>
+
+                    <!-- Card 3: Website bán hàng -->
+                    <div style="background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; padding:24px 20px; border-left:4px solid #059669; display:flex; flex-direction:column; gap:10px; transition:box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(5,150,105,0.12)'" onmouseout="this.style.boxShadow='none'">
+                        <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+                            <div style="width:44px;height:44px;border-radius:12px;background:rgba(5,150,105,0.1);display:flex;align-items:center;justify-content:center;">
+                                <i data-lucide="shopping-cart" style="width:22px;height:22px;color:#059669;"></i>
+                            </div>
+                            <a href="https://pumalifestore.vercel.app" target="_blank" style="color:var(--text-muted);display:flex;align-items:center;">
+                                <i data-lucide="external-link" style="width:15px;height:15px;"></i>
+                            </a>
+                        </div>
+                        <div style="font-size:1rem;font-weight:700;color:var(--text-main);">Website bán hàng</div>
+                        <div style="font-size:0.8rem;color:var(--text-muted);line-height:1.5;">Trang thương mại điện tử chính thức phục vụ khách hàng mua sắm online.</div>
+                        <a href="https://pumalifestore.vercel.app" target="_blank" style="color:#059669;font-size:0.78rem;font-weight:600;text-decoration:none;display:flex;align-items:center;gap:4px;margin-top:auto;padding-top:6px;">pumalifestore.vercel.app <i data-lucide="chevron-right" style="width:12px;height:12px;"></i></a>
+                    </div>
+
+                    <!-- Card 4: Thêm sản phẩm -->
+                    <div style="background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; padding:24px 20px; border-left:4px solid #d97706; display:flex; flex-direction:column; gap:10px; transition:box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(217,119,6,0.12)'" onmouseout="this.style.boxShadow='none'">
+                        <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+                            <div style="width:44px;height:44px;border-radius:12px;background:rgba(217,119,6,0.1);display:flex;align-items:center;justify-content:center;">
+                                <i data-lucide="package-plus" style="width:22px;height:22px;color:#d97706;"></i>
+                            </div>
+                            <a href="https://pumalifestore-sanpham.vercel.app" target="_blank" style="color:var(--text-muted);display:flex;align-items:center;">
+                                <i data-lucide="external-link" style="width:15px;height:15px;"></i>
+                            </a>
+                        </div>
+                        <div style="font-size:1rem;font-weight:700;color:var(--text-main);">Thêm sản phẩm</div>
+                        <div style="font-size:0.8rem;color:var(--text-muted);line-height:1.5;">Công cụ chuyên dụng để đăng tải và quản lý kho sản phẩm mới.</div>
+                        <a href="https://pumalifestore-sanpham.vercel.app" target="_blank" style="color:#d97706;font-size:0.78rem;font-weight:600;text-decoration:none;display:flex;align-items:center;gap:4px;margin-top:auto;padding-top:6px;">pumalifestore-sanpham.vercel.app <i data-lucide="chevron-right" style="width:12px;height:12px;"></i></a>
+                    </div>
+
+                    <!-- Card 5: Reup Facebook -->
+                    <div style="background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; padding:24px 20px; border-left:4px solid #ef4444; display:flex; flex-direction:column; gap:10px; transition:box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(239,68,68,0.12)'" onmouseout="this.style.boxShadow='none'">
+                        <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+                            <div style="width:44px;height:44px;border-radius:12px;background:rgba(239,68,68,0.1);display:flex;align-items:center;justify-content:center;">
+                                <i data-lucide="refresh-cw" style="width:22px;height:22px;color:#ef4444;"></i>
+                            </div>
+                            <a href="https://reupfacebook.vercel.app" target="_blank" style="color:var(--text-muted);display:flex;align-items:center;">
+                                <i data-lucide="external-link" style="width:15px;height:15px;"></i>
+                            </a>
+                        </div>
+                        <div style="font-size:1rem;font-weight:700;color:var(--text-main);">Reup Facebook</div>
+                        <div style="font-size:0.8rem;color:var(--text-muted);line-height:1.5;">Hệ thống lấy bài viết từ Facebook về để quản lý và đăng tải lại dễ dàng.</div>
+                        <a href="https://reupfacebook.vercel.app" target="_blank" style="color:#ef4444;font-size:0.78rem;font-weight:600;text-decoration:none;display:flex;align-items:center;gap:4px;margin-top:auto;padding-top:6px;">reupfacebook.vercel.app <i data-lucide="chevron-right" style="width:12px;height:12px;"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- IMAGE LIGHTBOX MODAL -->
+    <div id="imageLightbox" class="lightbox-modal" style="display: none;">
+        <div class="lightbox-wrapper" style="position: relative; max-width: 500px; width: 95%; background: var(--bg-panel); padding: 12px; border-radius: 16px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4); border: 1px solid var(--border); display: flex; flex-direction: column; align-items: center; animation: zoom 0.2s ease-out;">
+            <span class="lightbox-close" style="position: absolute; top: -12px; right: -12px; background: #ef4444; color: #fff; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: bold; cursor: pointer; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2); border: 2px solid #fff; transition: background 0.2s, transform 0.1s; z-index: 10;" onmouseover="this.style.background='#dc2626'; this.style.transform='scale(1.08)';" onmouseout="this.style.background='#ef4444'; this.style.transform='scale(1)';">&times;</span>
+            <img class="lightbox-content" id="lightboxImg" style="width: 100%; height: auto; max-height: 70vh; border-radius: 10px; object-fit: contain;">
+        </div>
+    </div>
+
+    <!-- Hidden upload element -->
+    <input type="file" id="imageFileInput" accept="image/*" multiple style="display: none;">
+
+    <!-- J&T API CONFIG MODAL -->
+    <div id="jtConfigModal" class="lightbox-modal" style="display: none; align-items: center; justify-content: center; z-index: 1000;">
+        <div class="modal-card" style="background: var(--bg-panel); border: 1px solid var(--border); border-radius: 16px; width: 480px; max-width: 90%; padding: 24px; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.15); animation: slideUp 0.3s ease;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 20px;">
+                <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-main); display: flex; align-items:center; gap: 8px;">
+                    <i data-lucide="settings" style="color: var(--primary); width:18px;"></i>
+                    Cấu hình API J&T Express
+                </h3>
+                <span class="lightbox-close" id="btnCloseJtConfig" style="position:static; font-size:24px; cursor:pointer;">&times;</span>
+            </div>
+            <form id="jtConfigForm" style="display:flex; flex-direction:column; gap:16px;">
+                <div class="form-group">
+                    <label>authToken</label>
+                    <textarea id="jtAuthToken" rows="3" placeholder="Nhập authToken J&T VIP..." style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:8px; font-family:inherit;" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Cookie</label>
+                    <textarea id="jtCookie" rows="3" placeholder="Nhập chuỗi cookie..." style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:8px; font-family:inherit;" required></textarea>
+                </div>
+                <div style="font-size:0.8rem; color:var(--text-muted); display:flex; align-items:center; gap:6px;">
+                    <i data-lucide="info" style="width:14px; flex-shrink:0;"></i>
+                    Lấy thông tin authToken & Cookie từ trang khachhang.jtexpress.vn sau khi đăng nhập.
+                </div>
+                <button type="submit" class="btn-primary-quick" style="width:100%; padding:12px; border-radius:8px;">Lưu cấu hình</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- WALK-IN ORDER CREATE MODAL -->
+    <div id="walkInOrderModal" class="lightbox-modal" style="display: none; align-items: center; justify-content: center; z-index: 1000;">
+        <div class="modal-card" style="background: var(--bg-panel); border: 1px solid var(--border); border-radius: 16px; width: 560px; max-width: 90%; max-height:90vh; overflow-y:auto; padding: 24px; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.15); animation: slideUp 0.3s ease; position: relative;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 20px;">
+                <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-main); display: flex; align-items:center; gap: 8px; margin: 0;">
+                    <i data-lucide="shopping-bag" style="color: var(--primary); width:18px;"></i>
+                    Tạo đơn hàng vãng lai
+                </h3>
+                <span id="btnCloseWalkInOrderModal" style="font-size: 28px; font-weight: 700; color: var(--text-muted); cursor: pointer; line-height: 1; transition: color 0.2s;" onmouseover="this.style.color='var(--danger)'" onmouseout="this.style.color='var(--text-muted)'">&times;</span>
+            </div>
+            <form id="walkInOrderForm" style="display:flex; flex-direction:column; gap:16px;">
+                <div class="form-group">
+                    <label>Chọn khách hàng đã có</label>
+                    <div style="position:relative;">
+                        <input type="text" id="walkInCustomerSearch" placeholder="Tìm tên hoặc SĐT khách hàng..." style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px;">
+                        <div id="walkInCustomerSuggestions" style="display:none; position:absolute; z-index:20; top:100%; left:0; right:0; background:var(--bg-panel); border:1px solid var(--border); border-top:none; max-height:260px; overflow:auto; box-shadow:0 12px 24px rgba(15,23,42,0.12);"></div>
+                    </div>
+                </div>
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+                    <div class="form-group">
+                        <label>Tên khách hàng</label>
+                        <input type="text" id="walkInName" required style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px;">
+                    </div>
+                    <div class="form-group">
+                        <label>Số điện thoại</label>
+                        <input type="tel" id="walkInPhone" required style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px;">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Địa chỉ nhận hàng</label>
+                    <input type="text" id="walkInAddress" required style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px;">
+                </div>
+                <div class="form-group">
+                    <label>Tên sản phẩm / Ghi chú hàng hóa</label>
+                    <input type="text" id="walkInGoods" placeholder="Ví dụ: 1 áo, 2 dép..." style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px;">
+                </div>
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+                    <div class="form-group">
+                        <label>Tổng tiền (đ)</label>
+                        <input type="number" id="walkInTotal" required min="0" value="0" style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px;">
+                    </div>
+                    <div class="form-group">
+                        <label>Tiền thu hộ (COD)</label>
+                        <input type="number" id="walkInCod" min="0" value="0" style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px;">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Ghi chú</label>
+                    <textarea id="walkInNote" rows="3" placeholder="Ghi chú đơn hàng..." style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px; font-family:inherit;"></textarea>
+                </div>
+                <button type="submit" class="btn-primary-quick" style="width:100%; padding:12px; border-radius:8px; display:flex; align-items:center; justify-content:center; gap:8px;">
+                    <i data-lucide="plus-circle" style="width:16px; height:16px;"></i>
+                    <span>Tạo đơn vãng lai</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- SPX ORDER CREATE MODAL -->
+    <div id="jtCreateOrderModal" class="lightbox-modal" style="display: none; align-items: center; justify-content: center; z-index: 1000;">
+        <div class="modal-card" style="background: var(--bg-panel); border: 1px solid var(--border); border-radius: 16px; width: 560px; max-width: 90%; max-height:90vh; overflow-y:auto; padding: 24px; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.15); animation: slideUp 0.3s ease; position: relative;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 20px;">
+                <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-main); display: flex; align-items:center; gap: 8px; margin: 0;">
+                    <i data-lucide="truck" style="color: #ff4d2d; width:18px;"></i>
+                    Tạo vận đơn SPX Express
+                </h3>
+                <span id="btnCloseJtCreate" style="font-size: 28px; font-weight: 700; color: var(--text-muted); cursor: pointer; line-height: 1; transition: color 0.2s;" onmouseover="this.style.color='var(--danger)'" onmouseout="this.style.color='var(--text-muted)'">&times;</span>
+            </div>
+            <form id="jtOrderForm" style="display:flex; flex-direction:column; gap:16px;">
+                <input type="hidden" id="jtLocalOrderId">
+                
+
+                <div style="font-weight: 700; font-size: 0.85rem; text-transform: uppercase; color: #ff4d2d; border-left: 2px solid #ff4d2d; padding-left: 8px;">Kho gửi hàng</div>
+                <div style="display:grid; grid-template-columns:minmax(0,1fr) auto; gap:10px; align-items:end;">
+                    <div class="form-group" style="position:relative;">
+                        <label>Địa chỉ gửi hàng</label>
+                        <select id="jtWarehouseSelect" required style="display:none;"><option value="">Đang tải kho...</option></select>
+                        <button type="button" id="jtWarehousePickerButton" style="width:100%; height:38px; display:flex; align-items:center; justify-content:space-between; gap:8px; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:8px 10px; cursor:pointer; text-align:left;">
+                            <span id="jtWarehousePickerLabel" style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">Đang tải kho...</span>
+                            <span style="font-size:12px; color:var(--text-muted);">▾</span>
+                        </button>
+                        <div id="jtWarehousePickerMenu" style="display:none; position:absolute; top:calc(100% + 4px); left:0; right:0; z-index:1300; background:var(--bg-panel); border:1px solid var(--border); border-radius:8px; box-shadow:0 10px 24px rgba(15,23,42,.14); overflow:hidden; max-height:240px; overflow-y:auto;"></div>
+                    </div>
+                    <button type="button" id="btnOpenWarehouseModal" class="btn-secondary-quick" style="height:38px; padding:8px 12px; border-radius:8px; white-space:nowrap;">+ Thêm kho</button>
+                </div>
+                <div id="jtWarehouseSummary" style="display:none; font-size:0.78rem; color:var(--text-muted); background:var(--bg-card); border:1px solid var(--border); border-radius:8px; padding:8px 10px;"></div>
+
+                <div style="font-weight: 700; font-size: 0.85rem; text-transform: uppercase; color: #ff4d2d; border-left: 2px solid #ff4d2d; padding-left: 8px;">Người nhận</div>
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+                    <div class="form-group">
+                        <label>Tên khách hàng</label>
+                        <input type="text" id="jtReceiverName" required style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:8px;">
+                    </div>
+                    <div class="form-group">
+                        <label>Số điện thoại</label>
+                        <input type="tel" id="jtReceiverPhone" required style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:8px;">
+                    </div>
+                </div>
+
+                <div style="font-weight: 700; font-size: 0.85rem; text-transform: uppercase; color: #ff4d2d; border-left: 2px solid #ff4d2d; padding-left: 8px;">Địa chỉ giao hàng</div>
+                
+                <div style="display:flex; justify-content:space-between; align-items:center; background:var(--bg-card); padding:8px 12px; border-radius:8px; border:1px solid var(--border);">
+                    <span style="font-size:0.8rem; font-weight:600; color:var(--text-main);">Phân cấp địa chỉ</span>
+                    <div style="display:flex; gap:12px;">
+                        <label style="display:flex; align-items:center; gap:4px; font-size:0.8rem; margin:0; cursor:pointer;">
+                            <input type="radio" name="jtAddressDataType" value="1" checked> Mới (2 cấp)
+                        </label>
+                        <label style="display:flex; align-items:center; gap:4px; font-size:0.8rem; margin:0; cursor:pointer;">
+                            <input type="radio" name="jtAddressDataType" value="2"> Cũ (3 cấp)
+                        </label>
+                    </div>
+                </div>
+
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+                    <div class="form-group">
+                        <label>Tỉnh / Thành phố</label>
+                        <select id="jtProvince" required style="display:none;"></select>
+                        <div id="jtProvincePicker" class="spx-searchable-select" data-select-id="jtProvince"></div>
+                    </div>
+                    <div class="form-group">
+                        <label id="jtDistrictLabel">Quận / Huyện</label>
+                        <select id="jtDistrict" required disabled style="display:none;"></select>
+                        <div id="jtDistrictPicker" class="spx-searchable-select" data-select-id="jtDistrict"></div>
+                    </div>
+                </div>
+
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+                    <div class="form-group" id="jtWardGroup">
+                        <label>Phường / Xã</label>
+                        <select id="jtWard" required disabled style="display:none;"></select>
+                        <div id="jtWardPicker" class="spx-searchable-select" data-select-id="jtWard"></div>
+                    </div>
+                    <div class="form-group" style="grid-column: span 1;" id="jtAddressDetailGroup">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+                            <label style="margin:0;">Số nhà, ngõ, tên đường</label>
+                            <button type="button" onclick="autoFillAddressFromDetail()" title="Tự động điền Tỉnh/Quận/Phường từ địa chỉ" style="font-size:0.7rem; font-weight:700; padding:3px 8px; border-radius:6px; border:1px solid var(--primary); color:var(--primary); background:var(--primary-light); cursor:pointer; white-space:nowrap; display:flex; align-items:center; gap:4px;">
+                                <i data-lucide="wand-2" style="width:11px; height:11px;"></i> Tự điền
+                            </button>
+                        </div>
+                        <input type="text" id="jtReceiverAddress" required style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:8px;">
+                    </div>
+                </div>
+
+                <div style="font-weight: 700; font-size: 0.85rem; text-transform: uppercase; color: #ff4d2d; border-left: 2px solid #ff4d2d; padding-left: 8px;">Thông tin hàng hóa & COD</div>
+                <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px;">
+                    <div class="form-group">
+                        <label>Tên sản phẩm</label>
+                        <input type="text" id="jtGoodsName" required style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:8px;">
+                    </div>
+                    <div class="form-group">
+                        <label>Tiền COD (đ)</label>
+                        <input type="number" id="jtCodMoney" value="0" min="0" required style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:8px;">
+                    </div>
+                    <div class="form-group">
+                        <label>Cân nặng (kg)</label>
+                        <input type="number" id="jtWeight" value="1" min="0.1" step="0.1" required style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:8px;">
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-primary-quick" style="width:100%; padding:12px; border-radius:8px; margin-top:8px; display:flex; align-items:center; justify-content:center; gap:8px; background-color:#ff4d2d; font-weight:700;">
+                    <i data-lucide="send" style="width:16px;"></i>
+                    <span>Tạo Đơn SPX</span>                </button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- WAREHOUSE CREATE MODAL -->
+    <div id="warehouseModal" class="lightbox-modal" style="display:none; align-items:center; justify-content:center; z-index:1200;">
+        <div class="modal-card" style="background:var(--bg-panel); border:1px solid var(--border); border-radius:16px; width:620px; max-width:92%; max-height:90vh; overflow-y:auto; padding:24px; box-shadow:0 20px 25px -5px rgba(0,0,0,.15); position:relative;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:18px;">
+                <h3 id="warehouseModalTitle" style="margin:0; font-size:1.05rem; font-weight:800; color:var(--text-main);">Thêm kho gửi hàng</h3>
+                <span id="btnCloseWarehouseModal" style="font-size:28px; font-weight:700; color:var(--text-muted); cursor:pointer; line-height:1;">&times;</span>
+            </div>
+            <form id="warehouseForm" style="display:flex; flex-direction:column; gap:12px;">
+                <input type="hidden" id="whEditId">
+                <div class="form-group">
+                    <label>Tên kho / người gửi *</label>
+                    <input id="whName" required placeholder="Ví dụ: PUMALIFE STORE" style="width:100%; padding:10px; border:1px solid var(--border); border-radius:8px;">
+                </div>
+                <div class="form-group">
+                    <label>Số điện thoại *</label>
+                    <input id="whSenderPhone" required placeholder="Ví dụ: 0357573070" style="width:100%; padding:10px; border:1px solid var(--border); border-radius:8px;">
+                </div>
+                <div style="display:flex; justify-content:space-between; align-items:center; background:var(--bg-card); padding:8px 12px; border-radius:8px; border:1px solid var(--border);">
+                    <span style="font-size:0.8rem; font-weight:600; color:var(--text-main);">Phân cấp địa chỉ kho</span>
+                    <div style="display:flex; gap:12px;">
+                        <label style="display:flex; align-items:center; gap:4px; font-size:0.8rem; margin:0; cursor:pointer;">
+                            <input type="radio" name="whAddressDataType" value="1" checked> Mới (2 cấp)
+                        </label>
+                        <label style="display:flex; align-items:center; gap:4px; font-size:0.8rem; margin:0; cursor:pointer;">
+                            <input type="radio" name="whAddressDataType" value="2"> Cũ (3 cấp)
+                        </label>
+                    </div>
+                </div>
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+                    <div class="form-group">
+                        <label>Tỉnh / Thành phố *</label>
+                        <select id="whState" required style="width:100%; padding:10px; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main);">
+                            <option value="">Chọn Tỉnh / Thành phố</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label id="whDistrictLabel">Quận / Phường *</label>
+                        <select id="whDistrict" required disabled style="width:100%; padding:10px; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main);">
+                            <option value="">Chọn Quận / Huyện</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group" id="whWardGroup" style="display:none;">
+                    <label>Phường / Xã *</label>
+                    <select id="whWard" required disabled style="width:100%; padding:10px; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main);">
+                        <option value="">Chọn Phường / Xã</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Địa chỉ chi tiết *</label>
+                    <input id="whDetailAddress" required placeholder="Số nhà, tên đường..." style="width:100%; padding:10px; border:1px solid var(--border); border-radius:8px;">
+                </div>
+                <div style="font-size:.76rem; color:var(--text-muted); line-height:1.45; padding:8px 10px; background:var(--bg-card); border-radius:8px; border:1px solid var(--border);">
+                    ID địa chỉ SPX và mã khu vực sẽ được hệ thống tự lấy theo Tỉnh / Quận / Phường đã chọn.
+                </div>
+                <label style="display:flex; align-items:center; gap:8px; font-size:.82rem;"><input id="whIsDefault" type="checkbox"> Đặt làm kho mặc định</label>
+                <div style="display:flex; gap:8px; justify-content:space-between; align-items:center; margin-top:4px;">
+                    <button type="button" id="btnDeleteWarehouseInModal" style="display:none; padding:8px 12px; border-radius:8px; border:1px solid #fecaca; background:#fff; color:#dc2626; cursor:pointer; font-weight:700;">🗑 Xóa kho</button>
+                    <div style="display:flex; gap:8px; margin-left:auto;">
+                        <button type="button" id="btnCancelWarehouse" class="btn-secondary-quick">Hủy</button>
+                        <button type="submit" id="btnSaveWarehouse" class="btn-primary-quick">Lưu kho</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- J&T TRACKING DETAILS LIGHTBOX -->
+    <div id="jtTrackingModal" class="lightbox-modal" style="display: none; align-items: center; justify-content: center; z-index: 1000;">
+        <div class="modal-card" style="background: var(--bg-panel); border: 1px solid var(--border); border-radius: 16px; width: 500px; max-width: 90%; max-height:80vh; overflow-y:auto; padding: 24px; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.15); animation: slideUp 0.3s ease;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 20px;">
+                <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-main); display: flex; align-items:center; gap: 8px;">
+                    <i data-lucide="map-pin" style="color: var(--primary); width:18px;"></i>
+                    Hành trình đơn J&T: <span id="trackingWaybillCode" style="color: var(--primary); font-family: monospace;">-</span>
+                </h3>
+                <span class="lightbox-close" id="btnCloseJtTracking" style="position:static; font-size:24px; cursor:pointer;">&times;</span>
+            </div>
+            
+            <div id="jtTrackingTimelineContainer" style="display:flex; flex-direction:column; gap:16px; padding-left:12px; border-left:2px solid var(--border); position:relative;">
+                <!-- Dynamically loaded timeline nodes -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ADD/EDIT PRODUCT MODAL WITH VARIATIONS CONFIG -->
+    <div id="productModal" class="lightbox-modal" style="display: none; align-items: center; justify-content: center; z-index: 1010;">
+        <div class="modal-card" style="background: var(--bg-panel); border: 1px solid var(--border); border-radius: 16px; width: 620px; max-width: 95%; max-height:90vh; overflow-y:auto; padding: 24px; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.15); animation: slideUp 0.3s ease; position: relative;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 20px;">
+                <h3 id="productModalTitle" style="font-size: 1.15rem; font-weight: 800; color: var(--text-main); display: flex; align-items:center; gap: 8px; margin:0;">
+                    <i data-lucide="package" style="color: var(--primary); width:18px;"></i>
+                    Thêm sản phẩm mới
+                </h3>
+                <span id="btnCloseProductModal" style="font-size: 28px; font-weight: 700; color: var(--text-muted); cursor: pointer; line-height: 1;">&times;</span>
+            </div>
+            <form id="productForm" style="display:flex; flex-direction:column; gap:16px;">
+                <input type="hidden" id="productEditId">
+                <div class="form-group">
+                    <label>Tên sản phẩm *</label>
+                    <input type="text" id="prodName" required style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px;">
+                </div>
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+                    <div class="form-group">
+                        <label>Giá bán chung (đ) *</label>
+                        <input type="number" id="prodPrice" required min="0" value="0" style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px;">
+                    </div>
+                    <div class="form-group">
+                        <label>Mã sản phẩm (Code)</label>
+                        <input type="text" id="prodCode" placeholder="Ví dụ: IH6932" style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px;">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Link sản phẩm</label>
+                    <input type="url" id="prodLink" placeholder="https://..." style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px;">
+                    <div style="font-size:0.72rem; color:var(--text-muted); margin-top:4px;">Link trang mua hàng / trang chi tiết sản phẩm.</div>
+                </div>
+                <div class="form-group">
+                    <label>Hình ảnh sản phẩm</label>
+                    <div style="display:flex; align-items:center; gap:8px;">
+                        <input type="text" id="prodImage" placeholder="Đường dẫn ảnh (URL) hoặc Tải ảnh lên..." style="flex:1; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px;">
+                        <input type="file" id="prodImageFile" accept="image/*" style="display:none;">
+                        <button type="button" id="btnSelectProdImage" style="padding:10px 14px; border-radius:8px; background:var(--primary); color:white; border:none; font-size:0.82rem; font-weight:600; cursor:pointer; display:flex; align-items:center; gap:4px; white-space:nowrap;">
+                            📁 Chọn ảnh
+                        </button>
+                    </div>
+                    <div id="prodImagePreviewContainer" style="display:none; align-items:center; gap:10px; margin-top:8px; padding:8px; border:1px dashed var(--border); border-radius:8px; background:var(--bg-panel);">
+                        <img id="prodImagePreview" src="" style="width:48px; height:48px; border-radius:6px; object-fit:cover; border:1px solid var(--border);">
+                        <div style="flex:1; min-width:0;">
+                            <span id="prodImageUploadStatus" style="font-size:0.75rem; font-weight:600; color:var(--text-muted);">Đã tải lên thành công</span>
+                        </div>
+                        <button type="button" onclick="removeProductImage()" style="background:none; border:none; color:var(--danger); font-size:0.9rem; cursor:pointer;" title="Xóa ảnh">✕</button>
+                    </div>
+                    <div style="font-size:0.72rem; color:var(--text-muted); margin-top:4px;">
+                        Mẹo: Bạn có thể click vào ô input và dán ảnh (Ctrl + V) trực tiếp từ bộ nhớ tạm để upload.
+                    </div>
+                </div>
+
+                <!-- Variations section -->
+                <div style="border-top:1px solid var(--border); padding-top:16px; margin-top:8px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px; flex-wrap:wrap; gap:12px;">
+                        <h4 style="font-size:0.95rem; font-weight:700; color:var(--text-main); margin:0;">Biến thể sản phẩm (Variations)</h4>
+                        <div style="display:flex; gap:8px;">
+                            <button type="button" onclick="addSingleVariationRow()" class="btn-secondary-quick" style="padding:6px 10px; border-radius:6px; font-size:0.8rem; font-weight:600; cursor:pointer;">+ Thêm 1 dòng</button>
+                            <button type="button" onclick="generateVariationsFromInputs()" style="padding:6px 14px; border-radius:6px; background:var(--primary); color:white; border:none; font-size:0.8rem; font-weight:700; cursor:pointer; display:flex; align-items:center; gap:4px;">
+                                ✨ Sinh biến thể kết hợp
+                            </button>
+                        </div>
+                    </div>
+                    <div style="font-size:0.75rem; color:var(--text-muted); margin-bottom:12px;">Mẹo: Nhập Màu sắc và/hoặc Size để sinh kết hợp tự động (VD: 3 màu x 4 size = 12 biến thể). Click ô ảnh hoặc Ctrl + V để dán ảnh.</div>
+                    
+                    <div style="display:grid; grid-template-columns:1fr 1fr 1.2fr; gap:10px; margin-bottom:12px; align-items:flex-end;">
+                        <div>
+                            <label style="font-size:0.78rem; font-weight:600; color:var(--text-muted); display:block; margin-bottom:4px;">Biến thể Màu sắc (phân cách phẩy)</label>
+                            <input type="text" id="prodColorInput" placeholder="Ví dụ: Đen, Trắng, Navy" style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:8px 10px; font-size:0.82rem;">
+                        </div>
+                        <div>
+                            <label style="font-size:0.78rem; font-weight:600; color:var(--text-muted); display:block; margin-bottom:4px;">Biến thể Size / Kích thước</label>
+                            <input type="text" id="prodVariationInput" placeholder="Ví dụ: S, M, L, XL" style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:8px 10px; font-size:0.82rem;">
+                        </div>
+                        <div>
+                            <label style="font-size:0.78rem; font-weight:600; color:var(--text-muted); display:block; margin-bottom:4px;">Preset Size sẵn</label>
+                            <select id="prodSizePreset" onchange="applyVariationSizePreset(true)" style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:8px 10px; font-size:0.82rem;">
+                                <option value="">-- Chọn mẫu size sẵn --</option>
+                                <option value="adidas">Adidas (36 - 48 2/3)</option>
+                                <option value="puma">Puma (35.5 - 47)</option>
+                                <option value="nike">Nike (36 - 47.5)</option>
+                                <option value="jeep">Jeep (35 - 45)</option>
+                                <option value="onitsuka">Onitsuka / Asics (36 - 47)</option>
+                                <option value="converse">Converse (35 - 45)</option>
+                                <option value="champion">Champion (35 - 45)</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div id="variationFormListContainer" style="display:flex; flex-direction:column; gap:8px; max-height:240px; overflow-y:auto; padding:4px;">
+                        <!-- Generated variation rows will appear here -->
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-primary-quick" style="width:100%; padding:12px; border-radius:8px; margin-top:8px;">Lưu sản phẩm</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- PRODUCT VARIATIONS DETAIL MODAL -->
+    <div id="productVariationsModal" class="lightbox-modal" style="display: none; align-items: center; justify-content: center; z-index: 1020;">
+        <div class="modal-card" style="background: var(--bg-panel); border: 1px solid var(--border); border-radius: 16px; width: 680px; max-width: 95%; max-height: 85vh; overflow-y: auto; padding: 28px; box-shadow: 0 24px 40px rgba(0,0,0,0.2); animation: slideUp 0.3s ease; position: relative;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 20px;">
+                <div>
+                    <h3 id="variationsModalProductName" style="font-size:1.15rem; font-weight:800; color:var(--text-main); margin:0 0 4px 0;">Biến thể sản phẩm</h3>
+                    <p id="variationsModalProductCode" style="font-size:0.8rem; color:var(--text-muted); margin:0; font-family:monospace;"></p>
+                </div>
+                <span id="btnCloseVariationsModal" style="font-size:28px; font-weight:700; color:var(--text-muted); cursor:pointer; line-height:1; padding:4px;">&times;</span>
+            </div>
+            <!-- Product image preview -->
+            <div id="variationsModalImageRow" style="display:flex; gap:12px; margin-bottom:20px; overflow-x:auto; padding-bottom:8px;"></div>
+            <!-- Variations table -->
+            <div style="border-radius:10px; overflow:hidden; border:1px solid var(--border);">
+                <table style="width:100%; border-collapse:collapse; font-size:0.86rem;">
+                    <thead style="background:var(--bg-card); border-bottom:1px solid var(--border);">
+                        <tr>
+                            <th style="padding:12px 16px; font-weight:700; color:var(--text-muted);">BIẾN THỂ</th>
+                            <th style="padding:12px 16px; font-weight:700; color:var(--text-muted);">SKU</th>
+                            <th style="padding:12px 16px; font-weight:700; color:var(--text-muted);">GIÁ BÁN</th>
+                            <th style="padding:12px 16px; font-weight:700; color:var(--text-muted); text-align:center;">TỒN KHO</th>
+                        </tr>
+                    </thead>
+                    <tbody id="variationsTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- CUSTOMER LINKED ORDERS MODAL -->
+    <div id="customerOrdersModal" class="lightbox-modal" style="display: none; align-items: center; justify-content: center; z-index: 1020;">
+        <div class="modal-card" style="background: var(--bg-panel); border: 1px solid var(--border); border-radius: 16px; width: 850px; max-width: 95%; max-height: 85vh; overflow-y: auto; padding: 28px; box-shadow: 0 24px 40px rgba(0,0,0,0.2); animation: slideUp 0.3s ease; position: relative;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 20px;">
+                <div>
+                    <h3 id="customerOrdersModalTitle" style="font-size:1.15rem; font-weight:800; color:var(--text-main); margin:0 0 4px 0;">Đơn hàng của khách</h3>
+                    <p id="customerOrdersModalSubtitle" style="font-size:0.8rem; color:var(--text-muted); margin:0;"></p>
+                </div>
+                <span id="btnCloseCustomerOrdersModal" style="font-size:28px; font-weight:700; color:var(--text-muted); cursor:pointer; line-height:1; padding:4px;">&times;</span>
+            </div>
+            <!-- Orders List Table -->
+            <div style="border-radius:10px; overflow:hidden; border:1px solid var(--border);">
+                <table style="width:100%; border-collapse:collapse; font-size:0.86rem;">
+                    <thead style="background:var(--bg-card); border-bottom:1px solid var(--border);">
+                        <tr>
+                            <th style="padding:12px 16px; font-weight:700; color:var(--text-muted);">MÃ ĐƠN</th>
+                            <th style="padding:12px 16px; font-weight:700; color:var(--text-muted);">ĐỊA CHỈ GIAO HÀNG</th>
+                            <th style="padding:12px 16px; font-weight:700; color:var(--text-muted);">TỔNG TIỀN</th>
+                            <th style="padding:12px 16px; font-weight:700; color:var(--text-muted);">TRẠNG THÁI</th>
+                            <th style="padding:12px 16px; font-weight:700; color:var(--text-muted);">NGÀY TẠO</th>
+                        </tr>
+                    </thead>
+                    <tbody id="customerOrdersTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCT ORDERS MODAL -->
+    <div id="productOrdersModal" class="lightbox-modal" style="display: none; align-items: center; justify-content: center; z-index: 1020;">
+        <div class="modal-card" style="background: var(--bg-panel); border: 1px solid var(--border); border-radius: 16px; width: 950px; max-width: 95%; max-height: 85vh; overflow-y: auto; padding: 28px; box-shadow: 0 24px 40px rgba(0,0,0,0.2); animation: slideUp 0.3s ease; position: relative;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 20px; position: sticky; top: 0; background: var(--bg-panel); z-index: 10;">
+                <h3 id="productOrdersModalTitle" style="font-size:1.15rem; font-weight:800; color:var(--text-main); margin:0;">Đơn hàng chứa sản phẩm</h3>
+                <span id="btnCloseProductOrdersModal" style="font-size:28px; font-weight:700; color:var(--text-muted); cursor:pointer; line-height:1; padding:4px;">&times;</span>
+            </div>
+            <!-- Orders List Table -->
+            <div style="border-radius:10px; overflow:hidden; border:1px solid var(--border);">
+                <table style="width:100%; border-collapse:collapse; font-size:0.86rem;">
+                    <thead style="background:var(--bg-card); border-bottom:1px solid var(--border); position: sticky; top: 0; z-index: 5;">
+                        <tr>
+                            <th style="padding:12px 16px; font-weight:700; color:var(--text-muted); text-align:left;">MÃ ĐƠN</th>
+                            <th style="padding:12px 16px; font-weight:700; color:var(--text-muted); text-align:left;">KHÁCH HÀNG</th>
+                            <th style="padding:12px 16px; font-weight:700; color:var(--text-muted); text-align:left;">ĐIỆN THOẠI</th>
+                            <th style="padding:12px 16px; font-weight:700; color:var(--text-muted); text-align:left;">TRẠNG THÁI</th>
+                            <th style="padding:12px 16px; font-weight:700; color:var(--text-muted); text-align:center;">SỐ LƯỢNG</th>
+                            <th style="padding:12px 16px; font-weight:700; color:var(--text-muted); text-align:right;">TỔNG TIỀN</th>
+                            <th style="padding:12px 16px; font-weight:700; color:var(--text-muted); text-align:center;">NGÀY TẠO</th>
+                        </tr>
+                    </thead>
+                    <tbody id="productOrdersTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div id="customerModal" class="lightbox-modal" style="display: none; align-items: center; justify-content: center; z-index: 1010;">
+        <div class="modal-card" style="background: var(--bg-panel); border: 1px solid var(--border); border-radius: 16px; width: 520px; max-width: 90%; max-height: 90vh; padding: 24px; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.15); animation: slideUp 0.3s ease; position: relative; overflow-y: auto;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 20px; position: sticky; top: 0; background: var(--bg-panel); z-index: 10;">
+                <h3 id="customerModalTitle" style="font-size: 1.15rem; font-weight: 800; color: var(--text-main); display: flex; align-items:center; gap: 8px; margin:0;">
+                    <i data-lucide="users" style="color: var(--primary); width:18px;"></i>
+                    Thêm khách hàng mới
+                </h3>
+                <span id="btnCloseCustomerModal" style="font-size: 28px; font-weight: 700; color: var(--text-muted); cursor: pointer; line-height: 1;">&times;</span>
+            </div>
+            <form id="customerForm" style="display:flex; flex-direction:column; gap:16px;">
+                <input type="hidden" id="customerEditId">
+                <div class="form-group">
+                    <label>Tên khách hàng *</label>
+                    <input type="text" id="custName" required style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px;">
+                </div>
+                <div class="form-group">
+                    <label>Số điện thoại *</label>
+                    <input type="tel" id="custPhone" required style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px;">
+                </div>
+                <div class="form-group">
+                    <label>Địa chỉ</label>
+                    <textarea id="custAddress" rows="3" style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px; font-family:inherit;"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Page ID</label>
+                    <input type="text" id="custPageId" style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px; font-family:monospace; font-size:0.9rem;">
+                </div>
+                <div class="form-group">
+                    <label>Liên kết hội thoại</label>
+                    <input type="text" id="custConversationLink" style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px; font-size:0.9rem;">
+                </div>
+                <div class="form-group">
+                    <label>Liên kết hội thoại ngoài</label>
+                    <input type="text" id="custExternalConversationLink" style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:10px; font-size:0.9rem;">
+                </div>
+                <button type="submit" class="btn-primary-quick" style="width:100%; padding:12px; border-radius:8px; margin-top:8px;">Lưu khách hàng</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- SIDE ORDER EDIT MODAL (HIGH FIDELITY) -->
+    <div id="sideOrderEditModal" class="lightbox-modal" style="display: none; align-items: center; justify-content: center; z-index: 1050; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(4px);">
+        <div class="modal-card" style="background: var(--bg-panel); border: 1px solid var(--border); border-radius: 16px; width: 95vw; max-width: 1400px; max-height: 90vh; overflow-y: auto; padding: 24px; box-shadow: 0 24px 40px rgba(0,0,0,0.25); animation: slideUp 0.2s ease; position: relative; color: var(--text-main);">
+            <!-- Header -->
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 12px;">
+                <div>
+                    <h3 id="sideOrderEditModalTitle" style="font-size:1.15rem; font-weight:800; color:var(--text-main); margin:0 0 4px 0;">Sửa thông tin đơn hàng</h3>
+                    <p id="sideOrderEditModalSubtitle" style="font-size:0.8rem; color:var(--text-muted); margin:0; font-family:monospace;"></p>
+                </div>
+                <span id="btnCloseSideOrderEditModal" style="font-size:28px; font-weight:700; color:var(--text-muted); cursor:pointer; line-height:1; padding:4px;">&times;</span>
+            </div>
+            
+            <!-- 4-Column Layout giống Dashboard -->
+            <div class="order-edit-container" style="display:grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap:16px; margin-bottom:16px;">
+                
+                <!-- Col 1: Thông tin giao hàng -->
+                <div class="order-edit-col" style="background:var(--bg-card); border:1px solid var(--border); border-radius:12px; padding:14px; display:flex; flex-direction:column; gap:10px;">
+                    <div class="order-edit-col-title" style="font-weight:700; font-size:0.82rem; text-transform:uppercase; color:var(--text-muted); border-bottom:1px solid var(--border); padding-bottom:6px; margin-bottom:4px;">Thông tin giao hàng</div>
+
+                    <!-- 1a: Khách hàng (read-only) -->
+                    <div style="background:var(--bg-app);border:1px solid var(--border);border-radius:8px;padding:10px 12px;">
+                        <div style="font-size:0.7rem;font-weight:700;text-transform:uppercase;color:var(--primary);margin-bottom:8px;letter-spacing:0.05em;">👤 Khách hàng</div>
+                        <div id="side-cust-info" style="display:flex;flex-direction:column;gap:6px;">
+                            <div style="font-size:0.82rem;color:var(--text-muted);">Đang tải...</div>
+                        </div>
+                    </div>
+
+                    <!-- 1b: Người nhận (editable) -->
+                    <div style="background:var(--bg-app);border:1px solid var(--border);border-radius:8px;padding:10px 12px;">
+                        <div style="font-size:0.7rem;font-weight:700;text-transform:uppercase;color:var(--text-muted);margin-bottom:8px;letter-spacing:0.05em;">📦 Người nhận</div>
+                        <div class="edit-input-group" style="display:flex;flex-direction:column;gap:4px;">
+                            <label style="font-size:0.75rem;font-weight:700;color:var(--text-main);">Tên người nhận</label>
+                            <input type="text" id="side-edit-name" style="width:100%;padding:7px 10px;border-radius:8px;border:1px solid var(--border);background:var(--bg-panel);color:var(--text-main);font-size:0.82rem;outline:none;">
+                        </div>
+                        <div class="edit-input-group" style="display:flex;flex-direction:column;gap:4px;margin-top:6px;">
+                            <label style="font-size:0.75rem;font-weight:700;color:var(--text-main);">Số điện thoại</label>
+                            <input type="text" id="side-edit-phone" style="width:100%;padding:7px 10px;border-radius:8px;border:1px solid var(--border);background:var(--bg-panel);color:var(--text-main);font-size:0.82rem;outline:none;">
+                        </div>
+                        <div class="edit-input-group" style="display:flex;flex-direction:column;gap:4px;margin-top:6px;">
+                            <label style="font-size:0.75rem;font-weight:700;color:var(--text-main);">Địa chỉ chi tiết</label>
+                            <textarea id="side-edit-address" rows="3" style="width:100%;padding:7px 10px;border-radius:8px;border:1px solid var(--border);background:var(--bg-panel);color:var(--text-main);font-size:0.82rem;outline:none;font-family:inherit;resize:vertical;"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Col 2: Sản phẩm -->
+                <div class="order-edit-col" style="background:var(--bg-card); border:1px solid var(--border); border-radius:12px; padding:14px; display:flex; flex-direction:column; gap:10px;">
+                    <div class="order-edit-col-title" style="font-weight:700; font-size:0.82rem; text-transform:uppercase; color:var(--text-muted); border-bottom:1px solid var(--border); padding-bottom:6px; margin-bottom:4px;">Sản phẩm (<span id="side-product-count">0</span>)</div>
+                    <div id="side-edit-products-container" style="display:flex; flex-direction:column; gap:8px; max-height:280px; overflow-y:auto; padding-right:4px;">
+                        <!-- Products rendered here by JS -->
+                    </div>
+                </div>
+
+                <!-- Col 3: Chi tiết thanh toán -->
+                <div class="order-edit-col" style="background:var(--bg-card); border:1px solid var(--border); border-radius:12px; padding:14px; display:flex; flex-direction:column; gap:10px;">
+                    <div class="order-edit-col-title" style="font-weight:700; font-size:0.82rem; text-transform:uppercase; color:var(--text-muted); border-bottom:1px solid var(--border); padding-bottom:6px; margin-bottom:4px;">Chi tiết thanh toán</div>
+                    <div class="edit-input-group" style="display:flex;flex-direction:column;gap:4px;">
+                        <label style="font-size:0.75rem;font-weight:700;color:var(--text-main);">Phí vận chuyển</label>
+                        <div style="display:flex;align-items:center;gap:8px;">
+                            <input type="number" id="side-edit-shipfee" style="flex:1;padding:7px 10px;border-radius:8px;border:1px solid var(--border);background:var(--bg-panel);color:var(--text-main);font-size:0.82rem;outline:none;">
+                            <label style="white-space:nowrap;display:inline-flex;align-items:center;gap:4px;font-size:0.75rem;color:var(--text-main);cursor:pointer;font-weight:600;">
+                                <input type="checkbox" id="side-edit-freeship"> Freeship
+                            </label>
+                        </div>
+                    </div>
+                    <div class="edit-input-group" style="display:flex;flex-direction:column;gap:4px;">
+                        <label style="font-size:0.75rem;font-weight:700;color:var(--text-main);">Phụ phí</label>
+                        <input type="number" id="side-edit-surcharge" style="width:100%;padding:7px 10px;border-radius:8px;border:1px solid var(--border);background:var(--bg-panel);color:var(--text-main);font-size:0.82rem;outline:none;">
+                    </div>
+                    <div class="edit-input-group" style="display:flex;flex-direction:column;gap:4px;">
+                        <label style="font-size:0.75rem;font-weight:700;color:var(--text-main);">Đã đặt cọc</label>
+                        <input type="number" id="side-edit-prepaid" style="width:100%;padding:7px 10px;border-radius:8px;border:1px solid var(--border);background:var(--bg-panel);color:var(--text-main);font-size:0.82rem;outline:none;">
+                    </div>
+                    <div style="margin-top:8px; display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+                        <label style="white-space:nowrap; display:inline-flex; align-items:center; gap:4px; cursor:pointer; color:var(--text-main); font-weight:600;">
+                            <input type="checkbox" id="side-edit-cod-fee"> Phụ phí 1.5% COD
+                        </label>
+                        <label style="white-space:nowrap; display:inline-flex; align-items:center; gap:4px; cursor:pointer; color:var(--text-main); font-weight:600;">
+                            <input type="checkbox" id="side-edit-mark-paid">
+                            Đã TT đủ
+                        </label>
+                    </div>
+
+                    <div style="border-top:1px solid var(--border);padding-top:10px;display:flex;flex-direction:column;gap:6px;font-size:0.8rem;color:var(--text-muted);margin-top:auto;">
+                        <div style="display:flex;justify-content:space-between;">
+                            <span>Tạm tính hàng:</span>
+                            <span id="side-calc-subtotal-val" style="font-weight:600;color:var(--text-main);">0 đ</span>
+                        </div>
+                        <div style="display:flex;justify-content:space-between;">
+                            <span>Thành tiền:</span>
+                            <span id="side-calc-total-val" style="font-weight:700;color:var(--primary);font-size:0.85rem;">0 đ</span>
+                        </div>
+                        <div style="display:flex;justify-content:space-between;">
+                            <span>Phụ phí 1.5% COD:</span>
+                            <span id="side-calc-cod-fee-val" style="font-weight:700;color:var(--text-main);font-size:0.85rem;">0 đ</span>
+                        </div>
+                        <div style="display:flex;justify-content:space-between;">
+                            <span>Thu hộ (COD):</span>
+                            <span id="side-calc-cod-val" style="font-weight:700;color:var(--danger);font-size:0.85rem;">0 đ</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Col 4: Ghi chú & Thao tác -->
+                <div class="order-edit-col" style="background:var(--bg-card); border:1px solid var(--border); border-radius:12px; padding:14px; display:flex; flex-direction:column; gap:10px;">
+                    <div class="order-edit-col-title" style="font-weight:700; font-size:0.82rem; text-transform:uppercase; color:var(--text-muted); border-bottom:1px solid var(--border); padding-bottom:6px; margin-bottom:4px;">Ghi chú & Thao tác</div>
+                    <div class="edit-input-group" style="display:flex;flex-direction:column;gap:4px;flex:1;">
+                        <label style="font-size:0.75rem;font-weight:700;color:var(--text-main); display:flex; justify-content:space-between; align-items:center;">
+                            Ghi chú đơn hàng
+                            <button type="button" onclick="window.triggerSideNoteImageUpload(event)" class="btn-secondary-quick" style="padding:2px 8px; font-size:0.7rem; border-radius:5px; background-color: var(--bg-card); border: 1px solid var(--border); color: var(--text-main); cursor:pointer; display:flex; align-items:center; gap:4px;">
+                                <i data-lucide="image" style="width:11px; height:11px;"></i> Thêm ảnh
+                            </button>
+                        </label>
+                        <textarea id="side-edit-note" rows="5" placeholder="Nhập ghi chú Pancake..." style="width:100%;padding:7px 10px;border-radius:8px;border:1px solid var(--border);background:var(--bg-panel);color:var(--text-main);font-size:0.82rem;outline:none;font-family:inherit;resize:none;flex:1;"></textarea>
+                        <div id="side-note-images-container" style="display:flex; flex-wrap:wrap; gap:6px; margin-top:6px; min-height:24px;"></div>
+                        <input type="file" id="side-note-image-input" accept="image/*" style="display:none;" onchange="window.handleSideNoteImageUpload(event)">
+                    </div>
+
+                    <div class="edit-input-group" style="display:flex;flex-direction:column;gap:4px;">
+                        <label style="font-size:0.75rem;font-weight:700;color:var(--text-main);">Hình ảnh thực tế sản phẩm</label>
+                        <div id="side-real-images-container" style="display:flex; flex-wrap:wrap; gap:6px; margin:4px 0 6px 0; min-height:24px;"></div>
+                        <div>
+                            <button type="button" onclick="window.triggerSideRealImageUpload(event)" class="btn-secondary-quick" style="padding:4px 10px;font-size:0.72rem;border-radius:6px;">+ Thêm ảnh</button>
+                            <input type="file" id="side-real-image-input" accept="image/*" style="display:none;" onchange="window.handleSideRealImageUpload(event)">
+                        </div>
+                    </div>
+                    
+                    <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:auto;">
+                        <button type="button" id="btnSideCopyLink" class="btn-secondary-quick" title="Sao chép link hội thoại" style="padding:8px 12px;border-radius:8px;display:inline-flex;align-items:center;">
+                            <i data-lucide="link" style="width:14px;height:14px;"></i>
+                        </button>
+                        <button type="button" class="btn-secondary-quick" title="Xem ảnh đính kèm" style="padding:8px 12px;border-radius:8px;display:inline-flex;align-items:center;">
+                            <i data-lucide="image" style="width:14px;height:14px;"></i>
+                        </button>
+                        <button type="button" onclick="window.print()" class="btn-secondary-quick" title="In nhanh" style="padding:8px 12px;border-radius:8px;display:inline-flex;align-items:center;">
+                            <i data-lucide="printer" style="width:14px;height:14px;"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer buttons -->
+            <div style="display:flex; gap:10px; justify-content:flex-end; border-top: 1px solid var(--border); padding-top:14px; align-items:center;">
+                <button type="button" id="btnSideCopyBillLink" class="btn-secondary-quick" title="Sao chép Link Hóa đơn" style="padding:10px 14px; border-radius:8px; display:inline-flex; align-items:center; gap:6px; font-size:0.82rem; font-weight:600;">
+                    <i data-lucide="link" style="width:15px;height:15px;"></i> Copy Link
+                </button>
+                <button type="button" id="btnSideSendBillImage" class="btn-secondary-quick" title="Gửi bill cho khách của đơn hàng" style="padding:10px 14px; border-radius:8px; display:inline-flex; align-items:center; gap:6px; font-size:0.82rem; font-weight:600;">
+                    <i data-lucide="send" style="width:15px;height:15px;"></i> Gửi bill
+                </button>
+                <button id="btnSaveSideOrderEdit" class="btn-primary-quick" style="padding:10px 20px; font-weight:700; border-radius:8px; display:inline-flex; align-items:center; gap:6px;">
+                    <i data-lucide="save" style="width:16px;height:16px;"></i> Lưu thay đổi
+                </button>
+                <div id="side-edit-save-message" style="min-height:18px; font-size:0.78rem; color:#16a34a; opacity:0; transition:opacity 0.25s ease; margin-left:8px;">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- QUICK ADD CUSTOM PRODUCT MODAL -->
+    <div id="quickProductModal" class="lightbox-modal" style="display: none; align-items: center; justify-content: center; z-index: 1300; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(4px);">
+        <div class="modal-card" style="background: var(--bg-panel); border: 1px solid var(--border); border-radius: 16px; width: 420px; max-width: 90%; padding: 24px; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.15); animation: slideUp 0.25s ease; position: relative; color: var(--text-main);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 20px; border-bottom: 1px solid var(--border); padding-bottom: 10px;">
+                <h3 style="font-size: 1.1rem; font-weight: 800; color: var(--text-main); display: flex; align-items:center; gap: 8px; margin:0;">
+                    <i data-lucide="package-plus" style="color: var(--primary); width:18px;"></i>
+                    Thêm sản phẩm tùy chỉnh
+                </h3>
+                <span id="btnCloseQuickProductModal" style="font-size: 26px; font-weight: 700; color: var(--text-muted); cursor: pointer; line-height: 1;">&times;</span>
+            </div>
+            <form id="quickProductForm" style="display:flex; flex-direction:column; gap:14px;" onsubmit="handleQuickProductSubmit(event)">
+                <input type="hidden" id="quickProductOrderId">
+                <input type="hidden" id="quickProductContext">
+                
+                <div class="form-group" style="display:flex; flex-direction:column; gap:4px;">
+                    <label style="font-size:0.75rem; font-weight:700;">Tên sản phẩm *</label>
+                    <input type="text" id="qpName" placeholder="Ví dụ: Giày Adidas Samba OG" required style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:9px 12px; outline:none; font-size:0.85rem; box-sizing:border-box;">
+                </div>
+                
+                <div style="display:flex; gap:10px;">
+                    <div class="form-group" style="flex:1; display:flex; flex-direction:column; gap:4px;">
+                        <label style="font-size:0.75rem; font-weight:700;">Giá bán *</label>
+                        <input type="number" id="qpPrice" placeholder="Giá VND" required min="0" style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:9px 12px; outline:none; font-size:0.85rem; box-sizing:border-box;">
+                    </div>
+                    <div class="form-group" style="flex:1; display:flex; flex-direction:column; gap:4px;">
+                        <label style="font-size:0.75rem; font-weight:700;">Size / Phân loại</label>
+                        <input type="text" id="qpSize" placeholder="Ví dụ: 39" style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:9px 12px; outline:none; font-size:0.85rem; box-sizing:border-box;">
+                    </div>
+                </div>
+
+                <div class="form-group" style="display:flex; flex-direction:column; gap:4px;">
+                    <label style="font-size:0.75rem; font-weight:700;">Số lượng thêm vào đơn</label>
+                    <input type="number" id="qpQty" value="1" min="1" required style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:9px 12px; outline:none; font-size:0.85rem; box-sizing:border-box;">
+                </div>
+
+                <div class="form-group" style="display:flex; flex-direction:column; gap:6px;">
+                    <label style="font-size:0.75rem; font-weight:700;">Hình ảnh sản phẩm (URL)</label>
+                    <div style="display:flex; gap:8px; align-items:flex-start;">
+                        <div style="flex:1;">
+                            <input type="url" id="qpImage" placeholder="https://... (dán link ảnh)" style="width:100%; border:1px solid var(--border); border-radius:8px; background:var(--bg-app); color:var(--text-main); padding:9px 12px; outline:none; font-size:0.85rem; box-sizing:border-box;" oninput="previewQpImage(this.value)">
+                        </div>
+                        <div id="qpImagePreview" style="width:60px;height:60px;border-radius:8px;border:1px solid var(--border);background:var(--bg-app);flex-shrink:0;overflow:hidden;display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-size:1.4rem;">📷</div>
+                    </div>
+                </div>
+
+                <div style="display:flex; gap:8px; justify-content:flex-end; margin-top:8px;">
+                    <button type="button" id="btnCancelQuickProduct" class="btn-secondary-quick" style="padding:9px 16px; border-radius:8px; font-weight:600; font-size:0.85rem;">Hủy</button>
+                    <button type="submit" id="btnSaveQuickProduct" class="btn-primary-quick" style="padding:9px 16px; border-radius:8px; font-weight:700; font-size:0.85rem;">Xác nhận tạo</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- ===== PAYMENT HISTORY MODAL ===== -->
+    <div id="paymentHistoryModal" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:2000;background:rgba(15,23,42,0.7);display:none;align-items:center;justify-content:center;backdrop-filter:blur(6px);">
+        <div style="background:var(--bg-panel);border:1px solid var(--border);border-radius:16px;width:92vw;max-width:1050px;height:85vh;display:flex;flex-direction:column;box-shadow:0 24px 48px rgba(0,0,0,0.35);overflow:hidden;animation:slideUp 0.2s ease;">
+            <!-- Header -->
+            <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid var(--border);flex-shrink:0;background:var(--bg-card);">
+                <div style="display:flex;align-items:center;gap:10px;">
+                    <div style="width:34px;height:34px;border-radius:8px;background:linear-gradient(135deg,#6366f1,#8b5cf6);display:flex;align-items:center;justify-content:center;">
+                        <i data-lucide="landmark" style="width:16px;height:16px;color:#fff;"></i>
+                    </div>
+                    <div>
+                        <h3 style="margin:0;font-size:1rem;font-weight:800;color:var(--text-main);">Lịch sử giao dịch</h3>
+                        <p style="margin:0;font-size:0.72rem;color:var(--text-muted);">Dữ liệu từ Pancake POS · Techcombank</p>
+                    </div>
+                </div>
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <button id="refreshPaymentHistory" class="btn-secondary-quick" title="Làm mới" style="padding:7px;border-radius:8px;display:flex;align-items:center;">
+                        <i data-lucide="refresh-cw" style="width:14px;height:14px;"></i>
+                    </button>
+                    <button id="closePaymentHistory" style="width:32px;height:32px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--text-muted);cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center;">&times;</button>
+                </div>
+            </div>
+            <!-- Search bar -->
+            <div style="padding:12px 20px;border-bottom:1px solid var(--border);flex-shrink:0;background:var(--bg-app);">
+                <div style="position:relative;max-width:480px;">
+                    <i data-lucide="search" style="position:absolute;left:10px;top:50%;transform:translateY(-50%);width:14px;height:14px;color:var(--text-muted);pointer-events:none;"></i>
+                    <input type="text" id="paymentHistorySearch" placeholder="Tìm theo nội dung, số tiền..." style="width:100%;padding:8px 12px 8px 34px;border:1px solid var(--border);border-radius:8px;background:var(--bg-panel);color:var(--text-main);font-size:0.82rem;outline:none;box-sizing:border-box;">
+                </div>
+            </div>
+            <!-- Table body -->
+            <div style="flex:1;overflow-y:auto;">
+                <table style="width:100%;border-collapse:collapse;font-size:0.85rem;">
+                    <thead style="background:var(--bg-card);position:sticky;top:0;z-index:10;">
+                        <tr>
+                            <th style="padding:12px 16px;text-align:left;border-bottom:1px solid var(--border);font-size:0.75rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.04em;width:130px;">Thời gian</th>
+                            <th style="padding:12px 16px;text-align:right;border-bottom:1px solid var(--border);font-size:0.75rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.04em;width:130px;">Số tiền</th>
+                            <th style="padding:12px 16px;text-align:left;border-bottom:1px solid var(--border);font-size:0.75rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.04em;">Nội dung</th>
+                            <th style="padding:12px 16px;text-align:center;border-bottom:1px solid var(--border);font-size:0.75rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.04em;width:100px;">Khớp đơn</th>
+                        </tr>
+                    </thead>
+                    <tbody id="paymentHistoryTableBody">
+                        <!-- Data rendered here -->
+                    </tbody>
+                </table>
+            </div>
+            <!-- Footer / Pagination -->
+            <div style="padding:12px 20px;border-top:1px solid var(--border);flex-shrink:0;background:var(--bg-card);display:flex;justify-content:space-between;align-items:center;">
+                <div style="display:flex;align-items:center;gap:6px;">
+                    <button id="prevPaymentPage" style="padding:5px 10px;border:1px solid var(--border);border-radius:6px;background:var(--bg-panel);color:var(--text-main);cursor:pointer;font-size:0.8rem;" disabled>‹ Trước</button>
+                    <span style="font-size:0.8rem;color:var(--text-muted);">Trang <span id="paymentCurrentPage" style="font-weight:700;color:var(--text-main);">1</span> <span id="paymentTotalPages" style="color:var(--text-muted);">/ 1</span></span>
+                    <button id="nextPaymentPage" style="padding:5px 10px;border:1px solid var(--border);border-radius:6px;background:var(--bg-panel);color:var(--text-main);cursor:pointer;font-size:0.8rem;" disabled>Sau ›</button>
+                    <span id="paymentLoading" style="font-size:0.78rem;color:var(--text-muted);margin-left:8px;display:none;">Đang tải...</span>
+                </div>
+                <span style="font-size:0.72rem;color:var(--text-muted);">Dữ liệu cập nhật từ Pancake POS</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== MATCH ORDER MODAL ===== -->
+    <div id="matchOrderModal" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:2100;background:rgba(15,23,42,0.8);display:none;align-items:center;justify-content:center;backdrop-filter:blur(6px);">
+        <div style="background:var(--bg-panel);border:1px solid var(--border);border-radius:16px;width:92%;max-width:420px;padding:24px;box-shadow:0 24px 40px rgba(0,0,0,0.35);animation:slideUp 0.2s ease;">
+            <h3 style="margin:0 0 6px 0;font-size:1.05rem;font-weight:800;color:var(--text-main);">Khớp đơn hàng</h3>
+            <p style="margin:0 0 18px 0;font-size:0.82rem;color:var(--text-muted);">Nhập mã đơn hoặc số điện thoại để tìm đơn cần khớp với giao dịch này.</p>
+            <input type="text" id="matchOrderInput" placeholder="Ví dụ: 15246, 0987..." style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:var(--bg-app);color:var(--text-main);font-size:0.85rem;outline:none;box-sizing:border-box;">
+            <div id="matchOrderResult" style="margin-top:12px;min-height:20px;max-height:220px;overflow-y:auto;border-radius:8px;"></div>
+            <div style="display:flex;gap:10px;margin-top:20px;justify-content:flex-end;">
+                <button id="closeMatchModal" class="btn-secondary-quick" style="padding:9px 18px;border-radius:8px;font-weight:600;">Hủy</button>
+                <button id="confirmMatchBtn" class="btn-primary-quick" disabled style="padding:9px 20px;border-radius:8px;font-weight:700;">Khớp đơn</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== J&T WAYBILL PRINT PREVIEW MODAL (A6/A7 Layout) ===== -->
+    <div id="jtWaybillPrintModal" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:2200;background:rgba(15,23,42,0.8);display:none;align-items:center;justify-content:center;backdrop-filter:blur(6px);">
+        <div style="background:var(--bg-panel);border:1px solid var(--border);border-radius:16px;width:92%;max-width:480px;height:90vh;display:flex;flex-direction:column;box-shadow:0 24px 48px rgba(0,0,0,0.35);overflow:hidden;animation:slideUp 0.2s ease;">
+            <!-- Header -->
+            <div style="display:flex;align-items:center;justify-content:space-between;padding:14px 20px;border-bottom:1px solid var(--border);flex-shrink:0;background:var(--bg-card);">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <i data-lucide="printer" style="width:16px;height:16px;color:var(--primary);"></i>
+                    <h3 style="margin:0;font-size:0.95rem;font-weight:800;color:var(--text-main);">In Vận Đơn J&T Express</h3>
+                </div>
+                <button id="closeJtPrintModalBtn" style="width:28px;height:28px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--text-muted);cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center;">&times;</button>
+            </div>
+            <!-- Print Scroll Content Area -->
+            <div style="flex:1;overflow-y:auto;padding:20px;background:#f1f5f9;display:flex;justify-content:center;align-items:flex-start;">
+                <!-- Target Print Area Container matching mockup size (approx 100mm wide / A6/A7 ratio) -->
+                <div id="jtWaybillPrintContent" style="width:100%; max-width:400px; background:#fff; border:1px solid #000; padding:12px; box-sizing:border-box; color:#000; font-family:'Inter', sans-serif; display:flex; flex-direction:column; font-size:12px; line-height:1.3; page-break-inside:avoid;">
+                    <!-- Top time header -->
+                    <div style="display:flex; justify-content:space-between; border-bottom:1px dashed #000; padding-bottom:4px; font-size:10px; font-weight:600;">
+                        <span>Giờ in đơn: <span id="jtPrintTime">---</span></span>
+                    </div>
+
+                    <!-- Barcode + QR Row -->
+                    <div style="display:grid; grid-template-columns:1.8fr 1fr; border-bottom:1px dashed #000; padding:8px 0 5px 0; align-items:start; gap:6px; overflow:hidden;">
+                        <div style="display:flex; flex-direction:column; align-items:center; text-align:center; min-width:0; overflow:hidden;">
+                            <!-- SVG container for JsBarcode -->
+                            <svg id="jtWaybillBarcodeImage" style="display:block; width:100%; max-width:100%; height:50px;"></svg>
+                            <span id="jtWaybillDisplayCode" style="font-weight:800; font-size:13px; letter-spacing:0.5px; margin-top:2px; word-break:break-all;">---</span>
+                            <span style="font-weight:700; font-size:10px;" id="jtWaybillDisplayCodeSub">SPX - A028V08 - 204</span>
+                        </div>
+
+                        <!-- QR moved to the former SPX area -->
+                        <div style="border-left:1px dashed #000; min-height:88px; display:flex; flex-direction:column; align-items:center; justify-content:flex-start; text-align:center; padding:0 3px; overflow:hidden;">
+                            <div id="jtWaybillQRCode" style="width:78px; height:78px; flex:0 0 auto;"></div>
+                            <div id="jtPrintSpxReturnSort" style="display:none; margin-top:3px; width:100%; font-size:9px; line-height:1.1; font-weight:800; word-break:break-word;">---</div>
+                        </div>
+                    </div>
+
+                    <!-- SPX Sort Codes: no labels, primary sort code is large -->
+                    <div id="jtPrintSpxSortCodes" style="display:none; border-bottom:1px dashed #000; padding:5px 0 6px 0; text-align:left;">
+                        <div id="jtPrintSpxFirstSort" style="font-family:'Outfit','Inter',sans-serif; font-size:21px; line-height:1.05; font-weight:900; letter-spacing:-0.35px; word-break:break-word;">---</div>
+                        <div id="jtPrintSpxThirdSort" style="display:none; margin-top:2px; font-size:10.5px; line-height:1.15; font-weight:800; word-break:break-word;"></div>
+                    </div>
+
+                    <!-- Sender/Receiver Column Grid -->
+                    <div style="display:grid; grid-template-columns:1fr 1.1fr; border-bottom:1px dashed #000; font-size:10.5px; min-height:80px;">
+                        <!-- Từ: Sender -->
+                        <div style="padding:6px 6px 6px 0; display:flex; flex-direction:column; gap:3px;">
+                            <strong>Từ:</strong>
+                            <span style="font-weight:700;" id="jtPrintSenderName">PUMALIFE STORE</span>
+                            <span id="jtPrintSenderPhone">SĐT: 0357573070</span>
+                        </div>
+                        <!-- Đến: Receiver -->
+                        <div style="border-left:1px dashed #000; padding:6px 0 6px 8px; display:flex; flex-direction:column; gap:3px;">
+                            <strong>Đến:</strong>
+                            <span style="font-weight:700;" id="jtPrintReceiverName">---</span>
+                            <span id="jtPrintReceiverAddress" style="font-size:9.5px; line-height:1.2;">---</span>
+                            <span id="jtPrintReceiverPhone">SĐT: ---</span>
+                            <span id="jtPrintReceiverOrderCode" style="font-size:9.5px;">Mã đơn hàng: ---</span>
+                        </div>
+                    </div>
+
+                    <!-- Brand Name -->
+                    <div style="text-align:center; font-size:22px; font-weight:800; padding:6px 0; border-bottom:1px solid #000; font-family:'Outfit',sans-serif; letter-spacing:-0.5px;">
+                        PUMALIFE STORE
+                    </div>
+
+                    <!-- Goods Content -->
+                    <div style="display:block; border-bottom:1px dashed #000; min-height:70px;">
+                        <div style="padding:6px 0; display:flex; flex-direction:column; gap:4px;">
+                            <strong style="font-size:11px;">Nội dung hàng (Tổng SL sản phẩm: <span id="jtPrintTotalQty">0</span>)</strong>
+                            <div id="jtPrintProductsList" contenteditable="true" spellcheck="false" title="Bấm để chỉnh sửa nội dung trước khi in" style="outline:none; cursor:text; min-height:18px; font-weight:700; font-size:10.5px; line-height:1.3; display:flex; flex-direction:column; gap:3px;">
+                                <!-- túi cardholder den x 1 -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Shipping Instructions / Chú thích -->
+                    <div style="border-bottom:1px dashed #000; padding:6px 0; font-size:10px; line-height:1.2; font-weight:700; text-transform:uppercase;">
+                        <span>Chỉ dẫn giao hàng:</span>
+                        <div id="jtPrintShippingInstructions" contenteditable="true" spellcheck="false" title="Bấm để chỉnh sửa nội dung trước khi in" style="margin-top:2px; font-size:10.5px; outline:none; cursor:text;">KHÔNG GIAO ĐƯỢC HÀNG XIN SHIPER ĐỪNG HOÀN HÀNG LIÊN HỆ SHOP ĐỂ SHOP KIỂM TRA Ạ</div>
+                    </div>
+
+                    <!-- Collection Amount / COD -->
+                    <div style="padding:6px 0 2px 0;">
+                        <span style="font-size:10px;">Tiền thu người nhận:</span>
+                        <div style="font-size:20px; font-weight:800; margin-top:2px;" id="jtPrintCODAmount">0 đ</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Actions Footer -->
+            <div style="padding:12px 20px;border-top:1px solid var(--border);flex-shrink:0;background:var(--bg-card);display:flex;justify-content:space-between;align-items:center;gap:10px;">
+                <div style="display:flex;flex-direction:column;gap:2px;"><div style="font-size:0.72rem;color:var(--primary);">✏️ Có thể bấm trực tiếp vào mọi nội dung chữ trên bill để sửa trước khi in</div><div style="font-size:0.88rem; color:var(--text-muted);">Số lần in bill: <span id="jtWaybillPrintCount">0</span></div></div>
+                <div style="display:flex; gap:10px;">
+                    <button id="cancelJtPrintModalBtn" class="btn-secondary-quick" style="padding:8px 16px;border-radius:8px;">Hủy bỏ</button>
+                    <button onclick="window.printJtWaybillContent()" class="btn-primary-quick" style="padding:8px 20px;border-radius:8px;font-weight:700;background-color:#DC2626;">🖨️ In vận đơn</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Print css override for A6/A7 thermal label printing -->
+    <style>
+        @media print {
+            @page {
+                size: 75mm 105mm;
+                margin: 0;
+            }
+            body * {
+                visibility: hidden;
+            }
+            #jtWaybillPrintModal, #jtWaybillPrintModal * {
+                visibility: visible;
+            }
+            #jtWaybillPrintModal {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: auto;
+                background: #fff !important;
+                backdrop-filter: none !important;
+                display: block !important;
+            }
+            #jtWaybillPrintModal div:first-child {
+                border: none !important;
+                box-shadow: none !important;
+                width: 100% !important;
+                max-width: none !important;
+                height: auto !important;
+                overflow: visible !important;
+            }
+            /* Hide print header/footer actions */
+            #jtWaybillPrintModal div:first-child > div:first-child, 
+            #jtWaybillPrintModal div:first-child > div:last-child {
+                display: none !important;
+            }
+            #jtWaybillPrintModal div:first-child > div:nth-child(2) {
+                padding: 0 !important;
+                background: #fff !important;
+                overflow: visible !important;
+                height: auto !important;
+                display: block !important;
+            }
+            #jtWaybillPrintContent {
+                border: none !important;
+                width: 74mm !important;
+                max-width: 74mm !important;
+                margin: 0 auto !important;
+                height: auto !important;
+                overflow: visible !important;
+                padding: 4px !important;
+            }
+        }
+    </style>
+
+    <script src="/JsBarcode.all.min.js"></script>
+    <script src="/qrcode.min.js"></script>
+    <script src="/html2canvas.min.js"></script>
+<script src="desktop-offline/bridge-renderer.js"></script><script src="/order-product-code-search.js"></script><script type="module" src="app.js"></script><script type="module" src="/ai-agent.js?v=20260928-public-all-v3"></script><script src="bulk-waybill-print.js"></script><script src="waybill-editable.js"></script><script type="module" src="ui-refresh.js"></script><script type="module" src="desktop-offline/order-bridge-bootstrap.js"></script></body>
+</html>

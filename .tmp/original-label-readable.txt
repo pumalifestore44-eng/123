@@ -1,0 +1,234 @@
+Warning: truncated output (original token count: 4814)
+Total output lines: 293
+
+    <div id="matchOrderModal" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:2100;background:rgba(15,23,42,0.8);display:none;align-items:center;justify-content:center;backdrop-filter:blur(6px);">
+        <div style="background:var(--bg-panel);border:1px solid var(--border);border-radius:16px;width:92%;max-width:420px;padding:24px;box-shadow:0 24px 40px rgba(0,0,0,0.35);animation:slideUp 0.2s ease;">
+            <h3 style="margin:0 0 6px 0;font-size:1.05rem;font-weight:800;color:var(--text-main);">Khớp đơn hàng</h3>
+            <p style="margin:0 0 18px 0;font-size:0.82rem;color:var(--text-muted);">Nhập mã đơn hoặc số điện thoại để tìm đơn cần khớp với giao dịch này.</p>
+            <input type="text" id="matchOrderInput" placeholder="Ví dụ: 15246, 0987..." style="width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:var(--bg-app);color:var(--text-main);font-size:0.85rem;outline:none;box-sizing:border-box;">
+            <div id="matchOrderResult" style="margin-top:12px;min-height:20px;max-height:220px;overflow-y:auto;border-radius:8px;"></div>
+            <div style="display:flex;gap:10px;margin-top:20px;justify-content:flex-end;">
+                <button id="closeMatchModal" class="btn-secondary-quick" style="padding:9px 18px;border-radius:8px;font-weight:600;">Hủy</button>
+                <button id="confirmMatchBtn" class="btn-primary-quick" disabled style="padding:9px 20px;border-radius:8px;font-weight:700;">Khớp đơn</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== J&T WAYBILL PRINT PREVIEW MODAL (A6/A7 Layout) ===== -->
+    <div id="jtWaybillPrintModal" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:2200;background:rgba(15,23,42,0.8);display:none;align-items:center;justify-content:center;backdrop-filter:blur(6px);">
+        <div style="background:var(--bg-panel);border:1px solid var(--border);border-radius:16px;width:92%;max-width:480px;height:90vh;display:flex;flex-direction:column;box-shadow:0 24px 48px rgba(0,0,0,0.35);overflow:hidden;animation:slideUp 0.2s ease;">
+            <!-- Header -->
+            <div style="display:flex;align-items:center;justify-content:space-between;padding:14px 20px;border-bottom:1px solid var(--border);flex-shrink:0;background:var(--bg-card);">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <i data-lucide="printer" style="width:16px;height:16px;color:var(--primary);"></i>
+                    <h3 style="margin:0;font-size:0.95rem;font-weight:800;color:var(--text-main);">In Vận Đơn J&T Express</h3>
+                </div>
+                <button id="closeJtPrintModalBtn" style="width:28px;height:28px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--text-muted);cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center;">&times;</button>
+            </div>
+            <!-- Print Scroll Content Area -->
+            <div style="flex:1;overflow-y:auto;padding:20px;background:#f1f5f9;display:flex;justify-content:center;align-items:flex-start;">
+                <!-- Target Print Area Container matching mockup size (approx 100mm wide / A6/A7 ratio) -->
+                <div id="jtWaybillPrintContent" style="width:100%; max-width:400px; background:#fff; border:1px solid #000; padding:12px; box-sizing:border-box; color:#000; font-family:'Inter', sans-serif; display:flex; flex-direction:column; font-size:12px; line-height:1.3; page-break-inside:avoid;">
+                    <!-- Top time header -->
+                    <div style="display:flex; justify-content:space-between; border-bottom:1px dashed #000; padding-bottom:4px; font-size:10px; font-weight:600;">
+                        <span>Giờ in đơn: <span id="jtPrintTime">---</span></span>
+                    </div>
+
+                    <!-- Barcode + QR Row -->
+                    <div style="display:grid; grid-template-columns:1.8fr 1fr; border-bottom:1px dashed #000; padding:8px 0 5px 0; align-items:start; gap:6px; overflow:hidden;">
+                        <div style="display:flex; flex-direction:column; align-items:center; text-align:center; min-width:0; overflow:hidden;">
+                            <!-- SVG container for JsBarcode -->
+                            <svg id="jtWaybillBarcodeImage" style="width:100%; max-height:55px;"></svg>
+                            <span id="jtWaybillDisplayCode" style="font-weight:800; font-size:13px; letter-spacing:0.5px; margin-top:2px; word-break:break-all;">---</span>
+                            <span style="font-weight:700; font-size:10px;" id="jtWaybillDisplayCodeSub">SPX - A028V08 - 204</span>
+                        </div>
+
+                        <!-- QR moved to the former SPX area -->
+                        <div style="border-left:1px dashed #000; min-height:88px; display:flex; flex-direction:column; align-items:center; justify-content:flex-start; text-align:center; padding:0 3px; overflow:hidden;">
+                            <div id="jtWaybillQRCode" style="width:78px; height:78px; flex:0 0 auto;"></div>
+                            <div id="jtPrintSpxReturnSort" style="display:none; margin-top:3px; width:100%; font-size:9px; line-height:1.1; font-weight:800; word-break:break-word;">---</div>
+                        </div>
+                    </div>
+
+                    <!-- SPX Sort Codes: no labels, primary sort code is large -->
+                    <div id="jtPrintSpxSortCodes" style="display:none; border-bottom:1px dashed #000; padding:5px 0 6px 0; text-align:left;">
+                        <div id="jtPrintSpxFirstSort" style="font-family:'Outfit','Inter',sans-serif; font-size:21px; line-height:1.05; font-weight:900; letter-spacing:-0.35px; word-break:break-word;">---</div>
+                        <div id="jtPrintSpxThirdSort" style="display:none; margin-top:2px; font-size:10.5px; line-height:1.15; font-weight:800; word-break:break-word;"></div>
+                    </div>
+
+                    <!-- Sender/Receiver Column Grid -->
+                    <div style="display:grid; grid-template-columns:1fr 1.1fr; border-bottom:1px dashed #000; font-size:10.5px; min-height:80px;">
+                        <!-- Từ: Sender -->
+                        <div style="padding:6px 6px 6px 0; display:flex; flex-direction:column; gap:3px;">
+                            <strong>Từ:</strong>
+                            <span style="font-weight:700;" id="jtPrintSenderName">PUMALIFE STORE</span>
+                            <span id="jtPrintSenderPhone">SĐT: 0357573070</span>
+                        </div>
+                        <!-- Đến: Receiver -->
+                        <div style="border-left:1px dashed #000; padding:6px 0 6px 8px; display:flex; flex-direction:column; gap:3px;">
+                            <strong>Đến:</strong>
+                            <span style="font-weight:700;" id="jtPrintReceiverName">---</span>
+                            <span id="jtPrintReceiverAddress" style="font-size:9.5px; line-height:1.2;">---</span>
+                            <span id="jtPrintReceiverPhone">SĐT: ---</span>
+                            <span id="jtPrintReceiverOrderCode" style="font-size:9.5px;">Mã đơn hàng: ---</span>
+                        </div>
+                    </div>
+
+                    <!-- Brand Name -->
+                    <div style="text-align:center; font-size:22px; font-weight:800; padding:6px 0…1014 tokens truncated…w DOM
+        const pad = (n) => String(n).padStart(2, '0');
+        const now = new Date();
+        const dateStr = `${pad(now.getHours())}:${pad(now.getMinutes())} ${pad(now.getDate())}/${pad(now.getMonth() + 1)}/${now.getFullYear()}`;
+        
+        document.getElementById('jtPrintTime').textContent = dateStr;
+        document.getElementById('jtWaybillDisplayCode').textContent = order.jt_waybill_id;
+        
+        // Render Barcode
+        if (window.JsBarcode) {
+            JsBarcode("#jtWaybillBarcodeImage", order.jt_waybill_id, {
+                format: "CODE128",
+                width: 2.2,
+                height: 50,
+                displayValue: false,
+                margin: 0
+            });
+        }
+
+        // Render QR Code in the top-right area.
+        const qrContainer = document.getElementById('jtWaybillQRCode');
+        if (qrContainer) {
+            qrContainer.innerHTML = '';
+            if (window.QRCode) {
+                new QRCode(qrContainer, {
+                    text: order.jt_waybill_id,
+                    width: 78,
+                    height: 78,
+                    colorDark : "#000000",
+                    colorLight : "#ffffff",
+                    correctLevel : QRCode.CorrectLevel.H
+                });
+            }
+        }
+
+        // Decode carrier/region code used by the small text below the barcode.
+        let regionCode = 'SPX';
+        if (order.jt_waybill_id.startsWith('SPX') || order.jt_waybill_id.startsWith('VN')) {
+            regionCode = 'SPX';
+    const printCountEl = document.getElementById('jtWaybillPrintCount');
+    if (printCountEl) printCountEl.textContent = currentJtPrintCount;
+
+    try {
+        await fetch(`${SUPABASE_URL}/rest/v1/pancake_orders?id=eq.${currentJtPrintOrderId}`, {
+            method: 'PATCH',
+            headers: {
+                'apikey': SUPABASE_KEY,
+                'Authorization': `Bearer ${SUPABASE_KEY}`,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ bill_print_count: currentJtPrintCount })
+        });
+    } catch (err) {
+        console.warn('[Chatbot] Không thể cập nhật số lần in bill:', err);
+    }
+}
+
+window.printJtWaybillContent = async function() {
+    const printContent = document.getElementById('jtWaybillPrintContent');
+    if (!printContent) return;
+
+    await incrementJtWaybillPrintCount();
+
+    // Create a new iframe
+    const iframe = document.createElement('iframe');
+    iframe.style.position = 'fixed';
+    iframe.style.right = '0';
+    iframe.style.bottom = '0';
+    iframe.style.width = '0';
+    iframe.style.height = '0';
+    iframe.style.border = '0';
+    iframe.style.zIndex = '-9999';
+    document.body.appendChild(iframe);
+
+    const doc = iframe.contentWindow.document;
+    doc.open();
+    doc.write(`
+        <html>
+        <head>
+            <title>In van don J&T / SPX Express</title>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Outfit:wght@800&display=swap" rel="stylesheet">
+            <style>
+                body {
+                    margin: 0;
+                    padding: 0;
+                    background: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                }
+                #jtWaybillPrintContent {
+                    width: 74mm;
+                    max-width: 74mm;
+                    background: #fff;
+                    border: 1px solid #000;
+                    padding: 6px;
+                    box-sizing: border-box;
+                    color: #000;
+                    font-family: 'Inter', sans-serif;
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 11px;
+                    line-height: 1.25;
+                }
+                
+                #jtWaybillPrintContent div {
+                    box-sizing: border-box;
+                }
+                
+                @media print {
+                    @page {
+                        margin: 0;
+                        size: 75mm 105mm;
+                    }
+                    body {
+                        margin: 0;
+                    }
+                    #jtWaybillPrintContent {
+                        border: none !important;
+                        width: 74mm !important;
+                        max-width: 74mm !important;
+                        box-sizing: border-box !important;
+                        padding: 4px !important;
+                    }
+                }
+            </style>
+        </head>
+index.html:1595:    <div id="jtWaybillPrintModal" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:2200;background:rgba(15,23,42,0.8);display:none;align-items:center;justify-content:center;backdrop-filter:blur(6px);">
+index.html:1608:                <div id="jtWaybillPrintContent" style="width:100%; max-width:400px; background:#fff; border:1px solid #000; padding:12px; box-sizing:border-box; color:#000; font-family:'Inter', sans-serif; display:flex; flex-direction:column; font-size:12px; line-height:1.3; page-break-inside:avoid;">
+index.html:1684:                <div style="display:flex;flex-direction:column;gap:2px;"><div style="font-size:0.72rem;color:var(--primary);">✏️ Có thể bấm trực tiếp vào mọi nội dung chữ trên bill để sửa trước khi in</div><div style="font-size:0.88rem; color:var(--text-muted);">Số lần in bill: <span id="jtWaybillPrintCount">0</span></div></div>
+index.html:1697:                size: 75mm 105mm;
+index.html:1703:            #jtWaybillPrintModal, #jtWaybillPrintModal * {
+index.html:1706:            #jtWaybillPrintModal {
+index.html:1716:            #jtWaybillPrintModal div:first-child {
+index.html:1725:            #jtWaybillPrintModal div:first-child > div:first-child, 
+index.html:1726:            #jtWaybillPrintModal div:first-child > div:last-child {
+index.html:1729:            #jtWaybillPrintModal div:first-child > div:nth-child(2) {
+index.html:1736:            #jtWaybillPrintContent {
+index.html:1738:                width: 74mm !important;
+index.html:1739:                max-width: 74mm !important;
+app.js:5182:            document.getElementById('jtWaybillPrintModal').style.display = 'none';
+app.js:5188:            document.getElementById('jtWaybillPrintModal').style.display = 'none';
+app.js:5191:    const modalJtPrint = document.getElementById('jtWaybillPrintModal');
+app.js:6491:        const printCountEl = document.getElementById('jtWaybillPrintCount');
+app.js:6637:        document.getElementById('jtWaybillPrintModal').style.display = 'flex';
+app.js:6642:            const root = document.getElementById('jtWaybillPrintContent');
+app.js:6661:    const printCountEl = document.getElementById('jtWaybillPrintCount');
+app.js:6680:    const printContent = document.getElementById('jtWaybillPrintContent');
+app.js:6712:                #jtWaybillPrintContent {
+app.js:6713:                    width: 74mm;
+app.js:6714:                    max-width: 74mm;
+app.js:6727:                #jtWaybillPrintContent div {
+app.js:6734:                        size: 75mm 105mm;
+app.js:6739:                    #jtWaybillPrintContent {
+app.js:6741:                        width: 74mm !important;
+app.js:6742:                        max-width: 74mm !important;
+app.js:6750:            <div id="jtWaybillPrintContent">

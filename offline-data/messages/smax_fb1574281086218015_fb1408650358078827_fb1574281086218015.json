@@ -1,0 +1,146 @@
+{
+  "key": "smax::fb1574281086218015::fb1408650358078827_fb1574281086218015",
+  "savedAt": "2026-09-17T17:02:18.571Z",
+  "thread": {
+    "__v": 0,
+    "_created_at": "2026-09-17T07:45:31.728Z",
+    "_synced_at": "2026-09-17T07:45:34.808Z",
+    "controlled_by": "OTHER",
+    "created_at": "2026-09-17T07:45:31.730Z",
+    "customer_pid": "fb1574281086218015",
+    "customer_pids": [],
+    "emails": [],
+    "es_id": "fb1574281086218015_fb1408650358078827_fb1574281086218015",
+    "facebook": {
+      "customer_tags": [],
+      "id": "1408650358078827_2069656930306608",
+      "link": "https://www.facebook.com/pumalife/posts/pfbid02vwccjHPsZixsAvjigdyGoRahp2ZpkkdfkYdruwisrUcdRA2ZM56cMfUu7pFQSvAxl",
+      "post_id": "1574281086218015_1408650358078827",
+      "post_ids": [
+        "1574281086218015_1408650358078827"
+      ]
+    },
+    "id": "6aab9a9badbd0bd08b814e00",
+    "internal": {
+      "message": null,
+      "users": []
+    },
+    "last_message_at": "2026-09-17T07:45:25.000Z",
+    "last_message_id": "6aab9a9b8570921cb57e8fd0",
+    "message": "[attach]",
+    "page_pid": "fb1574281086218015",
+    "phones": [],
+    "platform": "facebook",
+    "read": true,
+    "replied": true,
+    "replied_by": {},
+    "reply_count": 1,
+    "root_message_pids": [
+      "fb1408650358078827_2069656930306608"
+    ],
+    "tag_aliases": [],
+    "tid": "fb1408650358078827_fb1574281086218015",
+    "type": "facebook_comment",
+    "updated_at": "2026-09-17T07:45:31.789Z",
+    "viewing": {},
+    "can_reply_message": false,
+    "customer": {
+      "id": "698515163bf2f5ff3da03716",
+      "pid": "fb1574281086218015",
+      "subscribed": false,
+      "page_pid": "fb1574281086218015",
+      "thread_tid": "fb1574281086218015",
+      "biz_alias": "tuant2lqd",
+      "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/fb1574281086218015?tid=fb1574281086218015",
+      "platform": "facebook",
+      "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+      "profile_name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+      "last_name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+      "picture": "https://cdn-vn.smax.in/s03/smaxai/pages/fb1574281086218015/customers/fb1574281086218015.jpg?expire=1789689600000&signature=74d61d1b072df10f03ccda434d7bf3e3d6a994d3149247af2e503374e844ddc1",
+      "notes": [],
+      "phone": "",
+      "phones": [],
+      "email": "",
+      "emails": [],
+      "source": "comment",
+      "attrs": [],
+      "facebook": {
+        "post_id": "1574281086218015_1186841520259713",
+        "post_content": "New Balance 237 \n\nĐế cao như này hack dáng tôn chiều cao 3-4cm \n\n#1378k full size nam nữ",
+        "post_hashtag": "#1378k",
+        "id": "1574281086218015",
+        "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+        "page_id": "1574281086218015",
+        "page_name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+        "picture": "https://graph.facebook.com/1574281086218015/picture?width=300&heigh=300",
+        "topics": []
+      },
+      "broadcast_ids": [],
+      "in_sequences": [],
+      "out_sequences": [],
+      "tags": [],
+      "last_comment_link": "https://www.facebook.com/949532180657316/posts/1186841520259713",
+      "last_content_by_page": "Dạ anh chị Tuấn Hiền inbox cho shop để được hỗ trợ nhanh nhất ạ",
+      "interaction": {
+        "first": "2026-02-05T22:09:27.229Z",
+        "last": "2020-06-27T04:49:03.000Z"
+      },
+      "users": [],
+      "follow_ups": [],
+      "scores": [],
+      "logs": [],
+      "updated_at": "2026-09-17T13:10:50.027Z",
+      "created_at": "2026-02-05T22:09:26.395Z"
+    },
+    "customers": []
+  },
+  "messages": [
+    {
+      "id": "6aab9a9b8570921cb57e8fd0",
+      "pid": "fb1408650358078827_2069656930306608",
+      "tid": "fb1408650358078827_fb1574281086218015",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "1408650358078827_2069656930306608",
+        "attachment": {
+          "media_image": "https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/799870278_1411251974485332_7531037845506978798_n.jpg?stp=dst-jpg_tt6&cstp=mx940x1672&ctp=s940x1672&_nc_cat=110&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=vF8Qf3WNmqQQ7kNvwGHCD0t&_nc_oc=AdqWHVqb1QNlGGFd9ykIIAbfGWTH0qemN9-UTpfTcZw9OxPvTLVE94zpE2kUZ_GJYxcY4SF5d1Bgy6SNpyipSYFr&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=h6F3btjOfIxzUl0uB4hPNQ&_nc_ss=7b2a8&oh=00_AQK0FyUxFbxV1I3J43O2MoZTKGwe_wxwW1B8YLYYkoIG1w&oe=6AB187D1",
+          "media_source": "https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/799870278_1411251974485332_7531037845506978798_n.jpg?stp=dst-jpg_tt6&cstp=mx940x1672&ctp=s940x1672&_nc_cat=110&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=vF8Qf3WNmqQQ7kNvwGHCD0t&_nc_oc=AdqWHVqb1QNlGGFd9ykIIAbfGWTH0qemN9-UTpfTcZw9OxPvTLVE94zpE2kUZ_GJYxcY4SF5d1Bgy6SNpyipSYFr&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=h6F3btjOfIxzUl0uB4hPNQ&_nc_ss=7b2a8&oh=00_AQK0FyUxFbxV1I3J43O2MoZTKGwe_wxwW1B8YLYYkoIG1w&oe=6AB187D1"
+        },
+        "attachments": [],
+        "can_hide": true,
+        "can_like": true,
+        "can_remove": true,
+        "can_reply_privately": false,
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "is_hidden": false,
+        "parent_id": "1574281086218015_1408650358078827",
+        "post": {
+          "id": "1574281086218015_1408650358078827",
+          "link": "https://www.facebook.com/pumalife/posts/pfbid02vwccjHPsZixsAvjigdyGoRahp2ZpkkdfkYdruwisrUcdRA2ZM56cMfUu7pFQSvAxl",
+          "message_tags": []
+        },
+        "quick_replies": [],
+        "shares": [],
+        "user_likes": false,
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_comment",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T07:45:31.787Z",
+      "customer_created_at": "2026-02-05T22:09:26.395Z",
+      "created_at": "2026-09-17T07:45:25.000Z",
+      "updated_at": "2026-09-17T07:45:25.000Z",
+      "seen": false
+    }
+  ]
+}

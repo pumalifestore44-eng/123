@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Pumalife · GomShip Worker (đã ngừng)",
+  "version": "0.4.0",
+  "description": "GomShip creation has returned to the Pumalife Supabase Edge Function. The Extension no longer processes queued shipments.",
+  "action": {
+    "default_title": "GomShip: dùng Supabase Function",
+    "default_popup": "popup.html"
+  },
+  "minimum_chrome_version": "120"
+}

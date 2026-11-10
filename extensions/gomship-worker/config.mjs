@@ -1,0 +1,3 @@
+// Public Supabase anon key only. NEVER include service_role credentials.
+export const SUPABASE_URL = "https://nwyxvnehuiyenjuxihro.supabase.co";
+export const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im53eXh2bmVodWl5ZW5qdXhpaHJvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU5MjI0ODcsImV4cCI6MjEwMTQ5ODQ4N30.mkq0XJjYlutwgFWDVNjAbDTUI1UX2e7M9_9b8KSXrw0";

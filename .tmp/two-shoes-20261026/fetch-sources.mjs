@@ -1,0 +1,3 @@
+import fs from 'node:fs/promises';
+const urls=['https://thesolesupplier.co.uk/news/summer-lookbook-how-to-style-the-adidas-astir/','https://www.adidas.com.hk/en/adidas-astir-w-shoes/KH8240.html','https://global.podrygka.ru/product/adidas-originals-astir-abrasion-resistant-low-top-chunky-sneakers-women-s-white-a78864814'];
+for (let i=0;i<urls.length;i++){try {const r=await fetch(urls[i]); const t=await r.text(); await fs.writeFile(new URL(`./source${i}.html`,import.meta.url),t);console.log(JSON.stringify({i,status:r.status,images:[...new Set(t.match(/https[^\s"<>]+\.(?:jpg|png|webp)(?:[^\s"<>]*)?/g)||[])].filter(x=>!x.includes('logo')).slice(0,25)}));}catch(e){console.log({i,error:e.message})}}

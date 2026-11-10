@@ -1,0 +1,20 @@
+
+#conversationSearchBar[hidden] { display: none !important; }
+#conversationSearchBar { flex: 0 0 auto; padding: 8px 12px; background: var(--bg-panel); border-bottom: 1px solid var(--border); }
+.conversation-search-controls { display: flex; align-items: center; gap: 6px; min-width: 0; }
+#conversationSearchInput { flex: 1; width: 0; min-width: 0; height: 36px; border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; color: var(--text-main); background: var(--bg-app); font: inherit; font-size: 13px; }
+#conversationSearchBar button { flex: 0 0 32px; width: 32px; height: 36px; border: 1px solid var(--border); background: var(--bg-panel); color: var(--text-main); border-radius: 7px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
+#conversationSearchBar svg, #btnSearchConversation svg { width: 18px; height: 18px; }
+#conversationSearchBar button:disabled { opacity: .4; cursor: default; }
+#conversationSearchStatus { margin-top: 6px; font-size: 11px; line-height: 1.4; color: var(--text-muted); }
+#messagesFlow mark.conversation-search-mark { background: #fde68a; color: #172b4d; border-radius: 2px; }
+#messagesFlow .conversation-search-current .message-bubble { outline: 2px solid #f59e0b; outline-offset: 3px; }
+#btnSearchConversation[aria-expanded="true"] { background: var(--primary-light); color: var(--primary); }
+@media (max-width: 768px) {
+  #chatWrapper .chat-header { gap: 4px !important; padding-left: 8px !important; padding-right: 8px !important; }
+  #chatWrapper .header-actions { gap: 2px !important; flex-shrink: 0; }
+  #chatWrapper .header-actions .action-btn { width: 30px !important; min-width: 30px !important; height: 36px !important; }
+  #chatWrapper .customer-details { min-width: 0; }
+  #chatWrapper .customer-details h3 { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  #conversationSearchInput { font-size: 16px; }
+}

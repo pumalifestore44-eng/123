@@ -1,0 +1,2814 @@
+{
+  "key": "smax::zlw266741166578791076::zlw235378782919624019",
+  "savedAt": "2026-09-17T15:59:50.094Z",
+  "thread": {
+    "__v": 0,
+    "_created_at": "2026-04-25T13:18:38.753Z",
+    "_synced_at": "2026-09-15T05:39:26.034Z",
+    "created_at": "2026-04-25T13:18:38.754Z",
+    "customer_pid": "zlw235378782919624019",
+    "customer_pids": [
+      "zlw235378782919624019"
+    ],
+    "emails": [],
+    "es_id": "zlw266741166578791076_zlw235378782919624019",
+    "id": "69ecbf2e44f694702609a6c7",
+    "internal": {
+      "message": null,
+      "users": []
+    },
+    "last_message_at": "2026-09-15T05:39:24.616Z",
+    "last_message_by_customer_at": "2026-09-15T05:05:16.494Z",
+    "last_message_id": "6aa8da0cd953a143a57023dd",
+    "last_user_replied": {
+      "id": "6984fdd4965d6ffa9fa973dd",
+      "name": "Dang LE Cong Tuan",
+      "picture": "https://cdn.smax.in/s04/smaxai/avatars/122148177098299508.jpg?expire=1789257600000&signature=62b9b3837127959e688784d24c186b6ca37e4c0a24a795b46bc10f7423556c6f"
+    },
+    "message": "dạ tầm mai giao ạ",
+    "page_pid": "zlw266741166578791076",
+    "phones": [
+      "0974216038"
+    ],
+    "platform": "zaloweb",
+    "read": true,
+    "replied": true,
+    "replied_by": {},
+    "replied_first": "2026-04-26T09:34:19.887Z",
+    "reply_count": 0,
+    "root_message_pids": [],
+    "tag_aliases": [],
+    "tid": "zlw235378782919624019",
+    "type": "zaloweb_message",
+    "updated_at": "2026-09-15T05:39:24.783Z",
+    "user": {
+      "job_id": null
+    },
+    "zaloweb": {
+      "chat_type": "private",
+      "id": "235378782919624019"
+    },
+    "viewing": {},
+    "can_reply_message": true,
+    "customer": {
+      "id": "69ecbf2ec09ad1d57aa07f30",
+      "pid": "zlw235378782919624019",
+      "subscribed": true,
+      "page_pid": "zlw266741166578791076",
+      "thread_tid": "zlw235378782919624019",
+      "biz_alias": "tuant2lqd",
+      "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/zlw266741166578791076?tid=zlw235378782919624019",
+      "platform": "zaloweb",
+      "name": "Quỳnh Linh",
+      "profile_name": "Quỳnh Linh",
+      "last_name": "Quỳnh Linh",
+      "gender": "female",
+      "picture": "https://s120-25-ava-talk.zadn.vn/12/b2c209867ef224fb101b07737ebc1e84.jpg?key=kJeRW2HbP74y0d0Ji2eD6A&time=1782307118",
+      "notes": [],
+      "phone": "0974216038",
+      "phones": [
+        {
+          "value": "0974216038",
+          "time": "2026-07-12T05:08:35.101Z"
+        }
+      ],
+      "emails": [],
+      "timezone": "7",
+      "attrs": [],
+      "zaloweb": {
+        "zaloweb_id": "266741166578791076",
+        "zaloweb_name": "Pumalife",
+        "id": "235378782919624019",
+        "global_id": "FG3UC4IB6E7N2I8J2RVHBAR4UINDOJO0",
+        "is_friend": false,
+        "name": "Quỳnh Linh",
+        "picture": "https://s120-25-ava-talk.zadn.vn/12/b2c209867ef224fb101b07737ebc1e84.jpg?key=kJeRW2HbP74y0d0Ji2eD6A&time=1782307118",
+        "member_ids": [],
+        "chat_type": "private"
+      },
+      "broadcast_ids": [],
+      "in_sequences": [],
+      "out_sequences": [],
+      "tags": [],
+      "last_inbox_updated": "2026-09-15T05:05:16.494Z",
+      "last_message_at": "2026-09-15T05:39:24.616Z",
+      "last_content_by_user": "Kiểm tra cho mình giày đến đâu rồi",
+      "last_content_by_page": "dạ tầm mai giao ạ",
+      "interaction": {
+        "first": "2026-04-25T13:18:38.686Z",
+        "last": "2026-09-15T05:05:16.494Z"
+      },
+      "users": [],
+      "follow_ups": [],
+      "scores": [],
+      "logs": [],
+      "updated_at": "2026-09-15T05:39:24.826Z",
+      "created_at": "2026-04-25T13:18:38.714Z"
+    },
+    "customers": [
+      {
+        "id": "69ecbf2ec09ad1d57aa07f30",
+        "pid": "zlw235378782919624019",
+        "subscribed": true,
+        "page_pid": "zlw266741166578791076",
+        "thread_tid": "zlw235378782919624019",
+        "biz_alias": "tuant2lqd",
+        "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/zlw266741166578791076?tid=zlw235378782919624019",
+        "platform": "zaloweb",
+        "name": "Quỳnh Linh",
+        "profile_name": "Quỳnh Linh",
+        "last_name": "Quỳnh Linh",
+        "gender": "female",
+        "picture": "https://s120-25-ava-talk.zadn.vn/12/b2c209867ef224fb101b07737ebc1e84.jpg?key=kJeRW2HbP74y0d0Ji2eD6A&time=1782307118",
+        "notes": [],
+        "phone": "0974216038",
+        "phones": [
+          {
+            "value": "0974216038",
+            "time": "2026-07-12T05:08:35.101Z"
+          }
+        ],
+        "emails": [],
+        "timezone": "7",
+        "attrs": [],
+        "zaloweb": {
+          "zaloweb_id": "266741166578791076",
+          "zaloweb_name": "Pumalife",
+          "id": "235378782919624019",
+          "global_id": "FG3UC4IB6E7N2I8J2RVHBAR4UINDOJO0",
+          "is_friend": false,
+          "name": "Quỳnh Linh",
+          "picture": "https://s120-25-ava-talk.zadn.vn/12/b2c209867ef224fb101b07737ebc1e84.jpg?key=kJeRW2HbP74y0d0Ji2eD6A&time=1782307118",
+          "member_ids": [],
+          "chat_type": "private"
+        },
+        "broadcast_ids": [],
+        "in_sequences": [],
+        "out_sequences": [],
+        "tags": [],
+        "last_inbox_updated": "2026-09-15T05:05:16.494Z",
+        "last_message_at": "2026-09-15T05:39:24.616Z",
+        "last_content_by_user": "Kiểm tra cho mình giày đến đâu rồi",
+        "last_content_by_page": "dạ tầm mai giao ạ",
+        "interaction": {
+          "first": "2026-04-25T13:18:38.686Z",
+          "last": "2026-09-15T05:05:16.494Z"
+        },
+        "users": [],
+        "follow_ups": [],
+        "scores": [],
+        "logs": [],
+        "updated_at": "2026-09-15T05:39:24.826Z",
+        "created_at": "2026-04-25T13:18:38.714Z"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "id": "69ecbf2e82082163b98555c4",
+      "pid": "zlw7763385350922",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "zaloweb": {
+        "attachments": [
+          {}
+        ],
+        "cli_msg_id": "1777123118443",
+        "id": "7763385350922",
+        "sticker_id": "23037"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-04-25T13:18:38.757Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-04-25T13:18:38.487Z",
+      "updated_at": "2026-04-25T13:18:38.790Z"
+    },
+    {
+      "id": "69ecbf3658b3b955b5e66526",
+      "pid": "zlw7763385750912",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://photo-stal-37.zdn.vn/no/jpg/bb6f8967c450050e5c41/2569542701458611148.jpg",
+            "thumbnail": "https://photo-stal-37.zdn.vn/no/jpg/bb6f8967c450050e5c41/2569542701458611148.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1777123125422",
+        "id": "7763385750912"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-04-25T13:18:46.060Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-04-25T13:18:45.937Z",
+      "updated_at": "2026-04-25T13:18:46.077Z"
+    },
+    {
+      "id": "69ecbf4082082163b98555d7",
+      "pid": "zlw7763386346744",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Giày này bạn còn nhận or k?",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1777123136687",
+        "id": "7763386346744"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-04-25T13:18:56.885Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-04-25T13:18:56.786Z",
+      "updated_at": "2026-04-25T13:18:56.873Z"
+    },
+    {
+      "id": "69ecd7997b53cdd13004ead9",
+      "pid": "zlw7763716737489",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ còn ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1777129369488",
+        "id": "7763716737489"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-04-25T15:02:49.694Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-04-25T15:02:49.519Z",
+      "updated_at": "2026-04-25T15:02:49.707Z",
+      "seen": false
+    },
+    {
+      "id": "69edd5f47b53cdd130059da9",
+      "pid": "zlw7765450861625",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Size 39,5 có k shop",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1777194484020",
+        "id": "7765450861625"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-04-26T09:08:04.155Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-04-26T09:08:04.044Z",
+      "updated_at": "2026-04-26T09:08:04.174Z"
+    },
+    {
+      "id": "69eddc1bf43b8be27eadd8bb",
+      "pid": "zlw7765517958270",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "Dạ có ạ order 20 ngày",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1777196059784",
+        "id": "7765517958270"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-04-26T09:34:19.877Z",
+      "created_at": "2026-04-26T09:34:19.760Z",
+      "updated_at": "2026-04-26T09:34:19.975Z",
+      "seen": false
+    },
+    {
+      "id": "69f1c11a34061dbf5f6a1a8c",
+      "pid": "zlw7775172405567",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Cho mình or đôi 39,5",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1777451289512",
+        "id": "7775172405567"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-04-29T08:28:10.075Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-04-29T08:28:09.877Z",
+      "updated_at": "2026-04-29T08:28:10.059Z"
+    },
+    {
+      "id": "69f1c4db45191f635795e9a1",
+      "pid": "zlw7775238884975",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "Order cọc giúp em 700 ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1777452251275",
+        "id": "7775238884975"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-04-29T08:44:11.310Z",
+      "created_at": "2026-04-29T08:44:11.261Z",
+      "updated_at": "2026-04-29T08:44:11.375Z",
+      "seen": false
+    },
+    {
+      "id": "69f1c4e34b803ca5d063fd90",
+      "pid": "zlw7775239453786",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "NỘI DUNG CHUYỂN KHOẢN Chỉ cần ghi tên và gửi ảnh ủy nhiệm hoặc màn hình e-banking sau khi chuyển tiền là được ạ. Không ghi thêm bất cứ thông tin gì khác.",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://f20-zpc.zdn.vn/jpg/3357492509680969982/bd2ec35d055a8404dd4b.jpg",
+            "thumbnail": "https://f20-zpc.zdn.vn/jpg/3357492509680969982/bd2ec35d055a8404dd4b.jpg",
+            "title": "NỘI DUNG CHUYỂN KHOẢN Chỉ cần ghi tên và gửi ảnh ủy nhiệm hoặc màn hình e-banking sau khi chuyển tiền là được ạ. Không ghi thêm bất cứ thông tin gì khác.",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1777452259596",
+        "id": "7775239453786"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-04-29T08:44:19.645Z",
+      "created_at": "2026-04-29T08:44:19.388Z",
+      "updated_at": "2026-04-29T08:44:19.732Z",
+      "seen": false
+    },
+    {
+      "id": "69f22d75e399c90c1eb40ca9",
+      "pid": "zlw7776723705447",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "Dạ cọc nhắn em lên đơn order sớm ạ kịp deal ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1777479029383",
+        "id": "7776723705447"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-04-29T16:10:29.544Z",
+      "created_at": "2026-04-29T16:10:29.365Z",
+      "updated_at": "2026-04-29T16:10:29.611Z",
+      "seen": false
+    },
+    {
+      "id": "6a522e51ef265104899071b9",
+      "pid": "zlw8032143365957",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://photo-stal-32.zdn.vn/no/jpg/6a16d5b18770432e1a61/2aOboQjfyKBlvW5Nj3PHzkQVeV393I0xiEAJgjTc.jpg",
+            "thumbnail": "https://photo-stal-32.zdn.vn/no/jpg/6a16d5b18770432e1a61/2aOboQjfyKBlvW5Nj3PHzkQVeV393I0xiEAJgjTc.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1783770704706",
+        "id": "8032143365957"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-11T11:51:45.031Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-11T11:51:44.772Z",
+      "updated_at": "2026-07-11T11:51:45.049Z"
+    },
+    {
+      "id": "6a522e57d9cbb84f62c1ea9b",
+      "pid": "zlw8032143704178",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Cho mình or đôi này",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1783770711236",
+        "id": "8032143704178"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-11T11:51:51.428Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-11T11:51:51.280Z",
+      "updated_at": "2026-07-11T11:51:51.448Z"
+    },
+    {
+      "id": "6a523370fd34b6fe4ccacf15",
+      "pid": "zlw8032211896597",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "mh đi size mấy ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1783772016584",
+        "id": "8032211896597"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-11T12:13:36.722Z",
+      "created_at": "2026-07-11T12:13:36.548Z",
+      "updated_at": "2026-07-11T12:13:36.864Z",
+      "seen": false
+    },
+    {
+      "id": "6a523457f36c357dc7fc03f1",
+      "pid": "zlw8032224011538",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "samba đang sale giá 1425k đó ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1783772247613",
+        "id": "8032224011538"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-11T12:17:27.719Z",
+      "created_at": "2026-07-11T12:17:27.598Z",
+      "updated_at": "2026-07-11T12:17:27.787Z",
+      "seen": false
+    },
+    {
+      "id": "6a523be81be91afd5bd47c6e",
+      "pid": "zlw8032326873613",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "39",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1783774184777",
+        "id": "8032326873613"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-11T12:49:44.965Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-11T12:49:44.853Z",
+      "updated_at": "2026-07-11T12:49:44.985Z"
+    },
+    {
+      "id": "6a523fc8ef26510489908985",
+      "pid": "zlw8032381686384",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ vâng mình chốt order cọc trc 500K ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1783775176345",
+        "id": "8032381686384"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-11T13:06:16.671Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-11T13:06:16.408Z",
+      "updated_at": "2026-07-11T13:06:16.677Z",
+      "seen": false
+    },
+    {
+      "id": "6a523fcbd9cbb84f62c20279",
+      "pid": "zlw8032381862742",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://photo-stal-9.zdn.vn/no/jpg/aef3a9acea6c2e32777d/1WUpukdwJAygjB9JN6uhhxceX2ng5o4sDDuQIqVgpcMQb7bmTeQ8k06f60WzG55Fxy6.jpg",
+            "thumbnail": "https://photo-stal-9.zdn.vn/no/jpg/aef3a9acea6c2e32777d/1WUpukdwJAygjB9JN6uhhxceX2ng5o4sDDuQIqVgpcMQb7bmTeQ8k06f60WzG55Fxy6.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1783775179436",
+        "id": "8032381862742"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-11T13:06:19.789Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-11T13:06:19.635Z",
+      "updated_at": "2026-07-11T13:06:19.807Z",
+      "seen": false
+    },
+    {
+      "id": "6a523fcea7de365e93d8d303",
+      "pid": "inf5a8dd38-16a8-46ae-a4eb-ba1306e0c879",
+      "tid": "zlw235378782919624019",
+      "platform": "internal",
+      "page_pid": "zlw266741166578791076",
+      "message": "Pumalife đã gửi lời mời kết bạn.\n\"Xin chào! Kết bạn với mình nhé!\"",
+      "internal": {
+        "id": "f5a8dd38-16a8-46ae-a4eb-ba1306e0c879",
+        "attachments": []
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "system",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-11T13:06:22.406Z",
+      "created_at": "2026-07-11T13:06:22.405Z",
+      "updated_at": "2026-07-11T13:06:22.405Z",
+      "seen": false
+    },
+    {
+      "id": "6a524f9e1be91afd5bd493d5",
+      "pid": "zlw8032609390907",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://f20-zpc.zdn.vn/6710529132834916694/49312bdd0d2b8c75d53a.jpg",
+            "thumbnail": "https://t-f20-zpc.zdn.vn/6710529132834916694/49312bdd0d2b8c75d53a.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1783779230473",
+        "id": "8032609390907"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-11T14:13:50.600Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-11T14:13:50.473Z",
+      "updated_at": "2026-07-11T14:13:50.633Z"
+    },
+    {
+      "id": "6a524fbcd9cbb84f62c216ae",
+      "pid": "zlw8032611044348",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Bạn vừa kết bạn với Quỳnh Linh",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "",
+            "thumbnail": "",
+            "title": "Bạn vừa kết bạn với Quỳnh Linh"
+          }
+        ],
+        "cli_msg_id": "1783779260274",
+        "id": "8032611044348"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-11T14:14:20.395Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-11T14:14:20.274Z",
+      "updated_at": "2026-07-11T14:14:20.408Z"
+    },
+    {
+      "id": "6a524fbc2ff44477eb966cd9",
+      "pid": "ind8837929-0347-4506-893b-221a5898b764",
+      "tid": "zlw235378782919624019",
+      "platform": "internal",
+      "page_pid": "zlw266741166578791076",
+      "message": "Hiện tại hai bạn đã là bạn bè của nhau.",
+      "internal": {
+        "id": "d8837929-0347-4506-893b-221a5898b764",
+        "attachments": []
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "system",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-11T14:14:20.434Z",
+      "created_at": "2026-07-11T14:14:20.432Z",
+      "updated_at": "2026-07-11T14:14:20.432Z",
+      "seen": false
+    },
+    {
+      "id": "6a524fc5d9cbb84f62c216bb",
+      "pid": "zlw8032611557392",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Mình gửi nha",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1783779269500",
+        "id": "8032611557392"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-11T14:14:29.621Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-11T14:14:29.529Z",
+      "updated_at": "2026-07-11T14:14:29.646Z"
+    },
+    {
+      "id": "6a52637dd9cbb84f62c22b79",
+      "pid": "zlw8032869892342",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ để shop lên đơn ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1783784317646",
+        "id": "8032869892342"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-11T15:38:37.862Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-11T15:38:37.706Z",
+      "updated_at": "2026-07-11T15:38:37.880Z",
+      "seen": false
+    },
+    {
+      "id": "6a532101ccc4dcd547dac394",
+      "pid": "zlw8034016021409",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://f19-zpc.zdn.vn/jpg/7683657927765063581/b11e12a9bd5f3c01654e.jpg",
+            "thumbnail": "https://f19-zpc.zdn.vn/jpg/7683657927765063581/b11e12a9bd5f3c01654e.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1783832833479",
+        "id": "8034016021409"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-12T05:07:13.508Z",
+      "created_at": "2026-07-12T05:07:13.167Z",
+      "updated_at": "2026-07-12T05:07:13.655Z",
+      "seen": false
+    },
+    {
+      "id": "6a53210359d9cf09cdf0d768",
+      "pid": "zlw8034016113379",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "Đơn hàng pumalife15221 đã được tạo thành công. \nHàng về có 2 hình thức thanh toán CK và COD. Nếu thanh toán COD thì + thêm 1.5% cho truy thu thuế.\nMình kiểm tra xem thông tin sản phẩm của đơn hàng đã đúng chưa. \nThông tin đơn hàng tại đây: https://pumalifeorder.vercel.app/bill.html?id=15221",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1783832835200",
+        "id": "8034016113379"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-12T05:07:15.319Z",
+      "created_at": "2026-07-12T05:07:15.196Z",
+      "updated_at": "2026-07-12T05:07:15.412Z",
+      "seen": false
+    },
+    {
+      "id": "6a53210fa94df60880852654",
+      "pid": "zlw8034016659157",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "anh/chị cho shop xin địa chỉ nhận hàng, sđt để shop note vào đơn ạ.",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1783832847384",
+        "id": "8034016659157"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-12T05:07:27.504Z",
+      "created_at": "2026-07-12T05:07:27.377Z",
+      "updated_at": "2026-07-12T05:07:27.576Z",
+      "seen": false
+    },
+    {
+      "id": "6a532153d9cbb84f62c2aa48",
+      "pid": "zlw8034019724752",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Thôn nghĩa Phú. Xã Tuệ tĩnh. Tp Hải phòng. 0974216038",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1783832914842",
+        "id": "8034019724752"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [
+        {
+          "value": "0974216038",
+          "offset": 43,
+          "length": 10
+        }
+      ],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-12T05:08:35.075Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-12T05:08:34.926Z",
+      "updated_at": "2026-07-12T05:08:35.095Z"
+    },
+    {
+      "id": "6a53215aef2651048991302b",
+      "pid": "zlw8034020061595",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Tầm bao lâu nữa có vậy shop",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1783832922415",
+        "id": "8034020061595"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-12T05:08:42.587Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-12T05:08:42.449Z",
+      "updated_at": "2026-07-12T05:08:42.617Z"
+    },
+    {
+      "id": "6a5324b6fa8bee0b29342aa0",
+      "pid": "zlw8034057810244",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ hàng order 20 ngày ạ,",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1783833782886",
+        "id": "8034057810244"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-12T05:23:02.964Z",
+      "created_at": "2026-07-12T05:23:02.853Z",
+      "updated_at": "2026-07-12T05:23:03.066Z",
+      "seen": false
+    },
+    {
+      "id": "6a5324bdde5f23f8a53858d8",
+      "pid": "zlw8034058113907",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "có hàng sớm shop báo sớm cho mh ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1783833789506",
+        "id": "8034058113907"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-12T05:23:09.510Z",
+      "created_at": "2026-07-12T05:23:09.427Z",
+      "updated_at": "2026-07-12T05:23:09.623Z",
+      "seen": false
+    },
+    {
+      "id": "6a537df61be91afd5bd59656",
+      "pid": "zlw8035057522435",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://photo-stal-30.zdn.vn/no/jpg/5ffb313bccef08b151fe/2aOboQju7NFGV63A5DUd36qZvsFhZCzDFmN6vDhg.jpg",
+            "thumbnail": "https://photo-stal-30.zdn.vn/no/jpg/5ffb313bccef08b151fe/2aOboQju7NFGV63A5DUd36qZvsFhZCzDFmN6vDhg.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1783856629860",
+        "id": "8035057522435"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-12T11:43:50.877Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-12T11:43:50.742Z",
+      "updated_at": "2026-07-12T11:43:50.919Z"
+    },
+    {
+      "id": "6a537dfd1be91afd5bd5965f",
+      "pid": "zlw8035057851991",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Set này còn hàng k bạn?",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1783856637407",
+        "id": "8035057851991"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-12T11:43:57.536Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-12T11:43:57.470Z",
+      "updated_at": "2026-07-12T11:43:57.550Z"
+    },
+    {
+      "id": "6a537e0dd9cbb84f62c32c04",
+      "pid": "zlw8035058623747",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ còn order ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1783856653023",
+        "id": "8035058623747"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-12T11:44:13.205Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-12T11:44:13.097Z",
+      "updated_at": "2026-07-12T11:44:13.219Z",
+      "seen": false
+    },
+    {
+      "id": "6a537e19ef2651048991b005",
+      "pid": "zlw8035059241724",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "K có sẵn hả shop",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1783856665554",
+        "id": "8035059241724"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-12T11:44:25.695Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-12T11:44:25.608Z",
+      "updated_at": "2026-07-12T11:44:25.713Z"
+    },
+    {
+      "id": "6a537e31ef2651048991b011",
+      "pid": "zlw8035060431797",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ order ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1783856689555",
+        "id": "8035060431797"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-12T11:44:49.697Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-12T11:44:49.591Z",
+      "updated_at": "2026-07-12T11:44:49.707Z",
+      "seen": false
+    },
+    {
+      "id": "6a5f6d4805adc70cbc033ae1",
+      "pid": "zlw8067158963801",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Bình nước 3ce bao lâu có vậy bạn",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1784638792040",
+        "id": "8067158963801"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-21T12:59:52.264Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-21T12:59:52.074Z",
+      "updated_at": "2026-07-21T12:59:52.287Z"
+    },
+    {
+      "id": "6a5f7672e3f2fa4cfe44f3e7",
+      "pid": "zlw8067295397875",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "15-20 ngày ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1784641138384",
+        "id": "8067295397875"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-21T13:38:58.507Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-21T13:38:58.399Z",
+      "updated_at": "2026-07-21T13:38:58.525Z",
+      "seen": false
+    },
+    {
+      "id": "6a6c2abac3f98520d0bc66c0",
+      "pid": "zlw8100709608614",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://photo-stal-17.zdn.vn/no/jpg/42914012ec852bdb7294/2aOboQoCKynhjybm5GAcrRldfAncFDe0yo6ET0U4.jpg",
+            "thumbnail": "https://photo-stal-17.zdn.vn/no/jpg/42914012ec852bdb7294/2aOboQoCKynhjybm5GAcrRldfAncFDe0yo6ET0U4.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1785473721407",
+        "id": "8100709608614"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-31T04:55:22.204Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-31T04:55:22.082Z",
+      "updated_at": "2026-07-31T04:55:22.230Z"
+    },
+    {
+      "id": "6a6c2abec3f98520d0bc66d2",
+      "pid": "zlw8100709878848",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Đôi này còn k bạn?",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785473726306",
+        "id": "8100709878848"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-31T04:55:26.454Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-31T04:55:26.329Z",
+      "updated_at": "2026-07-31T04:55:26.468Z"
+    },
+    {
+      "id": "6a6c2af91fdaf929053497db",
+      "pid": "zlw8100713665212",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ còn ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785473784987",
+        "id": "8100713665212"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-31T04:56:25.091Z",
+      "created_at": "2026-07-31T04:56:24.973Z",
+      "updated_at": "2026-07-31T04:56:25.301Z",
+      "seen": false
+    },
+    {
+      "id": "6a6c2aff0172c451d310faa4",
+      "pid": "zlw8100714100313",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "mh đi màu nào ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785473791709",
+        "id": "8100714100313"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-31T04:56:31.833Z",
+      "created_at": "2026-07-31T04:56:31.696Z",
+      "updated_at": "2026-07-31T04:56:31.913Z",
+      "seen": false
+    },
+    {
+      "id": "6a6c2b12c3f98520d0bc67e2",
+      "pid": "zlw8100715295743",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Có đôi nào có sẵn k?",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785473809987",
+        "id": "8100715295743"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-31T04:56:50.594Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-31T04:56:50.434Z",
+      "updated_at": "2026-07-31T04:56:50.607Z"
+    },
+    {
+      "id": "6a6c2b160a30ff6f9476c7d5",
+      "pid": "zlw8100715531246",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Size 44",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785473813633",
+        "id": "8100715531246"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-31T04:56:54.203Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-31T04:56:54.071Z",
+      "updated_at": "2026-07-31T04:56:54.256Z"
+    },
+    {
+      "id": "6a6c2b520172c451d310fcf8",
+      "pid": "zlw8100719401657",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "có sẵn size 43 ý",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785473874884",
+        "customer_reactions": [
+          {
+            "customer_pid": "zlw235378782919624019",
+            "customer_picture": "https://s120-25-ava-talk.zadn.vn/12/b2c209867ef224fb101b07737ebc1e84.jpg?key=kJeRW2HbP74y0d0Ji2eD6A&time=1782307118",
+            "customer_name": "Quỳnh Linh",
+            "icons": [
+              {
+                "name": "HEART",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "id": "8100719401657"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-31T04:57:54.956Z",
+      "created_at": "2026-07-31T04:57:54.872Z",
+      "updated_at": "2026-07-31T05:14:17.724Z",
+      "seen": false
+    },
+    {
+      "id": "6a6c2f2e681f7b278f157e18",
+      "pid": "zlw8100777189614",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Màu nào thế bạn",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785474862004",
+        "id": "8100777189614"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-31T05:14:22.164Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-31T05:14:22.026Z",
+      "updated_at": "2026-07-31T05:14:22.176Z"
+    },
+    {
+      "id": "6a6c318d1fb297e86bd3799c",
+      "pid": "zlw8100809934535",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://f119-zpc.zdn.vn/jpg/1324410493893673374/55ec900a4f9fcec1978e.jpg",
+            "thumbnail": "https://f119-zpc.zdn.vn/jpg/1324410493893673374/55ec900a4f9fcec1978e.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1785475469049",
+        "id": "8100809934535"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-31T05:24:29.109Z",
+      "created_at": "2026-07-31T05:24:28.875Z",
+      "updated_at": "2026-07-31T05:24:29.181Z",
+      "seen": false
+    },
+    {
+      "id": "6a6c349e0a30ff6f9476dc31",
+      "pid": "zlw8100849868619",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Order thì bao lâu",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785476254232",
+        "id": "8100849868619"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-31T05:37:34.418Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-07-31T05:37:34.280Z",
+      "updated_at": "2026-07-31T05:37:34.438Z"
+    },
+    {
+      "id": "6a6c537ee7381cd3db530ad9",
+      "pid": "zlw8101292389734",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ hàng order 20 ngày ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785484158275",
+        "id": "8101292389734"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-07-31T07:49:18.358Z",
+      "created_at": "2026-07-31T07:49:18.266Z",
+      "updated_at": "2026-07-31T07:49:18.475Z",
+      "seen": false
+    },
+    {
+      "id": "6a6d663c681f7b278f176a46",
+      "pid": "zlw8103999560535",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Shop ơi",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785554492548",
+        "id": "8103999560535"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-01T03:21:32.844Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-08-01T03:21:32.592Z",
+      "updated_at": "2026-08-01T03:21:32.867Z"
+    },
+    {
+      "id": "6a6d6642c3f98520d0be5e8a",
+      "pid": "zlw8103999963589",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Giày của mình sắp về chưa",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785554498442",
+        "id": "8103999963589"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-01T03:21:38.653Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-08-01T03:21:38.455Z",
+      "updated_at": "2026-08-01T03:21:38.693Z"
+    },
+    {
+      "id": "6a6d6a5a5a219f0d0b88eace",
+      "pid": "zlw8104070998082",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ dể shop ktra ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785555546375",
+        "id": "8104070998082"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-01T03:39:06.461Z",
+      "created_at": "2026-08-01T03:39:06.366Z",
+      "updated_at": "2026-08-01T03:39:09.658Z",
+      "seen": false
+    },
+    {
+      "id": "6a6f1d80a36caaf3256f1afb",
+      "pid": "zlw8108388455929",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Đơn hàng pumalife15221 của bạn đã về đến shop ở HCM.\nSố tiền còn lại cần phải thanh toán 960.000đ\nBạn thanh toán ck hay COD ạ.\nNếu thanh toán COD thì + thêm 1.5% cho truy thu thuế. \nhình ảnh hàng về xem tại link: https://pumalifeorder.vercel.app/bill.html?id=15221",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785666938858",
+        "id": "8108388455929"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-02T10:35:44.524Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-08-02T10:35:38.917Z",
+      "updated_at": "2026-08-02T10:35:44.550Z",
+      "seen": false
+    },
+    {
+      "id": "6a6fdf226359d6676efbd1fd",
+      "pid": "zlw8109664944196",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Shop ship từ hcm hay hn vậy",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785716514071",
+        "id": "8109664944196"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-03T00:21:54.256Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-08-03T00:21:54.139Z",
+      "updated_at": "2026-08-03T00:21:54.286Z"
+    },
+    {
+      "id": "6a6fe9874836ddbe3e3197a8",
+      "pid": "zlw8109765559082",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "Dạ ở hcm ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785719175418",
+        "id": "8109765559082"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-03T01:06:15.451Z",
+      "created_at": "2026-08-03T01:06:15.401Z",
+      "updated_at": "2026-08-03T01:06:15.615Z",
+      "seen": false
+    },
+    {
+      "id": "6a6fe9a36359d6676efbdc1c",
+      "pid": "zlw8109767075982",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Vậy mình ck cho shop xong đợi 1 tuần nữa shop ship về địa chỉ hcm cho mình được k",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785719203793",
+        "id": "8109767075982"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-03T01:06:43.977Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-08-03T01:06:43.831Z",
+      "updated_at": "2026-08-03T01:06:43.993Z"
+    },
+    {
+      "id": "6a6fee75f8af77fdd8c6b736",
+      "pid": "zlw8109837907636",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ bạn cho shop đc ở hcm shop xem thử tuần sau giao đc trong ngày ko ạ'",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785720437872",
+        "id": "8109837907636"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-03T01:27:17.982Z",
+      "created_at": "2026-08-03T01:27:17.826Z",
+      "updated_at": "2026-08-03T01:27:18.156Z",
+      "seen": false
+    },
+    {
+      "id": "6a6fef77ec7f17717692cf52",
+      "pid": "zlw8109853783787",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "T15-43 Vinhomegrandpark. P Long bình. Hcm",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785720694476",
+        "id": "8109853783787"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-03T01:31:35.411Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-08-03T01:31:34.519Z",
+      "updated_at": "2026-08-03T01:31:35.435Z"
+    },
+    {
+      "id": "6a6ff174b93d150e628f74a8",
+      "pid": "zlw8109886366633",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ đc này phải 1 - 2 ngày mới giao qua đc ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785721204336",
+        "id": "8109886366633"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-03T01:40:04.439Z",
+      "created_at": "2026-08-03T01:40:04.317Z",
+      "updated_at": "2026-08-03T01:40:04.992Z",
+      "seen": false
+    },
+    {
+      "id": "6a729b256359d6676e015a45",
+      "pid": "zlw8117569666973",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Vậy để mình ck rồi bạn ship sau nha",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785895717269",
+        "id": "8117569666973"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-05T02:08:37.512Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-08-05T02:08:37.361Z",
+      "updated_at": "2026-08-05T02:08:37.535Z"
+    },
+    {
+      "id": "6a729c37b975c4c46d094a83",
+      "pid": "zlw8117590389119",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ của mình còn 960k ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785895990903",
+        "id": "8117590389119"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-05T02:13:11.009Z",
+      "created_at": "2026-08-05T02:13:10.886Z",
+      "updated_at": "2026-08-05T02:13:11.338Z",
+      "seen": false
+    },
+    {
+      "id": "6a729c4d48e47d14c7a51ee0",
+      "pid": "zlw8117592087069",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://f120-zpc.zdn.vn/jpg/7687446419762140302/8531767587e706b95ff6.jpg",
+            "thumbnail": "https://f120-zpc.zdn.vn/jpg/7687446419762140302/8531767587e706b95ff6.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1785896013414",
+        "id": "8117592087069"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-05T02:13:33.445Z",
+      "created_at": "2026-08-05T02:13:33.097Z",
+      "updated_at": "2026-08-05T02:13:36.925Z",
+      "seen": false
+    },
+    {
+      "id": "6a729c4e1e328d7544d8bed5",
+      "pid": "zlw8117592184249",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "Nội dung chuyển khoản chỉ cần ghi tên người và gửi ảnh chụp màn hình chuyển khoản là được.",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785896014573",
+        "id": "8117592184249"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-05T02:13:34.667Z",
+      "created_at": "2026-08-05T02:13:34.539Z",
+      "updated_at": "2026-08-05T02:13:36.163Z",
+      "seen": false
+    },
+    {
+      "id": "6a729cc9ec7f17717697f23c",
+      "pid": "zlw8117600984813",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "960 là cả ship hả shop",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785896130048",
+        "id": "8117600984813"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-05T02:15:37.100Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-08-05T02:15:30.109Z",
+      "updated_at": "2026-08-05T02:15:37.143Z"
+    },
+    {
+      "id": "6a729ceb2d764b19a3580e03",
+      "pid": "zlw8117604189745",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ đúng rồi ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785896171929",
+        "id": "8117604189745"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-05T02:16:11.982Z",
+      "created_at": "2026-08-05T02:16:11.885Z",
+      "updated_at": "2026-08-05T02:16:12.064Z",
+      "seen": false
+    },
+    {
+      "id": "6a72a86eec7f177176982dd4",
+      "pid": "zlw8117840174617",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://f120-zpc.zdn.vn/2440353218777608985/c8710ee29a701b2e4261.jpg",
+            "thumbnail": "https://t-f120-zpc.zdn.vn/2440353218777608985/c8710ee29a701b2e4261.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1785899118089",
+        "id": "8117840174617"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-05T03:05:18.440Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-08-05T03:05:18.089Z",
+      "updated_at": "2026-08-05T03:05:18.457Z"
+    },
+    {
+      "id": "6a72a8add8cd59e5053444f1",
+      "pid": "zlw8117845427008",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ giờ shop lên đơn giao luôn cho mh ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785899181632",
+        "id": "8117845427008"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-05T03:06:21.726Z",
+      "created_at": "2026-08-05T03:06:21.614Z",
+      "updated_at": "2026-08-05T03:06:21.809Z",
+      "seen": false
+    },
+    {
+      "id": "6a72a8f66359d6676e01a71a",
+      "pid": "zlw8117851430206",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Chưa",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785899254405",
+        "id": "8117851430206"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-05T03:07:34.578Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-08-05T03:07:34.453Z",
+      "updated_at": "2026-08-05T03:07:34.592Z"
+    },
+    {
+      "id": "6a72a8fd6359d6676e01a72b",
+      "pid": "zlw8117851971444",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Đợi thứ 7 đi",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785899260996",
+        "id": "8117851971444"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-05T03:07:41.143Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-08-05T03:07:41.031Z",
+      "updated_at": "2026-08-05T03:07:41.150Z"
+    },
+    {
+      "id": "6a72a902ec7f17717698306c",
+      "pid": "zlw8117852425483",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Thứ 2 mình mới có nhà",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785899266524",
+        "id": "8117852425483"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-05T03:07:46.672Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-08-05T03:07:46.568Z",
+      "updated_at": "2026-08-05T03:07:46.708Z"
+    },
+    {
+      "id": "6a72aadbee79331125112e14",
+      "pid": "zlw8117891290901",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ vâng ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1785899739137",
+        "id": "8117891290901"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-05T03:15:39.225Z",
+      "created_at": "2026-08-05T03:15:39.134Z",
+      "updated_at": "2026-08-05T03:15:39.363Z",
+      "seen": false
+    },
+    {
+      "id": "6a767fe5ee793311251ce5c4",
+      "pid": "zlw8128533739742",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "Đã tạo vận đơn giao hàng thành công. Thông tin nhận hàng:  Quỳnh Linh | sđt 0974216038 | T15-43 Vinhomegrandpark. P Long bình. Hcm\nSố tiền COD: 0đ\nBạn theo dõi tình trạng giao hàng tại link https://pumalifeorder.vercel.app/bill.html?id=15221\nBạn vui lòng kiểm tra lại thông tin đã chính xác chưa, nếu có sai sót báo lại shop ngay.",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1786150885725",
+        "id": "8128533739742"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [
+        {
+          "value": "0974216038",
+          "offset": 76,
+          "length": 10
+        }
+      ],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-08-08T01:01:25.875Z",
+      "created_at": "2026-08-08T01:01:25.715Z",
+      "updated_at": "2026-08-08T01:01:26.105Z",
+      "seen": false
+    },
+    {
+      "id": "6a9803e9294a430c466c5b41",
+      "pid": "zlw8218728781786",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://photo-stal-26.zdn.vn/no/jpg/13c1676f0dead6b48ffb/2aOboQvpQDNhVlcPi6PZiicrRTskHdJtcJiU3E7E.jpg",
+            "thumbnail": "https://photo-stal-26.zdn.vn/no/jpg/13c1676f0dead6b48ffb/2aOboQvpQDNhVlcPi6PZiicrRTskHdJtcJiU3E7E.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1788347368689",
+        "id": "8218728781786"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-02T11:09:29.610Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-09-02T11:09:29.364Z",
+      "updated_at": "2026-09-02T11:09:29.637Z"
+    },
+    {
+      "id": "6a9803f0294a430c466c5b48",
+      "pid": "zlw8218729138285",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Đôi này or lâu k bạn?",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1788347376754",
+        "id": "8218729138285"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-02T11:09:36.915Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-09-02T11:09:36.782Z",
+      "updated_at": "2026-09-02T11:09:36.948Z"
+    },
+    {
+      "id": "6a980631974f6dfc1fde8a9c",
+      "pid": "zlw8218756099413",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "hàng order 20 ngày ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1788347952918",
+        "id": "8218756099413"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-02T11:19:13.021Z",
+      "created_at": "2026-09-02T11:19:12.919Z",
+      "updated_at": "2026-09-02T11:19:13.086Z",
+      "seen": false
+    },
+    {
+      "id": "6a980636aa35edd1634bc005",
+      "pid": "zlw8218756333791",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "có hàng sớm shop báo mh sớm ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1788347957977",
+        "id": "8218756333791"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-02T11:19:18.089Z",
+      "created_at": "2026-09-02T11:19:17.963Z",
+      "updated_at": "2026-09-02T11:19:18.169Z",
+      "seen": false
+    },
+    {
+      "id": "6a9806453efd91cdacf23c8f",
+      "pid": "zlw8218757089242",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Đôi này đế cứng k",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1788347973674",
+        "id": "8218757089242"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-02T11:19:33.820Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-09-02T11:19:33.720Z",
+      "updated_at": "2026-09-02T11:19:33.869Z"
+    },
+    {
+      "id": "6a98065256bcf80639d04a69",
+      "pid": "zlw8218757700054",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Chứ đôi das kia đế cứng quá. Đi đau chân lắm",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1788347986659",
+        "id": "8218757700054"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-02T11:19:46.798Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-09-02T11:19:46.694Z",
+      "updated_at": "2026-09-02T11:19:46.814Z"
+    },
+    {
+      "id": "6a9806bfcae23379413d8559",
+      "pid": "zlw8218762718417",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ drui mẫu das snaker cứng ý",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1788348095608",
+        "id": "8218762718417"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-02T11:21:35.751Z",
+      "created_at": "2026-09-02T11:21:35.592Z",
+      "updated_at": "2026-09-02T11:21:35.844Z",
+      "seen": false
+    },
+    {
+      "id": "6a9806ee89f54f378df80e34",
+      "pid": "zlw8218764936681",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ này đế mềm, chứ k cứng như đôi nike đâu ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1788348142756",
+        "id": "8218764936681"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-02T11:22:22.922Z",
+      "created_at": "2026-09-02T11:22:22.742Z",
+      "updated_at": "2026-09-02T11:22:22.992Z",
+      "seen": false
+    },
+    {
+      "id": "6a980727ef75bc13ce986a78",
+      "pid": "zlw8218767583817",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ asics êm chân hơn ạ, với thiên về vận động thể thao, độ bám tốt",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1788348199877",
+        "id": "8218767583817"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-02T11:23:19.958Z",
+      "created_at": "2026-09-02T11:23:19.865Z",
+      "updated_at": "2026-09-02T11:23:20.017Z",
+      "seen": false
+    },
+    {
+      "id": "6a98e06dc77b68936d998ccb",
+      "pid": "zlw8220474530006",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Vậy cho mình or thêm đôi asics",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1788403821836",
+        "id": "8220474530006"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-03T02:50:22.013Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-09-03T02:50:21.848Z",
+      "updated_at": "2026-09-03T02:50:22.042Z"
+    },
+    {
+      "id": "6a98e071c77b68936d998cd1",
+      "pid": "zlw8220474856008",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Size 39",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1788403825548",
+        "id": "8220474856008"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-03T02:50:25.728Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-09-03T02:50:25.559Z",
+      "updated_at": "2026-09-03T02:50:25.756Z"
+    },
+    {
+      "id": "6a992c4caa35edd1634ebfeb",
+      "pid": "zlw8221748371667",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ cọc giúp shop 500k ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1788423244530",
+        "id": "8221748371667"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-03T08:14:04.569Z",
+      "created_at": "2026-09-03T08:14:04.524Z",
+      "updated_at": "2026-09-03T08:14:04.645Z",
+      "seen": false
+    },
+    {
+      "id": "6a992c56dbdf9002d1be6d2d",
+      "pid": "zlw8221749157847",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://f119-zpc.zdn.vn/jpg/8641122856656373738/97cfa80e2248a216fb59.jpg",
+            "thumbnail": "https://f119-zpc.zdn.vn/jpg/8641122856656373738/97cfa80e2248a216fb59.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1788423254711",
+        "id": "8221749157847"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-03T08:14:14.823Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-09-03T08:14:14.727Z",
+      "updated_at": "2026-09-03T08:14:14.857Z",
+      "seen": false
+    },
+    {
+      "id": "6a992c58e678d741ee0951d7",
+      "pid": "zlw8221749302599",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "NỘI DUNG CHUYỂN KHOẢN Chỉ cần ghi tên và gửi ảnh ủy nhiệm hoặc màn hình e-banking sau khi chuyển tiền là được ạ. Không ghi thêm bất cứ thông tin gì khác.",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1788423256569",
+        "id": "8221749302599"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-03T08:14:16.656Z",
+      "created_at": "2026-09-03T08:14:16.554Z",
+      "updated_at": "2026-09-03T08:14:16.729Z",
+      "seen": false
+    },
+    {
+      "id": "6a99648af36f5b80f852715c",
+      "pid": "zlw8222691704875",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://f20-zpc.zdn.vn/3239570018855124394/ceda7d4c6b0deb53b21c.jpg",
+            "thumbnail": "https://t-f20-zpc.zdn.vn/3239570018855124394/ceda7d4c6b0deb53b21c.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1788437642176",
+        "id": "8222691704875"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-03T12:14:02.386Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-09-03T12:14:02.176Z",
+      "updated_at": "2026-09-03T12:14:02.369Z"
+    },
+    {
+      "id": "6a996c31974f6dfc1fe2bb7d",
+      "pid": "zlw8222806211234",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://f119-zpc.zdn.vn/jpg/2049123670701740258/75fbad4fb60e36506f1f.jpg",
+            "thumbnail": "https://f119-zpc.zdn.vn/jpg/2049123670701740258/75fbad4fb60e36506f1f.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1788439601826",
+        "id": "8222806211234"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-03T12:46:41.861Z",
+      "created_at": "2026-09-03T12:46:41.386Z",
+      "updated_at": "2026-09-03T12:46:41.952Z",
+      "seen": false
+    },
+    {
+      "id": "6a996c7e57c32ac86d96cfb5",
+      "pid": "zlw8222810803898",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ shop lên đơn order giày size 39 1395k ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1788439678450",
+        "id": "8222810803898"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-03T12:47:58.557Z",
+      "created_at": "2026-09-03T12:47:58.432Z",
+      "updated_at": "2026-09-03T12:47:58.640Z",
+      "seen": false
+    },
+    {
+      "id": "6a996f6b89f54f378dfc0ecb",
+      "pid": "zlw8222856656874",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://f120-zpc.zdn.vn/jpg/295046969938371382/193192fe94bf14e14dae.jpg",
+            "thumbnail": "https://f120-zpc.zdn.vn/jpg/295046969938371382/193192fe94bf14e14dae.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1788440427693",
+        "id": "8222856656874"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-03T13:00:27.732Z",
+      "created_at": "2026-09-03T13:00:27.394Z",
+      "updated_at": "2026-09-03T13:00:27.841Z",
+      "seen": false
+    },
+    {
+      "id": "6a996f71b644654788405357",
+      "pid": "zlw8222856973982",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "Đơn hàng pumalife16040 đã được tạo thành công. \nSản phẩm: giày asics gel-contana 1014a371-301 - 39 x1\nHàng về có 2 hình thức thanh toán CK và COD. Nếu thanh toán COD thì + thêm 1.5% cho truy thu thuế.\nThông tin đơn hàng tại đây: https://pumalifeorder.vercel.app/bill.html?id=16040",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1788440432917",
+        "id": "8222856973982"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-03T13:00:33.009Z",
+      "created_at": "2026-09-03T13:00:32.907Z",
+      "updated_at": "2026-09-03T13:00:33.144Z",
+      "seen": false
+    },
+    {
+      "id": "6aa5113377f806742eaf319e",
+      "pid": "zlw8255341268030",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "Đơn hàng pumalife16040 của bạn đã về đến shop ở HCM.\nSố tiền còn lại cần phải thanh toán 920.000đ\nBạn thanh toán ck hay COD ạ.\nNếu thanh toán COD thì + thêm 1.5% cho truy thu thuế. \nhình ảnh hàng về xem tại link: https://pumalifeorder.vercel.app/bill.html?id=16040",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1789202739109",
+        "id": "8255341268030"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-12T08:45:39.186Z",
+      "created_at": "2026-09-12T08:45:39.094Z",
+      "updated_at": "2026-09-12T08:45:39.257Z",
+      "seen": false
+    },
+    {
+      "id": "6aa5114758b0e3bf0e1640b6",
+      "pid": "zlw8255342502796",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://photo-stal-12.zdn.vn/no/jpg/b06a75abb4b269ec30a3/2aOboQy6F9yLRWdX9vwMmFEewYfm7YHgnS6Saerg.jpg",
+            "thumbnail": "https://photo-stal-12.zdn.vn/no/jpg/b06a75abb4b269ec30a3/2aOboQy6F9yLRWdX9vwMmFEewYfm7YHgnS6Saerg.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1789202759284",
+        "id": "8255342502796"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-12T08:45:59.829Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-09-12T08:45:59.691Z",
+      "updated_at": "2026-09-12T08:45:59.851Z",
+      "seen": false
+    },
+    {
+      "id": "6aa5114dbc1c9d2b8fa9241f",
+      "pid": "zlw8255342822908",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://photo-stal-34.zdn.vn/no/jpg/1046ba9b7882a5dcfc93/2aOboQy6FDGscjBi7OMEJLoaQaaxCMig3cMGdl9E.jpg",
+            "thumbnail": "https://photo-stal-34.zdn.vn/no/jpg/1046ba9b7882a5dcfc93/2aOboQy6FDGscjBi7OMEJLoaQaaxCMig3cMGdl9E.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1789202764528",
+        "id": "8255342822908"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-12T08:46:05.034Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-09-12T08:46:04.879Z",
+      "updated_at": "2026-09-12T08:46:05.038Z",
+      "seen": false
+    },
+    {
+      "id": "6aa511c4bc1c9d2b8fa92451",
+      "pid": "zlw8255350101689",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Gửi stk",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1789202884858",
+        "id": "8255350101689"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-12T08:48:04.991Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-09-12T08:48:04.885Z",
+      "updated_at": "2026-09-12T08:48:05.012Z"
+    },
+    {
+      "id": "6aa51593ac18462cfa37d4a1",
+      "pid": "zlw8255408664540",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://f119-zpc.zdn.vn/jpg/7874007826096106805/2a5e8544be133e4d6702.jpg",
+            "thumbnail": "https://f119-zpc.zdn.vn/jpg/7874007826096106805/2a5e8544be133e4d6702.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1789203859120",
+        "id": "8255408664540"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-12T09:04:19.159Z",
+      "created_at": "2026-09-12T09:04:18.624Z",
+      "updated_at": "2026-09-12T09:04:19.215Z",
+      "seen": false
+    },
+    {
+      "id": "6aa51593a061230aaebfec90",
+      "pid": "zlw8255408696322",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "Nội dung chuyển khoản chỉ cần ghi tên người và gửi ảnh chụp màn hình chuyển khoản là được.",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1789203859640",
+        "id": "8255408696322"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-12T09:04:19.737Z",
+      "created_at": "2026-09-12T09:04:19.621Z",
+      "updated_at": "2026-09-12T09:04:19.803Z",
+      "seen": false
+    },
+    {
+      "id": "6aa515a1a24f675efb6899bb",
+      "pid": "zlw8255409529576",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://f20-zpc.zdn.vn/jpg/3573403342687877500/4178c57efe297e772738.jpg",
+            "thumbnail": "https://f20-zpc.zdn.vn/jpg/3573403342687877500/4178c57efe297e772738.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1789203873439",
+        "id": "8255409529576"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-12T09:04:33.477Z",
+      "created_at": "2026-09-12T09:04:33.090Z",
+      "updated_at": "2026-09-12T09:04:33.563Z",
+      "seen": false
+    },
+    {
+      "id": "6aa515a246b2001b0e91f5c0",
+      "pid": "zlw8255409563909",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "Nội dung chuyển khoản chỉ cần ghi tên người và gửi ảnh chụp màn hình chuyển khoản là được.",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1789203874253",
+        "id": "8255409563909"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-12T09:04:34.340Z",
+      "created_at": "2026-09-12T09:04:34.242Z",
+      "updated_at": "2026-09-12T09:04:34.418Z",
+      "seen": false
+    },
+    {
+      "id": "6aa516d6e95d1d09ddd82be2",
+      "pid": "zlw8255427696984",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://f20-zpc.zdn.vn/1020194115402393560/8041b78293d5138b4ac4.jpg",
+            "thumbnail": "https://t-f20-zpc.zdn.vn/1020194115402393560/8041b78293d5138b4ac4.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1789204182518",
+        "id": "8255427696984"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-12T09:09:42.664Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-09-12T09:09:42.518Z",
+      "updated_at": "2026-09-12T09:09:42.692Z"
+    },
+    {
+      "id": "6aa5285ca061230aaec04c09",
+      "pid": "zlw8255684916143",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "author_id": "6984fdd4965d6ffa9fa973dd",
+      "page_pid": "zlw266741166578791076",
+      "message": "Đã tạo vận đơn giao hàng thành công. Thông tin nhận hàng:  Quỳnh Linh | sđt 0974216038 | T15-43 Vinhomegrandpark, Phường Long bình, Hồ Chí Minh\nSố tiền COD: 0đ\nBạn theo dõi tình trạng giao hàng tại link https://pumalifeorder.vercel.app/bill.html?id=16040\nBạn vui lòng kiểm tra lại thông tin đã chính xác chưa, nếu có sai sót báo lại shop ngay.",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1789208668296",
+        "id": "8255684916143"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [
+        {
+          "value": "0974216038",
+          "offset": 76,
+          "length": 10
+        }
+      ],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-12T10:24:28.468Z",
+      "created_at": "2026-09-12T10:24:28.280Z",
+      "updated_at": "2026-09-12T10:24:28.573Z",
+      "seen": false
+    },
+    {
+      "id": "6aa8d1feddb44aae5bdc4ada",
+      "pid": "zlw8265238445183",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Shop ơi",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1789448702235",
+        "id": "8265238445183"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-15T05:05:02.519Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-09-15T05:05:02.275Z",
+      "updated_at": "2026-09-15T05:05:02.547Z"
+    },
+    {
+      "id": "6aa8d20c58b0e3bf0e174eb7",
+      "pid": "zlw8265239336956",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "Kiểm tra cho mình giày đến đâu rồi",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1789448716480",
+        "id": "8265239336956"
+      },
+      "sender_pid": "zlw235378782919624019",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-15T05:05:16.611Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-09-15T05:05:16.494Z",
+      "updated_at": "2026-09-15T05:05:16.633Z"
+    },
+    {
+      "id": "6aa8da0758b0e3bf0e17517d",
+      "pid": "zlw8265351605015",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://photo-stal-24.zdn.vn/no/jpg/050731a96a21b77fee30/2aOboQyl4UCzk46n8dO5KK6fxx6F65QpcydM0xAe.jpg",
+            "thumbnail": "https://photo-stal-24.zdn.vn/no/jpg/050731a96a21b77fee30/2aOboQyl4UCzk46n8dO5KK6fxx6F65QpcydM0xAe.jpg",
+            "title": "",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1789450759518",
+        "id": "8265351605015"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-15T05:39:19.744Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-09-15T05:39:19.631Z",
+      "updated_at": "2026-09-15T05:39:19.761Z",
+      "seen": false
+    },
+    {
+      "id": "6aa8da0cd953a143a57023dd",
+      "pid": "zlw8265351841907",
+      "tid": "zlw235378782919624019",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "dạ tầm mai giao ạ",
+      "zaloweb": {
+        "attachments": [],
+        "cli_msg_id": "1789450764614",
+        "customer_reactions": [
+          {
+            "customer_pid": "zlw235378782919624019",
+            "customer_picture": "https://s120-25-ava-talk.zadn.vn/12/b2c209867ef224fb101b07737ebc1e84.jpg?key=kJeRW2HbP74y0d0Ji2eD6A&time=1782307118",
+            "customer_name": "Quỳnh Linh",
+            "icons": [
+              {
+                "name": "HEART",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "id": "8265351841907"
+      },
+      "sender_pid": "zlw266741166578791076",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-15T05:39:24.768Z",
+      "customer_created_at": "2026-04-25T13:18:38.714Z",
+      "created_at": "2026-09-15T05:39:24.616Z",
+      "updated_at": "2026-09-15T05:59:55.096Z",
+      "seen": false
+    }
+  ]
+}

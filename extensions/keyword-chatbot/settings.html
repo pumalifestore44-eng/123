@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Chatbot Settings</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; color: #222; }
+    label { display: block; margin-top: 16px; font-weight: 600; }
+    input[type=text], textarea, select { width: 100%; padding: 8px; margin-top: 6px; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box; }
+    textarea { min-height: 120px; }
+    button { margin-top: 18px; padding: 10px 20px; background: #0066cc; color: white; border: none; border-radius: 6px; cursor: pointer; }
+    button:hover { background: #004999; }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .wide { grid-column: span 2; }
+    .note { color: #555; font-size: 0.95rem; margin-top: 6px; }
+    .status { margin-top: 14px; color: green; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <h1>Chatbot Settings</h1>
+  <div class="row">
+    <div>
+      <label for="mode">Mode</label>
+      <select id="mode">
+        <option value="smax">SMAX</option>
+        <option value="generic">Generic API</option>
+      </select>
+    </div>
+    <div>
+      <label for="autoReply">Auto-reply</label>
+      <select id="autoReply">
+        <option value="true">Enabled</option>
+        <option value="false">Disabled</option>
+      </select>
+    </div>
+  </div>
+
+  <label for="ruleName">Rule name</label>
+  <input type="text" id="ruleName" placeholder="Tên rule" />
+
+  <label for="triggerType">Trigger type</label>
+  <select id="triggerType">
+    <option value="customer">Tin nhắn khách</option>
+    <option value="shop">Tin nhắn shop</option>
+    <option value="both">Cả hai</option>
+  </select>
+
+  <label for="keywords">Keywords (comma-separated)</label>
+  <textarea id="keywords"></textarea>
+
+  <label for="responseTemplate">Response template</label>
+  <textarea id="responseTemplate"></textarea>
+
+  <div class="row">
+    <div>
+      <label for="pollIntervalMs">Poll interval (ms)</label>
+      <input type="text" id="pollIntervalMs">
+    </div>
+    <div>
+      <label for="messageApiUrl">Messages API URL</label>
+      <input type="text" id="messageApiUrl">
+    </div>
+  </div>
+
+  <div class="row">
+    <div>
+      <label for="sendApiUrl">Send API URL</label>
+      <input type="text" id="sendApiUrl">
+    </div>
+    <div>
+      <label for="authHeader">Authorization header</label>
+      <input type="text" id="authHeader">
+    </div>
+  </div>
+
+  <label for="smaxBizId">SMAX Biz ID</label>
+  <input type="text" id="smaxBizId">
+
+  <label for="smaxPageIds">SMAX Page IDs (comma-separated)</label>
+  <textarea id="smaxPageIds"></textarea>
+
+  <label for="smaxToken">SMAX Token</label>
+  <input type="text" id="smaxToken">
+
+  <label for="useSupabaseToken">Fetch SMAX token from Supabase</label>
+  <select id="useSupabaseToken">
+    <option value="true">Yes</option>
+    <option value="false">No</option>
+  </select>
+
+  <div class="row">
+    <div>
+      <label for="supabaseUrl">Supabase URL</label>
+      <input type="text" id="supabaseUrl">
+    </div>
+    <div>
+      <label for="supabaseKey">Supabase Key</label>
+      <input type="text" id="supabaseKey">
+    </div>
+  </div>
+
+  <button id="saveBtn">Save settings</button>
+  <div class="status" id="status"></div>
+
+  <script>
+    async function fetchSettings() {
+      const resp = await fetch('/settings');
+      const config = await resp.json();
+      document.getElementById('mode').value = config.mode || 'smax';
+      document.getElementById('autoReply').value = config.autoReply ? 'true' : 'false';
+      const rule = (config.rules && config.rules[0]) || {
+        name: '',
+        keywords: [],
+        triggerType: 'customer',
+        response: ''
+      };
+      document.getElementById('ruleName').value = rule.name || '';
+      document.getElementById('triggerType').value = rule.triggerType || 'customer';
+      document.getElementById('keywords').value = rule.keywords ? rule.keywords.join(', ') : '';
+      document.getElementById('responseTemplate').value = rule.response || config.responseTemplate || '';
+      document.getElementById('pollIntervalMs').value = config.pollIntervalMs || 5000;
+      document.getElementById('messageApiUrl').value = config.messagesApiUrl || '';
+      document.getElementById('sendApiUrl').value = config.sendApiUrl || '';
+      document.getElementById('authHeader').value = config.authHeader || '';
+      document.getElementById('smaxBizId').value = config.smaxBizId || '';
+      document.getElementById('smaxPageIds').value = (config.smaxPageIds || []).join(', ');
+      document.getElementById('smaxToken').value = config.smaxToken || '';
+      document.getElementById('useSupabaseToken').value = config.useSupabaseToken === false ? 'false' : 'true';
+      document.getElementById('supabaseUrl').value = config.supabaseUrl || '';
+      document.getElementById('supabaseKey').value = config.supabaseKey || '';
+    }
+
+    async function saveSettings() {
+      const config = {
+        mode: document.getElementById('mode').value,
+        autoReply: document.getElementById('autoReply').value === 'true',
+        rules: [
+          {
+            name: document.getElementById('ruleName').value,
+            keywords: document.getElementById('keywords').value.split(',').map(s => s.trim()).filter(Boolean),
+            triggerType: document.getElementById('triggerType').value,
+            response: document.getElementById('responseTemplate').value,
+            active: true
+          }
+        ],
+        pollIntervalMs: parseInt(document.getElementById('pollIntervalMs').value, 10) || 5000,
+        messagesApiUrl: document.getElementById('messageApiUrl').value,
+        sendApiUrl: document.getElementById('sendApiUrl').value,
+        authHeader: document.getElementById('authHeader').value,
+        smaxBizId: document.getElementById('smaxBizId').value,
+        smaxPageIds: document.getElementById('smaxPageIds').value.split(',').map(s => s.trim()).filter(Boolean),
+        smaxToken: document.getElementById('smaxToken').value,
+        useSupabaseToken: document.getElementById('useSupabaseToken').value === 'true',
+        supabaseUrl: document.getElementById('supabaseUrl').value,
+        supabaseKey: document.getElementById('supabaseKey').value
+      };
+      const resp = await fetch('/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(config)
+      });
+      const result = await resp.json();
+      document.getElementById('status').textContent = result.success ? 'Saved successfully' : 'Save failed: ' + result.error;
+    }
+
+    document.getElementById('saveBtn').addEventListener('click', saveSettings);
+    fetchSettings();
+  </script>
+</body>
+</html>

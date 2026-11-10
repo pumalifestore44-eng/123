@@ -1,0 +1,46 @@
+        function getJtApiUrl(path, queryParams = {}) {
+            const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+            const queryString = new URLSearchParams(queryParams).toString();
+            const queryPart = queryString ? `?${queryString}` : '';
+            if (isLocalhost) {
+                return `/api-jt${path}${queryPart}`;
+            }
+            return `/api/jt-proxy?path=${encodeURIComponent(path)}${queryString ? `&${queryString}` : ''}`;
+        }
+
+        async function fetchJtTracking(waybillId) {
+            if (!waybillId) return null;
+            const authToken = localStorage.getItem('jt_auth_token');
+            const cookie = localStorage.getItem('jt_cookie');
+            try {
+                const url = getJtApiUrl('/api/track', { waybillId });
+                const res = await fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'Accept': 'application/json, text/plain, */*',
+                        'authToken': authToken || '',
+                        'langType': 'VN',
+                        'routeName': 'OrderTable',
+                        'cookie': cookie || ''
+                    }
+                });
+                if (!res.ok) return null;
+                const json = await res.json();
+                return json;
+            } catch (err) {
+                console.error('❌ fetchJtTracking failed:', err);
+                return null;
+            }
+        }
+
+        // Bind configuration to window scope so geo_logic.js can access them
+        window.PANCAKE_API_KEY = PANCAKE_API_KEY;
+        window.PANCAKE_SHOP_ID = PANCAKE_SHOP_ID;
+
+        window.compileFullAddress = async function(order) {
+            if (!order) return '';
+            
+            // Set access token to window so geo_logic can use the most up to date credentials
+            window.PANCAKE_ACCESS_TOKEN = getAccessToken();
+
+            // 1. Check shipping_address block

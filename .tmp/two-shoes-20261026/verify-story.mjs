@@ -1,0 +1,5 @@
+import fs from 'node:fs/promises';
+import {supabase,supabaseLegacy} from '../../../autoclick/web-app/src/lib/supabase.js';
+const m=JSON.parse(await fs.readFile(new URL('./story-manifest.json',import.meta.url),'utf8'));const checks=[];
+for(const [database,client,ids] of [['main',supabase,[13021,13022]],['legacy',supabaseLegacy,[10374,10375]]]){const {data,error}=await client.from('posts').select('id,platforms,content,image_url,scheduled_at,status').in('id',ids);if(error)throw error;if(data.length!==2)throw Error('Missing Story');for(const r of data){const p=m.posts.find(p=>p.platforms===r.platforms);const verified=r.content===p.content&&r.image_url===p.imageUrls[0]&&new Date(r.scheduled_at).getTime()===new Date(p.scheduled_at).getTime();if(!verified)throw Error('Story mismatch');checks.push({database,id:r.id,platform:r.platforms,status:r.status,scheduled_at:r.scheduled_at,verified});}}
+console.log(JSON.stringify(checks,null,2));await fs.writeFile(new URL('./story-verification.json',import.meta.url),JSON.stringify(checks,null,2));

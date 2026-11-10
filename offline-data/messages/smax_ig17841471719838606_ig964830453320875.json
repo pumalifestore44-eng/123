@@ -1,0 +1,266 @@
+{
+  "key": "smax::ig17841471719838606::ig964830453320875",
+  "savedAt": "2026-09-17T15:59:51.582Z",
+  "thread": {
+    "__v": 0,
+    "_created_at": "2026-09-15T03:16:28.324Z",
+    "_synced_at": "2026-09-15T03:41:45.346Z",
+    "created_at": "2026-09-15T03:16:28.326Z",
+    "customer_pid": "ig964830453320875",
+    "customer_pids": [
+      "ig964830453320875"
+    ],
+    "emails": [],
+    "es_id": "ig17841471719838606_ig964830453320875",
+    "id": "6aa8b88c28c49447e5d00934",
+    "instagram": {
+      "id": "964830453320875",
+      "post_ids": []
+    },
+    "internal": {
+      "message": null,
+      "users": []
+    },
+    "last_message_at": "2026-09-15T03:30:18.801Z",
+    "last_message_by_customer_at": "2026-09-15T03:22:16.708Z",
+    "last_message_id": "6aa8bbccbbfdb5e7df039483",
+    "last_seen_at": "2026-09-15T03:41:42.865Z",
+    "message": "850k ạ",
+    "page_pid": "ig17841471719838606",
+    "phones": [],
+    "platform": "instagram",
+    "read": true,
+    "replied": true,
+    "replied_by": {},
+    "reply_count": 0,
+    "root_message_pids": [],
+    "tag_aliases": [],
+    "tid": "ig964830453320875",
+    "type": "instagram_message",
+    "updated_at": "2026-09-15T03:41:44.425Z",
+    "viewing": {},
+    "can_reply_message": false,
+    "customer": {
+      "id": "6aa8b88c99c9441f67ce9fc8",
+      "pid": "ig964830453320875",
+      "subscribed": true,
+      "page_pid": "ig17841471719838606",
+      "thread_tid": "ig964830453320875",
+      "biz_alias": "tuant2lqd",
+      "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/ig17841471719838606?tid=ig964830453320875",
+      "platform": "instagram",
+      "name": "LyLy",
+      "profile_name": "LyLy",
+      "picture": "https://cdn-vn.smax.in/s04/smaxai/pages/ig17841471719838606/customers/ig964830453320875.jpg?expire=1789689600000&signature=a2863c0c87693aa29ac3da5432533536d11d33cfd50f6dd7393922ed828e2eab",
+      "notes": [],
+      "phones": [],
+      "emails": [],
+      "source": "inbox",
+      "attrs": [],
+      "instagram": {
+        "id": "964830453320875",
+        "name": "LyLy",
+        "username": "taolavorkive",
+        "page_id": "17841471719838606",
+        "page_name": "Pumlife Order",
+        "picture": "https://instagram.fdad5-1.fna.fbcdn.net/v/t51.82787-19/745045859_18119791750837308_2625378692128912422_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=107&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=wOHdDMV-TPMQ7kNvwGCxZ5U&_nc_oc=AdpLCzmK8goY0UHacgmOIA4p0KZN6qrslv4uaYvpYmD1y0B9jyoczP6VWu0bFx6lZJE&_nc_zt=24&_nc_ht=instagram.fdad5-1.fna&edm=ALmAK4EEAAAA&_nc_gid=cVuXDtMcvCVaM93G85gRTQ&oh=00_AQJ3GpvRawos9dwH0GnPJsWaYQEy4j0s11QXioPVZVPNzg&oe=6AAE7DDB",
+        "topics": []
+      },
+      "broadcast_ids": [],
+      "in_sequences": [],
+      "out_sequences": [],
+      "tags": [],
+      "last_inbox_updated": "2026-09-15T03:22:16.708Z",
+      "last_message_at": "2026-09-15T03:30:18.801Z",
+      "last_content_by_user": "https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1460615329270828&signature=Ab2lVYUmdpN3tSaH_C4jEWe2JS0-m3J5rgmDVSwMXupwGGrlw4D7A-kmqxnquiJt5RsbV3zcWNvBhO23_kaisv_9lXsT9M24oxib-LAOr2P6dgy8WBqGpxgtTGsCMFvPRMEb99DxHlusSTAgvigHBB_jC2ctdtfl8ci6imruImjt9KLwPt6zpzDHPsxqME1FWeBmwCwJBkhkhnvakIy5M-hPTBzBLg",
+      "last_content_by_page": "850k ạ",
+      "interaction": {
+        "first": "2026-09-15T03:16:24.373Z",
+        "last": "2026-09-15T03:22:16.708Z"
+      },
+      "users": [],
+      "follow_ups": [],
+      "scores": [],
+      "logs": [],
+      "updated_at": "2026-09-15T04:00:47.532Z",
+      "created_at": "2026-09-15T03:16:28.293Z"
+    },
+    "customers": [
+      {
+        "id": "6aa8b88c99c9441f67ce9fc8",
+        "pid": "ig964830453320875",
+        "subscribed": true,
+        "page_pid": "ig17841471719838606",
+        "thread_tid": "ig964830453320875",
+        "biz_alias": "tuant2lqd",
+        "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/ig17841471719838606?tid=ig964830453320875",
+        "platform": "instagram",
+        "name": "LyLy",
+        "profile_name": "LyLy",
+        "picture": "https://cdn-vn.smax.in/s04/smaxai/pages/ig17841471719838606/customers/ig964830453320875.jpg?expire=1789689600000&signature=a2863c0c87693aa29ac3da5432533536d11d33cfd50f6dd7393922ed828e2eab",
+        "notes": [],
+        "phones": [],
+        "emails": [],
+        "source": "inbox",
+        "attrs": [],
+        "instagram": {
+          "id": "964830453320875",
+          "name": "LyLy",
+          "username": "taolavorkive",
+          "page_id": "17841471719838606",
+          "page_name": "Pumlife Order",
+          "picture": "https://instagram.fdad5-1.fna.fbcdn.net/v/t51.82787-19/745045859_18119791750837308_2625378692128912422_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=107&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=wOHdDMV-TPMQ7kNvwGCxZ5U&_nc_oc=AdpLCzmK8goY0UHacgmOIA4p0KZN6qrslv4uaYvpYmD1y0B9jyoczP6VWu0bFx6lZJE&_nc_zt=24&_nc_ht=instagram.fdad5-1.fna&edm=ALmAK4EEAAAA&_nc_gid=cVuXDtMcvCVaM93G85gRTQ&oh=00_AQJ3GpvRawos9dwH0GnPJsWaYQEy4j0s11QXioPVZVPNzg&oe=6AAE7DDB",
+          "topics": []
+        },
+        "broadcast_ids": [],
+        "in_sequences": [],
+        "out_sequences": [],
+        "tags": [],
+        "last_inbox_updated": "2026-09-15T03:22:16.708Z",
+        "last_message_at": "2026-09-15T03:30:18.801Z",
+        "last_content_by_user": "https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1460615329270828&signature=Ab2lVYUmdpN3tSaH_C4jEWe2JS0-m3J5rgmDVSwMXupwGGrlw4D7A-kmqxnquiJt5RsbV3zcWNvBhO23_kaisv_9lXsT9M24oxib-LAOr2P6dgy8WBqGpxgtTGsCMFvPRMEb99DxHlusSTAgvigHBB_jC2ctdtfl8ci6imruImjt9KLwPt6zpzDHPsxqME1FWeBmwCwJBkhkhnvakIy5M-hPTBzBLg",
+        "last_content_by_page": "850k ạ",
+        "interaction": {
+          "first": "2026-09-15T03:16:24.373Z",
+          "last": "2026-09-15T03:22:16.708Z"
+        },
+        "users": [],
+        "follow_ups": [],
+        "scores": [],
+        "logs": [],
+        "updated_at": "2026-09-15T04:00:47.532Z",
+        "created_at": "2026-09-15T03:16:28.293Z"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "id": "6aa8b88cbbfdb5e7df0393d5",
+      "pid": "igaWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTI3MzI1MDg0MzEyMjM2MzozMzAwOTM4MjAwOTg0NDc2NDE0NjQxODM3MDIxMTc0MTY5NgZDZD",
+      "tid": "ig964830453320875",
+      "platform": "instagram",
+      "page_pid": "ig17841471719838606",
+      "message": "shop có order nón mlb k ạ",
+      "instagram": {
+        "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTI3MzI1MDg0MzEyMjM2MzozMzAwOTM4MjAwOTg0NDc2NDE0NjQxODM3MDIxMTc0MTY5NgZDZD",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "964830453320875"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "ig964830453320875",
+      "type": "instagram_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-15T03:16:28.373Z",
+      "customer_created_at": "2026-09-15T03:16:28.293Z",
+      "created_at": "2026-09-15T03:16:24.373Z",
+      "updated_at": "2026-09-15T03:16:24.373Z"
+    },
+    {
+      "id": "6aa8b94abbfdb5e7df0393f7",
+      "pid": "igaWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTI3MzI1MDg0MzEyMjM2MzozMzAwOTM4NTU0NzE3NzI0NDQ5NzMzMzM5ODg0NDQ3MzM0NAZDZD",
+      "tid": "ig964830453320875",
+      "platform": "instagram",
+      "page_pid": "ig17841471719838606",
+      "message": "Mh có mẫu gửi shop check ạ",
+      "instagram": {
+        "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTI3MzI1MDg0MzEyMjM2MzozMzAwOTM4NTU0NzE3NzI0NDQ5NzMzMzM5ODg0NDQ3MzM0NAZDZD",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "17841471719838606"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "ig17841471719838606",
+      "type": "instagram_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-15T03:19:38.274Z",
+      "customer_created_at": "2026-09-15T03:16:28.293Z",
+      "created_at": "2026-09-15T03:19:36.133Z",
+      "updated_at": "2026-09-15T03:19:36.133Z",
+      "seen": true
+    },
+    {
+      "id": "6aa8b9ebbbfdb5e7df03941b",
+      "pid": "igaWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTI3MzI1MDg0MzEyMjM2MzozMzAwOTM4ODUwOTI3MTY0MTE4ODc3NDQ4MjI2Nzg2NTA4OAZDZD",
+      "tid": "ig964830453320875",
+      "platform": "instagram",
+      "page_pid": "ig17841471719838606",
+      "instagram": {
+        "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTI3MzI1MDg0MzEyMjM2MzozMzAwOTM4ODUwOTI3MTY0MTE4ODc3NDQ4MjI2Nzg2NTA4OAZDZD",
+        "attachments": [
+          {
+            "name": "image",
+            "mime_type": "image",
+            "url": "https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1460615329270828&signature=Ab2lVYUmdpN3tSaH_C4jEWe2JS0-m3J5rgmDVSwMXupwGGrlw4D7A-kmqxnquiJt5RsbV3zcWNvBhO23_kaisv_9lXsT9M24oxib-LAOr2P6dgy8WBqGpxgtTGsCMFvPRMEb99DxHlusSTAgvigHBB_jC2ctdtfl8ci6imruImjt9KLwPt6zpzDHPsxqME1FWeBmwCwJBkhkhnvakIy5M-hPTBzBLg",
+            "url_preview": "https://lookaside.fbsbx.com/ig_messaging_cdn/?asset_id=1460615329270828&signature=Ab2lVYUmdpN3tSaH_C4jEWe2JS0-m3J5rgmDVSwMXupwGGrlw4D7A-kmqxnquiJt5RsbV3zcWNvBhO23_kaisv_9lXsT9M24oxib-LAOr2P6dgy8WBqGpxgtTGsCMFvPRMEb99DxHlusSTAgvigHBB_jC2ctdtfl8ci6imruImjt9KLwPt6zpzDHPsxqME1FWeBmwCwJBkhkhnvakIy5M-hPTBzBLg"
+          }
+        ],
+        "cards": [],
+        "from": {
+          "id": "964830453320875"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "ig964830453320875",
+      "type": "instagram_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-15T03:22:19.429Z",
+      "customer_created_at": "2026-09-15T03:16:28.293Z",
+      "created_at": "2026-09-15T03:22:16.708Z",
+      "updated_at": "2026-09-15T03:22:16.708Z"
+    },
+    {
+      "id": "6aa8bbccbbfdb5e7df039483",
+      "pid": "igaWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTI3MzI1MDg0MzEyMjM2MzozMzAwOTM5NzQwMjMxNTA2NDkwNDAyMjI5MzA0NzQxMDY4OAZDZD",
+      "tid": "ig964830453320875",
+      "platform": "instagram",
+      "page_pid": "ig17841471719838606",
+      "message": "850k ạ",
+      "instagram": {
+        "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTI3MzI1MDg0MzEyMjM2MzozMzAwOTM5NzQwMjMxNTA2NDkwNDAyMjI5MzA0NzQxMDY4OAZDZD",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "17841471719838606"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "ig17841471719838606",
+      "type": "instagram_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-15T03:30:20.645Z",
+      "customer_created_at": "2026-09-15T03:16:28.293Z",
+      "created_at": "2026-09-15T03:30:18.801Z",
+      "updated_at": "2026-09-15T03:30:18.801Z",
+      "seen": true
+    }
+  ]
+}

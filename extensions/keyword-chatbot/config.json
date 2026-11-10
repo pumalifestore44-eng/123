@@ -1,0 +1,30 @@
+{
+  "mode": "smax",
+  "autoReply": true,
+  "rules": [
+    {
+      "name": "Khách hàng trả hàng",
+      "keywords": [
+        "chốt đơn"
+      ],
+      "triggerType": "shop",
+      "response": "cho shop địa chỉ nhận hàng và số điện thoại shop note đơn ạ",
+      "active": true
+    }
+  ],
+  "pollIntervalMs": 5000,
+  "messagesApiUrl": "",
+  "sendApiUrl": "",
+  "authHeader": "",
+  "smaxBizId": "tuant2lqd",
+  "smaxPageIds": [
+    "fb1574281086218015",
+    "ig17841471719838606",
+    "ttw6622749003845042177",
+    "zlw266741166578791076"
+  ],
+  "smaxToken": "",
+  "useSupabaseToken": true,
+  "supabaseUrl": "https://nwyxvnehuiyenjuxihro.supabase.co",
+  "supabaseKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im53eXh2bmVodWl5ZW5qdXhpaHJvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU5MjI0ODcsImV4cCI6MjEwMTQ5ODQ4N30.mkq0XJjYlutwgFWDVNjAbDTUI1UX2e7M9_9b8KSXrw0"
+}

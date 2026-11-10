@@ -1,0 +1,230 @@
+{
+  "key": "smax::ig17841471719838606::ig2129069997704729",
+  "savedAt": "2026-09-17T15:59:28.915Z",
+  "thread": {
+    "__v": 0,
+    "_created_at": "2026-09-15T18:10:32.692Z",
+    "_synced_at": "2026-09-16T02:59:02.116Z",
+    "created_at": "2026-09-15T18:10:32.694Z",
+    "customer_pid": "ig2129069997704729",
+    "customer_pids": [
+      "ig2129069997704729"
+    ],
+    "emails": [],
+    "es_id": "ig17841471719838606_ig2129069997704729",
+    "id": "6aa98a18537dd753b8d1925f",
+    "instagram": {
+      "id": "2129069997704729",
+      "post_ids": []
+    },
+    "internal": {
+      "message": null,
+      "users": []
+    },
+    "last_message_at": "2026-09-16T00:24:54.411Z",
+    "last_message_by_customer_at": "2026-09-15T18:10:27.553Z",
+    "last_message_id": "6aa9e1d8bbfdb5e7df03d593",
+    "last_seen_at": "2026-09-16T02:58:58.419Z",
+    "message": "Mh bth đi size mấy ý",
+    "page_pid": "ig17841471719838606",
+    "phones": [],
+    "platform": "instagram",
+    "read": true,
+    "replied": true,
+    "replied_by": {},
+    "reply_count": 0,
+    "root_message_pids": [],
+    "tag_aliases": [],
+    "tid": "ig2129069997704729",
+    "type": "instagram_message",
+    "updated_at": "2026-09-16T02:59:00.837Z",
+    "viewing": {},
+    "can_reply_message": false,
+    "customer": {
+      "id": "6aa98a181a7d91310a2e1d79",
+      "pid": "ig2129069997704729",
+      "subscribed": true,
+      "page_pid": "ig17841471719838606",
+      "thread_tid": "ig2129069997704729",
+      "biz_alias": "tuant2lqd",
+      "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/ig17841471719838606?tid=ig2129069997704729",
+      "platform": "instagram",
+      "name": "one",
+      "profile_name": "one",
+      "picture": "https://cdn-vn.smax.in/s04/smaxai/pages/ig17841471719838606/customers/ig2129069997704729.jpg?expire=1789689600000&signature=749008978e6150d6f53b047a1bde8a9572e5034cf6fb2ec518907631cdb568d6",
+      "notes": [],
+      "phones": [],
+      "emails": [],
+      "source": "inbox",
+      "attrs": [],
+      "instagram": {
+        "id": "2129069997704729",
+        "name": "one",
+        "username": "oooone_o",
+        "page_id": "17841471719838606",
+        "page_name": "Pumlife Order",
+        "picture": "https://instagram.fdad5-1.fna.fbcdn.net/v/t51.82787-19/755331931_18401717146093537_91894512289418042_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=111&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4zMjAuQzMifQ%3D%3D&_nc_ohc=i3VwUwO1a_0Q7kNvwFMoC_Y&_nc_oc=Adrty9quld_6ygB95IyXbN-hJtY0C2zF--RKp95OHo9Uo2L5COIapjR_B0OC3CFFYDM&_nc_zt=24&_nc_ht=instagram.fdad5-1.fna&edm=ALmAK4EEAAAA&_nc_gid=D2DvTR-qYPH-hyXgjDS15w&oh=00_AQIOkS75s-jqtw0X_rmRN_mRNmOiK4EYPzs8eCABGRvwaQ&oe=6AAF4819",
+        "topics": []
+      },
+      "broadcast_ids": [],
+      "in_sequences": [],
+      "out_sequences": [],
+      "tags": [],
+      "last_inbox_updated": "2026-09-15T18:10:27.553Z",
+      "last_message_at": "2026-09-16T00:24:54.411Z",
+      "last_content_by_user": "NB 740 màu đen bao nhiêu ạ",
+      "last_content_by_page": "Mh bth đi size mấy ý",
+      "interaction": {
+        "first": "2026-09-15T18:10:27.553Z",
+        "last": "2026-09-15T18:10:27.553Z"
+      },
+      "users": [],
+      "follow_ups": [],
+      "scores": [],
+      "logs": [],
+      "updated_at": "2026-09-16T00:24:56.521Z",
+      "created_at": "2026-09-15T18:10:32.658Z"
+    },
+    "customers": [
+      {
+        "id": "6aa98a181a7d91310a2e1d79",
+        "pid": "ig2129069997704729",
+        "subscribed": true,
+        "page_pid": "ig17841471719838606",
+        "thread_tid": "ig2129069997704729",
+        "biz_alias": "tuant2lqd",
+        "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/ig17841471719838606?tid=ig2129069997704729",
+        "platform": "instagram",
+        "name": "one",
+        "profile_name": "one",
+        "picture": "https://cdn-vn.smax.in/s04/smaxai/pages/ig17841471719838606/customers/ig2129069997704729.jpg?expire=1789689600000&signature=749008978e6150d6f53b047a1bde8a9572e5034cf6fb2ec518907631cdb568d6",
+        "notes": [],
+        "phones": [],
+        "emails": [],
+        "source": "inbox",
+        "attrs": [],
+        "instagram": {
+          "id": "2129069997704729",
+          "name": "one",
+          "username": "oooone_o",
+          "page_id": "17841471719838606",
+          "page_name": "Pumlife Order",
+          "picture": "https://instagram.fdad5-1.fna.fbcdn.net/v/t51.82787-19/755331931_18401717146093537_91894512289418042_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=111&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4zMjAuQzMifQ%3D%3D&_nc_ohc=i3VwUwO1a_0Q7kNvwFMoC_Y&_nc_oc=Adrty9quld_6ygB95IyXbN-hJtY0C2zF--RKp95OHo9Uo2L5COIapjR_B0OC3CFFYDM&_nc_zt=24&_nc_ht=instagram.fdad5-1.fna&edm=ALmAK4EEAAAA&_nc_gid=D2DvTR-qYPH-hyXgjDS15w&oh=00_AQIOkS75s-jqtw0X_rmRN_mRNmOiK4EYPzs8eCABGRvwaQ&oe=6AAF4819",
+          "topics": []
+        },
+        "broadcast_ids": [],
+        "in_sequences": [],
+        "out_sequences": [],
+        "tags": [],
+        "last_inbox_updated": "2026-09-15T18:10:27.553Z",
+        "last_message_at": "2026-09-16T00:24:54.411Z",
+        "last_content_by_user": "NB 740 màu đen bao nhiêu ạ",
+        "last_content_by_page": "Mh bth đi size mấy ý",
+        "interaction": {
+          "first": "2026-09-15T18:10:27.553Z",
+          "last": "2026-09-15T18:10:27.553Z"
+        },
+        "users": [],
+        "follow_ups": [],
+        "scores": [],
+        "logs": [],
+        "updated_at": "2026-09-16T00:24:56.521Z",
+        "created_at": "2026-09-15T18:10:32.658Z"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "id": "6aa98a18bbfdb5e7df03cdea",
+      "pid": "igaWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTUyODg5OTYwMDcwMDgyMjozMzAxMDM3MTU1MTg0NzM0MTQ3ODQzNDczODkxODEyOTY2NAZDZD",
+      "tid": "ig2129069997704729",
+      "platform": "instagram",
+      "page_pid": "ig17841471719838606",
+      "message": "NB 740 màu đen bao nhiêu ạ",
+      "instagram": {
+        "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTUyODg5OTYwMDcwMDgyMjozMzAxMDM3MTU1MTg0NzM0MTQ3ODQzNDczODkxODEyOTY2NAZDZD",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "2129069997704729"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "ig2129069997704729",
+      "type": "instagram_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-15T18:10:32.695Z",
+      "customer_created_at": "2026-09-15T18:10:32.658Z",
+      "created_at": "2026-09-15T18:10:27.553Z",
+      "updated_at": "2026-09-15T18:10:27.553Z"
+    },
+    {
+      "id": "6aa9e1c7bbfdb5e7df03d592",
+      "pid": "igaWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTUyODg5OTYwMDcwMDgyMjozMzAxMDc4NTY2OTc5Njk5NTM3NzM5MzM5MjY4OTM0ODYwOAZDZD",
+      "tid": "ig2129069997704729",
+      "platform": "instagram",
+      "page_pid": "ig17841471719838606",
+      "message": "Dạ mh có hình k ạ, shop check cho mh ạ",
+      "instagram": {
+        "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTUyODg5OTYwMDcwMDgyMjozMzAxMDc4NTY2OTc5Njk5NTM3NzM5MzM5MjY4OTM0ODYwOAZDZD",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "17841471719838606"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "ig17841471719838606",
+      "type": "instagram_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-16T00:24:39.190Z",
+      "customer_created_at": "2026-09-15T18:10:32.658Z",
+      "created_at": "2026-09-16T00:24:36.932Z",
+      "updated_at": "2026-09-16T00:24:36.932Z",
+      "seen": true
+    },
+    {
+      "id": "6aa9e1d8bbfdb5e7df03d593",
+      "pid": "igaWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTUyODg5OTYwMDcwMDgyMjozMzAxMDc4NTk5MjIyMTA2ODAwMDg3MjQwNDc4NTAzNzMxMgZDZD",
+      "tid": "ig2129069997704729",
+      "platform": "instagram",
+      "page_pid": "ig17841471719838606",
+      "message": "Mh bth đi size mấy ý",
+      "instagram": {
+        "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDcxNzE5ODM4NjA2OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTUyODg5OTYwMDcwMDgyMjozMzAxMDc4NTk5MjIyMTA2ODAwMDg3MjQwNDc4NTAzNzMxMgZDZD",
+        "attachments": [],
+        "cards": [],
+        "from": {
+          "id": "17841471719838606"
+        },
+        "quick_replies": [],
+        "shares": [],
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "ig17841471719838606",
+      "type": "instagram_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-16T00:24:56.521Z",
+      "customer_created_at": "2026-09-15T18:10:32.658Z",
+      "created_at": "2026-09-16T00:24:54.411Z",
+      "updated_at": "2026-09-16T00:24:54.411Z",
+      "seen": true
+    }
+  ]
+}

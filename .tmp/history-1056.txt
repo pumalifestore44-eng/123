@@ -1,0 +1,1 @@
+text(await tools.exec_command({cmd:"Get-Content index.html | Select-Object -Skip 1580 -First 123; Get-Content app.js | Select-Object -Skip 6480 -First 52; Get-Content app.js | Select-Object -Skip 6660 -First 88; rg -n 'jtWaybillPrint|75mm|105mm|74mm' style.css index.html app.js | Select-Object -Last 40","max_output_tokens":3800}));

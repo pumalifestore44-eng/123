@@ -1,0 +1,34 @@
+[
+  {
+    "database": "main",
+    "id": 13021,
+    "platform": "story1",
+    "status": "pending",
+    "scheduled_at": "2026-10-26T01:00:00+00:00",
+    "verified": true
+  },
+  {
+    "database": "main",
+    "id": 13022,
+    "platform": "story2",
+    "status": "pending",
+    "scheduled_at": "2026-10-26T01:00:00+00:00",
+    "verified": true
+  },
+  {
+    "database": "legacy",
+    "id": 10374,
+    "platform": "story1",
+    "status": "pending",
+    "scheduled_at": "2026-10-26T01:00:00+00:00",
+    "verified": true
+  },
+  {
+    "database": "legacy",
+    "id": 10375,
+    "platform": "story2",
+    "status": "pending",
+    "scheduled_at": "2026-10-26T01:00:00+00:00",
+    "verified": true
+  }
+]

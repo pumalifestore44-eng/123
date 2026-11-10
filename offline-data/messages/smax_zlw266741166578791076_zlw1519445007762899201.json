@@ -1,0 +1,172 @@
+{
+  "key": "smax::zlw266741166578791076::zlw1519445007762899201",
+  "savedAt": "2026-09-17T15:59:53.140Z",
+  "thread": {
+    "__v": 0,
+    "_created_at": "2026-09-15T02:02:47.166Z",
+    "_synced_at": "2026-09-15T02:02:48.894Z",
+    "created_at": "2026-09-15T02:02:47.167Z",
+    "customer_pid": "zlw1519445007762899201",
+    "customer_pids": [
+      "zlw1519445007762899201"
+    ],
+    "emails": [],
+    "es_id": "zlw266741166578791076_zlw1519445007762899201",
+    "id": "6aa8a747fe4600fde8cd31ca",
+    "internal": {
+      "message": null,
+      "users": []
+    },
+    "last_message_at": "2026-09-15T02:02:47.082Z",
+    "last_message_by_customer_at": "2026-09-15T02:02:47.082Z",
+    "last_message_id": "6aa8a747a301d5341a88e722",
+    "message": "attach",
+    "page_pid": "zlw266741166578791076",
+    "phones": [],
+    "platform": "zaloweb",
+    "read": false,
+    "replied": false,
+    "reply_count": 1,
+    "root_message_pids": [],
+    "tag_aliases": [],
+    "tid": "zlw1519445007762899201",
+    "type": "zaloweb_message",
+    "updated_at": "2026-09-15T02:02:47.227Z",
+    "zaloweb": {
+      "chat_type": "private",
+      "id": "1519445007762899201"
+    },
+    "viewing": {},
+    "can_reply_message": true,
+    "customer": {
+      "id": "686cae01fbb67001e59f7129",
+      "pid": "zlw1519445007762899201",
+      "subscribed": true,
+      "page_pid": "zlw266741166578791076",
+      "thread_tid": "zlw1519445007762899201",
+      "biz_alias": "tuant2lqd",
+      "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/zlw266741166578791076?tid=zlw1519445007762899201",
+      "platform": "zaloweb",
+      "name": "Dinhlan",
+      "profile_name": "Dinhlan",
+      "gender": "female",
+      "picture": "https://s75-ava-talk.zadn.vn/3/d/8/7/117/75/b6b7b8ef0f66bf8ee185bdaf0387ba70.jpg",
+      "notes": [],
+      "phones": [],
+      "emails": [],
+      "timezone": "7",
+      "source": "crawl",
+      "attrs": [],
+      "zaloweb": {
+        "zaloweb_id": "266741166578791076",
+        "zaloweb_name": "Pumalife",
+        "id": "1519445007762899201",
+        "global_id": "N6IBESG5C5UJU1UJB3KGQ9GLERQEPI80",
+        "is_friend": true,
+        "name": "Dinhlan",
+        "picture": "https://s75-ava-talk.zadn.vn/3/d/8/7/117/75/b6b7b8ef0f66bf8ee185bdaf0387ba70.jpg",
+        "member_ids": [],
+        "chat_type": "private"
+      },
+      "broadcast_ids": [],
+      "in_sequences": [],
+      "out_sequences": [],
+      "tags": [],
+      "last_inbox_updated": "2026-09-15T02:02:47.082Z",
+      "last_message_at": "2026-09-15T02:02:47.082Z",
+      "last_content_by_user": "15/09 Sinh nhật của Dinhlan\nHãy gửi lời chúc tốt đẹp!\nhttps://res-zalo.zadn.vn/upload/media/2020/2/7/2x_ecardsn_1581058405234_716426.png",
+      "interaction": {
+        "first": "2025-07-08T05:34:57.934Z",
+        "last": "2026-09-15T02:02:47.082Z"
+      },
+      "users": [],
+      "follow_ups": [],
+      "scores": [],
+      "logs": [],
+      "updated_at": "2026-09-15T02:02:47.257Z",
+      "created_at": "2025-07-08T05:34:57.922Z"
+    },
+    "customers": [
+      {
+        "id": "686cae01fbb67001e59f7129",
+        "pid": "zlw1519445007762899201",
+        "subscribed": true,
+        "page_pid": "zlw266741166578791076",
+        "thread_tid": "zlw1519445007762899201",
+        "biz_alias": "tuant2lqd",
+        "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/zlw266741166578791076?tid=zlw1519445007762899201",
+        "platform": "zaloweb",
+        "name": "Dinhlan",
+        "profile_name": "Dinhlan",
+        "gender": "female",
+        "picture": "https://s75-ava-talk.zadn.vn/3/d/8/7/117/75/b6b7b8ef0f66bf8ee185bdaf0387ba70.jpg",
+        "notes": [],
+        "phones": [],
+        "emails": [],
+        "timezone": "7",
+        "source": "crawl",
+        "attrs": [],
+        "zaloweb": {
+          "zaloweb_id": "266741166578791076",
+          "zaloweb_name": "Pumalife",
+          "id": "1519445007762899201",
+          "global_id": "N6IBESG5C5UJU1UJB3KGQ9GLERQEPI80",
+          "is_friend": true,
+          "name": "Dinhlan",
+          "picture": "https://s75-ava-talk.zadn.vn/3/d/8/7/117/75/b6b7b8ef0f66bf8ee185bdaf0387ba70.jpg",
+          "member_ids": [],
+          "chat_type": "private"
+        },
+        "broadcast_ids": [],
+        "in_sequences": [],
+        "out_sequences": [],
+        "tags": [],
+        "last_inbox_updated": "2026-09-15T02:02:47.082Z",
+        "last_message_at": "2026-09-15T02:02:47.082Z",
+        "last_content_by_user": "15/09 Sinh nhật của Dinhlan\nHãy gửi lời chúc tốt đẹp!\nhttps://res-zalo.zadn.vn/upload/media/2020/2/7/2x_ecardsn_1581058405234_716426.png",
+        "interaction": {
+          "first": "2025-07-08T05:34:57.934Z",
+          "last": "2026-09-15T02:02:47.082Z"
+        },
+        "users": [],
+        "follow_ups": [],
+        "scores": [],
+        "logs": [],
+        "updated_at": "2026-09-15T02:02:47.257Z",
+        "created_at": "2025-07-08T05:34:57.922Z"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "id": "6aa8a747a301d5341a88e722",
+      "pid": "zlw8264407435744",
+      "tid": "zlw1519445007762899201",
+      "platform": "zaloweb",
+      "page_pid": "zlw266741166578791076",
+      "message": "15/09 Sinh nhật của Dinhlan\nHãy gửi lời chúc tốt đẹp!",
+      "zaloweb": {
+        "attachments": [
+          {
+            "url": "https://res-zalo.zadn.vn/upload/media/2020/2/7/2x_ecardsn_1581058405234_716426.png",
+            "thumbnail": "http://s120.avatar.talk.zdn.vn/3/d/8/7/117/120/b6b7b8ef0f66bf8ee185bdaf0387ba70.jpg",
+            "title": "15/09 Sinh nhật của Dinhlan",
+            "type": "image"
+          }
+        ],
+        "cli_msg_id": "1789437767082",
+        "id": "8264407435744"
+      },
+      "sender_pid": "zlw1519445007762899201",
+      "type": "zaloweb_message",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-15T02:02:47.201Z",
+      "customer_created_at": "2025-07-08T05:34:57.922Z",
+      "created_at": "2026-09-15T02:02:47.082Z",
+      "updated_at": "2026-09-15T02:02:47.244Z"
+    }
+  ]
+}

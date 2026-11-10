@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Smax Chat Hub Pro Manager",
+  "version": "1.0.0",
+  "description": "Chrome Extension for Smax Chat Hub Pro - Quản lý Hội thoại & Đơn hàng",
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "clipboardWrite",
+    "unlimitedStorage",
+    "sidePanel",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

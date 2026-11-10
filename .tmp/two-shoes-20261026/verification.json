@@ -1,0 +1,48 @@
+{
+  "verifiedAt": "2026-10-25T20:08:08.293Z",
+  "checks": [
+    {
+      "id": 13013,
+      "platform": "facebook2",
+      "status": "pending",
+      "scheduled_at": "2026-10-26T04:00:00+00:00",
+      "images": 4,
+      "verified": true,
+      "publicationUrl": null
+    },
+    {
+      "id": 13014,
+      "platform": "group_messenger",
+      "status": "pending",
+      "scheduled_at": "2026-10-26T04:00:00+00:00",
+      "images": 3,
+      "verified": true,
+      "publicationUrl": null
+    },
+    {
+      "id": 13015,
+      "platform": "group_fb",
+      "status": "pending",
+      "scheduled_at": "2026-10-26T04:00:00+00:00",
+      "images": 4,
+      "verified": true,
+      "publicationUrl": null
+    },
+    {
+      "id": 13016,
+      "platform": "zalo",
+      "status": "pending",
+      "scheduled_at": "2026-10-26T04:00:00+00:00",
+      "images": 3,
+      "verified": true,
+      "publicationUrl": null
+    }
+  ],
+  "triggers": [
+    {
+      "id": 13013,
+      "accepted": true,
+      "response": "received"
+    }
+  ]
+}

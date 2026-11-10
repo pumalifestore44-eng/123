@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order Management Demo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --primary-hover: #4338ca;
+      --primary-light: rgba(79, 70, 229, 0.08);
+      --bg-app: #f8fafc;
+      --bg-panel: #ffffff;
+      --bg-card: #f1f5f9;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --border: rgba(15, 23, 42, 0.08);
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Outfit', sans-serif;
+      background: var(--bg-app);
+      color: var(--text-main);
+    }
+
+    .app-shell {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #f8fafc 0%, #eef2ff 100%);
+    }
+
+    .sidebar {
+      background: rgba(255,255,255,0.9);
+      backdrop-filter: blur(10px);
+      border-right: 1px solid var(--border);
+      padding: 24px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 8px 10px;
+    }
+
+    .brand-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, var(--primary), #8b5cf6);
+      color: white;
+      font-size: 20px;
+      box-shadow: var(--shadow);
+    }
+
+    .brand h2 {
+      font-size: 1rem;
+      margin: 0;
+    }
+
+    .brand p {
+      margin: 2px 0 0;
+      color: var(--text-muted);
+      font-size: 0.8rem;
+    }
+
+    .nav-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .nav-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 12px;
+      border-radius: 12px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-weight: 600;
+      transition: all .2s ease;
+    }
+
+    .nav-item:hover,
+    .nav-item.active {
+      background: var(--primary-light);
+      color: var(--primary);
+    }
+
+    .main-panel {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .topbar h1 {
+      margin: 0;
+      font-size: 1.35rem;
+    }
+
+    .topbar p {
+      margin: 4px 0 0;
+      color: var(--text-muted);
+      font-size: 0.92rem;
+    }
+
+    .topbar-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      border: none;
+      border-radius: 12px;
+      padding: 10px 14px;
+      font-weight: 700;
+      font-family: inherit;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+
+    .btn:hover { transform: translateY(-1px); }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--primary), #7c3aed);
+      color: white;
+      box-shadow: 0 8px 18px rgba(79,70,229,0.25);
+    }
+
+    .btn-secondary {
+      background: white;
+      color: var(--text-main);
+      border: 1px solid var(--border);
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .stat-card {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .stat-label {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    .stat-value {
+      font-size: 1.2rem;
+      font-weight: 800;
+    }
+
+    .stat-trend {
+      font-size: 0.8rem;
+      color: var(--success);
+      font-weight: 700;
+    }
+
+    .content-card {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 18px;
+      box-shadow: var(--shadow);
+    }
+
+    .toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+    }
+
+    .toolbar .controls {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .input,
+    .select {
+      border: 1px solid var(--border);
+      background: #f8fafc;
+      border-radius: 12px;
+      padding: 10px 12px;
+      font: inherit;
+      color: var(--text-main);
+      min-width: 160px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+
+    th, td {
+      padding: 12px 10px;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+    }
+
+    th {
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    tbody tr {
+      cursor: pointer;
+      transition: background .15s ease;
+    }
+
+    tbody tr:hover {
+      background: #f8fafc;
+    }
+
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+
+    .status-pending { background: rgba(245, 158, 11, .12); color: var(--warning); }
+    .status-paid { background: rgba(16, 185, 129, .12); color: var(--success); }
+    .status-shipping { background: rgba(79, 70, 229, .12); color: var(--primary); }
+    .status-cancel { background: rgba(239, 68, 68, .12); color: var(--danger); }
+
+    .detail-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 0.8fr;
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .detail-panel {
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 16px;
+      background: #fcfdff;
+    }
+
+    .detail-panel h3 { margin-top: 0; }
+
+    .pill-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+
+    .mini-card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 1000px) {
+      .app-shell { grid-template-columns: 1fr; }
+      .sidebar { display: none; }
+      .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .detail-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">📦</div>
+        <div>
+          <h2>PumaLife Store</h2>
+          <p>Quản lý đơn hàng</p>
+        </div>
+      </div>
+
+      <div class="nav-group">
+        <a class="nav-item" href="#">📊 Tổng quan</a>
+        <a class="nav-item active" href="#">🛒 Đơn hàng</a>
+        <a class="nav-item" href="#">📦 Sản phẩm</a>
+        <a class="nav-item" href="#">👥 Khách hàng</a>
+        <a class="nav-item" href="#">⚙️ Cài đặt</a>
+      </div>
+    </aside>
+
+    <main class="main-panel">
+      <section class="topbar">
+        <div>
+          <h1>Trang quản lý đơn hàng</h1>
+          <p>Theo dõi, xử lý và tối ưu quy trình bán hàng</p>
+        </div>
+        <div class="topbar-actions">
+          <button class="btn btn-secondary">⏰ Hôm nay</button>
+          <button class="btn btn-primary">＋ Tạo đơn mới</button>
+        </div>
+      </section>
+
+      <section class="stats-grid">
+        <div class="stat-card">
+          <span class="stat-label">Tổng đơn</span>
+          <span class="stat-value">1,248</span>
+          <span class="stat-trend">▲ 12.4% so với tháng trước</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Doanh thu</span>
+          <span class="stat-value">₫324.8M</span>
+          <span class="stat-trend">▲ 8.1%</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Chờ xử lý</span>
+          <span class="stat-value">86</span>
+          <span class="stat-trend">⚠️ Cần ưu tiên</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Đã giao</span>
+          <span class="stat-value">1,042</span>
+          <span class="stat-trend">✓ Tỷ lệ hoàn thành tốt</span>
+        </div>
+      </section>
+
+      <section class="content-card">
+        <div class="toolbar">
+          <div class="controls">
+            <input id="searchInput" class="input" type="text" placeholder="Tìm theo mã đơn / khách hàng" />
+            <select id="statusFilter" class="select">
+              <option value="all">Tất cả trạng thái</option>
+              <option value="pending">Chờ xử lý</option>
+              <option value="paid">Đã thanh toán</option>
+              <option value="shipping">Đang giao</option>
+              <option value="cancel">Đã hủy</option>
+            </select>
+            <input id="dateFrom" class="input" type="date" />
+            <input id="dateTo" class="input" type="date" />
+            <button id="applyFilterBtn" class="btn btn-secondary">🔎 Lọc</button>
+          </div>
+          <button class="btn btn-primary">⬇️ Xuất báo cáo</button>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Mã đơn</th>
+              <th>Khách hàng</th>
+              <th>Sản phẩm</th>
+              <th>Giá trị</th>
+              <th>Trạng thái</th>
+              <th>Ngày đặt</th>
+            </tr>
+          </thead>
+          <tbody id="ordersTableBody"></tbody>
+        </table>
+      </section>
+
+      <section class="detail-grid">
+        <div class="detail-panel">
+          <h3>Chi tiết đơn hàng</h3>
+          <div id="orderDetailContent">
+            <p>Chọn một đơn hàng để xem thông tin chi tiết.</p>
+          </div>
+        </div>
+        <div class="detail-panel">
+          <h3>Thông tin nhanh</h3>
+          <div class="mini-card">
+            <strong>Khách hàng VIP</strong>
+            <p>3 đơn trong 7 ngày gần đây</p>
+          </div>
+          <div class="mini-card">
+            <strong>Giao hàng</strong>
+            <p>Ưu tiên giao trong ngày</p>
+          </div>
+          <div class="mini-card">
+            <strong>Note</strong>
+            <p>Gọi trước khi giao để xác nhận địa chỉ.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const orders = [
+      { id: 'ORD-1024', customer: 'Nguyễn Minh An', product: 'Áo khoác thể thao', amount: '₫1,280,000', status: 'pending', date: '2026-07-28', phone: '0908 111 222', address: 'Quận 7, TP.HCM', note: 'Màu đen, size L' },
+      { id: 'ORD-1025', customer: 'Trần Thu Hà', product: 'Giày chạy bộ', amount: '₫2,150,000', status: 'paid', date: '2026-07-27', phone: '0912 333 444', address: 'Ngũ Hành Sơn, Đà Nẵng', note: 'Giao buổi chiều' },
+      { id: 'ORD-1026', customer: 'Lê Quốc Duy', product: 'Túi xách công sở', amount: '₫890,000', status: 'shipping', date: '2026-07-26', phone: '0988 555 666', address: 'Hai Bà Trưng, Hà Nội', note: 'Có người nhận' },
+      { id: 'ORD-1027', customer: 'Phạm Thảo Vy', product: 'Mũ bảo hiểm', amount: '₫460,000', status: 'cancel', date: '2026-07-25', phone: '0977 777 888', address: 'Bình Thạnh, TP.HCM', note: 'Khách đổi phương thức thanh toán' }
+    ];
+
+    const body = document.getElementById('ordersTableBody');
+    const searchInput = document.getElementById('searchInput');
+    const statusFilter = document.getElementById('statusFilter');
+    const dateFromInput = document.getElementById('dateFrom');
+    const dateToInput = document.getElementById('dateTo');
+    const applyFilterBtn = document.getElementById('applyFilterBtn');
+    const detailContent = document.getElementById('orderDetailContent');
+
+    function getStatusBadge(status) {
+      const map = {
+        pending: '<span class="status-pill status-pending">● Chờ xử lý</span>',
+        paid: '<span class="status-pill status-paid">● Đã thanh toán</span>',
+        shipping: '<span class="status-pill status-shipping">● Đang giao</span>',
+        cancel: '<span class="status-pill status-cancel">● Đã hủy</span>'
+      };
+      return map[status] || '';
+    }
+
+    function renderOrders() {
+      const query = searchInput.value.toLowerCase();
+      const selectedStatus = statusFilter.value;
+
+      const fromDate = dateFromInput.value ? new Date(dateFromInput.value) : null;
+      const toDate = dateToInput.value ? new Date(dateToInput.value) : null;
+
+      const filtered = orders.filter(order => {
+        const matchesQuery = [order.id, order.customer, order.product].join(' ').toLowerCase().includes(query);
+        const matchesStatus = selectedStatus === 'all' || order.status === selectedStatus;
+        const orderDate = new Date(order.date);
+        const matchesFrom = !fromDate || orderDate >= fromDate;
+        const matchesTo = !toDate || orderDate <= toDate;
+        return matchesQuery && matchesStatus && matchesFrom && matchesTo;
+      });
+
+      body.innerHTML = filtered.map(order => `
+        <tr data-id="${order.id}">
+          <td><strong>${order.id}</strong></td>
+          <td>${order.customer}</td>
+          <td>${order.product}</td>
+          <td>${order.amount}</td>
+          <td>${getStatusBadge(order.status)}</td>
+          <td>${order.date}</td>
+        </tr>
+      `).join('');
+
+      body.querySelectorAll('tr').forEach(row => {
+        row.addEventListener('click', () => showDetail(row.dataset.id));
+      });
+
+      if (filtered.length) {
+        showDetail(filtered[0].id);
+      } else {
+        body.innerHTML = '<tr><td colspan="6" style="text-align:center; color:#64748b;">Không có đơn hàng phù hợp.</td></tr>';
+        detailContent.innerHTML = '<p>Không có dữ liệu để hiển thị.</p>';
+      }
+    }
+
+    function showDetail(id) {
+      const order = orders.find(item => item.id === id);
+      if (!order) return;
+
+      detailContent.innerHTML = `
+        <div class="pill-row">
+          <span class="status-pill status-${order.status}">${getStatusBadge(order.status).replace(/<[^>]*>/g, '')}</span>
+        </div>
+        <div class="mini-card">
+          <strong>${order.id}</strong>
+          <p>${order.product}</p>
+          <p><strong>Tổng tiền:</strong> ${order.amount}</p>
+        </div>
+        <div class="mini-card">
+          <p><strong>Khách hàng:</strong> ${order.customer}</p>
+          <p><strong>Điện thoại:</strong> ${order.phone}</p>
+          <p><strong>Địa chỉ:</strong> ${order.address}</p>
+        </div>
+        <div class="mini-card">
+          <p><strong>Ghi chú:</strong> ${order.note}</p>
+        </div>
+      `;
+    }
+
+    searchInput.addEventListener('input', renderOrders);
+    statusFilter.addEventListener('change', renderOrders);
+    dateFromInput.addEventListener('change', renderOrders);
+    dateToInput.addEventListener('change', renderOrders);
+    applyFilterBtn.addEventListener('click', renderOrders);
+    renderOrders();
+  </script>
+</body>
+</html>

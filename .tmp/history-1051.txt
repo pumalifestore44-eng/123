@@ -1,0 +1,1 @@
+text(await tools.exec_command({cmd:"rg -n 'jtPrint.*QR|QRCode|qrcode|qr-code|barcode|JsBarcode' app.js bulk-waybill-print.js waybill-editable.js index.html style.css | Select-Object -Last 100; Get-Content waybill-editable.js -TotalCount 100; Get-Content bulk-waybill-print.js -TotalCount 100","max_output_tokens":4700}));

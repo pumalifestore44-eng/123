@@ -1,0 +1,1 @@
+text(await tools.exec_command({cmd:"Get-Content app.js | Select-Object -Skip 6744 -First 36; Get-Content index.html | Select-Object -Skip 1660 -First 23; Get-Content index.html | Select-Object -Skip 1690 -First 60","max_output_tokens":1300}));

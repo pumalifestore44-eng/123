@@ -1,0 +1,43 @@
+{
+  "cleanUrls": false,
+  "functions": {
+    "api/spx-track.js": {
+      "includeFiles": "spx-tracking-utils.mjs",
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api-spx/:path*",
+      "destination": "https://spx.vn/:path*"
+    },
+    {
+      "source": "/api-jt/:path*",
+      "destination": "https://ylvipapi.jtexpress.vn/:path*"
+    },
+    {
+      "source": "/bill",
+      "destination": "/bill.html"
+    },
+    {
+      "source": "/tin-nhan",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/don-hang",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/san-pham",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/khach-hang",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/thong-ke",
+      "destination": "/index.html"
+    }
+  ]
+}

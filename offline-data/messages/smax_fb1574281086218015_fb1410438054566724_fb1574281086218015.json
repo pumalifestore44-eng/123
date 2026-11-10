@@ -1,0 +1,674 @@
+{
+  "key": "smax::fb1574281086218015::fb1410438054566724_fb1574281086218015",
+  "savedAt": "2026-09-17T15:58:54.922Z",
+  "thread": {
+    "__v": 0,
+    "_created_at": "2026-09-17T07:40:14.873Z",
+    "_synced_at": "2026-09-17T07:42:51.172Z",
+    "controlled_by": "OTHER",
+    "created_at": "2026-09-17T07:40:14.875Z",
+    "customer_pid": "fb1574281086218015",
+    "customer_pids": [],
+    "emails": [],
+    "es_id": "fb1574281086218015_fb1410438054566724_fb1574281086218015",
+    "facebook": {
+      "customer_tags": [],
+      "id": "1410438054566724_978152018632070",
+      "link": "https://www.facebook.com/pumalife/posts/pfbid021QE2gRWMNkowmR8643rsrqYogUNe2av1VcRC5F1V8CHQbPu4LKSdvhUBtFd5MwGEl",
+      "post_id": "1574281086218015_1410438054566724",
+      "post_ids": [
+        "1574281086218015_1410438054566724"
+      ]
+    },
+    "id": "6aab995e182436830343f67a",
+    "internal": {
+      "message": null,
+      "users": []
+    },
+    "last_message_at": "2026-09-17T07:42:43.000Z",
+    "last_message_id": "6aab99fa08003b4133eb3658",
+    "message": "[attach]",
+    "page_pid": "fb1574281086218015",
+    "phones": [],
+    "platform": "facebook",
+    "read": true,
+    "replied": true,
+    "replied_by": {},
+    "reply_count": 0,
+    "root_message_pids": [
+      "fb1410438054566724_978152018632070",
+      "fb1410438054566724_1075168562100665",
+      "fb1410438054566724_1761873171531946",
+      "fb1410438054566724_1612594843794390",
+      "fb1410438054566724_1405346595107207",
+      "fb1410438054566724_1742701926848271",
+      "fb1410438054566724_1084132654020027",
+      "fb1410438054566724_1609107304593104",
+      "fb1410438054566724_2153448981906054",
+      "fb1410438054566724_28565572873067152",
+      "fb1410438054566724_28615507651420380",
+      "fb1410438054566724_1390626216568736"
+    ],
+    "tag_aliases": [],
+    "tid": "fb1410438054566724_fb1574281086218015",
+    "type": "facebook_comment",
+    "updated_at": "2026-09-17T07:42:50.329Z",
+    "viewing": {},
+    "can_reply_message": false,
+    "customer": {
+      "id": "698515163bf2f5ff3da03716",
+      "pid": "fb1574281086218015",
+      "subscribed": false,
+      "page_pid": "fb1574281086218015",
+      "thread_tid": "fb1574281086218015",
+      "biz_alias": "tuant2lqd",
+      "thread_url": "https://smax.ai/bizs/tuant2lqd/chats/fb1574281086218015?tid=fb1574281086218015",
+      "platform": "facebook",
+      "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+      "profile_name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+      "last_name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+      "picture": "https://cdn-vn.smax.in/s03/smaxai/pages/fb1574281086218015/customers/fb1574281086218015.jpg?expire=1789689600000&signature=74d61d1b072df10f03ccda434d7bf3e3d6a994d3149247af2e503374e844ddc1",
+      "notes": [],
+      "phone": "",
+      "phones": [],
+      "email": "",
+      "emails": [],
+      "source": "comment",
+      "attrs": [],
+      "facebook": {
+        "post_id": "1574281086218015_1186841520259713",
+        "post_content": "New Balance 237 \n\nĐế cao như này hack dáng tôn chiều cao 3-4cm \n\n#1378k full size nam nữ",
+        "post_hashtag": "#1378k",
+        "id": "1574281086218015",
+        "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+        "page_id": "1574281086218015",
+        "page_name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu",
+        "picture": "https://graph.facebook.com/1574281086218015/picture?width=300&heigh=300",
+        "topics": []
+      },
+      "broadcast_ids": [],
+      "in_sequences": [],
+      "out_sequences": [],
+      "tags": [],
+      "last_comment_link": "https://www.facebook.com/949532180657316/posts/1186841520259713",
+      "last_content_by_page": "Dạ anh chị Tuấn Hiền inbox cho shop để được hỗ trợ nhanh nhất ạ",
+      "interaction": {
+        "first": "2026-02-05T22:09:27.229Z",
+        "last": "2020-06-27T04:49:03.000Z"
+      },
+      "users": [],
+      "follow_ups": [],
+      "scores": [],
+      "logs": [],
+      "updated_at": "2026-09-17T13:10:50.027Z",
+      "created_at": "2026-02-05T22:09:26.395Z"
+    },
+    "customers": []
+  },
+  "messages": [
+    {
+      "id": "6aab995e26ba6579bc7bd888",
+      "pid": "fb1410438054566724_978152018632070",
+      "tid": "fb1410438054566724_fb1574281086218015",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "1410438054566724_978152018632070",
+        "attachment": {
+          "media_image": "https://scontent.fdad2-1.fna.fbcdn.net/v/t39.30808-6/813101155_1411244554486074_9187211037763343307_n.jpg?stp=dst-jpg_tt6&cstp=mx941x1672&ctp=s941x1672&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=dgWYDgUIIyIQ7kNvwEbph-z&_nc_oc=AdpBhUAPqtHLStcfHlmlIkR5lQ4IiJPPwP13ArAthyVz4Lkme-ENXAM_x3eZV4kHArLJxKfE5N3IB2wZnfFpDCxG&_nc_zt=23&_nc_ht=scontent.fdad2-1.fna&_nc_gid=KhhI-AgJKQgMksS6tKXWNg&_nc_ss=7b2a8&oh=00_AQKshjHqkg080gIP4IZi8tQz5u8jIifEQR-ZTmFM87_ryg&oe=6AB178AD",
+          "media_source": "https://scontent.fdad2-1.fna.fbcdn.net/v/t39.30808-6/813101155_1411244554486074_9187211037763343307_n.jpg?stp=dst-jpg_tt6&cstp=mx941x1672&ctp=s941x1672&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=dgWYDgUIIyIQ7kNvwEbph-z&_nc_oc=AdpBhUAPqtHLStcfHlmlIkR5lQ4IiJPPwP13ArAthyVz4Lkme-ENXAM_x3eZV4kHArLJxKfE5N3IB2wZnfFpDCxG&_nc_zt=23&_nc_ht=scontent.fdad2-1.fna&_nc_gid=KhhI-AgJKQgMksS6tKXWNg&_nc_ss=7b2a8&oh=00_AQKshjHqkg080gIP4IZi8tQz5u8jIifEQR-ZTmFM87_ryg&oe=6AB178AD"
+        },
+        "attachments": [],
+        "can_hide": true,
+        "can_like": true,
+        "can_remove": true,
+        "can_reply_privately": false,
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "is_hidden": false,
+        "parent_id": "1574281086218015_1410438054566724",
+        "post": {
+          "id": "1574281086218015_1410438054566724",
+          "link": "https://www.facebook.com/pumalife/posts/pfbid021QE2gRWMNkowmR8643rsrqYogUNe2av1VcRC5F1V8CHQbPu4LKSdvhUBtFd5MwGEl",
+          "message_tags": []
+        },
+        "quick_replies": [],
+        "shares": [],
+        "user_likes": false,
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_comment",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T07:40:14.897Z",
+      "customer_created_at": "2026-02-05T22:09:26.395Z",
+      "created_at": "2026-09-17T07:40:08.000Z",
+      "updated_at": "2026-09-17T07:40:08.000Z",
+      "seen": false
+    },
+    {
+      "id": "6aab996a4d21b94b2027c4dc",
+      "pid": "fb1410438054566724_1075168562100665",
+      "tid": "fb1410438054566724_fb1574281086218015",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "1410438054566724_1075168562100665",
+        "attachment": {
+          "media_image": "https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/813428635_1411244834486046_6459881673720159853_n.jpg?stp=dst-jpg_tt6&cstp=mx941x1672&ctp=s941x1672&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=ELSygL1EglkQ7kNvwH-qh1H&_nc_oc=AdqpIUNG32EnIMED_69B5EQhWJUIqwO_heAv--uf2BNABn3As1wAmf34FrLlwflVG4lFCOBq3ofW5nhI4rI66QNb&_nc_zt=23&_nc_ht=scontent.fdad1-2.fna&_nc_gid=FSThYzN3MqM3So6bz3UIPg&_nc_ss=7b2a8&oh=00_AQIKQMczV5h-NBvgGm3to6f5aIyPDbKmmCuQ23EikNoe4Q&oe=6AB17F77",
+          "media_source": "https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/813428635_1411244834486046_6459881673720159853_n.jpg?stp=dst-jpg_tt6&cstp=mx941x1672&ctp=s941x1672&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=ELSygL1EglkQ7kNvwH-qh1H&_nc_oc=AdqpIUNG32EnIMED_69B5EQhWJUIqwO_heAv--uf2BNABn3As1wAmf34FrLlwflVG4lFCOBq3ofW5nhI4rI66QNb&_nc_zt=23&_nc_ht=scontent.fdad1-2.fna&_nc_gid=FSThYzN3MqM3So6bz3UIPg&_nc_ss=7b2a8&oh=00_AQIKQMczV5h-NBvgGm3to6f5aIyPDbKmmCuQ23EikNoe4Q&oe=6AB17F77"
+        },
+        "attachments": [],
+        "can_hide": true,
+        "can_like": true,
+        "can_remove": true,
+        "can_reply_privately": false,
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "is_hidden": false,
+        "parent_id": "1574281086218015_1410438054566724",
+        "post": {
+          "id": "1574281086218015_1410438054566724",
+          "link": "https://www.facebook.com/pumalife/posts/pfbid021QE2gRWMNkowmR8643rsrqYogUNe2av1VcRC5F1V8CHQbPu4LKSdvhUBtFd5MwGEl",
+          "message_tags": []
+        },
+        "quick_replies": [],
+        "shares": [],
+        "user_likes": false,
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_comment",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T07:40:26.971Z",
+      "customer_created_at": "2026-02-05T22:09:26.395Z",
+      "created_at": "2026-09-17T07:40:20.000Z",
+      "updated_at": "2026-09-17T07:40:20.000Z",
+      "seen": false
+    },
+    {
+      "id": "6aab997a956a20b681e896ee",
+      "pid": "fb1410438054566724_1761873171531946",
+      "tid": "fb1410438054566724_fb1574281086218015",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "1410438054566724_1761873171531946",
+        "attachment": {
+          "media_image": "https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/813428635_1411245094486020_724765888924119074_n.jpg?stp=dst-jpg_tt6&cstp=mx1086x1448&ctp=s1086x1448&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=wpppad7Vf9gQ7kNvwF6ZHxk&_nc_oc=AdoHgnlaiHVmhoJ2BkvUbrw9z75HXbJra-0bmGtNVlE0LPFJohzyjJbZswa1jBfjkifEmxLmEaZPtYD3X1laQrP4&_nc_zt=23&_nc_ht=scontent.fdad1-4.fna&_nc_gid=RsYvLZe9Aeu0fEe81l1sCQ&_nc_ss=7b2a8&oh=00_AQIyGeGfoDqI5TMOqtbHvzyja_DSBMfoRnad8PQbfKHOMw&oe=6AB152BF",
+          "media_source": "https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/813428635_1411245094486020_724765888924119074_n.jpg?stp=dst-jpg_tt6&cstp=mx1086x1448&ctp=s1086x1448&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=wpppad7Vf9gQ7kNvwF6ZHxk&_nc_oc=AdoHgnlaiHVmhoJ2BkvUbrw9z75HXbJra-0bmGtNVlE0LPFJohzyjJbZswa1jBfjkifEmxLmEaZPtYD3X1laQrP4&_nc_zt=23&_nc_ht=scontent.fdad1-4.fna&_nc_gid=RsYvLZe9Aeu0fEe81l1sCQ&_nc_ss=7b2a8&oh=00_AQIyGeGfoDqI5TMOqtbHvzyja_DSBMfoRnad8PQbfKHOMw&oe=6AB152BF"
+        },
+        "attachments": [],
+        "can_hide": true,
+        "can_like": true,
+        "can_remove": true,
+        "can_reply_privately": false,
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "is_hidden": false,
+        "parent_id": "1574281086218015_1410438054566724",
+        "post": {
+          "id": "1574281086218015_1410438054566724",
+          "link": "https://www.facebook.com/pumalife/posts/pfbid021QE2gRWMNkowmR8643rsrqYogUNe2av1VcRC5F1V8CHQbPu4LKSdvhUBtFd5MwGEl",
+          "message_tags": []
+        },
+        "quick_replies": [],
+        "shares": [],
+        "user_likes": false,
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_comment",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T07:40:42.541Z",
+      "customer_created_at": "2026-02-05T22:09:26.395Z",
+      "created_at": "2026-09-17T07:40:36.000Z",
+      "updated_at": "2026-09-17T07:40:36.000Z",
+      "seen": false
+    },
+    {
+      "id": "6aab9988ab3e8d6e5256c349",
+      "pid": "fb1410438054566724_1612594843794390",
+      "tid": "fb1410438054566724_fb1574281086218015",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "1410438054566724_1612594843794390",
+        "attachment": {
+          "media_image": "https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/813733689_1411245331152663_4715881136068542783_n.jpg?stp=dst-jpg_tt6&cstp=mx1086x1448&ctp=s1086x1448&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=6a9PgsbJPIYQ7kNvwGFJYRf&_nc_oc=AdrQH_qz7KIhFYgPWIJqkA2NkmYCnyJK-dXZwJDFYXTVXy0iTxYZGN9az0DYUGsBaVaCJeL0jPL2zaWjNswRkZfx&_nc_zt=23&_nc_ht=scontent.fdad1-4.fna&_nc_gid=2TGWtArbBO8WT1gNDplLMw&_nc_ss=7b2a8&oh=00_AQILlSN2ELHh45R1xFi0L1dq5R_4IbpWVnw8z3Kp52Tq3g&oe=6AB16AE4",
+          "media_source": "https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/813733689_1411245331152663_4715881136068542783_n.jpg?stp=dst-jpg_tt6&cstp=mx1086x1448&ctp=s1086x1448&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=6a9PgsbJPIYQ7kNvwGFJYRf&_nc_oc=AdrQH_qz7KIhFYgPWIJqkA2NkmYCnyJK-dXZwJDFYXTVXy0iTxYZGN9az0DYUGsBaVaCJeL0jPL2zaWjNswRkZfx&_nc_zt=23&_nc_ht=scontent.fdad1-4.fna&_nc_gid=2TGWtArbBO8WT1gNDplLMw&_nc_ss=7b2a8&oh=00_AQILlSN2ELHh45R1xFi0L1dq5R_4IbpWVnw8z3Kp52Tq3g&oe=6AB16AE4"
+        },
+        "attachments": [],
+        "can_hide": true,
+        "can_like": true,
+        "can_remove": true,
+        "can_reply_privately": false,
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "is_hidden": false,
+        "parent_id": "1574281086218015_1410438054566724",
+        "post": {
+          "id": "1574281086218015_1410438054566724",
+          "link": "https://www.facebook.com/pumalife/posts/pfbid021QE2gRWMNkowmR8643rsrqYogUNe2av1VcRC5F1V8CHQbPu4LKSdvhUBtFd5MwGEl",
+          "message_tags": []
+        },
+        "quick_replies": [],
+        "shares": [],
+        "user_likes": false,
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_comment",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T07:40:56.223Z",
+      "customer_created_at": "2026-02-05T22:09:26.395Z",
+      "created_at": "2026-09-17T07:40:50.000Z",
+      "updated_at": "2026-09-17T07:40:50.000Z",
+      "seen": false
+    },
+    {
+      "id": "6aab99892954c0e794430311",
+      "pid": "fb1410438054566724_1405346595107207",
+      "tid": "fb1410438054566724_fb1574281086218015",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "1410438054566724_1405346595107207",
+        "attachment": {
+          "media_image": "https://scontent.fdad1-1.fna.fbcdn.net/v/t39.30808-6/813467134_1411245524485977_1640087921110116516_n.jpg?stp=dst-jpg_tt6&cstp=mx941x1672&ctp=s941x1672&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=mXIitaCKcTEQ7kNvwHou6PH&_nc_oc=AdrlsRilbmEESXpVnLC9KS2l36T6TYMSJ_mM9urjNuC4in6cmQT0GqNxfKAD3-RSd_Nv3UJH162odVLcDDRh65Ba&_nc_zt=23&_nc_ht=scontent.fdad1-1.fna&_nc_gid=Gw1IJVd6_MmtzQGikFirbQ&_nc_ss=7b2a8&oh=00_AQKeqLa57dWi6cD78DyyxawagG7gkePqrC8ZOapJl7N0bg&oe=6AB15546",
+          "media_source": "https://scontent.fdad1-1.fna.fbcdn.net/v/t39.30808-6/813467134_1411245524485977_1640087921110116516_n.jpg?stp=dst-jpg_tt6&cstp=mx941x1672&ctp=s941x1672&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=mXIitaCKcTEQ7kNvwHou6PH&_nc_oc=AdrlsRilbmEESXpVnLC9KS2l36T6TYMSJ_mM9urjNuC4in6cmQT0GqNxfKAD3-RSd_Nv3UJH162odVLcDDRh65Ba&_nc_zt=23&_nc_ht=scontent.fdad1-1.fna&_nc_gid=Gw1IJVd6_MmtzQGikFirbQ&_nc_ss=7b2a8&oh=00_AQKeqLa57dWi6cD78DyyxawagG7gkePqrC8ZOapJl7N0bg&oe=6AB15546"
+        },
+        "attachments": [],
+        "can_hide": true,
+        "can_like": true,
+        "can_remove": true,
+        "can_reply_privately": false,
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "is_hidden": false,
+        "parent_id": "1574281086218015_1410438054566724",
+        "post": {
+          "id": "1574281086218015_1410438054566724",
+          "link": "https://www.facebook.com/pumalife/posts/pfbid021QE2gRWMNkowmR8643rsrqYogUNe2av1VcRC5F1V8CHQbPu4LKSdvhUBtFd5MwGEl",
+          "message_tags": []
+        },
+        "quick_replies": [],
+        "shares": [],
+        "user_likes": false,
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_comment",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T07:40:57.671Z",
+      "customer_created_at": "2026-02-05T22:09:26.395Z",
+      "created_at": "2026-09-17T07:40:52.000Z",
+      "updated_at": "2026-09-17T07:40:52.000Z",
+      "seen": false
+    },
+    {
+      "id": "6aab99a064925170c89fc874",
+      "pid": "fb1410438054566724_1742701926848271",
+      "tid": "fb1410438054566724_fb1574281086218015",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "1410438054566724_1742701926848271",
+        "attachment": {
+          "media_image": "https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/813613598_1411245807819282_7444830377775314608_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=61j4kY9G144Q7kNvwFmdRxS&_nc_oc=AdowjaVhoIxRJJCRdFD-PRABTfPoqXOCiHtrYLN4PFj6qWRWmC6oOtK37hsaWC4u_kHWwlbYLC6aTm04aJ7qOPoV&_nc_zt=23&_nc_ht=scontent.fdad1-3.fna&_nc_gid=u-rjdNHretHfTo0o3o9Tlw&_nc_ss=7b2a8&oh=00_AQKykHXkEYY9OO9sSutaCKllA204uPeTaYt_wvhRKlajug&oe=6AB17611",
+          "media_source": "https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/813613598_1411245807819282_7444830377775314608_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=61j4kY9G144Q7kNvwFmdRxS&_nc_oc=AdowjaVhoIxRJJCRdFD-PRABTfPoqXOCiHtrYLN4PFj6qWRWmC6oOtK37hsaWC4u_kHWwlbYLC6aTm04aJ7qOPoV&_nc_zt=23&_nc_ht=scontent.fdad1-3.fna&_nc_gid=u-rjdNHretHfTo0o3o9Tlw&_nc_ss=7b2a8&oh=00_AQKykHXkEYY9OO9sSutaCKllA204uPeTaYt_wvhRKlajug&oe=6AB17611"
+        },
+        "attachments": [],
+        "can_hide": true,
+        "can_like": true,
+        "can_remove": true,
+        "can_reply_privately": false,
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "is_hidden": false,
+        "parent_id": "1574281086218015_1410438054566724",
+        "post": {
+          "id": "1574281086218015_1410438054566724",
+          "link": "https://www.facebook.com/pumalife/posts/pfbid021QE2gRWMNkowmR8643rsrqYogUNe2av1VcRC5F1V8CHQbPu4LKSdvhUBtFd5MwGEl",
+          "message_tags": []
+        },
+        "quick_replies": [],
+        "shares": [],
+        "user_likes": false,
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_comment",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T07:41:20.100Z",
+      "customer_created_at": "2026-02-05T22:09:26.395Z",
+      "created_at": "2026-09-17T07:41:13.000Z",
+      "updated_at": "2026-09-17T07:41:13.000Z",
+      "seen": false
+    },
+    {
+      "id": "6aab99a915c3a82b87514638",
+      "pid": "fb1410438054566724_1084132654020027",
+      "tid": "fb1410438054566724_fb1574281086218015",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "1410438054566724_1084132654020027",
+        "attachment": {
+          "media_image": "https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/813545850_1411246101152586_1601547055503634669_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=A0y8U3V8JuYQ7kNvwGYdR5R&_nc_oc=Adp2vO1v1Q08CjpV-m4UmSQBdiVvKbnt73Gqe042RQvLrCy3rnWB0TpZs_3_kaUs3Bgwcd6ShyUin5Fog5xlVQdy&_nc_zt=23&_nc_ht=scontent.fdad1-3.fna&_nc_gid=tDT4pF5nT2DXy2Qnw4S1zg&_nc_ss=7b2a8&oh=00_AQI3j-8q2wIIVJzTkmJPnmB27rjtZDPWWMz80caJA-XcOQ&oe=6AB15A4E",
+          "media_source": "https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/813545850_1411246101152586_1601547055503634669_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=A0y8U3V8JuYQ7kNvwGYdR5R&_nc_oc=Adp2vO1v1Q08CjpV-m4UmSQBdiVvKbnt73Gqe042RQvLrCy3rnWB0TpZs_3_kaUs3Bgwcd6ShyUin5Fog5xlVQdy&_nc_zt=23&_nc_ht=scontent.fdad1-3.fna&_nc_gid=tDT4pF5nT2DXy2Qnw4S1zg&_nc_ss=7b2a8&oh=00_AQI3j-8q2wIIVJzTkmJPnmB27rjtZDPWWMz80caJA-XcOQ&oe=6AB15A4E"
+        },
+        "attachments": [],
+        "can_hide": true,
+        "can_like": true,
+        "can_remove": true,
+        "can_reply_privately": false,
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "is_hidden": false,
+        "parent_id": "1574281086218015_1410438054566724",
+        "post": {
+          "id": "1574281086218015_1410438054566724",
+          "link": "https://www.facebook.com/pumalife/posts/pfbid021QE2gRWMNkowmR8643rsrqYogUNe2av1VcRC5F1V8CHQbPu4LKSdvhUBtFd5MwGEl",
+          "message_tags": []
+        },
+        "quick_replies": [],
+        "shares": [],
+        "user_likes": false,
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_comment",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T07:41:29.843Z",
+      "customer_created_at": "2026-02-05T22:09:26.395Z",
+      "created_at": "2026-09-17T07:41:23.000Z",
+      "updated_at": "2026-09-17T07:41:23.000Z",
+      "seen": false
+    },
+    {
+      "id": "6aab99b07061dc0f5ca7449a",
+      "pid": "fb1410438054566724_1609107304593104",
+      "tid": "fb1410438054566724_fb1574281086218015",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "1410438054566724_1609107304593104",
+        "attachment": {
+          "media_image": "https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/814493522_1411246157819247_6423854165270786981_n.jpg?stp=dst-jpg_tt6&cstp=mx1086x1448&ctp=s1086x1448&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=wANjuMdawocQ7kNvwFZ8-K4&_nc_oc=AdpWAn9zr9dYVRK1VfS3vWjlsc9pNw6C0Y_eHOhDdAKuouuapWiIxqW24hwr6sz5j0QP_lPzR4iWNoPJCf9We9jY&_nc_zt=23&_nc_ht=scontent.fdad1-3.fna&_nc_gid=b3TyRUNHAzgvNqqGTZfcjA&_nc_ss=7b2a8&oh=00_AQLseIEmkfxGkuqiqWxhAqYKuLc7UxAkl4czKal9A4Fmdw&oe=6AB1732A",
+          "media_source": "https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/814493522_1411246157819247_6423854165270786981_n.jpg?stp=dst-jpg_tt6&cstp=mx1086x1448&ctp=s1086x1448&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=wANjuMdawocQ7kNvwFZ8-K4&_nc_oc=AdpWAn9zr9dYVRK1VfS3vWjlsc9pNw6C0Y_eHOhDdAKuouuapWiIxqW24hwr6sz5j0QP_lPzR4iWNoPJCf9We9jY&_nc_zt=23&_nc_ht=scontent.fdad1-3.fna&_nc_gid=b3TyRUNHAzgvNqqGTZfcjA&_nc_ss=7b2a8&oh=00_AQLseIEmkfxGkuqiqWxhAqYKuLc7UxAkl4czKal9A4Fmdw&oe=6AB1732A"
+        },
+        "attachments": [],
+        "can_hide": true,
+        "can_like": true,
+        "can_remove": true,
+        "can_reply_privately": false,
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "is_hidden": false,
+        "parent_id": "1574281086218015_1410438054566724",
+        "post": {
+          "id": "1574281086218015_1410438054566724",
+          "link": "https://www.facebook.com/pumalife/posts/pfbid021QE2gRWMNkowmR8643rsrqYogUNe2av1VcRC5F1V8CHQbPu4LKSdvhUBtFd5MwGEl",
+          "message_tags": []
+        },
+        "quick_replies": [],
+        "shares": [],
+        "user_likes": false,
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_comment",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T07:41:36.627Z",
+      "customer_created_at": "2026-02-05T22:09:26.395Z",
+      "created_at": "2026-09-17T07:41:30.000Z",
+      "updated_at": "2026-09-17T07:41:30.000Z",
+      "seen": false
+    },
+    {
+      "id": "6aab99c34b30e4361356c24d",
+      "pid": "fb1410438054566724_2153448981906054",
+      "tid": "fb1410438054566724_fb1574281086218015",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "1410438054566724_2153448981906054",
+        "attachment": {
+          "media_image": "https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/813428646_1411246641152532_50757394250058993_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=DJDysxL6DAsQ7kNvwHp4tCk&_nc_oc=AdqJwIwIIdMIlcjNORSr2QbhmjNA5MbZ3xIaGyqVTpTxNNH7oz7HeVF8yTqNa6nh2L5MaDcDw5ZeC0TIKuUajwLO&_nc_zt=23&_nc_ht=scontent.fdad1-4.fna&_nc_gid=aMwJnZ9RYyvYfBGuf7KyiQ&_nc_ss=7b2a8&oh=00_AQJw4KOjZP4AMSCMx0Zix0K59ufOPnDhrwj4hrZdNPhuRg&oe=6AB15F7C",
+          "media_source": "https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/813428646_1411246641152532_50757394250058993_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=DJDysxL6DAsQ7kNvwHp4tCk&_nc_oc=AdqJwIwIIdMIlcjNORSr2QbhmjNA5MbZ3xIaGyqVTpTxNNH7oz7HeVF8yTqNa6nh2L5MaDcDw5ZeC0TIKuUajwLO&_nc_zt=23&_nc_ht=scontent.fdad1-4.fna&_nc_gid=aMwJnZ9RYyvYfBGuf7KyiQ&_nc_ss=7b2a8&oh=00_AQJw4KOjZP4AMSCMx0Zix0K59ufOPnDhrwj4hrZdNPhuRg&oe=6AB15F7C"
+        },
+        "attachments": [],
+        "can_hide": true,
+        "can_like": true,
+        "can_remove": true,
+        "can_reply_privately": false,
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "is_hidden": false,
+        "parent_id": "1574281086218015_1410438054566724",
+        "post": {
+          "id": "1574281086218015_1410438054566724",
+          "link": "https://www.facebook.com/pumalife/posts/pfbid021QE2gRWMNkowmR8643rsrqYogUNe2av1VcRC5F1V8CHQbPu4LKSdvhUBtFd5MwGEl",
+          "message_tags": []
+        },
+        "quick_replies": [],
+        "shares": [],
+        "user_likes": false,
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_comment",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T07:41:55.377Z",
+      "customer_created_at": "2026-02-05T22:09:26.395Z",
+      "created_at": "2026-09-17T07:41:49.000Z",
+      "updated_at": "2026-09-17T07:41:49.000Z",
+      "seen": false
+    },
+    {
+      "id": "6aab99d55e5f75763aa53451",
+      "pid": "fb1410438054566724_28565572873067152",
+      "tid": "fb1410438054566724_fb1574281086218015",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "1410438054566724_28565572873067152",
+        "attachment": {
+          "media_image": "https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/813733682_1411247031152493_480826261119876531_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=4TZyqheXMswQ7kNvwH_HqMc&_nc_oc=Ado1ukk1OUUvGsrZo2gnbrtkyfn52yUC-mnSrXwLERKdkVtB8E-S-WSQmLdfEAmFkAXRVj-rTbV1GnamG70RoQYl&_nc_zt=23&_nc_ht=scontent.fdad1-3.fna&_nc_gid=0_8_bbzMgjQy4yF04TFVBQ&_nc_ss=7b2a8&oh=00_AQJDZ3B5ByAr0yDsLxVzqolc9rupq8aWefUOHjfONorXwA&oe=6AB160D1",
+          "media_source": "https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/813733682_1411247031152493_480826261119876531_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=4TZyqheXMswQ7kNvwH_HqMc&_nc_oc=Ado1ukk1OUUvGsrZo2gnbrtkyfn52yUC-mnSrXwLERKdkVtB8E-S-WSQmLdfEAmFkAXRVj-rTbV1GnamG70RoQYl&_nc_zt=23&_nc_ht=scontent.fdad1-3.fna&_nc_gid=0_8_bbzMgjQy4yF04TFVBQ&_nc_ss=7b2a8&oh=00_AQJDZ3B5ByAr0yDsLxVzqolc9rupq8aWefUOHjfONorXwA&oe=6AB160D1"
+        },
+        "attachments": [],
+        "can_hide": true,
+        "can_like": true,
+        "can_remove": true,
+        "can_reply_privately": false,
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "is_hidden": false,
+        "parent_id": "1574281086218015_1410438054566724",
+        "post": {
+          "id": "1574281086218015_1410438054566724",
+          "link": "https://www.facebook.com/pumalife/posts/pfbid021QE2gRWMNkowmR8643rsrqYogUNe2av1VcRC5F1V8CHQbPu4LKSdvhUBtFd5MwGEl",
+          "message_tags": []
+        },
+        "quick_replies": [],
+        "shares": [],
+        "user_likes": false,
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_comment",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T07:42:13.145Z",
+      "customer_created_at": "2026-02-05T22:09:26.395Z",
+      "created_at": "2026-09-17T07:42:06.000Z",
+      "updated_at": "2026-09-17T07:42:06.000Z",
+      "seen": false
+    },
+    {
+      "id": "6aab99d6272cd47ad0b08d60",
+      "pid": "fb1410438054566724_28615507651420380",
+      "tid": "fb1410438054566724_fb1574281086218015",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "1410438054566724_28615507651420380",
+        "attachment": {
+          "media_image": "https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/813959106_1411247191152477_4917374369097699633_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=BEqOOcxwmbQQ7kNvwHzMAVV&_nc_oc=Adr5-46enUX24iVN6hbz5QPDTBtBSdqmwWdr601bKkFcpoVRdRC-r-DXmtvdNUXUkvSZmnW_zSXUZbi6O0RVAEQ3&_nc_zt=23&_nc_ht=scontent.fdad1-2.fna&_nc_gid=Z5G3i9a0gU8wnR9TP4Tl-A&_nc_ss=7b2a8&oh=00_AQI6QEa8cZQzU9YF3SELkVDd2XY7ujYAo7BpEMqoo3Yk1g&oe=6AB17FAA",
+          "media_source": "https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/813959106_1411247191152477_4917374369097699633_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=BEqOOcxwmbQQ7kNvwHzMAVV&_nc_oc=Adr5-46enUX24iVN6hbz5QPDTBtBSdqmwWdr601bKkFcpoVRdRC-r-DXmtvdNUXUkvSZmnW_zSXUZbi6O0RVAEQ3&_nc_zt=23&_nc_ht=scontent.fdad1-2.fna&_nc_gid=Z5G3i9a0gU8wnR9TP4Tl-A&_nc_ss=7b2a8&oh=00_AQI6QEa8cZQzU9YF3SELkVDd2XY7ujYAo7BpEMqoo3Yk1g&oe=6AB17FAA"
+        },
+        "attachments": [],
+        "can_hide": true,
+        "can_like": true,
+        "can_remove": true,
+        "can_reply_privately": false,
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "is_hidden": false,
+        "parent_id": "1574281086218015_1410438054566724",
+        "post": {
+          "id": "1574281086218015_1410438054566724",
+          "link": "https://www.facebook.com/pumalife/posts/pfbid021QE2gRWMNkowmR8643rsrqYogUNe2av1VcRC5F1V8CHQbPu4LKSdvhUBtFd5MwGEl",
+          "message_tags": []
+        },
+        "quick_replies": [],
+        "shares": [],
+        "user_likes": false,
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_comment",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T07:42:14.246Z",
+      "customer_created_at": "2026-02-05T22:09:26.395Z",
+      "created_at": "2026-09-17T07:42:08.000Z",
+      "updated_at": "2026-09-17T07:42:08.000Z",
+      "seen": false
+    },
+    {
+      "id": "6aab99fa08003b4133eb3658",
+      "pid": "fb1410438054566724_1390626216568736",
+      "tid": "fb1410438054566724_fb1574281086218015",
+      "platform": "facebook",
+      "page_pid": "fb1574281086218015",
+      "facebook": {
+        "id": "1410438054566724_1390626216568736",
+        "attachment": {
+          "media_image": "https://scontent.fdad2-1.fna.fbcdn.net/v/t39.30808-6/813582665_1411248274485702_8327859805022825138_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=0K1IjZFFhp4Q7kNvwH7AsGw&_nc_oc=AdrqAp0GHHEOoy0nwpGaGpUSR5bmEGrJ8fl9zYL059dg3hdC9sGIJ5lmYsS6uKJ0OTouoeF0hkHlnW6n8lSpzw63&_nc_zt=23&_nc_ht=scontent.fdad2-1.fna&_nc_gid=IccZJ_rnqODibi0Lh28fEw&_nc_ss=7b2a8&oh=00_AQLnTle4_acB7cYTD3xscV6NLf7a4RJ8RlESq2eRt3dyXw&oe=6AB15970",
+          "media_source": "https://scontent.fdad2-1.fna.fbcdn.net/v/t39.30808-6/813582665_1411248274485702_8327859805022825138_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5a4fcb&_nc_ohc=0K1IjZFFhp4Q7kNvwH7AsGw&_nc_oc=AdrqAp0GHHEOoy0nwpGaGpUSR5bmEGrJ8fl9zYL059dg3hdC9sGIJ5lmYsS6uKJ0OTouoeF0hkHlnW6n8lSpzw63&_nc_zt=23&_nc_ht=scontent.fdad2-1.fna&_nc_gid=IccZJ_rnqODibi0Lh28fEw&_nc_ss=7b2a8&oh=00_AQLnTle4_acB7cYTD3xscV6NLf7a4RJ8RlESq2eRt3dyXw&oe=6AB15970"
+        },
+        "attachments": [],
+        "can_hide": true,
+        "can_like": true,
+        "can_remove": true,
+        "can_reply_privately": false,
+        "cards": [],
+        "from": {
+          "id": "1574281086218015",
+          "name": "Order Giày, Quần Áo Puma Chính Hãng, Nhập Khẩu"
+        },
+        "is_hidden": false,
+        "parent_id": "1574281086218015_1410438054566724",
+        "post": {
+          "id": "1574281086218015_1410438054566724",
+          "link": "https://www.facebook.com/pumalife/posts/pfbid021QE2gRWMNkowmR8643rsrqYogUNe2av1VcRC5F1V8CHQbPu4LKSdvhUBtFd5MwGEl",
+          "message_tags": []
+        },
+        "quick_replies": [],
+        "shares": [],
+        "user_likes": false,
+        "card_products": [],
+        "card_cart": []
+      },
+      "sender_pid": "fb1574281086218015",
+      "type": "facebook_comment",
+      "phones": [],
+      "emails": [],
+      "message_tags": [],
+      "status": "sent",
+      "_created_at": "2026-09-17T07:42:50.322Z",
+      "customer_created_at": "2026-02-05T22:09:26.395Z",
+      "created_at": "2026-09-17T07:42:43.000Z",
+      "updated_at": "2026-09-17T07:42:43.000Z",
+      "seen": false
+    }
+  ]
+}
